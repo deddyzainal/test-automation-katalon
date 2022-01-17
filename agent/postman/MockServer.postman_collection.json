@@ -12,116 +12,223 @@
 					"name": "APIs",
 					"item": [
 						{
-							"name": "change_phone",
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-mock-response-name",
-										"value": "ok",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"otp_token\" : \"abc\",\n    \"new_phone_number\" : \"085211389987\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+							"name": "OTP",
+							"item": [
+								{
+									"name": "sms_otp",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-mock-response-name",
+												"value": "ok",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"phone_number\" : \"085211389987\",\n    \"g_captcha_response\" : \"a\",\n    \"type\" : \"CHANGE_PHONE\",\n    \"otp_type\" : \"sms_otp\"\n}\n",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/agentservice/api/guest/v1/otp",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"agentservice",
+												"api",
+												"guest",
+												"v1",
+												"otp"
+											]
 										}
-									}
-								},
-								"url": {
-									"raw": "{{url}}/agentservice/api/secure/v1/change_phone",
-									"host": [
-										"{{url}}"
-									],
-									"path": [
-										"agentservice",
-										"api",
-										"secure",
-										"v1",
-										"change_phone"
+									},
+									"response": [
+										{
+											"name": "ok",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "a",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/otp",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"otp"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": null,\n    \"message\": \"Success\"\n}"
+										},
+										{
+											"name": "invalid_credential",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/otp",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"otp"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000001\",\n    \"data\": null,\n    \"message\": \"Username atau password salah\"\n}"
+										},
+										{
+											"name": "error",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/otp",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"otp"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
+										}
 									]
-								}
-							},
-							"response": [
-								{
-									"name": "ok",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "x-mock-response-name",
-												"value": "a",
-												"type": "text",
-												"disabled": true
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/change_phone",
-											"host": [
-												"{{url}}"
-											],
-											"path": [
-												"agentservice",
-												"api",
-												"secure",
-												"v1",
-												"change_phone"
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": null,\n    \"message\": \"Success\"\n}"
 								},
 								{
-									"name": "invalid_otp",
-									"originalRequest": {
+									"name": "confirm_sms_otp",
+									"request": {
 										"method": "POST",
 										"header": [
 											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
 												"key": "x-mock-response-name",
-												"value": "b",
-												"type": "text",
-												"disabled": true
+												"value": "ok",
+												"type": "text"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "",
+											"raw": "{\n    \"phone_number\" : \"085211389987\",\n    \"otp\" : \"187700\",\n    \"otp_type\" : \"sms_otp\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -129,53 +236,200 @@
 											}
 										},
 										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/change_phone",
+											"raw": "{{url}}/agentservice/api/guest/v1/confirm_otp",
 											"host": [
 												"{{url}}"
 											],
 											"path": [
 												"agentservice",
 												"api",
-												"secure",
+												"guest",
 												"v1",
-												"change_phone"
+												"confirm_otp"
 											]
 										}
 									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
+									"response": [
 										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
+											"name": "ok",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "a",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/confirm_otp",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"confirm_otp"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": {\n        \"otp_token\": \"bb6ff610-77c2-11ec-b939-b29c4abeb021\",\n        \"otp_expiry_time\": \"2022-01-18T02:25:04+07:00\"\n    },\n    \"message\": \"Success\"\n}"
+										},
+										{
+											"name": "invalid_credential",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/confirm_otp",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"confirm_otp"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000001\",\n    \"data\": null,\n    \"message\": \"Username atau password salah\"\n}"
+										},
+										{
+											"name": "error",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/confirm_otp",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"confirm_otp"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
 										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"DM00000007\",\n    \"data\": null,\n    \"message\": \"OTP tidak valid\"\n}"
+									]
 								},
 								{
-									"name": "invalid_phone",
-									"originalRequest": {
+									"name": "email_otp",
+									"request": {
 										"method": "POST",
 										"header": [
 											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
 												"key": "x-mock-response-name",
-												"value": "b",
+												"value": "ok",
 												"type": "text"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "",
+											"raw": "{\n    \"email\" : \"hendrik.tanzil@danamas.co.id\",\n    \"g_captcha_response\" : \"a\",\n    \"type\" : \"CHANGE_EMAIL\",\n    \"otp_type\" : \"email_otp\"\n}\n",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -183,53 +437,200 @@
 											}
 										},
 										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/change_phone",
+											"raw": "{{url}}/agentservice/api/guest/v1/otp",
 											"host": [
 												"{{url}}"
 											],
 											"path": [
 												"agentservice",
 												"api",
-												"secure",
+												"guest",
 												"v1",
-												"change_phone"
+												"otp"
 											]
 										}
 									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
+									"response": [
 										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
+											"name": "ok",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "a",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/otp",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"otp"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": null,\n    \"message\": \"Success\"\n}"
+										},
+										{
+											"name": "invalid_credential",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/otp",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"otp"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000001\",\n    \"data\": null,\n    \"message\": \"Username atau password salah\"\n}"
+										},
+										{
+											"name": "error",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/otp",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"otp"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
 										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"DM00000003\",\n    \"data\": null,\n    \"message\": \"Nomor telepon salah\"\n}"
+									]
 								},
 								{
-									"name": "phone_registered",
-									"originalRequest": {
+									"name": "confirm_email_otp",
+									"request": {
 										"method": "POST",
 										"header": [
 											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
 												"key": "x-mock-response-name",
-												"value": "b",
+												"value": "ok",
 												"type": "text"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "",
+											"raw": "{\n    \"email\" : \"hendrik.tanzil@danamas.co.id\",\n    \"otp\" : \"187700\",\n    \"otp_type\" : \"email_otp\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -237,199 +638,730 @@
 											}
 										},
 										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/change_phone",
+											"raw": "{{url}}/agentservice/api/guest/v1/confirm_otp",
 											"host": [
 												"{{url}}"
 											],
 											"path": [
 												"agentservice",
 												"api",
-												"secure",
+												"guest",
 												"v1",
-												"change_phone"
+												"confirm_otp"
 											]
 										}
 									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
+									"response": [
 										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"DM00000006\",\n    \"data\": null,\n    \"message\": \"Nomor HP telah terdaftar\"\n}"
-								},
-								{
-									"name": "error",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "x-mock-response-name",
-												"value": "b",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
+											"name": "ok",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "a",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/confirm_otp",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"confirm_otp"
+													]
 												}
-											}
-										},
-										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/change_phone",
-											"host": [
-												"{{url}}"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
 											],
-											"path": [
-												"agentservice",
-												"api",
-												"secure",
-												"v1",
-												"change_phone"
-											]
-										}
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": {\n        \"otp_token\": \"bb6ff610-77c2-11ec-b939-b29c4abeb021\",\n        \"otp_expiry_time\": \"2022-01-18T02:25:04+07:00\"\n    },\n    \"message\": \"Success\"\n}"
+										},
 										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
+											"name": "invalid_credential",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/confirm_otp",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"confirm_otp"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000001\",\n    \"data\": null,\n    \"message\": \"Username atau password salah\"\n}"
+										},
+										{
+											"name": "error",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/confirm_otp",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"confirm_otp"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
 										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
+									]
 								}
 							]
 						},
 						{
-							"name": "change_email",
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-mock-response-name",
-										"value": "invalid_email",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"new_email\" : \"hendrik.tanzil@danamas.co.id\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{url}}/agentservice/api/secure/v1/change_email",
-									"host": [
-										"{{url}}"
-									],
-									"path": [
-										"agentservice",
-										"api",
-										"secure",
-										"v1",
-										"change_email"
-									]
-								}
-							},
-							"response": [
+							"name": "Profile",
+							"item": [
 								{
-									"name": "ok",
-									"originalRequest": {
+									"name": "change_phone",
+									"request": {
 										"method": "POST",
 										"header": [
 											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
+												"key": "x-mock-response-name",
+												"value": "ok",
 												"type": "text"
 											},
 											{
+												"key": "X-Authenticated-Userid",
+												"value": "94755296-7379-11ec-b2c3-b29c4abeb021",
+												"type": "default"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"otp_token\" : \"f87094f6-77c3-11ec-9e51-b29c4abeb021\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/agentservice/api/secure/v1/change_phone",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"agentservice",
+												"api",
+												"secure",
+												"v1",
+												"change_phone"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "ok",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "a",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/secure/v1/change_phone",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"secure",
+														"v1",
+														"change_phone"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": null,\n    \"message\": \"Success\"\n}"
+										},
+										{
+											"name": "invalid_otp",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/secure/v1/change_phone",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"secure",
+														"v1",
+														"change_phone"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000007\",\n    \"data\": null,\n    \"message\": \"OTP tidak valid\"\n}"
+										},
+										{
+											"name": "invalid_phone",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/secure/v1/change_phone",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"secure",
+														"v1",
+														"change_phone"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000003\",\n    \"data\": null,\n    \"message\": \"Nomor telepon salah\"\n}"
+										},
+										{
+											"name": "phone_registered",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/secure/v1/change_phone",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"secure",
+														"v1",
+														"change_phone"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000006\",\n    \"data\": null,\n    \"message\": \"Nomor HP telah terdaftar\"\n}"
+										},
+										{
+											"name": "error",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/secure/v1/change_phone",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"secure",
+														"v1",
+														"change_phone"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
+										}
+									]
+								},
+								{
+									"name": "change_email",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
 												"key": "x-mock-response-name",
-												"value": "a",
+												"value": "invalid_email",
+												"type": "text"
+											},
+											{
+												"key": "X-Authenticated-Userid",
+												"value": "94755296-7379-11ec-b2c3-b29c4abeb021",
+												"type": "default"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"otp_token\" : \"282d99d0-77c6-11ec-8bf8-b29c4abeb021\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/agentservice/api/secure/v1/change_email",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"agentservice",
+												"api",
+												"secure",
+												"v1",
+												"change_email"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "ok",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "a",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/secure/v1/change_email",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"secure",
+														"v1",
+														"change_email"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": null,\n    \"message\": \"Success\"\n}"
+										},
+										{
+											"name": "invalid_email",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/secure/v1/change_email",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"secure",
+														"v1",
+														"change_email"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000009\",\n    \"data\": null,\n    \"message\": \"Email salah\"\n}"
+										},
+										{
+											"name": "error",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/secure/v1/change_email",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"secure",
+														"v1",
+														"change_email"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
+										}
+									]
+								},
+								{
+									"name": "change_bank_info",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-mock-response-name",
+												"value": "b",
 												"type": "text",
 												"disabled": true
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/change_email",
-											"host": [
-												"{{url}}"
-											],
-											"path": [
-												"agentservice",
-												"api",
-												"secure",
-												"v1",
-												"change_email"
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": null,\n    \"message\": \"Success\"\n}"
-								},
-								{
-									"name": "invalid_email",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
 											},
 											{
-												"key": "x-mock-response-name",
-												"value": "b",
-												"type": "text"
+												"key": "X-Authenticated-Userid",
+												"value": "94755296-7379-11ec-b2c3-b29c4abeb021",
+												"type": "default"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "",
+											"raw": "{\n    \"otp_token\" : \"bb6ff610-77c2-11ec-b939-b29c4abeb021\",\n    \"new_bank_account\" : \"Bank Sinarmas2\",\n    \"new_account_number\" : \"0012998812312\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -437,7 +1369,7 @@
 											}
 										},
 										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/change_email",
+											"raw": "{{url}}/agentservice/api/secure/v1/change_bank",
 											"host": [
 												"{{url}}"
 											],
@@ -446,224 +1378,299 @@
 												"api",
 												"secure",
 												"v1",
-												"change_email"
+												"change_bank"
 											]
 										}
 									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
+									"response": [
 										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"DM00000009\",\n    \"data\": null,\n    \"message\": \"Email salah\"\n}"
-								},
-								{
-									"name": "error",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
+											"name": "ok",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "a",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/secure/v1/change_bank",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"secure",
+														"v1",
+														"change_bank"
+													]
+												}
 											},
-											{
-												"key": "x-mock-response-name",
-												"value": "b",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
 												}
-											}
-										},
-										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/change_email",
-											"host": [
-												"{{url}}"
 											],
-											"path": [
-												"agentservice",
-												"api",
-												"secure",
-												"v1",
-												"change_email"
-											]
-										}
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": null,\n    \"message\": \"Success\"\n}"
+										},
 										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
+											"name": "error",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/secure/v1/change_bank",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"secure",
+														"v1",
+														"change_bank"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
 										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
-								}
-							]
-						},
-						{
-							"name": "change_bank_info",
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-mock-response-name",
-										"value": "b",
-										"type": "text",
-										"disabled": true
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"new_bank_account\" : \"Bank Sinarmas\",\n    \"new_account_number\" : \"001299881231\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{url}}/agentservice/api/secure/v1/change_bank_info",
-									"host": [
-										"{{url}}"
-									],
-									"path": [
-										"agentservice",
-										"api",
-										"secure",
-										"v1",
-										"change_bank_info"
 									]
-								}
-							},
-							"response": [
-								{
-									"name": "ok",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "x-mock-response-name",
-												"value": "a",
-												"type": "text",
-												"disabled": true
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/change_bank_info",
-											"host": [
-												"{{url}}"
-											],
-											"path": [
-												"agentservice",
-												"api",
-												"secure",
-												"v1",
-												"change_bank_info"
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": null,\n    \"message\": \"Success\"\n}"
 								},
 								{
-									"name": "error",
-									"originalRequest": {
-										"method": "POST",
+									"name": "get_profile",
+									"request": {
+										"method": "GET",
 										"header": [
 											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
+												"key": "x-mock-response-name",
+												"value": "ok",
 												"type": "text"
 											},
 											{
-												"key": "x-mock-response-name",
-												"value": "b",
+												"key": "X-Authenticated-Userid",
+												"value": "94755296-7379-11ec-b2c3-b29c4abeb021",
 												"type": "text"
 											}
 										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
 										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/change_bank_info",
+											"raw": "{{url}}/agentservice/api/agent/v1/get_profile",
 											"host": [
 												"{{url}}"
 											],
 											"path": [
 												"agentservice",
 												"api",
-												"secure",
+												"agent",
 												"v1",
-												"change_bank_info"
+												"get_profile"
 											]
 										}
 									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
+									"response": [
 										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
+											"name": "ok",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "a",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"url": {
+													"raw": "{{url}}/agentservice/api/agent/v1/get_profile",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"agent",
+														"v1",
+														"get_profile"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": {\n        \"phone_number\": \"20220112143001\",\n        \"ktp_url\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/_Screen%20Shot%202021-11-11%20at%2010.01.29-1641441936349.png\",\n        \"ktp_selfie_url\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/_Screen%20Shot%202021-11-11%20at%2013.51.21-1641441938328.png\",\n        \"npwp_url\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/_Screen%20Shot%202021-11-11%20at%2014.08.03-1641441940498.png\",\n        \"full_name\": \"Hendrik T\",\n        \"nik\": \"12700000001\",\n        \"npwp\": \"451232131132\",\n        \"email\": \"hendrik.tanzil@danamas.co.id\",\n        \"bank_name\": \"Bank Sinarmas\",\n        \"account_number\": \"41233312333\",\n        \"partner_type\": \"branch\",\n        \"city_id\": \"\",\n        \"branch_id\": \"1\",\n        \"partner_id\": \"\"\n    },\n    \"message\": \"Success\"\n}"
+										},
+										{
+											"name": "not_found",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/agent/v1/get_profile",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"agent",
+														"v1",
+														"get_profile"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000004\",\n    \"data\": null,\n    \"message\": \"User tidak ditemukan\"\n}"
+										},
+										{
+											"name": "error",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"url": {
+													"raw": "{{url}}/agentservice/api/agent/v1/get_profile",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"agent",
+														"v1",
+														"get_profile"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
 										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
+									]
 								}
 							]
 						},
@@ -1124,184 +2131,6 @@
 							]
 						},
 						{
-							"name": "get_profile",
-							"request": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "x-mock-response-name",
-										"value": "ok",
-										"type": "text"
-									},
-									{
-										"key": "X-Authenticated-Userid",
-										"value": "77417c87-7435-11ec-97c8-00163e018386",
-										"type": "text"
-									}
-								],
-								"url": {
-									"raw": "{{url}}/agentservice/api/agent/v1/get_profile",
-									"host": [
-										"{{url}}"
-									],
-									"path": [
-										"agentservice",
-										"api",
-										"agent",
-										"v1",
-										"get_profile"
-									]
-								}
-							},
-							"response": [
-								{
-									"name": "ok",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "x-mock-response-name",
-												"value": "a",
-												"type": "text",
-												"disabled": true
-											}
-										],
-										"url": {
-											"raw": "{{url}}/agentservice/api/agent/v1/get_profile",
-											"host": [
-												"{{url}}"
-											],
-											"path": [
-												"agentservice",
-												"api",
-												"agent",
-												"v1",
-												"get_profile"
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": {\n        \"phone_number\": \"20220112143001\",\n        \"ktp_url\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/_Screen%20Shot%202021-11-11%20at%2010.01.29-1641441936349.png\",\n        \"ktp_selfie_url\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/_Screen%20Shot%202021-11-11%20at%2013.51.21-1641441938328.png\",\n        \"npwp_url\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/_Screen%20Shot%202021-11-11%20at%2014.08.03-1641441940498.png\",\n        \"full_name\": \"Hendrik T\",\n        \"nik\": \"12700000001\",\n        \"npwp\": \"451232131132\",\n        \"email\": \"hendrik.tanzil@danamas.co.id\",\n        \"bank_name\": \"Bank Sinarmas\",\n        \"account_number\": \"41233312333\",\n        \"partner_type\": \"branch\",\n        \"city_id\": \"\",\n        \"branch_id\": \"1\",\n        \"partner_id\": \"\"\n    },\n    \"message\": \"Success\"\n}"
-								},
-								{
-									"name": "not_found",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "x-mock-response-name",
-												"value": "b",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": "{{url}}/agentservice/api/agent/v1/get_profile",
-											"host": [
-												"{{url}}"
-											],
-											"path": [
-												"agentservice",
-												"api",
-												"agent",
-												"v1",
-												"get_profile"
-											]
-										}
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"DM00000004\",\n    \"data\": null,\n    \"message\": \"User tidak ditemukan\"\n}"
-								},
-								{
-									"name": "error",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "x-mock-response-name",
-												"value": "b",
-												"type": "text"
-											}
-										],
-										"url": {
-											"raw": "{{url}}/agentservice/api/agent/v1/get_profile",
-											"host": [
-												"{{url}}"
-											],
-											"path": [
-												"agentservice",
-												"api",
-												"agent",
-												"v1",
-												"get_profile"
-											]
-										}
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
-								}
-							]
-						},
-						{
 							"name": "get agent detail (Back Office)",
 							"request": {
 								"method": "GET",
@@ -1538,207 +2367,6 @@
 									],
 									"cookie": [],
 									"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": {\n        \"phone_number\": \"+6282218323185\",\n        \"ktp_url\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/_owen-1642146872735.png\",\n        \"ktp_selfie_url\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/_owen-1642146875415.png\",\n        \"npwp_url\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/_owen-1642146877844.png\",\n        \"full_name\": \"raj putra\",\n        \"nik\": \"1231231231231231\",\n        \"npwp\": \"123123123123123\",\n        \"email\": \"dilraj10@gmail.com\",\n        \"bank_name\": \"SINARMAS\",\n        \"account_number\": \"1231231231231123\",\n        \"partner_type\": \"Partner\",\n        \"city_id\": \"\",\n        \"branch_id\": \"\",\n        \"partner_id\": \"4\",\n        \"gender\": \"\",\n        \"pob\": \"\",\n        \"dob\": \"\",\n        \"address\": \"\",\n        \"rt_rw\": \"\",\n        \"zip_code\": \"\",\n        \"fax\": \"\",\n        \"address_same_with_id_card\": false,\n        \"domicile_address\": \"\",\n        \"domicile_rt_rw\": \"\",\n        \"domicile_zip_code\": \"\",\n        \"domicile_fax\": \"\"\n    },\n    \"message\": \"Success\"\n}"
-								}
-							]
-						},
-						{
-							"name": "edit_profile",
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-mock-response-name",
-										"value": "ok",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"otp_token\" : \"bc9648ba-743d-11ec-b2c3-b29c4abeb021\",\n    \"email\" : \"abcdef@yahoo.com\",\n    \"bank_name\" : \"bca23\",\n    \"account_number\" : \"123456789\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{url}}/agentservice/api/secure/v1/edit_profile",
-									"host": [
-										"{{url}}"
-									],
-									"path": [
-										"agentservice",
-										"api",
-										"secure",
-										"v1",
-										"edit_profile"
-									]
-								}
-							},
-							"response": [
-								{
-									"name": "ok",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "x-mock-response-name",
-												"value": "a",
-												"type": "text",
-												"disabled": true
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/edit_profile",
-											"host": [
-												"{{url}}"
-											],
-											"path": [
-												"agentservice",
-												"api",
-												"secure",
-												"v1",
-												"edit_profile"
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": null,\n    \"message\": \"Success\"\n}"
-								},
-								{
-									"name": "invalid_otp",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "x-mock-response-name",
-												"value": "b",
-												"type": "text",
-												"disabled": true
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/edit_profile",
-											"host": [
-												"{{url}}"
-											],
-											"path": [
-												"agentservice",
-												"api",
-												"secure",
-												"v1",
-												"edit_profile"
-											]
-										}
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"DM00000007\",\n    \"data\": null,\n    \"message\": \"OTP tidak valid\"\n}"
-								},
-								{
-									"name": "error",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Content-Type",
-												"name": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "x-mock-response-name",
-												"value": "b",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": "{{url}}/agentservice/api/secure/v1/edit_profile",
-											"host": [
-												"{{url}}"
-											],
-											"path": [
-												"agentservice",
-												"api",
-												"secure",
-												"v1",
-												"edit_profile"
-											]
-										}
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json",
-											"description": "",
-											"type": "text"
-										}
-									],
-									"cookie": [],
-									"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
 								}
 							]
 						},
@@ -4581,6 +5209,158 @@
 												"v2",
 												"user",
 												"9140f25c-a3f8-4479-a8ac-a9b2304b015d"
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Get User data KTP",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-mock-response-name",
+										"value": "error",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/lancar/userservice/oauth2/apis/v2/user",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"lancar",
+										"userservice",
+										"oauth2",
+										"apis",
+										"v2",
+										"user"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "ok",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "x-mock-response-name",
+												"value": "a",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/lancar/userservice/oauth2/apis/v2/user",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"lancar",
+												"userservice",
+												"oauth2",
+												"apis",
+												"v2",
+												"user"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": {\n\t\t\"userId\": \"5b50e46c-43e1-407c-bb13-dfce46bea470\",\n\t\t\"email\": \"stawal@gmail.com\",\n\t\t\"createdDate\": 1642412693,\n\t\t\"phoneNumber\": \"+6282191358706\",\n\t\t\"stepperState\": 2,\n\t\t\"userType\": 1,\n\t\t\"userTypeName\": \"Borrower\",\n\t\t\"collateralId\": 0,\n\t\t\"loanNeedId\": \"\",\n\t\t\"occupationId\": \"\",\n\t\t\"selectedProductId\": \"\",\n\t\t\"estimatedMonthly\": 0,\n\t\t\"interestRate\": 0,\n\t\t\"nominalSubmission\": 0,\n\t\t\"tenure\": 0,\n\t\t\"borrower\": {\n\t\t\t\"id\": \"175347d0-a413-4fbc-bae4-1a87c89f1da6\",\n\t\t\t\"name\": \"Sukhito Tanawal\"\n\t\t},\n\t\t\"borrowerInstitutional\": {\n\t\t\t\"borrowerInstitutionalPic\": {}\n\t\t},\n\t\t\"documents\": [{\n\t\t\t\"documentType\": 1,\n\t\t\t\"documentTypeName\": \"KTP\",\n\t\t\t\"documentUrl\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/doc_KTP3-1642412741535.png\",\n\t\t\t\"documentName\": \"KTP3.png\"\n\t\t}],\n\t\t\"bankStatements\": [],\n\t\t\"gender\": \"Pria\",\n\t\t\"age\": \"40\",\n\t\t\"address\": \"Jalan Jalan\",\n\t\t\"provinceId\": 1,\n\t\t\"provinceName\": \"Bali\",\n\t\t\"cityId\": 1,\n\t\t\"cityName\": \"Badung\",\n\t\t\"zipcode\": \"80352\",\n\t\t\"mobile\": \"\",\n\t\t\"digisignStatusId\": 1,\n\t\t\"digisignStatusName\": \"WAITING\",\n\t\t\"bankAccount\": {},\n\t\t\"emergencyContact\": {},\n\t\t\"dateOfBirth\": 403808400,\n\t\t\"canApplyLoan\": true,\n\t\t\"isDifferentResidentialAddress\": false,\n\t\t\"residentialAddress\": \"\",\n\t\t\"residentialProvinceId\": 0,\n\t\t\"residentialProvinceName\": \"\",\n\t\t\"residentialCityId\": 0,\n\t\t\"residentialCityName\": \"\",\n\t\t\"residentialZipcode\": \"0\",\n\t\t\"residentialRt\": \"\",\n\t\t\"residentialRw\": \"\",\n\t\t\"rt\": \"003\",\n\t\t\"rw\": \"003\",\n\t\t\"nik\": \"7271031010890015\",\n\t\t\"motherName\": \"Ibu Kandung\",\n\t\t\"marriageStatus\": \"Belum Kawin\",\n\t\t\"lastEducation\": \"SD\",\n\t\t\"subDistrictId\": 1,\n\t\t\"subDistrictName\": \"Abiansemal\",\n\t\t\"residentialSubDistrictId\": 0,\n\t\t\"residentialSubDistrictName\": \"\",\n\t\t\"rmUser\": {\n\t\t\t\"id\": \"\",\n\t\t\t\"name\": \"\",\n\t\t\t\"divisionId\": \"\",\n\t\t\t\"divisionName\": \"\",\n\t\t\t\"positionId\": \"\",\n\t\t\t\"positionName\": \"\",\n\t\t\t\"companyId\": \"\",\n\t\t\t\"companyName\": \"\"\n\t\t},\n\t\t\"placeOfBirth\": \"Palu\",\n\t\t\"residentialArea\": \"\",\n\t\t\"area\": \"ANGANTAKA\",\n        \"is_reviewed_ktp\": false,\n        \"spouse_exist\": true\n\t},\n    \"message\": \"Success\"\n}"
+								},
+								{
+									"name": "error",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "x-mock-response-name",
+												"value": "b",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}{{url}}/lancar/userservice/oauth2/apis/v2/user",
+											"host": [
+												"{{url}}{{url}}"
+											],
+											"path": [
+												"lancar",
+												"userservice",
+												"oauth2",
+												"apis",
+												"v2",
+												"user"
 											]
 										}
 									},
