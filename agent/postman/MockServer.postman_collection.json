@@ -2689,6 +2689,66 @@
 									"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
 								}
 							]
+						},
+						{
+							"name": "get agent list",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/backoffice/v1/get_agent?limit=2&page=2",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"",
+										"backoffice",
+										"v1",
+										"get_agent"
+									],
+									"query": [
+										{
+											"key": "limit",
+											"value": "2"
+										},
+										{
+											"key": "name",
+											"value": "%25Huy%25",
+											"disabled": true
+										},
+										{
+											"key": "phone_number",
+											"value": "7",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "Approved",
+											"disabled": true
+										},
+										{
+											"key": "agent_type",
+											"value": "test-agent-type",
+											"disabled": true
+										},
+										{
+											"key": "from_created_at",
+											"value": "2022-01-15T15:04:05Z",
+											"disabled": true
+										},
+										{
+											"key": "to_created_at",
+											"value": "2022-01-15T15:04:05Z",
+											"disabled": true
+										},
+										{
+											"key": "page",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"response": []
 						}
 					]
 				},
