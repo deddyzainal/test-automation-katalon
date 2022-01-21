@@ -1303,6 +1303,291 @@
 											"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
 										}
 									]
+								},
+								{
+									"name": "register_test",
+									"event": [
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													"postman.setEnvironmentVariable(\"hmac\", CryptoJS.HmacSHA256(request.data, 'ksdafkjdsahfuaehfsuhuuuauhfakshdkapqwoe').toString(CryptoJS.digest));"
+												],
+												"type": "text/javascript"
+											}
+										},
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-mock-response-name",
+												"value": "invalid_email",
+												"type": "text",
+												"disabled": true
+											},
+											{
+												"key": "x-test-signature",
+												"value": "{{hmac}}",
+												"type": "default"
+											},
+											{
+												"key": "x-test-number",
+												"value": "20220120131508",
+												"type": "default"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"otp_token\" : \"131508\",\n    \"password\" : \"abcDEF123\",\n    \"ktp_url\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/_Screen%20Shot%202021-11-11%20at%2010.01.29-1641441936349.png\",\n    \"ktp_selfie_url\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/_Screen%20Shot%202021-11-11%20at%2013.51.21-1641441938328.png\",\n    \"npwp_url\": \"http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/_Screen%20Shot%202021-11-11%20at%2014.08.03-1641441940498.png\",\n    \"full_name\" : \"Hendrik T\",\n    \"nik\" : \"12700000001\",\n    \"npwp\" : \"451232131132\",\n    \"email\" : \"hendrik.tanzil2@danamas.co.id\",\n    \"bank_name\" : \"Bank Sinarmas\",\n    \"account_number\" : \"41233312333\",\n    \"partner_type\" : \"branch\",\n    \"branch_id\" : \"1\",\n    \"partner_id\" : \"\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/agentservice/api/guest/v1/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"agentservice",
+												"api",
+												"guest",
+												"v1",
+												"register"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "ok",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "a",
+														"type": "text",
+														"disabled": true
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/register",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"register"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": null,\n    \"message\": \"Success\"\n}"
+										},
+										{
+											"name": "phone_registered",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/register",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"register"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000006\",\n    \"data\": null,\n    \"message\": \"Nomor HP telah terdaftar\"\n}"
+										},
+										{
+											"name": "invalid_email",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/register",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"register"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"DM00000009\",\n    \"data\": null,\n    \"message\": \"Email salah\"\n}"
+										},
+										{
+											"name": "error",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"name": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "x-mock-response-name",
+														"value": "b",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{url}}/agentservice/api/guest/v1/register",
+													"host": [
+														"{{url}}"
+													],
+													"path": [
+														"agentservice",
+														"api",
+														"guest",
+														"v1",
+														"register"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json",
+													"description": "",
+													"type": "text"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"code\": \"ERR0000000\",\n    \"data\": null,\n    \"message\": \"Ada kendala system, mohon dicoba beberapa saat lagi\"\n}"
+										}
+									]
 								}
 							]
 						},
@@ -5133,13 +5418,13 @@
 										"header": [
 											{
 												"key": "x-mock-response-name",
-												"value": "ok_disburse",
+												"value": "ok_type_financing",
 												"type": "text"
 											}
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"master_type\" : \"type_financing\"\n}",
+											"raw": "{\n    \"master_type\" : \"sumber_dana\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -5964,7 +6249,7 @@
 												}
 											],
 											"cookie": [],
-											"body": "\n\"id\" : 1 (auto_incrrement)\n\"type\": \"collateral_type\"\n\"code\" : \"0010\"\n\"reference_code\" : \"\"\n\"desc\" : \"Kantor Perbendaharaan dan Kas Negara (KPKN)\"\n\"additional_value\" :    {}\n\n\"id\" : 2\n\"type\": \"collateral_type\"\n\"code\" : \"0020\"\n\"desc\" : \"Vehicle\"\n\"reference_code\" : \"\"\n\"value\" :    {}\n        \n\"id\" : 3\n\"type\": \"vehicle_model\"\n\"code\" : \"1\"\n\"desc\" : \"PULSAR XCD 125 DTS-Si\"\n\"reference_code\" : \"103\"\n\"value\" : {\"type_id\" : \"SEPEDA MOTOR\"}\n            \n\n\"id\" : 4\n\"type\": \"vehicle_model\"\n\"code\" : \"2\"\n\"value\" :    {\n                \"brand_id\" : 22,\n                \"type_id\" : \"SEDAN\",\n                \"description\" : \"318IA-E46-M43\"\n            }\n\n\n\n\"gol_debitur\" : [\n            {\n                \"code\" : \"0010\",\n                \n            },\n            {\n                \"code\" : \"0020\",\n                \n            }\n        ]\n\n\"id\" : 5\n\"type\": \"channeling_company\"\n\"code\" : \"KUK-LANCAR-DANA-BISNIS_14\"\n\"value\" :    {\"code\" : \"KUK-LANCAR-DANA-BISNIS_14\"}\n\n\n{\n    \"code\": \"DM00000000\",\n    \"data\": {\n        \"no_group\" : {\n            \"utilization_purpose\" : \"\", //user input\n            \"requestor\" : \"LANCAR\" //user input\n        },\n        \"general_info\" : {\n            \"loan_product_code\" : \"33\", //from Danamas Backoffice, please ask KS\n            \"branch_code\" : \"036\", // BSIM master branch\n            \"channeling_company\" : \"KUK-LANCAR-DANA-BISNIS_14\", // BSIM master channeling_company \n            \"branch_address\" : \"JL PERMATA RAYA SLOT CB 1\", //user input\n            \"branch_address2\" : \"\", //user input\n            \"branch_city\" : \"KARAWANG (KAB)\", //user input\n            \"branch_postal_code\" : \"41361\", //user input\n            \"city\" : \"KARAWANG (KAB)\",  //user input\n            \"channeling_custcode\" : \"LDB141712210000006\", //user input\n            \"branch_name\" : \"Bank A cabang Tj. Duren\", //BSIM master branch\n            \"status\" : \"I\" //BSIM master status\n        }, \n        \"borrower_info\" : {\n            \"customer_sector_economy\" : \"007\", // BSIM master sektor_ekonomi (id)\n            \"bidang_usaha\" : \"513100\", // BSIM master sektor_ekonomi (code)\n            \"email\" : \"anggaaditia1202@gmail.com\", //from Danamas Backoffice, please ask KS\n            \"fax\" : \"\", //user input,\n            \"mobile_no\" : \"082134567897\", //from Danamas Backoffice, please ask KS\n            \"mother_maiden_name\" : \"Hasna\", //from Danamas Backoffice, please ask KS\n            \"phone\" : \"085780009055\", //minimum 10 char, from Danamas Backoffice, please ask KS\n            \"latest_education\" : \"0104\", // BSIM master status_gelar \n            \"unlisted_business\" : null, //user input\n            \"unlisted_occupation\" : null, //user input\n            \"customer_number\" : \"8800203023\", //from Danamas Backoffice, please ask KS\n            \"reference_id\" : \"\", //user input\n            \"profile_picture\" : \"{img}\", //user input\n            \"internet_based\" : \"1\" //user input\n        },\n        \"ktp_info\" : {\n            \"address1\" : \"KARAWANG\", //from Danamas Backoffice, please ask KS\n            \"address2\" : \"\", //from Danamas Backoffice, please ask KS\n            \"birth_date\" : \"19890212\", //format yyyyddmm, from Danamas Backoffice, please ask KS\n            \"birth_place\" : \"KARAWANG\", //from Danamas Backoffice, please ask KS\n            \"dati2\" : \"0106\", // BSIM master dati2, from Danamas Backoffice, please ask KS\n            \"gender\" : \"1\", // 1=Pria; 2=Wanita, from Danamas Backoffice, please ask KS\n            \"id_number\" : \"3215171202890003\", //16 digit, from Danamas Backoffice, please ask KS\n            \"id_type\" : 1, //1=KTP; 2=SIM; 3=PASPOR; 4=KIMS, from Danamas Backoffice, please ask KS\n            \"sub_district\" : \"Grogol Petamburan\", //from Danamas Backoffice, please ask KS\n            \"village\" : \"Teluk\", //from Danamas Backoffice, please ask KS\n            \"marital_status\" : 1, //1 = Menikah; 2 = Belum Menikah; 3 = Janda, from Danamas Backoffice, please ask KS\n            \"name\" : \"Susy\", //from Danamas Backoffice, please ask KS\n            \"rt\" : \"013\", //from Danamas Backoffice, please ask KS\n            \"rw\" : \"003\",  //from Danamas Backoffice, please ask KS\n            \"postal_code\" : \"11460\", //3last digit from BSIM master dati2, from Danamas Backoffice, please ask KS\n            \"occupation\" : \"7\",  //BSIM master business_type\n            \"id_card\" : \"<link>\" //Image type, from Danamas Backoffice, please ask KS\n        },\n        \"domicile_info\" : {\n            \n        },\n        \"spouse_info\" : {\n            \"spouse_company_business\" : \"5\", //BSIM master business_type\n            \"spouse_company_name\" : \"PT XYZ\", //user input\n            \"spouse_tax_number\" : \"812501389321001\", //user input\n            \"spouse_occupation\" : \"7\", //BSIM master occupation\n            \"spouse_unlisted_business\" : null, //user input\n            \"spouse_unlisted_occupation\" : null, //user input\n            \"perjanjian_pisah_harta\" : \"T\", // Y=Ya; T=Tidak\n            \"spouse_birth_date\" : \"19840120\", //user input\n            \"spouse_birth_place\" : \"Jakarta\", //user input\n            \"spouse_id_number\" : \"120402748902663\", //from Danamas Backoffice, please ask KS\n            \"spouse_id_type\" : \"1\", //1=KTP; 2=SIM; 3=PASPOR; 4=KIMS, from Danamas Backoffice, please ask KS\n            \"spouse_name\" : \"Chandra\" //from Danamas Backoffice, please ask KS\n        },\n        \"emergency_contact_info\" : {\n            \"emergency_contact_name\" : \"PIPIT PURWANTINI\", //user input\n            \"emergency_contact_relationship\" : \"ISTRI\", //user input\n            \"emergency_contact_no\" : \"0811111111111\", //user input\n            \"emergency_contact_address\" : \"DUSUN KRAJAN 1 KARAWANG\" //user input\n        },\n        \"loan_info\" : {\n            \"admin_fee\" : \"50000\", //user input\n            \"data_type\" : \"\", //user input\n            \"down_payment\" : \"0\", //user input\n            \"due_date\" : \"20210827\", //user input\n            \"effective_payment_type\" : \"0\", // 0=in arrear; 1=in advance\n            \"initial_loan_amount\" : \"10000000\", //from Danamas Backoffice, please ask KS\n            \"interest_effective\" : \"14\", //from Danamas Backoffice, please ask KS\n            \"interest_effective_channeling\" : \"11\", //from Danamas Backoffice, please ask KS\n            \"interest_flat\" : \"2\", //user input\n            \"interest_flat_channeling\" : \"2\", //user input\n            \"last_due_date\" : \"20210927\",  //user input\n            \"loan_amount\" : \"100000000\", //user input\n            \"loan_amount_channeling\" : \"100000000\", //user input\n            \"loan_period\" : \"60\", //user input\n            \"loan_period_channeling\" : \"60\", //user input\n            \"monthly_payment\" : \"974871\", //user input\n            \"monthly_payment_channeling\" : \"974871\", //user input\n            \"os_balance_terminate_channeling\" : \"0\",  //user input\n            \"otr\" : \"0\", //user input\n            \"ppk_terminate\" : null,  //user input\n            \"provision_fee\" : \"0\", //user input\n            \"rental_payment\" : \"1\", //user input\n            \"agreement_date\" : \"20210825\", //user input\n            \"agreement_date_channeling\" : \"20210825\", //user input\n            \"loan_sector_economy\" : \"\", //user input\n            \"customer_status\" : \"1\", //BSIM master occupation status_debitur\n            \"sumber_dana\" : \"\", //user input\n            \"sifat_penggunaan\" : \"2\", //BSIM master sifat_kredit\n            \"jenis_piutang\" : \"10\", //BSIM master jenis_piutang\n            \"jenis_penggunaan\" : \"1\", //BSIM master jenis_penggunaan\n            \"orientasi_penggunaan\" : \"9\", //BSIM master orientasi_penggunaan\n            \"lembaga_pemeringkat\" : \"\", //user input\n            \"golongan_penerbit\" : \"\", //user input\n            \"business_category\" : \"70\", //BSIM master kategori_usaha\n            \"portofolio_category\" : \"36\", //BSIM master kategori_portfolio\n            \"jenis_agunan\" : \"300\", //BSIM master jenis_agunan\n            \"golongan_debitur\" : \"9000\", //BSIM master golingan_debitur\n            \"jenis_debitur\" : \"1\", //1=Individu;2=NonIndividu\n            \"type_of_cover\" : \"6\", //BSIM master insurance_type\n            \"grace_periode\" : \"0\", //user input\n            \"agreement_number\" : \"PK20212508\", //user input\n            \"type_of_financing\" : \"0\", //user input\n            \"channeling_fee\" : \"0.35\", //user input\n            \"tenor\" : \"48\", //user input\n            \"unit\" : \"MONTH\", //MONTH | DAY\n            \"amount_disbursement\" : \"187626521\",\n            \"purpose_loan\" : \"4\", //user input??\n            \"bunga_pa_pemodal\" : \"9\",//user input\n            \"bunga_pa_borrower\" : \"14\",///user input\n            \"biaya_provisi\" : \"4000000\",///user input\n            \"biaya_admin\" : \"2000000\",///user input\n            \"biaya_notaris\" : \"5250000\",///user input\n            \"biaya_asuransi\" : \"1123479\",///user input\n            \"appraisal_fee\" : \"0\",///user input\n            \"admin_early_termination\" : \"3\",///user input\n            \"type_installment\" : \"NORMAL_INSTALLMENT\" //NORMAL_INSTALLMENT | GRACE_PERIOD\n        },\n        \"credit_history\" : {\n            \n        },\n        \"vehicle_collateral\" : {\n            \"collateral_vec_brand\" : null, //user input\n            \"collateral_vec_type\" : null, //user input\n            \"collateral_vec_year\" : null, //user input\n            \"collateral_vec_jenis\" : null, //user input\n            \"collateral_vec_status\" : null, //user input\n            \"collateral_vec_color\" : null, //user input\n            \"collateral_vec_policeno\" : null, //user input\n            \"collateral_vec_engineno\" : null, //user input\n            \"collateral_vec_chasisno\" : null, //user input\n            \"collateral_vec_stnk\" : null, //user input\n            \"collateral_vec_tgl_stnk\" : null, //user input\n            \"collateral_vec_bpkb\" : null, //user input\n            \"collateral_vec_tgl_bpkb\" : null, //user input\n            \"collateral_vec_address_dealer1\" : null, //user input\n            \"collateral_vec_address_dealer2\" : null, //always null\n            \"collateral_vec_city_dealer\" : null, //user input\n            \"collateral_vec_dealer\" : null //user input   \n        },\n        \"electronic_collateral\" : {\n            \"collateral_elec_productNum\" : null, //user input\n            \"collateral_elec_invoice\" : null, //user input\n            \"collateral_elec_type\" : null, //user input\n            \"collateral_elec_model\" : null //user input\n        },\n        \"house_ownership\" : {\n            \"collateral_type\" : \"3\", // BSIM master channeling_company\n            \"collateral_number\" : \"SK/Test250821\", //user input\n            \"collateral_value\" : \"450000000\", //user input\n            \"collateral_doc_type\" : \"2\", //BSIM master collateral_document_type\n            \"collateral_doc_holder\" : \"Susy\", //user input\n            \"Collateral_doc_issued_date\" : \"\", //user input\n            \"collateral_hous_type\" : \"3\", //user input\n            \"collateral_hous_address\" : \"Jl. Sawah Kecil No. 5\", //user input\n            \"collateral_hous_dati2\" : \"0393\", //BSIM master dati2\n            \"property_status\" : \"2\" //???\n\n        },\n        \"business_ownership\" : {\n            \"company_business\" : \"5\", //BSIM master business_type\n            \"company_name\" : \"PT XYZ\", //user input\n            \"nama_usaha_or_pekerjaan\" :\"\", //user input\n            \"deksripsi_usaha\" :\"\" //user input\n        },\n        \"finance_info\" : {\n            \"income\" : \"20000000\", //user input\n            \"account\" : \"9283765418\", //minimum 10 char, from Danamas Backoffice, please ask KS\n            \"sumber_penghasilan\" : \"1\", // BSIM master sumber_penghasilan \n            \"tax_number\" : \"812501389321000\", //from Danamas Backoffice, please ask KS\n            \"kode_bank\" : \"153\", //from Danamas Backoffice, please ask KS\n            \"nomor_akun_bank\" : \"0054807317\" , //from Danamas Backoffice, please ask KS\n            \"nama_akun_bank\" : \"ANGGA ADITYA PRAMUHARDIKA\" //from Danamas Backoffice, please ask KS\n        }\n    },\n    \"message\": \"Success\"\n}"
+											"body": "{\n    \"code\": \"DM00000000\",\n    \"data\": {\n        \"general_info\" : {\n            \"loan_product_code\" : \"33\", //from Danamas Backoffice, please ask KS\n            \"branch_code\" : \"036\", // BSIM master branch\n            \"channeling_company\" : \"KUK-LANCAR-DANA-BISNIS_14\", // BSIM master channeling_company \n            \"branch_address\" : \"JL PERMATA RAYA SLOT CB 1\", //user input default empty\n            \"branch_address2\" : \"\", //user input default empty\n            \"branch_city\" : \"KARAWANG (KAB)\", //user input default empty\n            \"branch_postal_code\" : \"41361\", //user input default empty\n            \"city\" : \"KARAWANG (KAB)\",  //user input default empty\n            \"channeling_custcode\" : \"LDB141712210000006\", //user input default empty\n            \"branch_name\" : \"Bank A cabang Tj. Duren\", //BSIM master branch\n            \"status\" : \"I\", //BSIM master status\n          \t\"requestor\" : \"LANCAR\" //user input\n        }, \n        \"borrower_info\" : {\n            \"customer_sector_economy\" : \"007\", // BSIM master sektor_ekonomi (id)\n            \"bidang_usaha\" : \"513100\", // BSIM master sektor_ekonomi (code)\n            \"email\" : \"anggaaditia1202@gmail.com\", //from Danamas Backoffice, please ask KS\n            \"fax\" : \"\", //user input default empty\n            \"mobile_no\" : \"082134567897\", //from Danamas Backoffice, please ask KS\n            \"mother_maiden_name\" : \"Hasna\", //from Danamas Backoffice, please ask KS\n            \"phone\" : \"085780009055\", //minimum 10 char, from Danamas Backoffice, please ask KS\n            \"latest_education\" : \"0104\", // BSIM master status_gelar \n            \"unlisted_business\" : null, //user input\n            \"unlisted_occupation\" : null, //user input\n            \"customer_number\" : \"8800203023\", //from Danamas Backoffice, please ask KS\n            \"reference_id\" : \"\", //user input default empty\n            \"profile_picture\" : \"{img}\", //user input\n            \"internet_based\" : \"1\" //user input default 1\n        },\n        \"ktp_info\" : {\n            \"address1\" : \"KARAWANG\", //from Danamas Backoffice, please ask KS\n            \"address2\" : \"\", //from Danamas Backoffice, please ask KS\n            \"birth_date\" : \"19890212\", //format yyyyddmm, from Danamas Backoffice, please ask KS\n            \"birth_place\" : \"KARAWANG\", //from Danamas Backoffice, please ask KS\n            \"dati2\" : \"0106\", // BSIM master dati2, from Danamas Backoffice, please ask KS\n            \"gender\" : \"1\", // 1=Pria; 2=Wanita, from Danamas Backoffice, please ask KS\n            \"id_number\" : \"3215171202890003\", //16 digit, from Danamas Backoffice, please ask KS\n            \"id_type\" : 1, //1=KTP; 2=SIM; 3=PASPOR; 4=KIMS, from Danamas Backoffice, please ask KS\n            \"sub_district\" : \"Grogol Petamburan\", //from Danamas Backoffice, please ask KS\n            \"village\" : \"Teluk\", //from Danamas Backoffice, please ask KS\n            \"marital_status\" : 1, //1 = Menikah; 2 = Belum Menikah; 3 = Janda, from Danamas Backoffice, please ask KS\n            \"name\" : \"Susy\", //from Danamas Backoffice, please ask KS\n            \"rt\" : \"013\", //from Danamas Backoffice, please ask KS\n            \"rw\" : \"003\",  //from Danamas Backoffice, please ask KS\n            \"postal_code\" : \"11460\", //3last digit from BSIM master dati2, from Danamas Backoffice, please ask KS\n            \"occupation\" : \"7\",  //BSIM master business_type\n            \"id_card\" : \"{img}\" //Image type, from Danamas Backoffice, please ask KS\n        },\n        \"domicile_info\" : {\n            \n        },\n        \"spouse_info\" : {\n            \"spouse_company_business\" : \"5\", //BSIM master business_type\n            \"spouse_company_name\" : \"PT XYZ\", //user input default empty\n            \"spouse_tax_number\" : \"812501389321001\", //user input\n            \"spouse_occupation\" : \"7\", //BSIM master occupation\n            \"spouse_unlisted_business\" : null, //user input\n            \"spouse_unlisted_occupation\" : null, //user input\n            \"perjanjian_pisah_harta\" : \"T\", // Y=Ya; T=Tidak default empty\n            \"spouse_birth_date\" : \"19840120\", //user input\n            \"spouse_birth_place\" : \"Jakarta\", //user input\n            \"spouse_id_number\" : \"120402748902663\", //from Danamas Backoffice, please ask KS\n            \"spouse_id_type\" : \"1\", //1=KTP; 2=SIM; 3=PASPOR; 4=KIMS, from Danamas Backoffice, please ask KS\n            \"spouse_name\" : \"Chandra\" //from Danamas Backoffice, please ask KS\n        },\n        \"emergency_contact_info\" : {\n            \"emergency_contact_name\" : \"PIPIT PURWANTINI\", //user input default empty\n            \"emergency_contact_relationship\" : \"ISTRI\", //user input default empty\n            \"emergency_contact_no\" : \"0811111111111\", //user input default empty\n            \"emergency_contact_address\" : \"DUSUN KRAJAN 1 KARAWANG\" //user input default empty\n        },\n        \"loan_info\" : {\n            \"admin_fee\" : \"50000\", //from BO = biaya admin\n            \"data_type\" : \"\", //user input default empty\n            \"down_payment\" : \"0\", //user input default empty\n            \"due_date\" : \"20210827\", //from BO\n            \"effective_payment_type\" : \"0\", // 0=in arrear; 1=in advance\n            \"initial_loan_amount\" : \"10000000\", //from Danamas Backoffice, please ask KS\n            \"interest_effective\" : \"14\", //from Danamas Backoffice, please ask KS == bunga_pa_borrower\n            \"interest_effective_channeling\" : \"11\", //from Danamas Backoffice, please ask KS\n            \"interest_flat\" : \"2\", //from BO\n            \"interest_flat_channeling\" : \"2\", //from BO\n            \"last_due_date\" : \"20210927\",  //user input default empty\n            \"loan_amount\" : \"100000000\", //from BO\n            \"loan_amount_channeling\" : \"100000000\", //from BO\n            \"loan_period\" : \"60\", //from BO\n            \"loan_period_channeling\" : \"60\", //from BO\n            \"monthly_payment\" : \"974871\", //from BO\n            \"monthly_payment_channeling\" : \"974871\", //from BO\n            \"os_balance_terminate_channeling\" : \"0\",  //user input default 0\n            \"otr\" : \"0\", //user input default 0\n            \"ppk_terminate\" : null,  //user input default null\n            \"provision_fee\" : \"0\", //user input default 0\n            \"rental_payment\" : \"1\", //user input default 1\n            \"agreement_date\" : \"20210825\", //user input default empty\n            \"agreement_date_channeling\" : \"20210825\", //user input default empty\n            \"loan_sector_economy\" : \"\", //user input default empty\n            \"customer_status\" : \"1\", //BSIM master occupation status_debitur\n            \"sumber_dana\" : \"\", //user input default empty\n            \"sifat_penggunaan\" : \"2\", //BSIM master sifat_kredit default 2\n            \"jenis_piutang\" : \"10\", //BSIM master jenis_piutang default 10\n            \"jenis_penggunaan\" : \"1\", //BSIM master jenis_penggunaan default 1\n            \"orientasi_penggunaan\" : \"9\", //BSIM master orientasi_penggunaan default 9\n            \"lembaga_pemeringkat\" : \"\", //user input default empty\n            \"golongan_penerbit\" : \"\", //user input default empty\n            \"business_category\" : \"70\", //BSIM master kategori_usaha default empty\n            \"portofolio_category\" : \"36\", //BSIM master kategori_portfolio default empty\n            \"jenis_agunan\" : \"300\", //BSIM master jenis_agunan default empty\n            \"golongan_debitur\" : \"9000\", //BSIM master golingan_debitur\n            \"jenis_debitur\" : \"1\", //1=Individu;2=NonIndividu default 1\n            \"type_of_cover\" : \"6\", //BSIM master insurance_type default 6\n            \"grace_periode\" : \"0\", //user input default 0\n            \"agreement_number\" : \"PK20212508\", //user input default empty\n            \"type_of_financing\" : \"0\", //user input default 0\n            \"channeling_fee\" : \"0.35\", //user input default empty\n            \"tenor\" : \"48\", //from BO\n            \"unit\" : \"MONTH\", //MONTH | DAY\n            \"amount_disbursement\" : \"187626521\",\n            \"purpose_loan\" : \"4\", //user input??\n            \"bunga_pa_pemodal\" : \"9\",//user input default empty\n            \"bunga_pa_borrower\" : \"14\",///from BO == interest_effective\n            \"biaya_provisi\" : \"4000000\",///user input default empty\n            \"biaya_admin\" : \"2000000\",///user input default empty // = admin fee\n            \"biaya_notaris\" : \"5250000\",///user input default empty\n            \"biaya_asuransi\" : \"1123479\",///user input default empty\n            \"appraisal_fee\" : \"0\",///user input default empty\n            \"admin_early_termination\" : \"3\",///user input default empty\n            \"type_installment\" : \"NORMAL_INSTALLMENT\", //NORMAL_INSTALLMENT | GRACE_PERIOD\n          \t\"utilization_purpose\" : \"\" //user input default empty\n        },\n        \"credit_history\" : {\n            \n        },\n        \"vehicle_collateral\" : {\n          //all default empty\n            \"collateral_vec_brand\" : null, //user input\n            \"collateral_vec_type\" : null, //user input\n            \"collateral_vec_year\" : null, //user input\n            \"collateral_vec_jenis\" : null, //user input\n            \"collateral_vec_status\" : null, //user input\n            \"collateral_vec_color\" : null, //user input\n            \"collateral_vec_policeno\" : null, //user input\n            \"collateral_vec_engineno\" : null, //user input\n            \"collateral_vec_chasisno\" : null, //user input\n            \"collateral_vec_stnk\" : null, //user input\n            \"collateral_vec_tgl_stnk\" : null, //user input\n            \"collateral_vec_bpkb\" : null, //user input\n            \"collateral_vec_tgl_bpkb\" : null, //user input\n            \"collateral_vec_address_dealer1\" : null, //user input\n            \"collateral_vec_address_dealer2\" : null, //always null\n            \"collateral_vec_city_dealer\" : null, //user input\n            \"collateral_vec_dealer\" : null //user input   \n        },\n        \"electronic_collateral\" : {\n          //all default empty\n            \"collateral_elec_productNum\" : null, //user input\n            \"collateral_elec_invoice\" : null, //user input\n            \"collateral_elec_type\" : null, //user input\n            \"collateral_elec_model\" : null //user input\n        },\n        \"house_ownership\" : {\n            \"collateral_type\" : \"3\", // BSIM master channeling_company\n            \"collateral_number\" : \"SK/Test250821\", //user input default empty\n            \"collateral_value\" : \"450000000\", //user input default empty\n            \"collateral_doc_type\" : \"2\", //BSIM master collateral_document_type\n            \"collateral_doc_holder\" : \"Susy\", //user input default empty\n            \"Collateral_doc_issued_date\" : \"\", //user input default empty\n            \"collateral_hous_type\" : \"3\", //user input default empty\n            \"collateral_hous_address\" : \"Jl. Sawah Kecil No. 5\", //user input default empty\n            \"collateral_hous_dati2\" : \"0393\", //BSIM master dati2\n            \"property_status\" : \"2\" //user input default empty, please refer to Table Danamas\n\n        },\n        \"business_ownership\" : {\n            \"company_business\" : \"5\", //BSIM master business_type\n            \"company_name\" : \"PT XYZ\", //user input default empty\n            \"nama_usaha_or_pekerjaan\" :\"\", //user input default empty\n            \"deksripsi_usaha\" :\"\" //user input default empty\n        },\n        \"finance_info\" : {\n            \"income\" : \"20000000\", //user input\n            \"account\" : \"9283765418\", //minimum 10 char, from Danamas Backoffice, please ask KS\n            \"sumber_penghasilan\" : \"1\", // BSIM master sumber_penghasilan default 1\n            \"tax_number\" : \"812501389321000\", //from Danamas Backoffice, please ask KS\n            \"kode_bank\" : \"153\", //from Danamas Backoffice, please ask KS\n            \"nomor_akun_bank\" : \"0054807317\" , //from Danamas Backoffice, please ask KS\n            \"nama_akun_bank\" : \"ANGGA ADITYA PRAMUHARDIKA\" //from Danamas Backoffice, please ask KS\n        },\n        \"message\": \"Success\"\n    }\n}\n    \n    \n        \n"
 										}
 									]
 								},
