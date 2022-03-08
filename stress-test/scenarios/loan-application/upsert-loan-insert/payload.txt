@@ -1,0 +1,63 @@
+{
+    "loan_information": {
+        "loan_type_id": "1B",
+        "borrower_type": "INSTITUSI",
+        "borrower_id": "e2a0f79e-68e1-43b8-8041-67f804bdc7c2",
+        "loan_needs": "BISNIS",
+        "loan_amount": 777777,
+        "tenure": 2,
+        "user_form_agreement": [
+            {
+                "document_type_name": "User Form Agreement",
+                "document_name": "user form foo",
+                "document_url": "https://google",
+                "document_id": "secure_id"
+            }
+        ],
+        "collateral_amount": 777,
+        "source_loan_name": "Agent",
+        "source_loan_id": 6
+    }
+};
+{
+    "loan_information": {
+        "loan_type_id": "1B",
+        "borrower_type": "INSTITUSI",
+        "borrower_id": "e2a0f79e-68e1-43b8-8041-67f804bdc7c2",
+        "loan_needs": "BISNIS",
+        "loan_amount": 888888,
+        "tenure": 3,
+        "user_form_agreement": [
+            {
+                "document_type_name": "User Form Agreement",
+                "document_name": "user form foo",
+                "document_url": "https://google",
+                "document_id": "secure_id"
+            }
+        ],
+        "collateral_amount": 888,
+        "source_loan_name": "Agent",
+        "source_loan_id": 6
+    }
+};
+{
+    "loan_information": {
+        "loan_type_id": "1B",
+        "borrower_type": "INSTITUSI",
+        "borrower_id": "e2a0f79e-68e1-43b8-8041-67f804bdc7c2",
+        "loan_needs": "BISNIS",
+        "loan_amount": 999999,
+        "tenure": 4,
+        "user_form_agreement": [
+            {
+                "document_type_name": "User Form Agreement",
+                "document_name": "user form foo",
+                "document_url": "https://google",
+                "document_id": "secure_id"
+            }
+        ],
+        "collateral_amount": 999,
+        "source_loan_name": "Agent",
+        "source_loan_id": 6
+    }
+}

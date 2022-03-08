@@ -47,6 +47,7 @@ func aggregate(result *Result, response *types.Response) {
 			errOccured = true
 			item.FailedCount++
 			item.ErrorDist[rr.Err.Reason]++
+			item.StatusCodeDist[rr.StatusCode]++
 		} else {
 			item.StatusCodeDist[rr.StatusCode]++
 			item.SuccessCount++

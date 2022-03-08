@@ -1,0 +1,27 @@
+{
+    "_user-id":"a9a02d21-95e4-11ec-846b-426bb349b637",
+    "request_count": 200,
+    "load_type": "linear",
+    "duration": 10,
+    "output": "stdout",
+    "steps": [
+        {
+            "id": 1,
+            "url": "https://sandbox-apis.lancar.id:8443/loanservice/api/agent/v1/upsert_loan",
+            "protocol": "https",
+            "method": "POST",
+            "headers": {
+                "platform": "web",
+                "x-request-id": "abc",
+                "Authorization": "Bearer C70TVLjTeInF1DGtqbBbgnoozpTgE1PV",
+                "ContenType": "application/json"
+            },
+            "payload_file": "scenarios/loan-application/upsert-loan-insert/payload.txt",
+            "timeout": 30,
+            "others": {
+                "keep-alive": false,
+                "disableCompression": true
+            }
+        }
+    ]
+}

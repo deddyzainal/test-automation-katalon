@@ -1,0 +1,27 @@
+{
+    "_agent-id":"4cce80ab-99ce-11ec-846b-426bb349b637",
+    "request_count": 300,
+    "load_type": "linear",
+    "duration": 10,
+    "output": "stdout",
+    "steps": [
+        {
+            "id": 1,
+            "url": "https://sandbox-apis.lancar.id:8443/userservice/api/agent/v1/upsert_user",
+            "protocol": "https",
+            "method": "POST",
+            "headers": {
+                "platform": "web",
+                "x-request-id": "abc",
+                "Authorization": "Bearer bvEYc0JBGrF7AdBBIyTYTnQVdTjM9nJO",
+                "ContenType": "application/json"
+            },
+            "payload_file": "scenarios/user-service-v2/upsert-user-update/payload.txt",
+            "timeout": 60,
+            "others": {
+                "keep-alive": false,
+                "disableCompression": true
+            }
+        }
+    ]
+}

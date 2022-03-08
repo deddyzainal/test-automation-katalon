@@ -1,0 +1,50 @@
+{
+    "recipients" : [
+        {
+            "to" : [
+                {
+                    "emailid": "alvin.hartanto@danamas.co.id",
+                    "Name": "Alvin Hartanto"
+                }
+            ],
+            "cc" : [],
+            "bcc": []
+        }
+    ],
+    "from": {
+        "emailid": "alvin.hartanto@danamas.co.id",
+        "Name": "Alvin Hartanto"
+    },
+    "subject": "Stress Test notif mail",
+    "content": [
+        {
+            "type":"text/html",
+            "value":"test"
+        }
+    ]
+};
+{
+    "recipients" : [
+        {
+            "to" : [
+                {
+                    "emailid": "alvin.hartanto@danamas.co.id",
+                    "Name": "Alvin Hartanto"
+                }
+            ],
+            "cc" : [],
+            "bcc": []
+        }
+    ],
+    "from": {
+        "emailid": "alvin.hartanto@danamas.co.id",
+        "Name": "Alvin Hartanto"
+    },
+    "subject": "Stress Test notif mail 2",
+    "content": [
+        {
+            "type":"text/html",
+            "value":"test 2"
+        }
+    ]
+}

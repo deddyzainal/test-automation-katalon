@@ -26,9 +26,12 @@ import (
 	"crypto/tls"
 	"io"
 	"io/ioutil"
+	"log"
+	"math/rand"
 	"net/http"
 	"net/http/httptrace"
 	"net/url"
+	"strconv"
 	"strings"
 	"sync"
 	"time"
@@ -89,6 +92,10 @@ func (h *HttpRequester) Send() (res *types.ResponseItem) {
 	httpReq := h.prepareReq(trace)
 
 	// Action
+
+	// CUSTOM : debug request payload
+	// fmt.Println("Sending request : ", httpReq.Body)
+
 	httpRes, err := h.client.Do(httpReq)
 	durations.setResDur()
 
@@ -105,6 +112,15 @@ func (h *HttpRequester) Send() (res *types.ResponseItem) {
 	} else {
 		contentLength = httpRes.ContentLength
 		statusCode = httpRes.StatusCode
+
+		// CUSTOM : only set 200 as success
+		bodyBytes, err := io.ReadAll(httpRes.Body)
+		if err != nil {
+			log.Fatal(err)
+		}
+		if statusCode != http.StatusOK {
+			requestErr = types.RequestError{Type: strconv.Itoa(httpRes.StatusCode), Reason: string(bodyBytes)}
+		}
 
 		// From the DOC: If the Body is not both read to EOF and closed,
 		// the Client's underlying RoundTripper (typically Transport)
@@ -140,7 +156,17 @@ func (h *HttpRequester) Send() (res *types.ResponseItem) {
 
 func (h *HttpRequester) prepareReq(trace *httptrace.ClientTrace) *http.Request {
 	httpReq := h.request.Clone(h.ctx)
-	httpReq.Body = ioutil.NopCloser(bytes.NewBufferString(h.packet.Payload))
+
+	// CUSTOM : fetch random payload here if applicable
+	// Pick random payload
+	payload := h.packet.Payload
+	payloads := strings.Split(h.packet.Payload, ";")
+	if len(payloads) > 0 {
+		payload = payloads[rand.Intn(len(payloads))]
+	}
+
+	httpReq.Body = ioutil.NopCloser(bytes.NewBufferString(payload))
+	httpReq.ContentLength = int64(len(payload))
 	httpReq = httpReq.WithContext(httptrace.WithClientTrace(httpReq.Context(), trace))
 	// httpReq.URL.RawQuery += uuid.NewString() // TODO: this can be a feature. like -cache_bypass flag?
 	return httpReq
