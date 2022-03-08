@@ -1,0 +1,27 @@
+{
+    "_user-id":"5f0f5c72-1aa5-4b0c-960a-9f62f58edc82",
+    "request_count": 750,
+    "load_type": "linear",
+    "duration": 10,
+    "output": "stdout",
+    "steps": [
+        {
+            "id": 1,
+            "url": "https://sandbox-apis.lancar.id:8443/lancar/userservice/oauth2/apis/v2/user",
+            "protocol": "https",
+            "method": "PUT",
+            "headers": {
+                "platform": "web",
+                "x-request-id": "abc",
+                "Authorization": "Bearer oIKAqIHuJl5kI264vRpdrRXeluy8SDMQ",
+                "ContenType": "application/json"
+            },
+            "payload_file": "scenarios/user-service/update-user/payload.txt",
+            "timeout": 60,
+            "others": {
+                "keep-alive": false,
+                "disableCompression": true
+            }
+        }
+    ]
+}

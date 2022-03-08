@@ -1,0 +1,27 @@
+{
+    "_user-id":"5f0f5c72-1aa5-4b0c-960a-9f62f58edc82",
+    "request_count": 200,
+    "load_type": "linear",
+    "duration": 10,
+    "output": "stdout",
+    "steps": [
+        {
+            "id": 1,
+            "url": "https://sandbox-apis.lancar.id:8443/lancar/loana/oauth2/apis/v2/loan",
+            "protocol": "https",
+            "method": "POST",
+            "headers": {
+                "platform": "web",
+                "x-request-id": "abc",
+                "Authorization": "Bearer t8K6s7sVz0GRrucAj6vR7Z6X4bVikUjZ",
+                "ContenType": "application/json"
+            },
+            "payload_file": "scenarios/loan-application/insert-loan/payload.txt",
+            "timeout": 30,
+            "others": {
+                "keep-alive": false,
+                "disableCompression": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "loan_id" : "fb638a70-08f2-486a-9e86-fa569fb49b86",
+    "collateral_information": {
+        "collateral_type": "Apartemen",
+        "land_size": 200.0,
+        "building_size": 250.0,
+        "address": "foobar alamat",
+        "longitude": -4321.0,
+        "latitude": 654321.0,
+        "province": "bar",
+        "city": "foo",
+        "district": "barfoo",
+        "sub_district": "foobar",
+        "zip_code": "77777",
+        "collateral_status": "MILIK KELUARGA",
+        "owner_name": "barfoo"
+    },
+    "collateral_documents": {
+        "pbb_images": [
+            {
+                "document_type_name": "PBB",
+                "document_name": "foobar",
+                "document_url": "https://yahoo",
+                "document_id": "secure_id"
+            }
+        ],
+        "certificate_images": [
+            {
+                "document_type_name": "Certificate",
+                "document_name": "foobar",
+                "document_url": "https://google",
+                "document_id": "secure_id"
+            },
+            {
+                "document_type_name": "Certificate",
+                "document_name": "foobar",
+                "document_url": "https://yahoo",
+                "document_id": "secure_id"
+            }
+        ],
+        "imb_images": [
+            {
+                "document_type_name": "IMB",
+                "document_name": "foobar",
+                "document_url": "https://google",
+                "document_id": "secure_id"
+            }
+        ],
+        "inside_images": [
+            {
+                "document_type_name": "Inside Image",
+                "document_name": "foobar",
+                "document_url": "https://google",
+                "document_id": "secure_id"
+            }
+        ],
+        "outside_images": [
+            {
+                "document_type_name": "Outside Image",
+                "document_name": "foobar",
+                "document_url": "https://google",
+                "document_id": "secure_id"
+            }
+        ],
+        "access_images": [
+            {
+                "document_type_name": "Access Image",
+                "document_name": "foobar",
+                "document_url": "https://google",
+                "document_id": "secure_id"
+            }
+        ]
+    }
+};
+{
+    "loan_id" : "fb638a70-08f2-486a-9e86-fa569fb49b86",
+    "collateral_information": {
+        "collateral_type": "Rumah",
+        "land_size": 200.0,
+        "building_size": 250.0,
+        "address": "foobar alamat",
+        "longitude": -1234.0,
+        "latitude": 123456.0,
+        "province": "foo",
+        "city": "bar",
+        "district": "foobar",
+        "sub_district": "barfoo",
+        "zip_code": "88888",
+        "collateral_status": "MILIK KELUARGA",
+        "owner_name": "foobar"
+    },
+    "collateral_documents": {
+        "pbb_images": [
+            {
+                "document_type_name": "PBB",
+                "document_name": "foobar",
+                "document_url": "https://google",
+                "document_id": "secure_id"
+            }
+        ],
+        "certificate_images": [
+            {
+                "document_type_name": "Certificate",
+                "document_name": "foobar",
+                "document_url": "https://bing",
+                "document_id": "secure_id"
+            },
+            {
+                "document_type_name": "Certificate",
+                "document_name": "foobar",
+                "document_url": "https://baidu",
+                "document_id": "secure_id"
+            }
+        ],
+        "imb_images": [
+            {
+                "document_type_name": "IMB",
+                "document_name": "foobar",
+                "document_url": "https://yahoo",
+                "document_id": "secure_id"
+            }
+        ],
+        "inside_images": [
+            {
+                "document_type_name": "Inside Image",
+                "document_name": "foobar",
+                "document_url": "https://bing",
+                "document_id": "secure_id"
+            }
+        ],
+        "outside_images": [
+            {
+                "document_type_name": "Outside Image",
+                "document_name": "foobar",
+                "document_url": "https://bing",
+                "document_id": "secure_id"
+            }
+        ],
+        "access_images": [
+            {
+                "document_type_name": "Access Image",
+                "document_name": "foobar",
+                "document_url": "https://yahoo",
+                "document_id": "secure_id"
+            }
+        ]
+    }
+}

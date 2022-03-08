@@ -1,0 +1,26 @@
+{
+    "request_count": 300,
+    "load_type": "linear",
+    "duration": 10,
+    "output": "stdout",
+    "steps": [
+        {
+            "id": 1,
+            "url": "https://sandbox-apis.lancar.id:8443/lancar/notification/auth/api/v1/notification/email",
+            "protocol": "https",
+            "method": "POST",
+            "headers": {
+                "platform": "web",
+                "x-request-id": "abc",
+                "Authorization": "Basic bGFuY2FyLWJhY2tlbmQtaW50ZXJuYWw6WGRQYjRKNU5qQUpzZGhqMlNHYzFBQUhBU3Fjdjh2dUs=",
+                "ContenType": "application/json"
+            },
+            "payload_file": "scenarios/notification-service/send-email/payload.txt",
+            "timeout": 30,
+            "others": {
+                "keep-alive": false,
+                "disableCompression": true
+            }
+        }
+    ]
+}

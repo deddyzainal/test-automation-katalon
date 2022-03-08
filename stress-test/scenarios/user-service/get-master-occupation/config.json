@@ -1,0 +1,25 @@
+{
+    "request_count": 10000,
+    "load_type": "linear",
+    "duration": 10,
+    "output": "stdout",
+    "steps": [
+        {
+            "id": 1,
+            "url": "https://sandbox-apis.lancar.id:8443/lancar/userservice/auth/api/v1/master/occupation",
+            "protocol": "https",
+            "method": "GET",
+            "headers": {
+                "platform": "web",
+                "x-request-id": "abc",
+                "Authorization": "Basic bGFuY2FyLWJhY2tlbmQtaW50ZXJuYWw6WGRQYjRKNU5qQUpzZGhqMlNHYzFBQUhBU3Fjdjh2dUs=",
+                "ContenType": "application/json"
+            },
+            "timeout": 30,
+            "others": {
+                "keep-alive": false,
+                "disableCompression": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,238 @@
+{    
+    "user_id":"b0cf3c8b-a956-4841-abc3-6a17ca95866e",
+    "personal_information": {
+         "ktp_images" : [
+            {
+                "document_type_name" : "KTP",
+                "document_name" : "foobar",
+                "document_type": 1,
+                "document_url" : "https://google",
+                "document_id" : "secure_id"
+            }
+        ],
+        "selfie_ktp_images" : [
+            {
+                "document_type_name" : "KTP Selfie",
+                "document_name" : "foobar",
+                "document_type": 3,
+                "document_url" : "https://google",
+                "document_id" : "secure_id"
+            }
+        ],
+        "nik": "35746380272",
+        "gender": "Pria",
+        "mother_maiden_name": "Siti",
+        "pob": "jakarta",
+        "dob": "2021-01-31T17:00:00Z",
+        "marital_status": "Lajang",
+        "latest_education": "Sarjana"
+    },
+    "address_information": {
+        "address_same_with_idcard": true,
+        "address":"Jl. Percobaan",
+        "rt": "001",
+        "rw": "002",
+        "province": 1,
+        "province_name": "Jawa Timur",
+        "city": 2,
+        "city_name":"Gresik",
+        "district": 3,
+        "district_name":"Manyar",
+        "sub_district": "Yosowilangun",
+        "zip_code": "1234",
+        "residence_image" : [
+            {
+                "document_type_name" : "Rumah",
+                "document_name" : "foobar",
+                "document_type": 60,
+                "document_url" : "https://google",
+                "document_id" : "secure_id"
+            },
+            {
+                "document_type_name" : "Rumah",
+                "document_name" : "foobar",
+                "document_type": 60,
+                "document_url" : "https://google",
+                "document_id" : "secure_id"
+            }
+        ]
+    },
+    "domicile_address": {
+        "address_same_with_idcard": true,
+        "address":"Jl. Percobaan Domisili",
+        "rt": "001",
+        "rw": "002",
+        "province": 1,
+        "province_name": "Jawa Timur",
+        "city": 2,
+        "city_name":"Gresik",
+        "district": 3,
+        "district_name":"Manyar",
+        "sub_district": "Yosowilangun",
+        "zip_code": "1234" 
+    },
+    "job_information": {
+        "job": "Bekerja",
+        "job_duration": "2",
+        "source_of_income": "GAJI",
+        "monthly_salary": "12345"
+    },
+    "personal_information_document":{
+        "nationality":"WNI",
+        "religion":"Islam",
+        "family_card":[{
+            "document_type_name" : "KK",
+            "document_name" : "foobar",
+            "document_type": 4,
+            "document_url" : "https://google",
+            "document_id" : "secure_id"
+        }],
+        "npwp":[{
+            "document_type_name" : "NPWP",
+            "document_name" : "foobar",
+            "document_type": 2,
+            "document_url" : "https://google",
+            "document_id" : "secure_id"
+        }],
+        "spouse_ktp":[{
+            "document_type_name" : "KTP Pasangan",
+            "document_name" : "foobar",
+            "document_type": 24,
+            "document_url" : "https://google",
+            "document_id" : "secure_id"
+        }],
+        "marriage_book":[{
+            "document_type_name" : "Buku Nikah",
+            "document_name" : "foobar",
+            "document_type": 61,
+            "document_url" : "https://google",
+            "document_id" : "secure_id"
+        }],
+        "divorce":[{
+            "document_type_name" : "Surat Cerai",
+            "document_name" : "foobar",
+            "document_type": 63,
+            "document_url" : "https://google",
+            "document_id" : "secure_id"
+        }]
+    }
+};
+{    
+    "user_id":"13dbd4d8-1086-4599-97bc-68547af0cce8",
+    "personal_information": {
+         "ktp_images" : [
+            {
+                "document_type_name" : "KTP",
+                "document_name" : "foobar",
+                "document_type": 1,
+                "document_url" : "https://bing",
+                "document_id" : "secure_id"
+            }
+        ],
+        "selfie_ktp_images" : [
+            {
+                "document_type_name" : "KTP Selfie",
+                "document_name" : "foobar",
+                "document_type": 3,
+                "document_url" : "https://yahoo",
+                "document_id" : "secure_id"
+            }
+        ],
+        "nik": "35746380273",
+        "gender": "Pria",
+        "mother_maiden_name": "Siti",
+        "pob": "jakarta",
+        "dob": "2021-01-31T17:00:00Z",
+        "marital_status": "Lajang",
+        "latest_education": "Sarjana"
+    },
+    "address_information": {
+        "address_same_with_idcard": true,
+        "address":"Jl. Percobaan 2",
+        "rt": "002",
+        "rw": "003",
+        "province": 1,
+        "province_name": "Jawa Timur",
+        "city": 2,
+        "city_name":"Gresik",
+        "district": 3,
+        "district_name":"Manyar",
+        "sub_district": "Yosowilangun",
+        "zip_code": "1234",
+        "residence_image" : [
+            {
+                "document_type_name" : "Rumah",
+                "document_name" : "foobar",
+                "document_type": 60,
+                "document_url" : "https://yahoo",
+                "document_id" : "secure_id"
+            },
+            {
+                "document_type_name" : "Rumah",
+                "document_name" : "foobar",
+                "document_type": 60,
+                "document_url" : "https://bing",
+                "document_id" : "secure_id"
+            }
+        ]
+    },
+    "domicile_address": {
+        "address_same_with_idcard": true,
+        "address":"Jl. Percobaan Domisili",
+        "rt": "001",
+        "rw": "002",
+        "province": 1,
+        "province_name": "Jawa Timur",
+        "city": 2,
+        "city_name":"Gresik",
+        "district": 3,
+        "district_name":"Manyar",
+        "sub_district": "Yosowilangun",
+        "zip_code": "1234" 
+    },
+    "job_information": {
+        "job": "Bekerja",
+        "job_duration": "2",
+        "source_of_income": "GAJI",
+        "monthly_salary": "54321"
+    },
+    "personal_information_document":{
+        "nationality":"WNI",
+        "religion":"Islam",
+        "family_card":[{
+            "document_type_name" : "KK",
+            "document_name" : "foobar",
+            "document_type": 4,
+            "document_url" : "https://google",
+            "document_id" : "secure_id"
+        }],
+        "npwp":[{
+            "document_type_name" : "NPWP",
+            "document_name" : "foobar",
+            "document_type": 2,
+            "document_url" : "https://google",
+            "document_id" : "secure_id"
+        }],
+        "spouse_ktp":[{
+            "document_type_name" : "KTP Pasangan",
+            "document_name" : "foobar",
+            "document_type": 24,
+            "document_url" : "https://google",
+            "document_id" : "secure_id"
+        }],
+        "marriage_book":[{
+            "document_type_name" : "Buku Nikah",
+            "document_name" : "foobar",
+            "document_type": 61,
+            "document_url" : "https://google",
+            "document_id" : "secure_id"
+        }],
+        "divorce":[{
+            "document_type_name" : "Surat Cerai",
+            "document_name" : "foobar",
+            "document_type": 63,
+            "document_url" : "https://google",
+            "document_id" : "secure_id"
+        }]
+    }
+}

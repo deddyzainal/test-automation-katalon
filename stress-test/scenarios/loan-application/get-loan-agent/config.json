@@ -1,0 +1,26 @@
+{
+    "_agent_id": "a9a02d21-95e4-11ec-846b-426bb349b637",
+    "request_count": 5000,
+    "load_type": "linear",
+    "duration": 10,
+    "output": "stdout",
+    "steps": [
+        {
+            "id": 1,
+            "url": "https://sandbox-apis.lancar.id:8443/loanservice/api/agent/v1/get_loan?loan_id=fb638a70-08f2-486a-9e86-fa569fb49b86",
+            "protocol": "https",
+            "method": "GET",
+            "headers": {
+                "platform": "web",
+                "x-request-id": "abc",
+                "Authorization": "Bearer T8GnLQeZgpp1HhBvuMYlVr8nAaPIwFce",
+                "ContenType": "application/json"
+            },
+            "timeout": 30,
+            "others": {
+                "keep-alive": false,
+                "disableCompression": true
+            }
+        }
+    ]
+}

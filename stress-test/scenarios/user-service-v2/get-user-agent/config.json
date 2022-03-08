@@ -1,0 +1,26 @@
+{
+    "_agent-id":"4cce80ab-99ce-11ec-846b-426bb349b637",
+    "request_count": 500,
+    "load_type": "linear",
+    "duration": 10,
+    "output": "stdout",
+    "steps": [
+        {
+            "id": 1,
+            "url": "https://sandbox-apis.lancar.id:8443/userservice/api/agent/v1/get_user?user_id=13dbd4d8-1086-4599-97bc-68547af0cce8",
+            "protocol": "https",
+            "method": "GET",
+            "headers": {
+                "platform": "web",
+                "x-request-id": "abc",
+                "Authorization": "Bearer yI8ezjmdge5xVUhezWShQdcIQ0NEs432",
+                "ContenType": "application/json"
+            },
+            "timeout": 30,
+            "others": {
+                "keep-alive": false,
+                "disableCompression": true
+            }
+        }
+    ]
+}
