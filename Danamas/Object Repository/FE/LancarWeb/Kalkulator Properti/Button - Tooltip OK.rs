@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Tooltip OK</name>
+   <tag></tag>
+   <elementGuidId>d580b18c-a5fa-42ef-98d8-80a672198506</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>strong</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Angka di bawah menunjukkan estimasi nilai properti yang Anda agunkan'])[1]/following::strong[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>98cf525a-893f-4ca9-831c-86f74ec66c64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OK</value>
+      <webElementGuid>78a262b8-24de-45bd-b4ab-5610b5ddad26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-property-calculator[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;property-value-wrapper&quot;]/app-background-triangle[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;background-triangle&quot;]/div[@class=&quot;property-calculator&quot;]/div[@class=&quot;left&quot;]/app-tooltip[1]/div[@class=&quot;tooltip ng-star-inserted&quot;]/div[@class=&quot;tooltip-anchor&quot;]/div[@class=&quot;tooltip-content ng-star-inserted&quot;]/p[1]/strong[1]</value>
+      <webElementGuid>3d53a8af-0fbe-4cf2-843e-94556335a7f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Angka di bawah menunjukkan estimasi nilai properti yang Anda agunkan'])[1]/following::strong[1]</value>
+      <webElementGuid>f07f3568-ba42-4942-8f5d-b3dec6623573</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalkulator Properti'])[1]/following::strong[1]</value>
+      <webElementGuid>d2fe3d55-0aef-4d19-ba4a-08b2f7e19d4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nilai minimum properti Anda adalah'])[1]/preceding::strong[1]</value>
+      <webElementGuid>f7e3966c-4b70-4712-8e83-8a31f13e6ce0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 2.500.000.000'])[1]/preceding::strong[1]</value>
+      <webElementGuid>57446103-acbc-4840-a413-24e9cff0a1ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
+      <webElementGuid>987e59c5-1525-41b2-9364-ee977e87d215</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//strong</value>
+      <webElementGuid>e0323999-9bab-45ce-b899-52a3f61008da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'OK' or . = 'OK')]</value>
+      <webElementGuid>f64ea845-576e-491f-8e61-ed511ce992d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

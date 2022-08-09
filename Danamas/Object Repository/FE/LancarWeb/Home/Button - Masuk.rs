@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Masuk</name>
+   <tag></tag>
+   <elementGuidId>66eeff31-0a58-4c7e-9906-c8529d635510</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary.btn-lg.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'MASUK')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>da615323-5b39-4ef2-bd52-03bebd4f34e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-lg ng-star-inserted</value>
+      <webElementGuid>88dbf1c1-c2d7-4b45-b71f-5d7a876772eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/login</value>
+      <webElementGuid>0042382e-aee3-4fcb-80f8-c46d7d93d1a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MASUK</value>
+      <webElementGuid>78c20e53-dfac-48c6-8d29-971aa63b4440</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-landing[@class=&quot;ng-star-inserted&quot;]/app-header[1]/div[@class=&quot;header-container header-transparent&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;header-wrapper negative-margin&quot;]/div[@class=&quot;logo-section&quot;]/div[@class=&quot;nav-link&quot;]/app-nav[1]/div[@class=&quot;desktop-navigation&quot;]/li[@class=&quot;ng-star-inserted&quot;]/a[@class=&quot;btn btn-primary btn-lg ng-star-inserted&quot;]</value>
+      <webElementGuid>43dce0a2-1e93-47a2-b85d-211ae19a438d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'MASUK')]</value>
+      <webElementGuid>4c0271c3-1ec1-495e-9ac6-6610b422366c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar sekarang ->'])[1]/following::a[1]</value>
+      <webElementGuid>a3a293c9-d95c-4482-b3db-8004c4c2cf9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beranda'])[2]/preceding::a[1]</value>
+      <webElementGuid>3f1b4797-caed-41a8-a893-31d5c46d8175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tentang Kami'])[2]/preceding::a[2]</value>
+      <webElementGuid>7fc4e08f-021b-4e51-b8ef-ad4dc67a6607</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='MASUK']/parent::*</value>
+      <webElementGuid>990671fa-605c-4a65-a94b-2c3f3c3c75b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/login')]</value>
+      <webElementGuid>f0c83619-c31c-4064-a839-a09ea3af444b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>7b16ecd4-ea4b-4601-baf3-07a962263fc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/login' and (text() = 'MASUK' or . = 'MASUK')]</value>
+      <webElementGuid>ce36f970-8d22-4e31-bbc6-cd70a81bd70e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

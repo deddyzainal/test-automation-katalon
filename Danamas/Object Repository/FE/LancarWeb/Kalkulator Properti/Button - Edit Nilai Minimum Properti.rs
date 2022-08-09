@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Edit Nilai Minimum Properti</name>
+   <tag></tag>
+   <elementGuidId>f72b9ce2-f424-41b5-8409-eb1bd5b5c97b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.pen.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='propertyCalculator']/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>9236611e-1d7b-47cf-bb9f-c3b90d8a35a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pen ng-star-inserted</value>
+      <webElementGuid>1cfa3042-031d-4a29-a583-f1ca6d74c0f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/icons/pencil.svg</value>
+      <webElementGuid>5cb2a4e2-4d19-4c5b-892b-6a9cdea051ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>pen icon</value>
+      <webElementGuid>ab985246-ebcc-405f-b467-65fda159f271</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;propertyCalculator&quot;)/img[@class=&quot;pen ng-star-inserted&quot;]</value>
+      <webElementGuid>273039c3-dd60-4a30-a1d8-32fd7627ccb8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='propertyCalculator']/img</value>
+      <webElementGuid>063e9252-bcc4-4fe1-9005-efda5f847339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='pen icon']</value>
+      <webElementGuid>a0279ce2-48f1-4a85-913a-b4c426c81263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-editable-input-ivt/div/img</value>
+      <webElementGuid>a6d2d8f2-f0f4-4f1b-812d-acd391de8b60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/icons/pencil.svg' and @alt = 'pen icon']</value>
+      <webElementGuid>66473c56-cd53-4c51-a7f9-8ba563388415</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

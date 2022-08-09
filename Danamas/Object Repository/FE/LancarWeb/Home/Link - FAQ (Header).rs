@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Link - FAQ (Header)</name>
+   <tag></tag>
+   <elementGuidId>67a0a75b-4c8d-4f23-be31-1be28452c27a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'FAQ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2c75e8c7-d40a-4f47-ac02-35da0e21b002</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/faq</value>
+      <webElementGuid>9ea5064d-e9ab-45e9-8050-0c1d9796a03c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> FAQ </value>
+      <webElementGuid>ad3bd400-2089-4f8a-a918-79eeaae0ee57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-landing[@class=&quot;ng-star-inserted&quot;]/app-header[1]/div[@class=&quot;header-container header-transparent&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;header-wrapper negative-margin&quot;]/div[@class=&quot;logo-section&quot;]/div[@class=&quot;nav-link&quot;]/app-nav[1]/div[@class=&quot;desktop-navigation&quot;]/ul[@class=&quot;nav-bar-links&quot;]/li[1]/app-nav-links[1]/div[@class=&quot;caption&quot;]/ul[1]/li[@class=&quot;ng-star-inserted&quot;]/div[1]/a[1]</value>
+      <webElementGuid>377b0319-a535-4758-9ecd-efbbdb6eca07</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'FAQ')]</value>
+      <webElementGuid>01e55137-f815-4755-ba7e-5907168b4e49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blog'])[1]/following::a[1]</value>
+      <webElementGuid>f6d4150d-6324-4847-ac77-4bb9cbf73625</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tentang Kami'])[1]/following::a[2]</value>
+      <webElementGuid>21085717-a929-4951-b8ba-a4a9f25234f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Kami'])[1]/preceding::a[1]</value>
+      <webElementGuid>6a3c117b-784f-415d-aba0-75b0a33a1045</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='FAQ']/parent::*</value>
+      <webElementGuid>a24a2ec8-3a14-4cf8-8ee5-475e6ada8e63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/faq')]</value>
+      <webElementGuid>9c2c471a-1dbb-4fa3-85b5-c420508680a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/a</value>
+      <webElementGuid>e942081c-fb1f-48a1-b1a1-3e54605efebc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/faq' and (text() = ' FAQ ' or . = ' FAQ ')]</value>
+      <webElementGuid>efaa14ba-c29e-43c1-b834-c3167db3e145</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

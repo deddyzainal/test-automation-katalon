@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "777FE4E0CBE6242C2FF5C0CC1572B799",
+  "keywordClasses": [
+    {
+      "name": "webHelper.WindowHandler",
+      "keywordMethods": [
+        {
+          "name": "fullScreenMode",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

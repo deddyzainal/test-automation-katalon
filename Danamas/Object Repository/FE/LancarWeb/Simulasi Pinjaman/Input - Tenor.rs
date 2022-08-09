@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Tenor</name>
+   <tag></tag>
+   <elementGuidId>8666588b-52bc-44c0-b39d-ac9d41fd87ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#tenure</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tenure']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>195646f2-7cac-4929-8a00-42d8c9dc7bea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>editable-input h3</value>
+      <webElementGuid>42bed081-74ac-4289-8428-8c321848bf8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tenure</value>
+      <webElementGuid>775bd772-1f1d-4d71-969d-edbd594255c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> tahun </value>
+      <webElementGuid>5c342c32-3ca5-4530-9b32-56ba6af2aa91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;tenure&quot;]//input</value>
+      <webElementGuid>ff4fef9b-8b80-4095-a62a-772244fdebd7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='tenure']</value>
+      <webElementGuid>834a895a-1649-40c4-8b5f-ba39eb53cd34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*Bunga aktual Anda akan menyesuaikan hasil verifikasi dokumen.'])[1]/following::div[7]</value>
+      <webElementGuid>2dc1d949-d388-4320-930c-0a69f64175c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai dari'])[1]/following::div[8]</value>
+      <webElementGuid>e571b2ce-370a-47bb-aee5-d5f1757be6da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SETUJU, SELANJUTNYA ->'])[1]/preceding::div[1]</value>
+      <webElementGuid>0eb7c01c-07dc-4669-b0d5-f3c5524e3266</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-editable-input/div</value>
+      <webElementGuid>8d7198e8-5775-4514-945a-1b6f743f0a75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'tenure' and (text() = ' tahun ' or . = ' tahun ')]</value>
+      <webElementGuid>1e4fd5e7-e524-46ea-b1fe-99b8df5e130c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
