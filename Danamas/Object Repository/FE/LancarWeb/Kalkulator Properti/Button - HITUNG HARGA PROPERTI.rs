@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - HITUNG HARGA PROPERTI</name>
+   <tag></tag>
+   <elementGuidId>cfef65ed-c8cb-4dcc-bb29-29c11a5cb978</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-lg.btn-primary.button.mb-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/app-ivt-address-overlay/div/div[2]/form/div[5]/app-button/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0ee056a6-5f2f-4169-957b-fbc1449087a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-lg btn-primary button mb-2</value>
+      <webElementGuid>27a95f75-5ca3-48d1-a9cb-485cf171280a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HITUNG HARGA PROPERTI</value>
+      <webElementGuid>b5da90f8-8487-4e49-8828-f7c3bbc96ec0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button/*[text()=&quot;HITUNG HARGA PROPERTI&quot;]</value>
+      <webElementGuid>69abc1ca-e8fa-4eb9-a21c-b2cdd7a570e0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-ivt-address-overlay/div/div[2]/form/div[5]/app-button/button</value>
+      <webElementGuid>5eaa7dc7-d88f-4b86-b02a-e28ea7bf2566</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Pos'])[1]/following::button[1]</value>
+      <webElementGuid>e47aebce-a3cd-4ee5-be7a-590d847c6fb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DKI Jakarta'])[1]/following::button[1]</value>
+      <webElementGuid>fefa8e26-f081-44a1-a0b5-144b06ffa7c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-button/button</value>
+      <webElementGuid>864e7f8a-a996-4bf8-9878-78a9cdce8032</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'HITUNG HARGA PROPERTI' or . = 'HITUNG HARGA PROPERTI')]</value>
+      <webElementGuid>869eaefc-7ba9-43a2-a5ae-2d401829371c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
