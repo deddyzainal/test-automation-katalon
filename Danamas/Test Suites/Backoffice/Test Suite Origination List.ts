@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Suite Origination List</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>94e1ab33-3e57-4637-a34b-f4ce6660a6ec</testSuiteGuid>
+   <testCaseLink>
+      <guid>0223cd2f-b74b-425b-b3a5-9fa61a241ec4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Login/Login with valid credential</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dd7f98ef-4930-464e-8bbe-debda116c63e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Nama</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9ab70615-20df-4a07-97ee-751a2f76e694</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>338102b2-1b17-4d53-8842-1323ed762d07</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by No Pinjaman</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6e0bb5a8-1329-4878-afa5-38fde4c72640</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bc8b2789-bd82-4bdd-9a2a-c237682e9b5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Status Pinjaman</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d37a5696-a8f4-450f-91f5-9139e3016ac9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ff1eadb-56f2-42b8-9cfc-bc643042943d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Sumber Pinjaman</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6dee7895-0448-46a0-a050-bccb5266ac63</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0fa0059d-7104-46f8-a118-65eee60d64ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by No Telepon</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>65522bfc-b4e7-45a2-92e0-50e97ed0ac88</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e2df006f-ff4a-4dcb-96b0-a146308ae959</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Tipe Agent</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>26f7e605-246f-49fb-abe3-21abcf916226</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>12687a64-2fd3-4859-ad29-ca42f975c0ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Branch City</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>545782c1-6ca0-4c5a-8a4d-d2814c1dcb80</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6d4f6c24-665d-43c2-ac24-597bcb6c0b59</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Branch Name</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eed2750e-6cee-42c7-bd76-d6166e603a03</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>26d6516f-c0d1-4eca-82a1-b0093f9225a0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>972703fa-75d8-46a0-8e6d-b81613aa8dae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Tipe Partner</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a788aad7-508e-4603-80cd-67d77bc9f66c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3939fbd8-1c57-4d8e-a4c7-6da966e73bdf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Nama Partner</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4c96f338-f97f-4092-8f16-58ab35249b05</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e693c96a-411a-4764-bbc0-6bccce09e740</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>772eecad-2bde-4106-8b6a-f232c9eaa33d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Pagination</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>03735dca-ddde-44a5-bc9c-d3d48cba9fca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Open loan detail</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

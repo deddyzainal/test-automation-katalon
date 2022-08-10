@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Email</name>
+   <tag></tag>
+   <elementGuidId>20cfef49-fbcc-404d-8259-44a4175505f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@formcontrolname=&quot;username&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@formcontrolname = 'username']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c60-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>099a467c-eee4-4d44-a5ef-4d5077a63e55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c60-0</value>
+      <webElementGuid>074e26bf-d83e-474b-acd0-006b66eef954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email</value>
+      <webElementGuid>7eb57351-1ab1-4bbc-b2d7-f72d184cd48b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dashboard-layout&quot;]/div[@class=&quot;d-flex justify-content-center align-items-center min-vh-100&quot;]/app-login-card[1]/div[@class=&quot;login-card&quot;]/div[@class=&quot;px-5 pt-3 pb-5&quot;]/form[@class=&quot;ng-untouched ng-invalid ng-dirty&quot;]/ul[1]/li[1]/mat-form-field[@class=&quot;mat-form-field ng-tns-c60-0 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched mat-focused ng-dirty ng-invalid&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c60-0&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c60-0&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c60-0&quot;]</value>
+      <webElementGuid>3131860d-ba17-4731-8d0b-4cf9edf1334d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>username</value>
+      <webElementGuid>c011f1db-7453-451c-ad36-8a01aaf095e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::div[6]</value>
+      <webElementGuid>cbb2c084-c3c3-41ec-9a00-a1032b7cd6af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field/div/div/div</value>
+      <webElementGuid>cd7a6f13-d4fe-4a47-9f26-56263de3a87c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Email' or . = 'Email')]</value>
+      <webElementGuid>b5b2a494-5a3c-4bbe-9552-ebfcc80e70b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
