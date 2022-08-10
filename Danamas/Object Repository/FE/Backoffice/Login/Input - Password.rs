@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Password</name>
+   <tag></tag>
+   <elementGuidId>62bcdd34-c130-4e84-b5b7-3ed09f61b8a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@formcontrolname=&quot;password&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@formcontrolname = 'password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c60-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>de7c1a67-8d09-4b3f-9a55-c4953d99d875</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c60-1</value>
+      <webElementGuid>70d23536-8f02-4190-9abc-625e0718b784</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Password</value>
+      <webElementGuid>4fc131d3-d88c-4bb9-9f81-8bde89f578b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dashboard-layout&quot;]/div[@class=&quot;d-flex justify-content-center align-items-center min-vh-100&quot;]/app-login-card[1]/div[@class=&quot;login-card&quot;]/div[@class=&quot;px-5 pt-3 pb-5&quot;]/form[@class=&quot;ng-untouched ng-invalid ng-dirty&quot;]/ul[1]/li[2]/mat-form-field[@class=&quot;mat-form-field ng-tns-c60-1 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c60-1&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c60-1&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c60-1&quot;]</value>
+      <webElementGuid>ad4b6c64-7072-460b-9f04-df032cc39f5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>4baad248-d145-4cbb-aacd-e01c9b5ccc8f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::div[7]</value>
+      <webElementGuid>eb256d5e-3c32-4a2c-afaa-743d9564f5aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::div[6]</value>
+      <webElementGuid>6306fb7a-8ee8-4e70-8b78-083e1c85ea5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/mat-form-field/div/div/div</value>
+      <webElementGuid>3e9c37b7-7065-4557-94fb-a3a857950279</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Password' or . = 'Password')]</value>
+      <webElementGuid>d6b94c5b-6507-4b81-a86d-9ae70cf0d748</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

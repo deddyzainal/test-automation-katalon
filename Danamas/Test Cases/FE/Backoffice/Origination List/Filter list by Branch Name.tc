@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Branch Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>891704f0-da89-4f7e-bbb7-bb83604440c9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eed2750e-6cee-42c7-bd76-d6166e603a03</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26d6516f-c0d1-4eca-82a1-b0093f9225a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Jakarta Timur'</defaultValue>
+      <description></description>
+      <id>eed2750e-6cee-42c7-bd76-d6166e603a03</id>
+      <masked>false</masked>
+      <name>branch_city</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jakarta 8'</defaultValue>
+      <description></description>
+      <id>26d6516f-c0d1-4eca-82a1-b0093f9225a0</id>
+      <masked>false</masked>
+      <name>branch_name</name>
+   </variable>
+</TestCaseEntity>
