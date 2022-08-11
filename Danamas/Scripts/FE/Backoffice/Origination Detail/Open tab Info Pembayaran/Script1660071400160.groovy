@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Click tab Info Pembayaran
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination Detail/Tab - Info Pembayaran'), 3)
+WebUI.click(findTestObject('FE/Backoffice/Origination Detail/Tab - Info Pembayaran'))
+
+WebUI.scrollToPosition(0, 620)
+
+//Verify some values in Info Pembayaran tab is present
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/TextValue - Cicilan Ke'))
+
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/TextValue - Jatuh Tempo Cicilan'))
+
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/TextValue - Jumlah Tanggungan'))
+
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/TextValue - Cicilan Pokok'))
+
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/TextValue - Tanggungan Pokok'))
+
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/TextValue - Status'))
+
+

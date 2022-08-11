@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TextValue - Nama Cabang_Nama Mitra</name>
+   <tag></tag>
+   <elementGuidId>5c5ce3db-f8e9-4c99-8217-84c6dfca70d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-10']/div/app-loan-origin-rm-agen/ul/li[7]/app-label-text/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>26482814-4168-443d-9e76-ec718101304f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-text</value>
+      <webElementGuid>aaea2123-9c2c-4809-850a-e289fddb7aae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Jakarta 2 </value>
+      <webElementGuid>d65ec395-234b-432c-b3ef-fe9b6e48e8a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-10&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c89-28 ng-trigger ng-trigger-translateTab&quot;]/app-loan-origin-rm-agen[@class=&quot;ng-star-inserted&quot;]/ul[1]/li[7]/app-label-text[1]/div[@class=&quot;card-item&quot;]/div[@class=&quot;card-text&quot;]</value>
+      <webElementGuid>4236eaf9-f79b-411b-ba77-c839285980b8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-10']/div/app-loan-origin-rm-agen/ul/li[7]/app-label-text/div/div</value>
+      <webElementGuid>a08cf9bb-e169-4ee0-899a-b2772ab7417e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Cabang / Nama Mitra'])[1]/following::div[1]</value>
+      <webElementGuid>94b51ad0-1d9d-4dba-88d3-c2c6ac9b119c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Timur'])[1]/following::div[2]</value>
+      <webElementGuid>cdffdb55-e048-4b15-9438-04bce9361c4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[1]</value>
+      <webElementGuid>f7064c68-61d1-4e79-a726-9bb55fc24d4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::div[1]</value>
+      <webElementGuid>3b308a24-600b-4907-b52c-245aa5bd8763</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jakarta 2']/parent::*</value>
+      <webElementGuid>a81a931c-3b34-4afb-9b60-f2bb41e50a06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/app-label-text/div/div</value>
+      <webElementGuid>fe493dc9-ffc2-4516-9d8c-9be1e8dff4d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Jakarta 2 ' or . = ' Jakarta 2 ')]</value>
+      <webElementGuid>d68acaf1-af5c-470c-836c-31c71621dd91</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Pembayaran Lender</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47110de1-1005-42ad-8b54-4847622f2291</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>928da84a-7902-4116-b93f-83c1d675fcf1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad5a35b2-40e2-486f-994a-b9a8a6615c96</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3dc0ab5a-df89-47b9-a656-9985c467b5c4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Tahunan'</defaultValue>
+      <description></description>
+      <id>928da84a-7902-4116-b93f-83c1d675fcf1</id>
+      <masked>false</masked>
+      <name>jadwal_pembayaran_lender</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hanya Bunga'</defaultValue>
+      <description></description>
+      <id>ad5a35b2-40e2-486f-994a-b9a8a6615c96</id>
+      <masked>false</masked>
+      <name>cakupan_masa_tenggang</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>3dc0ab5a-df89-47b9-a656-9985c467b5c4</id>
+      <masked>false</masked>
+      <name>masa_tenggang</name>
+   </variable>
+</TestCaseEntity>

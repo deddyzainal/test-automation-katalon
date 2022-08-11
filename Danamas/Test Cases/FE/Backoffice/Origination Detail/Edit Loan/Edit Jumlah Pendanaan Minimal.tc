@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filter list by Sumber Pinjaman</name>
+   <name>Edit Jumlah Pendanaan Minimal</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d3630ba9-fc91-4090-b953-4b8a8ae19d86</testCaseGuid>
+   <testCaseGuid>6600371b-730e-4252-a5e7-93f6f74625c7</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6dee7895-0448-46a0-a050-bccb5266ac63</variableId>
+      <variableId>437cef45-0d15-40de-8c35-a31fa2a136a7</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Agent'</defaultValue>
+      <defaultValue>'100000003'</defaultValue>
       <description></description>
-      <id>6dee7895-0448-46a0-a050-bccb5266ac63</id>
+      <id>437cef45-0d15-40de-8c35-a31fa2a136a7</id>
       <masked>false</masked>
-      <name>sumber_pinjaman</name>
+      <name>jumlah_pendanaan_minimal</name>
    </variable>
 </TestCaseEntity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Informasi Tambahan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22595abc-6f8e-4d5d-876c-e3b69f01e0ea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ba7f558-c06c-4ac0-bbe4-fd5192421edd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f7aab6f-34f6-418e-965b-8bd58a2ac5e0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a921968-2e06-4d27-b0e4-cf0ebe62ea7a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39529247-b99c-4919-9692-c784e4dcc6b6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'6'</defaultValue>
+      <description></description>
+      <id>8ba7f558-c06c-4ac0-bbe4-fd5192421edd</id>
+      <masked>false</masked>
+      <name>pengalaman_kerja</name>
+   </variable>
+   <variable>
+      <defaultValue>'Saya pegawai tetap'</defaultValue>
+      <description></description>
+      <id>7f7aab6f-34f6-418e-965b-8bd58a2ac5e0</id>
+      <masked>false</masked>
+      <name>tipe_pekerjaan</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bisnis'</defaultValue>
+      <description></description>
+      <id>1a921968-2e06-4d27-b0e4-cf0ebe62ea7a</id>
+      <masked>false</masked>
+      <name>kebutuhan_pinjaman</name>
+   </variable>
+   <variable>
+      <defaultValue>'20000001'</defaultValue>
+      <description></description>
+      <id>39529247-b99c-4919-9692-c784e4dcc6b6</id>
+      <masked>false</masked>
+      <name>pendapatan_bulanan</name>
+   </variable>
+</TestCaseEntity>

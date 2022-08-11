@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TextValue - Kode Referal</name>
+   <tag></tag>
+   <elementGuidId>13d2452e-4ec3-428b-8da6-4c3cdce5e849</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-10']/div/app-loan-origin-rm-agen/ul/li/app-label-text/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li > app-label-text > div.card-item > div.card-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>09c58122-b66f-4725-a4e4-ae1d10158bb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-text</value>
+      <webElementGuid>ce3628c9-f67a-4739-af73-bcc10e485e05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> TSF00102840 </value>
+      <webElementGuid>4c1e7572-db32-445c-8ab6-59d275b546d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-10&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c89-28 ng-trigger ng-trigger-translateTab&quot;]/app-loan-origin-rm-agen[@class=&quot;ng-star-inserted&quot;]/ul[1]/li[1]/app-label-text[1]/div[@class=&quot;card-item&quot;]/div[@class=&quot;card-text&quot;]</value>
+      <webElementGuid>569e53a5-0fe3-45f9-ae6a-74bdf858a8e5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-10']/div/app-loan-origin-rm-agen/ul/li/app-label-text/div/div</value>
+      <webElementGuid>2821f476-6497-4925-ae37-7e3c93c1f601</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Referal'])[1]/following::div[1]</value>
+      <webElementGuid>b9800267-753f-4749-82ff-f1fb6de2a54d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi RM/AGEN'])[1]/following::div[16]</value>
+      <webElementGuid>0ca4ae29-7a08-4412-bf9d-bc683223ed48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama RM/Agen'])[1]/preceding::div[1]</value>
+      <webElementGuid>4e4c6e12-d960-41e5-acaf-fea6c27d860f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Titus Sutio fanpula'])[1]/preceding::div[1]</value>
+      <webElementGuid>cff6ea87-41ea-4a9b-b42b-0c85db5d783c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='TSF00102840']/parent::*</value>
+      <webElementGuid>148ecaec-acf5-40af-a8b0-66035f5185a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/app-label-text/div/div</value>
+      <webElementGuid>3bd46091-cc08-4138-834a-cf7362fbf975</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' TSF00102840 ' or . = ' TSF00102840 ')]</value>
+      <webElementGuid>4ad9a0e6-36a6-4ebe-b43d-e4cbc2dbc64b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

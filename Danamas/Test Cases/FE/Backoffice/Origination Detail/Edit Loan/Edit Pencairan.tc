@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filter list by Sumber Pinjaman</name>
+   <name>Edit Pencairan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d3630ba9-fc91-4090-b953-4b8a8ae19d86</testCaseGuid>
+   <testCaseGuid>ca7211e9-7f80-41b7-a4e9-ae56b409db8b</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6dee7895-0448-46a0-a050-bccb5266ac63</variableId>
+      <variableId>36c0c253-fcc7-47e0-ba23-c8bf0a88c73c</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Agent'</defaultValue>
+      <defaultValue>'2'</defaultValue>
       <description></description>
-      <id>6dee7895-0448-46a0-a050-bccb5266ac63</id>
+      <id>36c0c253-fcc7-47e0-ba23-c8bf0a88c73c</id>
       <masked>false</masked>
-      <name>sumber_pinjaman</name>
+      <name>jumlah_pencairan</name>
    </variable>
 </TestCaseEntity>

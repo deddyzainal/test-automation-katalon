@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TextValue - Email</name>
+   <tag></tag>
+   <elementGuidId>b531df14-7090-49e3-b670-6137abd497a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-tab-body[@id='mat-tab-content-0-10']/div/app-loan-origin-rm-agen/ul/li[3]/app-label-text/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>65354951-08b8-44da-a9cd-5cd8655212f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-text</value>
+      <webElementGuid>c8fe5c5f-d343-4895-9644-99fa07a0e4c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> titus.sutio@sentuh.dev </value>
+      <webElementGuid>ef7ca477-83a8-4096-a9b1-3ca4966314ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-tab-content-0-10&quot;)/div[@class=&quot;mat-tab-body-content ng-tns-c89-28 ng-trigger ng-trigger-translateTab&quot;]/app-loan-origin-rm-agen[@class=&quot;ng-star-inserted&quot;]/ul[1]/li[@class=&quot;ng-star-inserted&quot;]/app-label-text[1]/div[@class=&quot;card-item&quot;]/div[@class=&quot;card-text&quot;]</value>
+      <webElementGuid>970e7082-d551-4159-b6ec-803b91476a00</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-tab-body[@id='mat-tab-content-0-10']/div/app-loan-origin-rm-agen/ul/li[3]/app-label-text/div/div</value>
+      <webElementGuid>cbc2446a-11c3-4bd3-9153-44719996fe69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[2]/following::div[1]</value>
+      <webElementGuid>1c641ab9-49de-410f-8425-e27dd6d795ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Titus Sutio fanpula'])[1]/following::div[2]</value>
+      <webElementGuid>d8916453-a6b4-40bd-b8cb-509548e26f57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor Telepon'])[1]/preceding::div[1]</value>
+      <webElementGuid>cb6006ac-d6d3-4a73-8158-afaa2c682ce1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori Agen'])[1]/preceding::div[3]</value>
+      <webElementGuid>1e15c0a9-cafb-4183-a1f2-c90ccc4da338</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='titus.sutio@sentuh.dev']/parent::*</value>
+      <webElementGuid>a5ab75f2-6c17-46f4-bddc-4d29a8c9d718</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/app-label-text/div/div</value>
+      <webElementGuid>a7c31534-7780-4f37-9efe-0b5445cec752</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' titus.sutio@sentuh.dev ' or . = ' titus.sutio@sentuh.dev ')]</value>
+      <webElementGuid>025fab13-6d62-41d1-b24a-864b8fe38447</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

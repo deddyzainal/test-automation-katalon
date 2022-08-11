@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filter list by Sumber Pinjaman</name>
+   <name>Edit Tipe Pinjaman</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d3630ba9-fc91-4090-b953-4b8a8ae19d86</testCaseGuid>
+   <testCaseGuid>fd01337f-972d-42dc-84d6-dc21485d248c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6dee7895-0448-46a0-a050-bccb5266ac63</variableId>
+      <variableId>40770f0d-74b9-45a3-8b09-5091f4cd3de2</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Agent'</defaultValue>
+      <defaultValue>'LancarDana 70%'</defaultValue>
       <description></description>
-      <id>6dee7895-0448-46a0-a050-bccb5266ac63</id>
+      <id>40770f0d-74b9-45a3-8b09-5091f4cd3de2</id>
       <masked>false</masked>
-      <name>sumber_pinjaman</name>
+      <name>tipe_pinjaman</name>
    </variable>
 </TestCaseEntity>

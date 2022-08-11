@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Tenor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8bf9578-1528-45e3-a093-8cbdef997f51</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1901d906-4e2f-44e1-9192-872ae6c4fa2b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09239fd2-d656-433c-9afe-03d8920e7940</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'118'</defaultValue>
+      <description></description>
+      <id>1901d906-4e2f-44e1-9192-872ae6c4fa2b</id>
+      <masked>false</masked>
+      <name>tenor_pinjaman</name>
+   </variable>
+   <variable>
+      <defaultValue>'124'</defaultValue>
+      <description></description>
+      <id>09239fd2-d656-433c-9afe-03d8920e7940</id>
+      <masked>false</masked>
+      <name>requested_tenor</name>
+   </variable>
+</TestCaseEntity>

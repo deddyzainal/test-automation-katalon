@@ -17,3 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Label - Denda'), 3)
+
+//Input Denda Lender
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Input - Denda Lender'), 3)
+WebUI.setText(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Input - Denda Lender'), denda_lender)
+
+//Input Masa Tenggang Pinalti Lender
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Input - Masa Tenggang Pinalti Lender'), 3)
+WebUI.setText(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Input - Masa Tenggang Pinalti Lender'), masa_tenggang_pinalti_lender)
+
+//Input Denda Peminjam
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Input - Denda Peminjam'), 3)
+WebUI.setText(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Input - Denda Peminjam'), denda_peminjam)
+
+//Input Masa Tenggang Pinalti Borrower
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Input - Masa Tenggang Pinalti Borrower'), 3)
+WebUI.setText(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Input - Masa Tenggang Pinalti Borrower'), masa_tenggang_pinalti_borrower)

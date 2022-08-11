@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 //Click tab Informasi Pinjaman
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination Detail/Tab - Informasi Pencairan'), 3)
-WebUI.click(findTestObject('Object Repository/Origination Detail/Tab - Informasi Pencairan'))
+WebUI.click(findTestObject('FE/Backoffice/Origination Detail/Tab - Informasi Pencairan'))
 
 WebUI.scrollToPosition(0, 620)
 

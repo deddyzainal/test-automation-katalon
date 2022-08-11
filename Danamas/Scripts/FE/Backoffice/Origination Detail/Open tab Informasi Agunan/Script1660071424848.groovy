@@ -17,3 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Click tab Informasi Agunan
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination Detail/Tab - Informasi Agunan'), 3)
+WebUI.click(findTestObject('FE/Backoffice/Origination Detail/Tab - Informasi Agunan'))
+
+WebUI.scrollToPosition(0, 620)
+
+//Verify some values in Informasi Agunan tab is present
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi Agunan/Label - Detail Properti'))
+//WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi Agunan/TextValue - Jenis Jaminan'))
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi Agunan/Label - Detail Lokasi'))
+//WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi Agunan/TextValue - Provinsi'))
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi Agunan/TextValue - Nilai Agunan IVT'))
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi Agunan/TextValue - Nilai Agunan Manual'))

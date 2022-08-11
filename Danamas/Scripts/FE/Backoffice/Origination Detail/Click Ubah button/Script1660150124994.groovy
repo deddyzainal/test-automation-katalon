@@ -17,24 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click tab Informasi RM/Agen
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination Detail/Tab - Informasi RM Agen'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Origination Detail/Tab - Informasi RM Agen'))
+//Click Ubah button
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination Detail/Button - Ubah'), 3)
+WebUI.click(findTestObject('FE/Backoffice/Origination Detail/Button - Ubah'))
 
-WebUI.scrollToPosition(0, 620)
+WebUI.waitForPageLoad(5)
 
-//Verify some values in Informasi RM/Agen tab is present
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi RM Agen/TextValue - Kode Referal'))
-
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi RM Agen/TextValue - Nama'))
-
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi RM Agen/TextValue - Email'))
-
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi RM Agen/TextValue - No Telepon'))
-
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi RM Agen/TextValue - Kategori Agen'))
-
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi RM Agen/TextValue - Kota Cabang_Tipe Mitra'))
-
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi RM Agen/TextValue - Nama Cabang_Nama Mitra'))
-
+//Verify label Pengajuan Pinjaman in edit loan page is visible
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Label - Pengajuan Pinjaman'))

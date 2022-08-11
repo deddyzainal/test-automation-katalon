@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Tab - Informasi RMAGEN</name>
+   <name>Tab - Informasi RM Agen</name>
    <tag></tag>
    <elementGuidId>42cb5930-8437-41af-80e0-2d8ef761bf83</elementGuidId>
    <selectorCollection>
