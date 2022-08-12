@@ -17,16 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Label - Collateral'), 3)
+//Click Submit button
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Button - Submit'), 3)
+WebUI.click(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Button - Submit'))
 
-//Input Collateral NJOP
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Input - Collateral NJOP'), 3)
-WebUI.setText(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Input - Collateral NJOP'), collateral_njop)
+WebUI.waitForPageLoad(5)
 
-//Click dropdown Collateral Ownership
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Select - Collateral Ownership'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Select - Collateral Ownership'))
-
-//Select option Collateral Ownership
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Option - Collateral Ownership', [('collateral_ownership'):collateral_ownership]), 3)
-WebUI.click(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Option - Collateral Ownership', [('collateral_ownership'):collateral_ownership]))
+//Verify redirect to origination list after successfull submission
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination List/Button - Buat Pinjaman Baru'))

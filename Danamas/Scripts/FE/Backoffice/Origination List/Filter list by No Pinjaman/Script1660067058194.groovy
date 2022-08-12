@@ -26,4 +26,5 @@ CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffic
 
 //Verify No Pinjaman in the list match with inputted text
 WebUI.waitForPageLoad(5)
-WebUI.verifyMatch(WebUI.getText(findTestObject('FE/Backoffice/Origination List/TextValue - No Pinjaman')), ".*$no_pinjaman.*".toUpperCase(), true)
+WebUI.verifyMatch(WebUI.getText(findTestObject('FE/Backoffice/Origination List/TextValue - No Pinjaman')), no_pinjaman.toUpperCase(), true)
+//WebUI.verifyMatch(WebUI.getText(findTestObject('FE/Backoffice/Origination List/TextValue - No Pinjaman')), ".*$no_pinjaman.*".toUpperCase(), true)

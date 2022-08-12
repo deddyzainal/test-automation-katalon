@@ -17,11 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [:])
-WebUI.callTestCase(findTestCase('FE/Backoffice/Origination List/Filter list by Status Pinjaman'), [('status_pinjaman') : 'Passed'])
-WebUI.callTestCase(findTestCase('FE/Backoffice/Origination List/Open loan detail'), [:])
-WebUI.callTestCase(findTestCase('FE/Backoffice/Origination Detail/Click Ubah button'), [:])
-
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination Detail/Edit Loan/Label - Detail RM Agen'), 3)
 
 //Input Nama RM Agen
