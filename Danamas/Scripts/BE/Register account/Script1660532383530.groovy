@@ -4,6 +4,8 @@ import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
+import internal.GlobalVariable
+
 //Get new date
 String datetime = new Date().format('yyyyMMddHHmmss')
 
@@ -21,3 +23,6 @@ def response = WS.sendRequest(findTestObject('BE/Register', [('hmac'):hmac, ('da
 
 //Verify status code 200
 WS.verifyResponseStatusCode(response, 200)
+
+//Set datetime in global variable (if you want to use it in other test case, dont forget to add variable 'datetime' in your Profiles)
+GlobalVariable.datetime = datetime
