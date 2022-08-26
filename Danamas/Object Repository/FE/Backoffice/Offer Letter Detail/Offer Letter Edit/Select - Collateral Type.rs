@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select - Collateral Type</name>
+   <tag></tag>
+   <elementGuidId>16a99555-9943-4e06-a92a-33e724c0a228</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;collateral_type&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='collateral_type']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c03ba4d4-85ce-48dc-93e6-de16f7072cb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>877c6c3b-21a2-40c8-a3a8-27d33770ba09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>collateral_type</value>
+      <webElementGuid>6b5b4917-f8ae-48f7-808f-c2d1104dda3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>collateral_type</value>
+      <webElementGuid>f8255b9f-3e87-4a6f-9010-73c29ee60956</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukkan ID Pinjaman</value>
+      <webElementGuid>e8b3bbca-d839-4f5f-81ba-764ccb78f605</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select border-0 p-0 shadow-none ng-pristine ng-invalid ng-touched</value>
+      <webElementGuid>0e6058e7-740c-49cc-beb9-0fb153fff1d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih jenis agunan Rumah  Apartemen  Ruko  Tanah Produktif </value>
+      <webElementGuid>2ce33279-0e68-4a6c-b978-ca39fd52a9f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-tns-c76-0 ng-star-inserted&quot;]/div[@class=&quot;main-container ng-tns-c76-0&quot;]/div[@class=&quot;padding-32-32-32-32 ng-tns-c76-0 padding-left&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;shadow card-ffffff-0 padding-32-32-32-32 wrapper&quot;]/lancar-tabs[1]/lancar-tab[1]/div[1]/add-offer-letter-form[1]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;row mb-24&quot;]/div[@class=&quot;col-6&quot;]/lancar-input[1]/div[@class=&quot;input-wrapper invalid&quot;]/select[@class=&quot;form-select border-0 p-0 shadow-none ng-pristine ng-invalid ng-touched&quot;]</value>
+      <webElementGuid>4d34a0c0-84dc-423a-9ca1-e8ba92bd528d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='collateral_type']</value>
+      <webElementGuid>0a732f5b-eabd-46ed-abe5-4a255ad299a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collateral Informasi'])[1]/following::select[1]</value>
+      <webElementGuid>1468d110-02c3-42c0-9877-8ea3b8a4f2ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp.'])[2]/following::select[1]</value>
+      <webElementGuid>b23ce5cc-c7e9-4879-9f98-f61dc364baf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional Cost'])[1]/preceding::select[1]</value>
+      <webElementGuid>8916fc2d-62ed-487e-8aba-f6338757240e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='%'])[2]/preceding::select[1]</value>
+      <webElementGuid>81603ad4-e5ba-4306-8d16-8c9bd37b5ec9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>a7176d7a-ef12-49b8-b02d-a603aaf3031d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@type = 'text' and @name = 'collateral_type' and @placeholder = 'Masukkan ID Pinjaman' and (text() = 'Pilih jenis agunan Rumah  Apartemen  Ruko  Tanah Produktif ' or . = 'Pilih jenis agunan Rumah  Apartemen  Ruko  Tanah Produktif ')]</value>
+      <webElementGuid>52f3f23f-41cb-4c49-b655-aae6ca157be7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

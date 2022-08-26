@@ -18,13 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Click dropdown Status Pinjaman
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination List/Dropdown - Status Pinjaman'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Origination List/Dropdown - Status Pinjaman'))
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination List/Select - Status Pinjaman'), 3)
+WebUI.click(findTestObject('FE/Backoffice/Origination List/Select - Status Pinjaman'))
 
 //Select status pinjaman option
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination List/Option - Status Pinjaman', [('status_pinjaman'):status_pinjaman]), 3)
+//WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination List/Option - Status Pinjaman', [('status_pinjaman'):status_pinjaman]), 3)
 WebUI.click(findTestObject('FE/Backoffice/Origination List/Option - Status Pinjaman', [('status_pinjaman'):status_pinjaman]))
 
 //Verify Status Pinjaman in the list match with selected option
 WebUI.waitForPageLoad(5)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Origination List/TextValue - Status Pinjaman'), status_pinjaman.toUpperCase())
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Origination List/TextValue - Status'), status_pinjaman.toUpperCase())

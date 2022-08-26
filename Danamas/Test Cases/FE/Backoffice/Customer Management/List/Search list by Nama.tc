@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search list by Nama</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbc43848-0a4e-43f2-bef6-d1cd43b513c7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c34209dd-22ca-4db7-a023-24e251a04f56</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Lutfi'</defaultValue>
+      <description></description>
+      <id>c34209dd-22ca-4db7-a023-24e251a04f56</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+</TestCaseEntity>

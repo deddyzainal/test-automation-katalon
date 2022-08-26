@@ -16,16 +16,21 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [:])
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Side Menu/Click Data and Prospect'), [:])
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Side Menu/Click Loan Origination'), [:])
 
 //Filter list by Tipe Partner
 WebUI.callTestCase(findTestCase('FE/Backoffice/Origination List/Filter list by Tipe Partner'), [('tipe_partner') : tipe_partner], FailureHandling.STOP_ON_FAILURE)
 
 //Click dropdown Nama Partner
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination List/Dropdown - Nama Partner'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Origination List/Dropdown - Nama Partner'))
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination List/Select - Nama Partner'), 3)
+WebUI.click(findTestObject('FE/Backoffice/Origination List/Select - Nama Partner'))
 
 //Select partner name option
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination List/Option - Nama Partner', [('nama_partner') : nama_partner]), 3)
+//WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination List/Option - Nama Partner', [('nama_partner') : nama_partner]), 3)
 WebUI.click(findTestObject('FE/Backoffice/Origination List/Option - Nama Partner', [('nama_partner') : nama_partner]))
 
 WebUI.waitForPageLoad(5)

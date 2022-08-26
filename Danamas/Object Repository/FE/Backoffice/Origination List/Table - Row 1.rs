@@ -6,11 +6,11 @@
    <elementGuidId>3d3f3393-43db-43fb-aa14-5a05c29eaed7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//h1[text()='Loan Origination']/following-sibling::table-wrapper//tr[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//app-loan-origination-table//tr[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

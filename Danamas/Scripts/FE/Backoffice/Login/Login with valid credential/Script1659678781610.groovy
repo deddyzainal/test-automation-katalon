@@ -20,6 +20,6 @@ import org.openqa.selenium.Keys as Keys
 //Navigate to boms, fill login form and submit
 CustomKeywords.'backoffice.common.fillLoginForm'(GlobalVariable.email, GlobalVariable.password)
 
-//Verify Logout button is visible after successfull login
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Navigation Bar/Button - Log Out'))
+//Verify Lancar image is visible after successfull login
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Navigation Bar/Image - Lancar'))
 

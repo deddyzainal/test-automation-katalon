@@ -21,11 +21,11 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('FE/Backoffice/Origination List/Filter list by Tipe Agent'), [('tipe_agent') : 'Branch'], FailureHandling.STOP_ON_FAILURE)
 
 //Click dropdown Branch City
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination List/Dropdown - Branch City'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Origination List/Dropdown - Branch City'))
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination List/Select - Branch City'), 3)
+WebUI.click(findTestObject('FE/Backoffice/Origination List/Select - Branch City'))
 
 //Select branch city option
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination List/Option - Branch City', [('branch_city') : branch_city]), 3)
+//WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination List/Option - Branch City', [('branch_city') : branch_city]), 3)
 WebUI.click(findTestObject('FE/Backoffice/Origination List/Option - Branch City', [('branch_city') : branch_city]))
 
 WebUI.waitForPageLoad(5)

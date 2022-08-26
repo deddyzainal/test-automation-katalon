@@ -7,7 +7,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://stage-boms.lancar.id/'</initValue>
-      <name>url</name>
+      <name>url_boms</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -18,5 +18,10 @@
       <description></description>
       <initValue>'ELeIGSF4J+I='</initValue>
       <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stage-backoffice.lancar.id/'</initValue>
+      <name>url_backoffice</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

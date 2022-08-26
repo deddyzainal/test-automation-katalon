@@ -18,33 +18,33 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Scroll to pagination section
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/Button - Next Page'), 5)
+WebUI.scrollToElement(findTestObject('null'), 5)
 
 //Count total page
-int total_page = WebUI.getText(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/Button - Last Page')).toInteger()
+int total_page = WebUI.getText(findTestObject('null')).toInteger()
 
 if (total_page > 1) {
     int row_no = 1
 
     //Click Next button and verify row number
     for (int i = 1; i < total_page; i++) {
-        WebUI.click(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/Button - Next Page'))
+        WebUI.click(findTestObject('null'))
         row_no = (row_no + 10)
-        WebUI.verifyElementText(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/TextValue - Cicilan Ke'), row_no.toString())
+        WebUI.verifyElementText(findTestObject('null'), row_no.toString())
     } 
 	
 	//Click Prev button and verify row number
     for (int i=1; i<total_page; i++) {
-		WebUI.click(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/Button - Previous Page'))
+		WebUI.click(findTestObject('null'))
     	row_no = row_no - 10
-        WebUI.verifyElementText(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/TextValue - Cicilan Ke'), row_no.toString())
+        WebUI.verifyElementText(findTestObject('null'), row_no.toString())
     }
     	
     //Click page number and verify row number
     for (int i=1; i<total_page; i++) {
-    	WebUI.click(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/Button - Nth Page', [('page_no'): i+1 ]))
+    	WebUI.click(findTestObject('null', [('page_no'): i+1 ]))
     	row_no = row_no + 10
-        WebUI.verifyElementText(findTestObject('FE/Backoffice/Origination Detail/Info Pembayaran/TextValue - Cicilan Ke'), row_no.toString())
+        WebUI.verifyElementText(findTestObject('null'), row_no.toString())
     }
 }
 

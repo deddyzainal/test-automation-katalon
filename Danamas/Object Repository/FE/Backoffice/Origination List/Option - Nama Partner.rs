@@ -7,15 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@role='option']/span[text()=' ${nama_partner} ']</value>
+         <value>//lancar-input//input[@formcontrolname='partnerNameTemp']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${nama_partner} ']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-option-4 > span.mat-option-text</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>a36b3afc-04b0-426b-8a4a-cd9551b4409a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
+      <webElementGuid>7762fcc4-6810-47ba-ac14-ff7d7e0b5348</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +41,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-4&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>ded2550b-5308-4fac-85e7-6bc73254d3bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,6 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-4']/span</value>
+      <webElementGuid>889faf65-bfcf-41fe-912f-2a5ddbd11274</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::span[1]</value>
+      <webElementGuid>7e84e0e3-1f4c-436d-b6d7-57d3af563640</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::span[2]</value>
+      <webElementGuid>20e8653e-a31e-45aa-90db-ddc3fdab95d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submitted'])[1]/preceding::span[1]</value>
+      <webElementGuid>1a90ed80-a7f2-4d6a-89fa-1a8d183de090</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved'])[1]/preceding::span[2]</value>
+      <webElementGuid>f15c3181-5dda-436a-9f58-344fb4bf1bcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Passed']/parent::*</value>
+      <webElementGuid>c57d6bc3-9019-4b93-bfef-9e4c2e0c1da5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[3]/span</value>
+      <webElementGuid>da98d223-18ab-41b6-8675-012aef947b8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,5 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Passed ' or . = ' Passed ')]</value>
+      <webElementGuid>229d7d60-15f8-439f-a715-88cb7dc571ac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

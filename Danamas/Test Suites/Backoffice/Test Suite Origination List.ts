@@ -19,9 +19,23 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dd7f98ef-4930-464e-8bbe-debda116c63e</guid>
+      <guid>ccb73ee6-f985-4819-bde4-388017094c79</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click Data and Prospect</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7561d3fe-1d40-4119-b605-45e9a7c448ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click Loan Origination</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dd7f98ef-4930-464e-8bbe-debda116c63e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Nama</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -34,8 +48,8 @@
    <testCaseLink>
       <guid>338102b2-1b17-4d53-8842-1323ed762d07</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by No Pinjaman</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by ID Pinjaman</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -47,7 +61,7 @@
    <testCaseLink>
       <guid>bc8b2789-bd82-4bdd-9a2a-c237682e9b5a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Status Pinjaman</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -73,7 +87,7 @@
    <testCaseLink>
       <guid>0fa0059d-7104-46f8-a118-65eee60d64ab</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by No Telepon</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -86,7 +100,7 @@
    <testCaseLink>
       <guid>e2df006f-ff4a-4dcb-96b0-a146308ae959</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Tipe Agent</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -99,7 +113,7 @@
    <testCaseLink>
       <guid>12687a64-2fd3-4859-ad29-ca42f975c0ed</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Branch City</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -131,7 +145,7 @@
    <testCaseLink>
       <guid>972703fa-75d8-46a0-8e6d-b81613aa8dae</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by Tipe Partner</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -163,14 +177,14 @@
    <testCaseLink>
       <guid>772eecad-2bde-4106-8b6a-f232c9eaa33d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Origination List/Pagination</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>03735dca-ddde-44a5-bc9c-d3d48cba9fca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Origination List/Open loan detail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

@@ -16,16 +16,16 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+W
 //Filter list by Branch City
 WebUI.callTestCase(findTestCase('FE/Backoffice/Origination List/Filter list by Branch City'), [('branch_city') : branch_city], FailureHandling.STOP_ON_FAILURE)
 
 //Click dropdown Branch Name
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination List/Dropdown - Branch Name'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Origination List/Dropdown - Branch Name'))
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination List/Select - Branch Name'), 3)
+WebUI.click(findTestObject('FE/Backoffice/Origination List/Select - Branch Name'))
 
 //Select branch name option
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination List/Option - Branch Name', [('branch_name') : branch_name]), 3)
+//WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination List/Option - Branch Name', [('branch_name') : branch_name]), 3)
 WebUI.click(findTestObject('FE/Backoffice/Origination List/Option - Branch Name', [('branch_name') : branch_name]))
 
 WebUI.waitForPageLoad(5)

@@ -23,9 +23,7 @@ WebUI.click(findTestObject('FE/Backoffice/Origination List/Table - Row 1'))
 
 WebUI.waitForPageLoad(5)
 
-//Verify some values (Nama, Gender, Loan Id, loan detail table, Status Pinjaman) in detail page is visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/TextValue - Nama'))
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/TextValue - Gender'))
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/TextValue - Loan Id'))
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Table - Loan Detail'))
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Informasi Pinjaman/TextValue - Status Pinjaman'))
+//Verify some elements in detail page is visible
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Label - Ringkasan Pinjaman'))
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/Label - Informasi Peminjam'))
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination Detail/TextValue - Status Pinjaman'))

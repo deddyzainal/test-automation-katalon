@@ -7,15 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@role='option']/span[text()=' ${status_pinjaman} ']</value>
+         <value>//lancar-input//input[@formcontrolname='loanStatusTemp']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${status_pinjaman} ']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-option-4 > span.mat-option-text</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>cd93e6fd-97f4-4d2c-831a-d6ed1feb7c41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
+      <webElementGuid>3bf11f73-6624-4d12-88ad-f89e3a8c4549</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Passed </value>
+      <webElementGuid>66aa115c-0da3-4433-bb8d-3bf2d09bdd10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-4&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>d49d2cf0-e361-4d5b-8ed2-a7b381cf62a3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,6 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-4']/span</value>
+      <webElementGuid>5725f36c-f6a3-45d2-8122-77aa5df1393c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::span[1]</value>
+      <webElementGuid>c220050b-6512-4b0d-b0c1-b83a588e3c6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::span[2]</value>
+      <webElementGuid>0320b086-5bf8-4baf-843a-db9cceb870c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submitted'])[1]/preceding::span[1]</value>
+      <webElementGuid>97b1dfc2-c08e-4a2d-9a5c-99cf30617845</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved'])[1]/preceding::span[2]</value>
+      <webElementGuid>c8c16e79-282b-4ae5-b020-7939d7d5a3df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Passed']/parent::*</value>
+      <webElementGuid>6f27d11b-ed73-4c19-9135-b9e6b5c33aef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[3]/span</value>
+      <webElementGuid>19733eee-9656-480d-b944-7e2eb0ecb5ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,5 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Passed ' or . = ' Passed ')]</value>
+      <webElementGuid>e37dad6e-f0ab-4739-97cb-9778c5b8d5d0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

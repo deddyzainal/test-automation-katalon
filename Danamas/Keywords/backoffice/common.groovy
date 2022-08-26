@@ -24,11 +24,12 @@ public class common {
 
 	@Keyword
 	def fillLoginForm(String email, String password) {
-		WebUI.openBrowser(GlobalVariable.url)
+		WebUI.openBrowser(GlobalVariable.url_backoffice)
 		WebUI.maximizeWindow()
 		WebUI.setText(findTestObject('FE/Backoffice/Login/Input - Email'), email)
 		WebUI.setEncryptedText(findTestObject('FE/Backoffice/Login/Input - Password'), password)
-		WebUI.click(findTestObject('FE/Backoffice/Login/Button - Login'))
+		WebUI.click(findTestObject('FE/Backoffice/Login/Button - Masuk'))
+		WebUI.waitForPageLoad(5)
 	}
 
 	@Keyword

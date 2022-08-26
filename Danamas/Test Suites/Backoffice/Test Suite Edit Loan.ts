@@ -19,10 +19,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>854827fe-568f-421e-a646-5c61e6a0b5ef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click Data and Prospect</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e39cfcb7-1a45-452e-ab23-aba639d09517</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click Loan Origination</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>fbc56e68-d715-4662-ad11-a824ca326707</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by No Pinjaman</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by ID Pinjaman</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -39,312 +53,127 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f5ab8d95-3d40-47bd-8a96-7a0d12257850</guid>
+      <guid>62917461-6f19-4da5-90bf-12b24b785c34</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Open tab Rincian Biaya Pinjaman</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0ce7ad9-f4e1-4824-8050-b96962387aa2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Rincian Pinjaman</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3592ba8c-9998-410d-b1d3-c710af9318ba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7662f212-f4af-4ddb-bbd7-c98725b1f8f5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2f5bb127-21c5-4cb4-aff3-b269d14b477a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0c93a247-50a3-4a98-85a2-4d25c0a85111</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a290d5b1-b52f-4b72-a468-473653e7e0bc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>122036f8-99bd-43fb-8fc8-909a53e6693a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Click Ubah button</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Open tab Detail Agunan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>37b17340-bae2-4d7f-9283-f3b5304fd688</guid>
+      <guid>2f15de13-9bc9-4a8f-b08d-4f6f22be5515</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit Tipe Pinjaman</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Informasi Agunan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>40770f0d-74b9-45a3-8b09-5091f4cd3de2</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>01346312-f2d3-4a55-9d93-54a9fbc266cd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit Uang Pokok</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>063b6455-5c37-4b71-be45-f70644a30063</variableId>
+         <variableId>a6b66053-7ea5-4642-a83c-28c3134ffd35</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>108d1462-eb94-4f30-beb5-24319eae8d00</variableId>
+         <variableId>4e994c5e-c315-44f7-ab0c-1ad8122af2d3</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8a98ec95-ad7e-4a5c-b393-ceed7f29ce59</variableId>
+         <variableId>da134157-5813-4399-99a7-9187d3c3dbcc</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>996144c5-f27a-48d7-ace1-2f0af668bef1</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f00c98f0-abf3-4407-97c4-e4e8d310cdde</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit Jumlah Pendanaan Minimal</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>437cef45-0d15-40de-8c35-a31fa2a136a7</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5f810092-e4d2-4f2d-be87-1061ec4d4d49</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit Bunga</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1013347e-3631-40c9-af5b-99ac68f4d66c</variableId>
+         <variableId>eb5cb06a-57e4-405a-83c0-fda21f78a6c3</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>cd70ef44-51be-46dc-8999-cea6ac0cc2ae</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6a757c9e-926d-496d-9792-a7e01bfefc43</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit Tenor</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1901d906-4e2f-44e1-9192-872ae6c4fa2b</variableId>
+         <variableId>a049e64b-7a9d-4231-9b5e-dcbaa7c0c22f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>09239fd2-d656-433c-9afe-03d8920e7940</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ba027dcb-ef8c-4737-859f-9ad853d02bdd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit Pencairan</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>36c0c253-fcc7-47e0-ba23-c8bf0a88c73c</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>41c4ad08-1bdb-4a58-8790-91de3ba48dbd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit Pembayaran Lender</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>928da84a-7902-4116-b93f-83c1d675fcf1</variableId>
+         <variableId>6512d4be-f33b-4145-843c-3b1c4fb8aa24</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ad5a35b2-40e2-486f-994a-b9a8a6615c96</variableId>
+         <variableId>2a33d729-2f2b-47c5-8785-609480236b23</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3dc0ab5a-df89-47b9-a656-9985c467b5c4</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>dcac5899-7117-4233-875e-15c7216e5fba</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit Biaya Lain-lain</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>78ffb56b-d7cd-4ceb-891e-cb9ffd22c626</variableId>
+         <variableId>8a2f93dc-fad6-4e9c-aa74-5c848a2bbcf7</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>26bc254d-bd54-4a03-aaf0-91078b9f3214</variableId>
+         <variableId>8895c041-5d03-48af-8c3a-02ce1770d953</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>289f888d-0db9-4f65-a0ef-056ecb26cdcb</variableId>
+         <variableId>7ccb87cd-b783-46f3-a63a-8d6c2042a640</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e91bafd9-76f0-43d5-9dbc-1da8c134f5ba</variableId>
+         <variableId>68d1747b-cf6b-4aff-bdac-cdbcc1690b2e</variableId>
       </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a5b13163-1096-4c56-9768-5758bae76932</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>340b1142-bba7-4596-ac4c-0bf83740ed8c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit LTV</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b1ee55f4-1619-4c0e-b1bd-b198b48fbe3d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e990ea35-46f5-423f-b978-d30c8a77b2e4</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9e597fa0-ae65-4215-8296-d0a8f0996edb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit Collateral</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>89ff620b-5367-4a50-a319-ab69825b248f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>38d6c0b6-e585-4c76-af12-404505159fe7</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>335d0660-7165-4f29-8287-0d05c294813b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit Denda</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>24e214c5-2b07-4097-bf52-accc6169232c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2d77e5bc-6b37-45cb-9e98-ed8b9b609720</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5046f89d-5310-4e6c-80f4-9706a97c4cb3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>18dcffa2-a355-4369-bc20-91cf0f738baa</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e0c4a315-a9d6-424c-9bb6-1266bfc4145c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit Informasi Tambahan</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8ba7f558-c06c-4ac0-bbe4-fd5192421edd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7f7aab6f-34f6-418e-965b-8bd58a2ac5e0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1a921968-2e06-4d27-b0e4-cf0ebe62ea7a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>39529247-b99c-4919-9692-c784e4dcc6b6</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3ead0ef0-eb94-4af9-9015-f322b20063f2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Edit Detail RM Agen</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9cb0cbcf-ed8c-4d35-b6f9-a717c9b4334b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>05625400-d2b7-41fd-954a-c3fe380a5c92</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1a10bb51-803b-4d3d-9580-bf6bef263277</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>94564148-5761-4055-bd59-f1e7141c7c2c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Loan/Submit edit</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

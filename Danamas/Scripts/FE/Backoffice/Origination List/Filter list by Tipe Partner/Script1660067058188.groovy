@@ -17,16 +17,15 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 //Filter list by Tipe Agent = 'Partner'
 WebUI.callTestCase(findTestCase('FE/Backoffice/Origination List/Filter list by Tipe Agent'), [('tipe_agent') : 'Partner'], FailureHandling.STOP_ON_FAILURE)
 
 //Click dropdown Tipe Partner
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination List/Dropdown - Tipe Partner'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Origination List/Dropdown - Tipe Partner'))
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Origination List/Select - Tipe Partner'), 3)
+WebUI.click(findTestObject('FE/Backoffice/Origination List/Select - Tipe Partner'))
 
 //Select tipe partner option
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Origination List/Option - Tipe Partner', [('tipe_partner') : tipe_partner]), 3)
+//ßWebUI.scrollToElement(findTestObject('FE/Backoffice/Origination List/Option - Tipe Partner', [('tipe_partner') : tipe_partner]), 3)
 WebUI.click(findTestObject('FE/Backoffice/Origination List/Option - Tipe Partner', [('tipe_partner') : tipe_partner]))
 
 WebUI.waitForPageLoad(5)

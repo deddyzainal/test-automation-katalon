@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@formcontrolname = 'username']</value>
+         <value>//*[@formcontrolname = 'email']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>099a467c-eee4-4d44-a5ef-4d5077a63e55</webElementGuid>
+      <webElementGuid>553e6b4d-43b5-4129-a462-01eee7780665</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-form-field-infix ng-tns-c60-0</value>
-      <webElementGuid>074e26bf-d83e-474b-acd0-006b66eef954</webElementGuid>
+      <webElementGuid>42355422-86cb-41f2-8bbc-4714ff3d1b25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Email</value>
-      <webElementGuid>7eb57351-1ab1-4bbc-b2d7-f72d184cd48b</webElementGuid>
+      <webElementGuid>e2091a65-a372-48c4-a725-b5473b920949</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,15 +50,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dashboard-layout&quot;]/div[@class=&quot;d-flex justify-content-center align-items-center min-vh-100&quot;]/app-login-card[1]/div[@class=&quot;login-card&quot;]/div[@class=&quot;px-5 pt-3 pb-5&quot;]/form[@class=&quot;ng-untouched ng-invalid ng-dirty&quot;]/ul[1]/li[1]/mat-form-field[@class=&quot;mat-form-field ng-tns-c60-0 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched mat-focused ng-dirty ng-invalid&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c60-0&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c60-0&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c60-0&quot;]</value>
-      <webElementGuid>3131860d-ba17-4731-8d0b-4cf9edf1334d</webElementGuid>
+      <webElementGuid>99470b67-bc4d-4770-9f00-af2dcf354aac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>c011f1db-7453-451c-ad36-8a01aaf095e1</webElementGuid>
+      <value>email</value>
+      <webElementGuid>90a1baf7-75fd-45d8-9395-9b681c845972</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::div[6]</value>
-      <webElementGuid>cbb2c084-c3c3-41ec-9a00-a1032b7cd6af</webElementGuid>
+      <webElementGuid>70f2964b-147c-4a56-8bc1-5821bb143366</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field/div/div/div</value>
-      <webElementGuid>cd7a6f13-d4fe-4a47-9f26-56263de3a87c</webElementGuid>
+      <webElementGuid>b1418429-a89d-4f93-9c65-2696379891c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Email' or . = 'Email')]</value>
-      <webElementGuid>b5b2a494-5a3c-4bbe-9552-ebfcc80e70b1</webElementGuid>
+      <webElementGuid>422cda9b-3077-4670-8895-698293668934</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
