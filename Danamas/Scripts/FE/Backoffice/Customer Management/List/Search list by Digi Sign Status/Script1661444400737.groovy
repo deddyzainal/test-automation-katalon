@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('FE/Backoffice/Customer Management/Select - Digi Sign Status'))
-WebUI.click(findTestObject('FE/Backoffice/Customer Management/Option - Digi Sign Status', [('digi_sign_status'):digi_sign_status]))
+WebUI.click(findTestObject('FE/Backoffice/Customer Management/List/Select - Digi Sign Status'))
+WebUI.click(findTestObject('FE/Backoffice/Customer Management/List/Option - Digi Sign Status', [('digi_sign_status'):digi_sign_status]))
 
 //Verify Status in the list match with selected option
 WebUI.waitForPageLoad(5)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Customer Management/TextValue - Sign Status'), digi_sign_status.toUpperCase())
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Customer Management/List/TextValue - Sign Status'), digi_sign_status.toUpperCase())

@@ -24,6 +24,6 @@ WebUI.click(findTestObject('FE/Backoffice/Navigation Bar/Menu - Offer Letter'))
 WebUI.waitForPageLoad(5)
 
 //Verify label Offer Letter is visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Offer Letter List/Label - Offering Letter'))
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Offer Letter/List/Label - Offering Letter'))
 
 

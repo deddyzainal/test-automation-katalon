@@ -24,4 +24,4 @@ WebUI.click(findTestObject('FE/Backoffice/Navigation Bar/Menu - Loan Assessment'
 WebUI.waitForPageLoad(5)
 
 //verify label Beranda Loan Assessment visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Assessment List/Label - Beranda Loan Assessment'))
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Label - Beranda Loan Assessment'))

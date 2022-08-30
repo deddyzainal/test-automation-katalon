@@ -18,74 +18,74 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Click button Edit in Offer Detail page
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Offer Letter Detail/Button - Edit'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Offer Letter Detail/Button - Edit'))
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Offer Letter/Detail/Button - Edit'), 3)
+WebUI.click(findTestObject('FE/Backoffice/Offer Letter/Detail/Button - Edit'))
 
 WebUI.waitForPageLoad(3)
 
 //Verify label Buat Surat Penawaran Pinjaman in detail page is present
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Label - Buat Surat Penawaran Pinjaman'))
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Label - Buat Surat Penawaran Pinjaman'))
 
 //Input Borrower's Name
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Borrower Name'), borrower_name)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Borrower Name'), borrower_name)
 
 //Input Loan Amount
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Loan Amount'), loan_amount)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Loan Amount'), loan_amount)
 
 //Input Tenure
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Tenure'), tenure)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Tenure'), tenure)
 
 //Input Interest
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Interest'), interest)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Interest'), interest)
 
 //Select Collateral Type
-WebUI.selectOptionByValue(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Select - Collateral Type'), collateral_type, false)
+WebUI.selectOptionByValue(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Select - Collateral Type'), collateral_type, false)
 
 //Input Collateral Address
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Collateral Address'), collateral_address)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Collateral Address'), collateral_address)
 
 //Input Certificate Number
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Certificate Number'), certificate_number)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Certificate Number'), certificate_number)
 
 //Input Land Size and Building Size
 if (collateral_type == 'Rumah') {
-	WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Land Size'), land_size)
+	WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Land Size'), land_size)
 
-	WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Building Size'), building_size)
+	WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Building Size'), building_size)
 }
 else if (collateral_type == 'Tanah Produktif') {
-	WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Land Size'), land_size)
+	WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Land Size'), land_size)
 }
 else if (collateral_type == 'Apartemen' || collateral_type == 'Ruko') {
-	WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Building Size'), building_size)
+	WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Building Size'), building_size)
 }
 
 //Input Provision
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Provision'), provision)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Provision'), provision)
 
 //Input Provision Fee
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Provision Fee'), provision_fee)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Provision Fee'), provision_fee)
 
 //Input Administration
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Administration'), administration)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Administration'), administration)
 
 //Input Life Insurance Fee
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Life Insurance Fee'), life_insurance_fee)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Life Insurance Fee'), life_insurance_fee)
 
 //Input Fire Insurance Fee
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Fire Insurance Fee'), fire_insurance_fee)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Fire Insurance Fee'), fire_insurance_fee)
 
 //Input Notary Fee
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Notary Fee'), notary_fee)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Notary Fee'), notary_fee)
 
 //Input Advance Penalty Fee
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Advance Penalty Fee'), advance_penalty_fee)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Advance Penalty Fee'), advance_penalty_fee)
 
 //Input Late Penalty Fee
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Input - Late Penalty Fee'), late_penalty_fee)
+WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Late Penalty Fee'), late_penalty_fee)
 
 //Click button Continue
-WebUI.click(findTestObject('FE/Backoffice/Offer Letter Detail/Offer Letter Edit/Button - Continue'))
+WebUI.click(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Button - Continue'))
 
 //Verify label Ringkasan is present
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Offer Letter Detail/Ringkasan/Label - Ringkasan'))
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Offer Letter/Detail/Ringkasan/Label - Ringkasan'))

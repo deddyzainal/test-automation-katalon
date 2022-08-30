@@ -36,7 +36,7 @@
       <guid>fbc56e68-d715-4662-ad11-a824ca326707</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination List/Filter list by ID Pinjaman</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Loan Origination/List/Filter list by ID Pinjaman</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -49,21 +49,21 @@
       <guid>6d7fe0ec-344a-412a-b0a4-ea7652a81a91</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination List/Open loan detail</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Loan Origination/List/Open loan detail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>62917461-6f19-4da5-90bf-12b24b785c34</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Open tab Rincian Biaya Pinjaman</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Loan Origination/Detail/Open tab Rincian Biaya Pinjaman</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f0ce7ad9-f4e1-4824-8050-b96962387aa2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Rincian Pinjaman</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Loan Origination/Detail/Edit Rincian Pinjaman</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -100,14 +100,14 @@
       <guid>122036f8-99bd-43fb-8fc8-909a53e6693a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Open tab Detail Agunan</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Loan Origination/Detail/Open tab Detail Agunan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2f15de13-9bc9-4a8f-b08d-4f6f22be5515</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Origination Detail/Edit Informasi Agunan</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Loan Origination/Detail/Edit Informasi Agunan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

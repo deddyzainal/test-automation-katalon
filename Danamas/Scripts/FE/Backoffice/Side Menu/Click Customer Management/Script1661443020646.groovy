@@ -17,12 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click menu Offer Letter
+//Click menu Customer Management
 WebUI.click(findTestObject('FE/Backoffice/Navigation Bar/Menu - Customer Management'))
 
 WebUI.waitForPageLoad(5)
 
-//Verify label Offer Letter is visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Customer Management/Label - Customer Management'), FailureHandling.STOP_ON_FAILURE)
+//Verify label Customer Management is visible
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Customer Management/List/Label - Customer Management'), FailureHandling.STOP_ON_FAILURE)
 
 

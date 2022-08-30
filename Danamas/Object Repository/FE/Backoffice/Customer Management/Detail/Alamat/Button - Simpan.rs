@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Simpan</name>
+   <tag></tag>
+   <elementGuidId>5236eec4-9f8f-400a-bbf0-612be30450b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-edit-informasi-alamat/footer//div[text()='Simpan']/parent::button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>8a5a989f-cfda-4441-8afe-57dab160ab44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1661790395792</value>
+      <webElementGuid>3cce17b9-6f8c-4b6c-abb2-ad17aab1593a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -25,7 +25,7 @@ WebUI.click(findTestObject('FE/Backoffice/Navigation Bar/Menu - Loan Origination
 WebUI.waitForPageLoad(5)
 
 //Verify label Loan Origination is visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Origination List/Label - Loan Origination'))
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Origination/List/Label - Loan Origination'))
 
 
 

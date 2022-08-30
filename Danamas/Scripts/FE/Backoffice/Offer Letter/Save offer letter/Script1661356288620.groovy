@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Click button Save in Ringkasan page
-WebUI.click(findTestObject('FE/Backoffice/Offer Letter Detail/Ringkasan/Button - Save'))
+WebUI.click(findTestObject('FE/Backoffice/Offer Letter/Detail/Ringkasan/Button - Save'))
 
 //Verify success snackbar is shown
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Snackbar Text'), 5, FailureHandling.STOP_ON_FAILURE)

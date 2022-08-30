@@ -18,9 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Click data on the list
-WebUI.click(findTestObject('FE/Backoffice/Offer Letter List/TextValue - ID Pinjaman', [('id_pinjaman'):id_pinjaman]))
+WebUI.click(findTestObject('FE/Backoffice/Offer Letter/List/TextValue - ID Pinjaman', [('id_pinjaman'):id_pinjaman]))
 
 WebUI.waitForPageLoad(3)
 
 //Verify label Offering Letter is present in the detail page
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Offer Letter Detail/Label - Offering Letter'))
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Offer Letter/Detail/Label - Offering Letter'))

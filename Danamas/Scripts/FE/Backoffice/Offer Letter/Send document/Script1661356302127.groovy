@@ -18,11 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Click button Send Document in Ringkasan page
-WebUI.click(findTestObject('FE/Backoffice/Offer Letter Detail/Ringkasan/Button - Send Document'))
+WebUI.click(findTestObject('FE/Backoffice/Offer Letter/Detail/Ringkasan/Button - Send Document'))
 
 //Click button Ya, Kirim Sekarang in modal comfirmation
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Offer Letter Detail/Ringkasan/Button - Ya, kirim sekarang'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Offer Letter Detail/Ringkasan/Button - Ya, kirim sekarang'))
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Offer Letter/Detail/Ringkasan/Button - Ya, kirim sekarang'), 3)
+WebUI.click(findTestObject('FE/Backoffice/Offer Letter/Detail/Ringkasan/Button - Ya, kirim sekarang'))
 
 //Verify success snackbar is shown
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Snackbar Text'), 5, FailureHandling.STOP_ON_FAILURE)

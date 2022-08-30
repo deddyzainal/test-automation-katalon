@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Option - Branch City</name>
+   <tag></tag>
+   <elementGuidId>94a5f7e7-777f-489b-9cf3-2e700ce51468</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//lancar-input//input[@formcontrolname='branchCityTemp']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${branch_city} ']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-4 > span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b85d1ed0-1814-4b1b-acbd-b1f212da950d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>be07d9ac-116c-486f-8e98-9c6b3c601ce2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-4&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>5b6b1639-d275-43d8-a9d7-769d5e8f884c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-4']/span</value>
+      <webElementGuid>f6398061-dacb-4f51-bad5-080f41a7b77b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::span[1]</value>
+      <webElementGuid>1d03cae2-70ec-49bb-92d7-900baa0f7155</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::span[2]</value>
+      <webElementGuid>8baccc50-c88d-49b2-bece-faebad5e1e53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submitted'])[1]/preceding::span[1]</value>
+      <webElementGuid>a11db320-435c-42da-9c57-f081bb6491e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved'])[1]/preceding::span[2]</value>
+      <webElementGuid>2fe7187d-5d99-4e69-9339-2af6e7320a79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Passed']/parent::*</value>
+      <webElementGuid>a6b96465-599f-467a-91e3-e995f86cfa81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[3]/span</value>
+      <webElementGuid>77516a0a-0e2d-44b0-8a30-b534abe9a8f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Passed ' or . = ' Passed ')]</value>
+      <webElementGuid>8094e608-cc53-4c5f-ad39-0fe54a2e5334</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

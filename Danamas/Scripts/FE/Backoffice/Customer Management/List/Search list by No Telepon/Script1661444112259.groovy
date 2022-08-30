@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Customer Management/Input - No Telepon'), no_telepon)
+CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Customer Management/List/Input - No Telepon'), no_telepon)
 
 //Verify No Telepon in the list match with inputted text
 WebUI.waitForPageLoad(5)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Customer Management/TextValue - No Telepon'), no_telepon)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Customer Management/List/TextValue - No Telepon'), '+62' + no_telepon)

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Option - Agama</name>
+   <tag></tag>
+   <elementGuidId>d7c8c756-2b2e-4375-a9c6-e731de632b8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//lancar-input//input[@formcontrolname='religion']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${agama} ']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-4 > span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>78ca5445-db57-49bf-8d52-c1c0a23238c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>e894e250-6332-47a1-8117-b4723e1fd68a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-4&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>bba572d0-d4e1-44aa-9a6c-78298ca5dfa9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-4']/span</value>
+      <webElementGuid>434ede53-4c4d-4188-a574-0598b660ddc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::span[1]</value>
+      <webElementGuid>47fa3ab3-09e1-4fc8-9de5-506313c3d332</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::span[2]</value>
+      <webElementGuid>402a3e6c-735b-44a4-9a4b-ff6cf5f6b4ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submitted'])[1]/preceding::span[1]</value>
+      <webElementGuid>6c03e00b-a0b9-4e11-9187-584049b4f3ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved'])[1]/preceding::span[2]</value>
+      <webElementGuid>51bf396c-9bf8-458d-90fd-c77c003729ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Passed']/parent::*</value>
+      <webElementGuid>07ac9076-178b-4dd8-94ad-c3cba68d169e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[3]/span</value>
+      <webElementGuid>8008938c-f8f6-48f8-bded-2617ae9f1a4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Passed ' or . = ' Passed ')]</value>
+      <webElementGuid>935d6b2f-08fd-4682-96bd-d730361dc3df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

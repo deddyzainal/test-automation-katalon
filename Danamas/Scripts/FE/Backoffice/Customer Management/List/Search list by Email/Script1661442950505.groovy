@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Customer Management/Input - Email'), email)
+CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Customer Management/List/Input - Email'), email)
 
 //Verify Email in the list match with inputted text
 WebUI.waitForPageLoad(5)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Customer Management/TextValue - Email'), email)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Customer Management/List/TextValue - Email'), email)
