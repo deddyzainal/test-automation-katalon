@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Faktur Perusahaan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3a62c1a-a460-4708-8c30-c9ac729b0ed0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c6c9e900-d0a2-4795-9f14-cc00bb2ad47a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/faktur-penjualan-1.jpeg'</defaultValue>
+      <description></description>
+      <id>c6c9e900-d0a2-4795-9f14-cc00bb2ad47a</id>
+      <masked>false</masked>
+      <name>fakturPerusahaanFilepath</name>
+   </variable>
+</TestCaseEntity>

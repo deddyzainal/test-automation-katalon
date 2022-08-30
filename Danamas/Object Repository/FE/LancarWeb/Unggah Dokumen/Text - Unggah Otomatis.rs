@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text - Unggah Otomatis</name>
+   <tag></tag>
+   <elementGuidId>014a3caa-7463-4761-affe-1e7a20b19fb1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-2']/app-bricks-upload-dialog/div/div/section/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>209366d9-82c8-4a3a-bca9-761976c1164d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Unggah Otomatis</value>
+      <webElementGuid>04d81925-2d93-4b7c-bcfe-687665e669da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-2&quot;)/app-bricks-upload-dialog[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;brick-wrapper&quot;]/section[@class=&quot;brick-option&quot;]/div[@class=&quot;text&quot;]/h1[1]</value>
+      <webElementGuid>fba27c2e-b864-4a60-b67d-0c4e26962b6f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-2']/app-bricks-upload-dialog/div/div/section/div/h1</value>
+      <webElementGuid>2845c116-3904-4405-b10c-65251c8cf1a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='©2022 Lancar. Hak cipta dilindungi undang-undang.'])[1]/following::h1[1]</value>
+      <webElementGuid>cef144b1-b6f5-48dd-8666-987bdeb4f65a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kantor Operasional'])[1]/following::h1[1]</value>
+      <webElementGuid>0a1875fd-ee04-4714-a504-19bc720ee1c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prosesnya praktis, simpel, dan peluang pinjaman Anda disetujui lebih besar.'])[1]/preceding::h1[1]</value>
+      <webElementGuid>194fbb18-b19c-4a42-9f01-a6faed63a7e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by Brick'])[1]/preceding::h1[1]</value>
+      <webElementGuid>2162cc16-109f-404f-8846-4bd2fb931b3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Unggah Otomatis']/parent::*</value>
+      <webElementGuid>7d9fb0bd-ad44-4c68-b633-b1d0e14f7742</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>b643b75f-ceb0-439b-9e9a-70d3958d6d43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Unggah Otomatis' or . = 'Unggah Otomatis')]</value>
+      <webElementGuid>730ecfdf-8bc2-4973-8fab-33263d9f0ec2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

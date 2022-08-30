@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Foto Akses Jalan Masuk ke Agunan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de6090ce-f5c7-48a8-891a-bb4dd0da7d1e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>635bb068-ce3d-4f21-99a4-ead6b6b02f38</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/akses_jalan_masuk.jpeg'</defaultValue>
+      <description></description>
+      <id>635bb068-ce3d-4f21-99a4-ead6b6b02f38</id>
+      <masked>false</masked>
+      <name>aksesJalanFilepath</name>
+   </variable>
+</TestCaseEntity>

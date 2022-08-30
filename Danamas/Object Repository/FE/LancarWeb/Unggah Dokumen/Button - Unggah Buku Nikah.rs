@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Unggah Buku Nikah</name>
+   <tag></tag>
+   <elementGuidId>82a1000d-0aa8-405f-935c-6fa94a4be2d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.rectangle-464-electric.desktop-disclaimer.pointer.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='list']/ul/li[5]/app-doc/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2ab64c30-06c3-4dce-9365-ec7555ac54f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rectangle-464-electric desktop-disclaimer pointer ng-star-inserted</value>
+      <webElementGuid>c8afe8a6-d1b0-469b-9091-48066f266eef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Unggah</value>
+      <webElementGuid>de6bf187-0f99-47bc-a371-445759fac51d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[text()=&quot;Buku Nikah&quot;]/ancestor::app-doc//button/span</value>
+      <webElementGuid>84a6ebed-6573-452d-bd5c-f9c52674e56d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='list']/ul/li[5]/app-doc/div/button</value>
+      <webElementGuid>bd205ec9-ecd7-480e-90c2-b98a2759cb31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Agunan'])[1]/following::button[5]</value>
+      <webElementGuid>9f19c36c-ecd7-46c1-a70d-8470a4364895</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Finansial'])[1]/following::button[5]</value>
+      <webElementGuid>9aa7341c-7026-4fa2-b9c3-3c384703d0a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KIRIM'])[1]/preceding::button[1]</value>
+      <webElementGuid>98751a21-4fa3-4033-b8a2-2f99d12043cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/app-doc/div/button</value>
+      <webElementGuid>32453a8a-ac4a-4f49-a53a-1cc655d256d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Unggah' or . = 'Unggah')]</value>
+      <webElementGuid>47ec1aa5-1bba-4c22-be06-5e3be2ba17b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

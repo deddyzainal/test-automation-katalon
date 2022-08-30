@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Unggah Sertifikat Kepemilikan</name>
+   <tag></tag>
+   <elementGuidId>94715904-f2ba-4f2f-b35b-67752290e42b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='list']/ul/li[3]/app-doc/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e51624c8-7818-4128-a66a-af39ddf37f4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rectangle-464-electric desktop-disclaimer pointer ng-star-inserted</value>
+      <webElementGuid>1f3c9f76-d2b6-4413-a308-2a3280078758</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Unggah</value>
+      <webElementGuid>c086da51-53fe-4a4f-b2a3-33141c62403f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[text()=&quot;Sertifikat Kepemilikan (SHM/SHGB/SHMSRS)&quot;]/ancestor::app-doc//button/span</value>
+      <webElementGuid>2f98d2ff-1e2b-471e-922c-2ba34301e6f5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='list']/ul/li[3]/app-doc/div/button</value>
+      <webElementGuid>19a53e77-0012-480a-8cae-93f41b85ed5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unggah'])[2]/following::button[1]</value>
+      <webElementGuid>e571b4c0-a933-4f1b-9175-72c7ad2da0e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unggah'])[1]/following::button[2]</value>
+      <webElementGuid>a4ad9ccd-12ec-4fd6-b3dc-1148748091c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unggah'])[4]/preceding::button[1]</value>
+      <webElementGuid>a9053b6a-b663-470a-a0a2-bde1826f4ecd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/app-doc/div/button</value>
+      <webElementGuid>c1ce9e0b-6ce3-4cc3-9419-e8efbfe5cb78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Unggah' or . = 'Unggah')]</value>
+      <webElementGuid>2da53f63-b6cd-423b-895f-254792ddabf3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

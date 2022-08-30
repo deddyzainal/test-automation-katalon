@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Upload Selfie dengan KTP</name>
+   <tag></tag>
+   <elementGuidId>85e111dd-723a-4703-a841-252eb4eb6961</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//img[@alt=&quot;'icon-camera'&quot;])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>9cececeb-7c05-4f2d-9518-ba83b083f162</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../../../assets/icons/Upload.svg</value>
+      <webElementGuid>1d499844-1ab6-463c-96ae-5dc52cbc33b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>'icon-camera'</value>
+      <webElementGuid>e1414afa-bb13-4c36-89a0-b3d5d2ccc377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[text()=&quot;Selfie dengan KTP&quot;]/ancestor::app-upload-field//img</value>
+      <webElementGuid>106d92f4-acbe-40a7-bd7d-b420913afc45</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[@alt=&quot;'icon-camera'&quot;])[2]</value>
+      <webElementGuid>086716c5-74d8-41ae-879c-57ca2d1750a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/app-upload-field/div/div/div[2]/div/img</value>
+      <webElementGuid>c7b6547f-2061-4ce9-955a-1f975e1c44b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '../../../assets/icons/Upload.svg' and @alt = concat(&quot;'&quot; , &quot;icon-camera&quot; , &quot;'&quot;)]</value>
+      <webElementGuid>d29771ba-781d-4dff-aac2-551521fd5456</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

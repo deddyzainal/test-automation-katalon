@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Buku Nikah</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b2f2aeb-cfeb-4232-a1cd-81c47c53f1a6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>692b6b58-2829-4138-b4f2-242d014b650e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/buku-nikah.jpeg'</defaultValue>
+      <description></description>
+      <id>692b6b58-2829-4138-b4f2-242d014b650e</id>
+      <masked>false</masked>
+      <name>bukuNikahFilepath</name>
+   </variable>
+</TestCaseEntity>

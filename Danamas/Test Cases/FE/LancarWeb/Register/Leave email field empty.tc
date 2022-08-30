@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Leave email field empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e031ab41-2a8a-4e32-8dd1-ebb522c00b4c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af7e61b3-1819-4908-aac3-55c9266f3e87</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a463a64f-8f4a-4363-b1ae-e1ec3a39e754</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fdbdb364-ba3d-4d3e-8d04-8612e05696a4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon Test'</defaultValue>
+      <description></description>
+      <id>af7e61b3-1819-4908-aac3-55c9266f3e87</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Danamas.123!'</defaultValue>
+      <description></description>
+      <id>a463a64f-8f4a-4363-b1ae-e1ec3a39e754</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'QPTS02402675'</defaultValue>
+      <description></description>
+      <id>fdbdb364-ba3d-4d3e-8d04-8612e05696a4</id>
+      <masked>false</masked>
+      <name>referralCode</name>
+   </variable>
+</TestCaseEntity>

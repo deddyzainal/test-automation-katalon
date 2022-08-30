@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Akta Cerai or Surat Kematian</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9369ea15-3702-49b8-af68-6e706c792ec0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2190a924-82ff-4edf-bfa2-b77481a3e6b0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/akta-cerai.jpeg'</defaultValue>
+      <description></description>
+      <id>2190a924-82ff-4edf-bfa2-b77481a3e6b0</id>
+      <masked>false</masked>
+      <name>aktaCeraiFilepath</name>
+   </variable>
+</TestCaseEntity>

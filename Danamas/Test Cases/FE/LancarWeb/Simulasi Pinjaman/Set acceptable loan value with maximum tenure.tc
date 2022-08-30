@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Set acceptable loan value with maximum tenure</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>dbe32567-9f96-4887-9734-4381d90ec3b6</testCaseGuid>
-</TestCaseEntity>

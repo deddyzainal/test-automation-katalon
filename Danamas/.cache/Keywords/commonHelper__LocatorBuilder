@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "3DEEDA3E94D55B0927E39372F4F4F3E0",
+  "keywordClasses": [
+    {
+      "name": "commonHelper.LocatorBuilder",
+      "keywordMethods": [
+        {
+          "name": "buildTestObject",
+          "parameters": [
+            {
+              "name": "selectorType",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "selectorValue",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

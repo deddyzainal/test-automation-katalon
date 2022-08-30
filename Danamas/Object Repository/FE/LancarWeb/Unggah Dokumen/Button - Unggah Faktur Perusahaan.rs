@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Unggah Faktur Perusahaan</name>
+   <tag></tag>
+   <elementGuidId>4f18e844-4943-47d8-a31f-4a8db1ebcc5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='list']/ul/li[2]/app-doc/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>49e0acc8-75b0-4f0b-9a63-bd86ce87fa50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rectangle-464-electric desktop-disclaimer pointer ng-star-inserted</value>
+      <webElementGuid>76356e48-f9f3-41b3-8542-1bd09c819230</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Unggah</value>
+      <webElementGuid>57b3e88b-f2b5-491c-a805-425d02395a71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[text()=&quot;Faktur Perusahaan (3 Bulan Terakhir)&quot;]/ancestor::app-doc//button/span</value>
+      <webElementGuid>2560c9cb-a526-4847-8e62-e0ce546ce066</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='list']/ul/li[2]/app-doc/div/button</value>
+      <webElementGuid>2a566541-188e-480f-92ce-592acc786740</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unggah'])[1]/following::button[1]</value>
+      <webElementGuid>0ab85400-dea9-40b3-afe3-106fbc0d6f4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Agunan'])[1]/following::button[2]</value>
+      <webElementGuid>b894f52f-79bc-4e07-a679-3fd77083c8b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unggah'])[3]/preceding::button[1]</value>
+      <webElementGuid>68d8117b-fc22-421a-8ddf-304ff4f8277c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/app-doc/div/button</value>
+      <webElementGuid>0eac1911-eed3-4284-bca8-03206d2b6855</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Unggah' or . = 'Unggah')]</value>
+      <webElementGuid>46d16abc-fc12-4b5f-b51b-9d053b0d62df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

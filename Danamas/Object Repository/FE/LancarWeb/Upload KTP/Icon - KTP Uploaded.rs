@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Icon - KTP Uploaded</name>
+   <tag></tag>
+   <elementGuidId>6991faef-3b50-4b75-aa39-a2c06eb2f287</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[text()=&quot;KTP&quot;]/ancestor::app-upload-field//img[@class=&quot;sample-button&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[text()=&quot;KTP&quot;]/ancestor::app-upload-field//img[@class=&quot;sample-button&quot;]</value>
+      <webElementGuid>038538eb-f92e-42f7-87b4-77250767470e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>image</value>
+      <webElementGuid>cf21c0dc-7664-400c-bd3f-da174cdb0835</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

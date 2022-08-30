@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Image - Logo Lancar</name>
+   <tag></tag>
+   <elementGuidId>35101649-5d22-4bb6-a9ab-677eb5839db4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='logo Lancar']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.logo-lancar</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>1f8cda74-8fae-47e1-b173-82026a5ec74f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>logo-lancar</value>
+      <webElementGuid>afe2ea78-386d-436e-bd61-4396d0a012e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>./assets/logo/logo-lancar-black-text.svg</value>
+      <webElementGuid>692a6ad8-9b75-4f36-86a2-58c408029227</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>logo Lancar</value>
+      <webElementGuid>18deb38a-0ffd-4b8f-9a29-586091f2d414</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-property-calculator[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;property-value-wrapper&quot;]/app-background-triangle[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;background-triangle&quot;]/app-header[@class=&quot;w-100&quot;]/div[@class=&quot;header-container header-transparent&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;header-wrapper&quot;]/div[@class=&quot;logo-section&quot;]/a[1]/img[@class=&quot;logo-lancar&quot;]</value>
+      <webElementGuid>c4ac637f-b19e-4896-b600-08b7d586cda5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='logo Lancar']</value>
+      <webElementGuid>d698093c-4bba-4d60-9e3b-73eef2de0b43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>45a6c52f-110d-49a0-b5a4-d6e6169cf6c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = './assets/logo/logo-lancar-black-text.svg' and @alt = 'logo Lancar']</value>
+      <webElementGuid>66288b88-fcb5-41c6-84f5-3bc3b414cf86</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

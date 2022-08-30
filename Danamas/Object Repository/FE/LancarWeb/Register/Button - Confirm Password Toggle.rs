@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Confirm Password Toggle</name>
+   <tag></tag>
+   <elementGuidId>5eda2458-fa00-42d1-b2c3-e71eec1a7725</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.suffix.ng-tns-c58-5.ng-star-inserted > img.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-input[6]/div/mat-form-field/div/div/div[2]/span/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>d93b1a95-d708-4fa3-bcc9-0e226cd33861</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/icons/eye-show.svg</value>
+      <webElementGuid>3d3109db-506a-4825-99d9-32205c4bea76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>48001435-935d-4ed0-bb77-e37c0e7cf59b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//mat-form-field[@name=&quot;passwordConfirm&quot;]//img</value>
+      <webElementGuid>fbf58254-0f80-4b68-97d8-e212dff47a55</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-input[6]/div/mat-form-field/div/div/div[2]/span/img</value>
+      <webElementGuid>ac238fb4-be8e-4279-8973-a79d549418fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/icons/eye-show.svg']</value>
+      <webElementGuid>e77ab037-66db-42fe-92a4-a8d268cb35e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

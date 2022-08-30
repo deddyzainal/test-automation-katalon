@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload populated KTP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f4a72ed-4806-4eda-a035-c54788161fcb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c36367e2-4af3-408f-9999-e64223f37eec</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/DEBBY_ANGGRAINI.png'</defaultValue>
+      <description></description>
+      <id>c36367e2-4af3-408f-9999-e64223f37eec</id>
+      <masked>false</masked>
+      <name>populatedKTP</name>
+   </variable>
+</TestCaseEntity>

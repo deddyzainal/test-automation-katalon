@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Izin Usaha</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d50fdc49-2ebc-4de8-8aef-733fd9ccdfaf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea490272-b0bd-4694-b49d-0349420e13b0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/siup.jpeg'</defaultValue>
+      <description></description>
+      <id>ea490272-b0bd-4694-b49d-0349420e13b0</id>
+      <masked>false</masked>
+      <name>izinUsahaFilepath</name>
+   </variable>
+</TestCaseEntity>

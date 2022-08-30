@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Izin Praktik</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8da23fbc-1f3c-4996-abfe-48a9330be03d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d31cb27-e6fd-4b0d-a9a2-8ae39a18db3e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/izin-praktik.jpeg'</defaultValue>
+      <description></description>
+      <id>6d31cb27-e6fd-4b0d-a9a2-8ae39a18db3e</id>
+      <masked>false</masked>
+      <name>izinPraktikFilepath</name>
+   </variable>
+</TestCaseEntity>

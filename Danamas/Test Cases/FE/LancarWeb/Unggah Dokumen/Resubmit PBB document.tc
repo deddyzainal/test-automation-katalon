@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Resubmit PBB document</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>435de4fd-b326-44d8-b309-bb2139a34fe3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad0dcdad-4a64-4c2d-8a89-c149b18422c1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/pbb.jpeg'</defaultValue>
+      <description></description>
+      <id>ad0dcdad-4a64-4c2d-8a89-c149b18422c1</id>
+      <masked>false</masked>
+      <name>pbbFilepath</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload IMB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>259352ba-1e06-48b2-87d3-6b9d26bbdc23</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f5c6ae1-8944-40f3-b827-c90a7ce5215d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/pbb.jpeg'</defaultValue>
+      <description></description>
+      <id>7f5c6ae1-8944-40f3-b827-c90a7ce5215d</id>
+      <masked>false</masked>
+      <name>IMBfilepath</name>
+   </variable>
+</TestCaseEntity>

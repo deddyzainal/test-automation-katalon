@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text - Approved Loan ID</name>
+   <tag></tag>
+   <elementGuidId>f5deec7d-89cb-4cf3-96fc-fbafdcfce0d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Aug 23, 2022'])[1]/following::td[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>80424c03-f6a7-4dfc-95b2-3e1346aa7434</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>e4fc00ac-e9ab-4218-ae1a-f620b6e9f5fa</value>
+      <webElementGuid>e5482af0-c262-42a9-9d04-288d822d9f44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table//*[contains(text(), &quot;e4fc00ac-e9ab-4218-ae1a-f620b6e9f5fa&quot;)]</value>
+      <webElementGuid>147872ba-d5bd-4596-8b17-3957982b11ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aug 23, 2022'])[1]/following::td[1]</value>
+      <webElementGuid>f4df032a-2e67-4d22-9b8b-a5946f7efbff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mansyur Hidayat'])[1]/following::td[2]</value>
+      <webElementGuid>d3355ebb-e424-437b-a12b-4a48d856c1e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KC-KFN-0822-23-0007'])[1]/preceding::td[1]</value>
+      <webElementGuid>df65e179-e344-46f2-bba1-a25a96290de4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='APPROVED'])[7]/preceding::td[2]</value>
+      <webElementGuid>e14074a1-07f2-4f57-844c-ba1c9f1a4751</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='e4fc00ac-e9ab-4218-ae1a-f620b6e9f5fa']/parent::*</value>
+      <webElementGuid>c6827cf4-b587-4ad9-9d3b-b1e45d2fedaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[8]/td</value>
+      <webElementGuid>a4fcbacc-1594-48ce-bd6e-201bc2b36748</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'e4fc00ac-e9ab-4218-ae1a-f620b6e9f5fa' or . = 'e4fc00ac-e9ab-4218-ae1a-f620b6e9f5fa')]</value>
+      <webElementGuid>115a4512-09a5-45fc-a10d-cb9219f39890</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

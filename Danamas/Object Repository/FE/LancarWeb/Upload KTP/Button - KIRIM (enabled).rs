@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - KIRIM (enabled)</name>
+   <tag></tag>
+   <elementGuidId>396ed079-623f-40ca-bc3b-1e910ca92b3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>app-button.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Selamat Datang, Test 20220809162222'])[1]/following::app-button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>app-button</value>
+      <webElementGuid>404c6c34-0b73-4c38-b34b-691e62c78ff6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>e490c331-30f6-47b4-822b-068e9f8e4c89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>KIRIM</value>
+      <webElementGuid>df290251-95a2-4727-9290-8f061a0ce077</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class=&quot;action desktop&quot;]//button[not(@disabled)]//*[text()=&quot;KIRIM&quot;]</value>
+      <webElementGuid>8d20b730-c5b7-4e28-84f5-97620dc5c503</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selamat Datang, Test 20220809162222'])[1]/following::app-button[1]</value>
+      <webElementGuid>b2dfc0b3-dcf6-4d0e-a1c4-36bc7fafe2f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KELUAR'])[1]/following::app-button[1]</value>
+      <webElementGuid>eeb9f3cf-e1f4-40fd-8936-4204de9cc194</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-button</value>
+      <webElementGuid>a4f10f52-a880-42ef-b0e3-5ff1b688c6c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//app-button[(text() = 'KIRIM' or . = 'KIRIM')]</value>
+      <webElementGuid>ddaeebd7-9509-48a6-8213-b27144a113e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

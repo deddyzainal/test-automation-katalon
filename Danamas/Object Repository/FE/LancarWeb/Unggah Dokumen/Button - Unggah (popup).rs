@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Unggah (popup)</name>
+   <tag></tag>
+   <elementGuidId>057b784a-fa91-4f99-b38e-9385c847fd9a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.btn-upload.mat-flat-button.mat-button-base.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-1']/app-single-upload-dialog/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>282f9752-a3d6-4aaf-9c33-15ae6c1ea92d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator btn-upload mat-flat-button mat-button-base ng-star-inserted</value>
+      <webElementGuid>f87a6c57-6a79-405a-bb2e-92754789c29c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Unggah </value>
+      <webElementGuid>c839a6ac-b7cd-41e5-9b56-3220ea2bb741</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//mat-dialog-container//button//*[contains(text(), &quot;Unggah&quot;)]</value>
+      <webElementGuid>e3eb5e75-6d95-422d-95d3-289f3cde7d7d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-1']/app-single-upload-dialog/div/button</value>
+      <webElementGuid>7e1640e3-1692-4d03-a5af-3320ae483b06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buku Nikah'])[2]/following::button[1]</value>
+      <webElementGuid>687f5c0e-ce90-4138-b025-2108594ef7be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='©2022 Lancar. Hak cipta dilindungi undang-undang.'])[1]/following::button[1]</value>
+      <webElementGuid>5bbae732-e1ce-4918-a3a1-3c71b5803c5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIMPAN'])[1]/preceding::button[1]</value>
+      <webElementGuid>f7f9f4a2-0d15-4c26-8b35-7bab08f601b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-single-upload-dialog/div/button</value>
+      <webElementGuid>0de94de7-ad49-41d9-acdf-5d551db54c3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Unggah ' or . = ' Unggah ')]</value>
+      <webElementGuid>87c6e00b-595b-4a2f-8eff-743b1beb7d42</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

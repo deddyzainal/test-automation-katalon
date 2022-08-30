@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - YA, AJUKAN PERUBAHAN</name>
+   <tag></tag>
+   <elementGuidId>899a8545-94b6-4e84-b602-adf96bf06cd6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary-darkblue-main.inter-400-14.white</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/app-email-reject-dialog/div/div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>019ccdbc-a256-4e88-816c-d087749b586a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary-darkblue-main inter-400-14 white</value>
+      <webElementGuid>7d6eabe5-ceca-4d77-ac1c-ce518312e32d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> YA, AJUKAN PERUBAHAN -> </value>
+      <webElementGuid>f53c0a59-abfd-4b0d-9010-1713bec8780c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/app-email-reject-dialog[@class=&quot;ng-star-inserted&quot;]/div[1]/div[3]/button[@class=&quot;btn btn-primary-darkblue-main inter-400-14 white&quot;]</value>
+      <webElementGuid>e7478ea3-078f-4b4e-99e7-fb2d03bea734</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-email-reject-dialog/div/div[3]/button</value>
+      <webElementGuid>523e0f3d-9060-45f8-8393-acf92649b04a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BATAL'])[1]/following::button[1]</value>
+      <webElementGuid>32eaf262-c299-4027-bdb9-0576ecc4e98f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apakah penawaran ini belum sesuai untuk Anda?'])[1]/following::button[1]</value>
+      <webElementGuid>150de9fb-3ec9-42ab-82f5-59a26c77e1c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='YA, AJUKAN PERUBAHAN ->']/parent::*</value>
+      <webElementGuid>e3b87f73-349e-4eb1-9455-b165050a2f37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-email-reject-dialog/div/div[3]/button</value>
+      <webElementGuid>5cd3684a-6c55-472b-8528-f007eba66aa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' YA, AJUKAN PERUBAHAN -> ' or . = ' YA, AJUKAN PERUBAHAN -> ')]</value>
+      <webElementGuid>31373171-31b1-4408-b161-dff2ff2bfd83</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

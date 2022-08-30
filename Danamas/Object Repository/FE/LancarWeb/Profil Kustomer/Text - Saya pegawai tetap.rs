@@ -6,23 +6,26 @@
    <elementGuidId>72806658-9971-40bf-8eb0-69325d1c30f5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='swiper-wrapper-8d4210bfeb91508e5']/div[3]/app-profession-card/div/h5</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[(text() = 'Saya pegawai tetap' or . = 'Saya pegawai tetap')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>361169bb-60b5-4ee3-93c3-d01320af8aaf</webElementGuid>
+      <webElementGuid>1fb2240e-8d38-4531-92cc-0eff0a6af5e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +33,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Saya pegawai tetap</value>
-      <webElementGuid>fb7718b9-cacb-4d0d-8368-880cddcdd7a9</webElementGuid>
+      <webElementGuid>48f2ce1e-6151-49bb-a184-0f89e38aeae9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +41,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;swiper-wrapper-8d4210bfeb91508e5&quot;)/div[@class=&quot;swiper-slide ng-star-inserted&quot;]/app-profession-card[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;profession-card-wrapper&quot;]/h5[1]</value>
-      <webElementGuid>2c7f5181-c634-4199-b45c-ef273ea3cd7a</webElementGuid>
+      <webElementGuid>ebf7aa98-e70e-4f65-8891-dbf7ca4b20e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='swiper-wrapper-8d4210bfeb91508e5']/div[3]/app-profession-card/div/h5</value>
-      <webElementGuid>b70f8b1c-dfa0-40bc-829b-6b5cd0844641</webElementGuid>
+      <webElementGuid>cd11b039-19e0-460c-a13d-d311c8baab48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya pekerja profesional'])[1]/following::h5[1]</value>
-      <webElementGuid>c1cbf546-0471-4496-ac45-0edd8e719e54</webElementGuid>
+      <webElementGuid>b78559b6-68bf-427d-a406-cb2d18bed501</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya memiliki bisnis'])[1]/following::h5[2]</value>
-      <webElementGuid>f7c65113-0572-46b5-8617-6fd048a171b2</webElementGuid>
+      <webElementGuid>de5d83a6-68ef-49a6-8223-9331950a3900</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SAYA SIAP MENDAPATKAN TAWARAN ->'])[1]/preceding::h5[1]</value>
-      <webElementGuid>9e0b51e5-f3cf-45ed-80a6-b0027639ddc8</webElementGuid>
+      <webElementGuid>a5aa081a-3367-4a2c-a884-673796417388</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lancar by Danamas |'])[1]/preceding::h5[1]</value>
-      <webElementGuid>221160c6-882c-4903-8b05-9b7434074088</webElementGuid>
+      <webElementGuid>953d0df2-4972-42bf-842a-6bdb3708e549</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Saya pegawai tetap']/parent::*</value>
-      <webElementGuid>48895f92-d07d-490f-845c-20de3abe2158</webElementGuid>
+      <webElementGuid>5e64f189-0ffc-4276-9fe5-fb684494cc51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/app-profession-card/div/h5</value>
-      <webElementGuid>f021726b-fc16-43f1-9e72-5be6b4ac87da</webElementGuid>
+      <webElementGuid>24f3dede-9a46-48af-a349-5e6fb3c392b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = 'Saya pegawai tetap' or . = 'Saya pegawai tetap')]</value>
-      <webElementGuid>dbb64bc1-b6b2-4adf-a55b-b91d11c5cfd0</webElementGuid>
+      <webElementGuid>0fe28ff0-5171-4bc6-a8d9-e56b838ab768</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

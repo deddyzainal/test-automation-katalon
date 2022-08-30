@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Kartu Keluarga</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07714a93-3062-490d-a242-1a4abf9f5b58</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4f33d9f5-f1a6-477c-b58d-79c5fef91369</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/kk.jpeg'</defaultValue>
+      <description></description>
+      <id>4f33d9f5-f1a6-477c-b58d-79c5fef91369</id>
+      <masked>false</masked>
+      <name>KKfilepath</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Leave phone field empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7bbcf1b6-4e73-4614-97e7-3212097c351e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba2c2745-7b3f-4f36-be85-d0b70f44953a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2fefb6a6-bff4-466b-a4e9-3ff3140886db</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon Test'</defaultValue>
+      <description></description>
+      <id>ba2c2745-7b3f-4f36-be85-d0b70f44953a</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Danamas.123!'</defaultValue>
+      <description></description>
+      <id>2fefb6a6-bff4-466b-a4e9-3ff3140886db</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

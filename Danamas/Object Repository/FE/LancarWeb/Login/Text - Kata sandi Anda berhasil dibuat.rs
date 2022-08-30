@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text - Kata sandi Anda berhasil dibuat</name>
+   <tag></tag>
+   <elementGuidId>534ed2be-bbd3-4a79-a4dd-d736cfc4b17f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#success-password</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='success-password']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>63c25fc2-86d9-4d2a-8b32-9031ba82e4bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>success-password</value>
+      <webElementGuid>eb9c7021-71e6-415d-a073-e2a4788f5293</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kata sandi Anda berhasil dibuat!</value>
+      <webElementGuid>f0e91ce2-36cb-480e-b86b-2fbb0fdb81b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;success-password&quot;)</value>
+      <webElementGuid>073b8647-014e-4d5e-8d16-aecfb8b4d333</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='success-password']</value>
+      <webElementGuid>a4d0fbfa-5728-474f-9994-c9157276b0e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-new-password/div/div/div/span</value>
+      <webElementGuid>7ca6368c-afc4-4bcd-b2f2-ecc7871b4556</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='©2022 Lancar. Hak cipta dilindungi undang-undang.'])[1]/following::span[1]</value>
+      <webElementGuid>98a09dca-8d24-461a-be2d-b871732ed8a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kantor Operasional'])[1]/following::span[2]</value>
+      <webElementGuid>0bc76fd7-8de2-4e6a-9e7c-dd7b8b713d51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sekarang Anda bisa masuk ke akun menggunakan kata sandi baru Anda.'])[1]/preceding::span[1]</value>
+      <webElementGuid>d6a12970-94f6-4e05-bdf9-8e266c36a324</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[2]</value>
+      <webElementGuid>bdd17885-9b5f-4868-a553-ddca201ec2e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kata sandi Anda berhasil dibuat!']/parent::*</value>
+      <webElementGuid>5a139cba-6172-43bd-b45e-d758bd133d23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-new-password/div/div/div/span</value>
+      <webElementGuid>915a76e0-7e78-4578-9f43-037311cf7ae2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'success-password' and (text() = 'Kata sandi Anda berhasil dibuat!' or . = 'Kata sandi Anda berhasil dibuat!')]</value>
+      <webElementGuid>a2a5cd87-0b79-4c9e-9430-8cbca7cd99f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
