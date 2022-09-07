@@ -49,4 +49,9 @@
       <initValue>'danamas'</initValue>
       <name>backofficePassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stage-apis.lancar.id:8443'</initValue>
+      <name>requestURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

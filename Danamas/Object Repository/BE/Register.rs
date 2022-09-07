@@ -102,17 +102,10 @@
       <description></description>
       <id>bcd6ca37-b2be-43ba-a8c6-e481c8f06728</id>
       <masked>false</masked>
-      <name>url</name>
+      <name>requestURL</name>
    </variables>
    <variables>
-      <defaultValue>'userservice/api/guest/v1/user/register'</defaultValue>
-      <description></description>
-      <id>c25729aa-2f32-46a6-a477-7d0c29b5ec52</id>
-      <masked>false</masked>
-      <name>path</name>
-   </variables>
-   <variables>
-      <defaultValue>'${url}/${path}'</defaultValue>
+      <defaultValue>'${requestURL}/userservice/api/guest/v1/user/register'</defaultValue>
       <description></description>
       <id>bcaac9d9-7ba4-457f-9513-f07f3ad2008d</id>
       <masked>false</masked>
