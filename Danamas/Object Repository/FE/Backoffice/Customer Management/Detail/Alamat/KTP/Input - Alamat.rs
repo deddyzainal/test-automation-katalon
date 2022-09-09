@@ -6,15 +6,19 @@
    <elementGuidId>f2c13dc2-0ef0-4267-9f70-c5c33e780714</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='alamat-ktp']/following-sibling::div[1]//textarea[@name = 'address']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@name = 'address']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>textarea[name=&quot;address&quot;]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//textarea[@name='address']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>63af02e4-5547-4db4-b3ae-272a98f21fd1</webElementGuid>
+      <webElementGuid>8f3d1743-9409-43a8-b0fc-872bfdadb78f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>1b245b16-1a0f-4a00-8c05-f3ecb5ce1207</webElementGuid>
+      <webElementGuid>07eb4a8c-5113-469f-9250-6be4b1140765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>address</value>
-      <webElementGuid>4bd6e6e5-6394-4120-9e5a-6fe7a0968007</webElementGuid>
+      <webElementGuid>4a2d91ea-b283-42f2-b45e-e18ed091d98b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>address</value>
-      <webElementGuid>56f6101f-8669-482e-ae01-89350d39eb0a</webElementGuid>
+      <webElementGuid>69f137b9-1902-4220-9f71-f76c2669330b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>ex: Jl Kyai Tapa No 1</value>
-      <webElementGuid>56892984-595b-4aa6-a68d-c0d23799252b</webElementGuid>
+      <webElementGuid>d28c83d4-8ca2-4371-9ddc-625cff3399a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>2de39267-23cc-4a04-86e8-3eb9c2aff5a9</webElementGuid>
+      <webElementGuid>e83d74c5-9967-45fa-bc27-696f15ebaa18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;section-0&quot;)/div[@class=&quot;d-flex&quot;]/div[1]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;mb-24&quot;]/lancar-input[1]/div[@class=&quot;input-wrapper default&quot;]/textarea[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]</value>
-      <webElementGuid>2f5d41ef-c98d-466b-b7c9-a919e9cfd3d7</webElementGuid>
+      <webElementGuid>28f935c6-ce4c-4885-bc0c-cf27482ec639</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@name='address']</value>
-      <webElementGuid>764ee2fc-2edd-40b1-b3e7-a6b69e179814</webElementGuid>
+      <webElementGuid>13b086bd-cdb9-4415-9b7b-19e32b60a1bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='section-0']/div/div/form/div[2]/lancar-input/div/textarea</value>
-      <webElementGuid>7a35d63a-7689-4d96-b8b2-48e4a723340b</webElementGuid>
+      <webElementGuid>5f0bff18-7f3b-4f82-906f-3880c7d0a322</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>791a0703-ddeb-4ebd-82a4-c9782ef8c0b8</webElementGuid>
+      <webElementGuid>0a9983de-06b8-4727-b75a-664e022ec28b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@type = 'text' and @name = 'address' and @placeholder = 'ex: Jl Kyai Tapa No 1']</value>
-      <webElementGuid>ccb5a2cf-af32-4fd3-831e-1b9f3f19e645</webElementGuid>
+      <webElementGuid>d5152166-e786-4220-9430-d7db20d07670</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

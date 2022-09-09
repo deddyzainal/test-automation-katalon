@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select - Kota Cabang</name>
+   <tag></tag>
+   <elementGuidId>59ce7572-1d1d-4a2e-918d-da6c5a45aa87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.input-wrapper.focus > input.dropdown-toggle.ng-pristine.ng-valid.ng-touched</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>a07834f2-5b98-4fb8-af20-71cfde9429db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>c51800b7-a663-44b2-b438-cd0c620b15ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Kota Branch</value>
+      <webElementGuid>eccb24e8-05fb-4b47-9408-34dec4b5eabe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>branch_city_temp</value>
+      <webElementGuid>5b6018f1-cef5-462d-9624-f1830aaa6004</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-toggle ng-pristine ng-valid ng-touched</value>
+      <webElementGuid>1083c455-cfe6-4497-aede-e48f259f5ad4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>f73fe353-386d-4b5f-ba06-d1f2294b7104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/ngb-modal-window[@class=&quot;d-block modal fade show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;lancar-modal&quot;]/div[@class=&quot;modal-body&quot;]/app-freelance-dropdown[1]/form[@class=&quot;ng-pristine ng-valid ng-touched&quot;]/div[@class=&quot;dropdown&quot;]/lancar-input[1]/div[@class=&quot;input-wrapper focus&quot;]/input[@class=&quot;dropdown-toggle ng-pristine ng-valid ng-touched&quot;]</value>
+      <webElementGuid>c6ae49ec-106c-4581-9163-2eeb44d98444</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[7]</value>
+      <webElementGuid>838e54c5-207d-43cd-bffe-5495f6a27636</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/lancar-input/div/input</value>
+      <webElementGuid>3717b1f4-c208-4301-b279-16de0c1fe3b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Kota Branch']</value>
+      <webElementGuid>c982db08-f73e-4f18-8e6a-e82190170f78</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

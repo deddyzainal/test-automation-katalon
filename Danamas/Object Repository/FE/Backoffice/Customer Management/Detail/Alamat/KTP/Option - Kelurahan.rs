@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//lancar-input//input[@formcontrolname='sub_district']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${kelurahan} ']</value>
+         <value>//div[@id='alamat-ktp']/following-sibling::div[6]//input[@formcontrolname='sub_district']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${kelurahan} ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>8f4f18ae-5d79-4ee6-9e62-ef35f2732e13</webElementGuid>
+      <webElementGuid>0c0de418-4149-4013-924a-6bc3eb895b61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1661790265269</value>
-      <webElementGuid>c06625d9-6fbf-4818-a75e-50beece7d28a</webElementGuid>
+      <webElementGuid>fabf1475-117e-488b-83fc-c80a5c923575</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -22,7 +22,7 @@
       <guid>fa82ad7b-78c1-4da8-add8-1c10b95db1c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click Customer Management</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click menu Customer Management</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -48,14 +48,14 @@
    <testCaseLink>
       <guid>227be088-e1a9-4521-bfd2-c87bab67a29a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Customer Management/Detail/Open tab Informasi Peminjam</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>15e3c435-d070-45d1-b9f1-050157cc7c11</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Customer Management/Detail/Edit Informasi Peminjam</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -153,6 +153,286 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>adf97b38-40fd-49c4-b24d-99c0a6dbb233</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>07ee1fe1-1775-4b32-9770-10947b17fe0b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Customer Management/Detail/Open tab Alamat</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cf7e6d7c-f15f-46c2-8542-25ca816ba9e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Customer Management/Detail/Edit Alamat</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>08d0df0b-155e-49fb-b103-0012dc639971</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e8f776f1-2323-4d02-a39b-f6d6c2a7d1aa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bb2730d2-72de-4b40-a872-d692ca86edec</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8e5a47f2-934b-436f-a788-6e1f6d8fbcd5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>712554fa-f9ba-42e1-b253-45f737e2919d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>61c8d35c-d7ac-4678-b063-81d2962acaa8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>285bc13a-3fd2-45d4-8181-0f2ff0f516fb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4b8b5127-1db8-45ff-8fd1-e4d0591b74e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>03729571-46c9-49ba-a65d-1ab48f21b189</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6c3da666-a589-4b7d-a069-84e6d759e471</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>79219f8b-9690-48e3-ac4f-a049af8122cb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da702f91-7c26-4870-af11-410f5969bdc5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bc1abd54-ebce-406a-9c77-c2982db1eaaa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>39d84109-841d-46d3-bb25-7deddd7c9237</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>de6377a8-7713-4cab-aa2d-e6afb7f5856d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cf8db8da-06fb-45b5-8d22-77d9a519b858</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4c03b20f-5ba9-4e01-ad62-b2ec38fc5f4c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>88aa8807-cca0-4bed-a5e9-2d2c04837250</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Customer Management/Detail/Open tab Informasi Pekerjaan</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc076f87-ef84-44f5-b789-ff3ccc3c2964</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Customer Management/Detail/Edit Informasi Pekerjaan</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f1a99720-5dff-4956-9917-1d3c46ce9ba0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9f873c10-2788-485b-84f4-e91491caabe8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>effa8828-49c3-4af7-97ba-f75c715643f4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>37492acc-deee-4e79-b209-a3d2264f916d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c5535b50-9ec3-49e4-8360-c17cb398af83</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9f7fd13f-693c-48d5-b9f6-81ef7f6cf4eb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Customer Management/Detail/Open tab Informasi Penjamin</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9108c13b-f141-4708-9047-e0ff2ed4b020</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Customer Management/Detail/Edit Informasi Penjamin</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b585edf1-c634-490a-9f4c-9acb871a887e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cbc8713b-f7e0-4fc5-947c-8c9fda134112</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fe1a02d6-9a69-47b2-8a1d-6cb721af3e2f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>25efb5ca-ceef-4220-ba97-29f9de9719f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7b5b9698-6c40-48de-8e1f-320e8f245b28</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5e3c7ca8-bbab-4283-add1-aa843b9431b2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dee2b6f0-601e-4bfe-90dc-84caf6b298f1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b9e0005-4151-4666-89f0-bc2016dc2a12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Customer Management/Detail/Open tab Informasi Kontak Darurat</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3052eb42-a872-4d32-af1c-b909246040eb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Customer Management/Detail/Edit Informasi Kontak Darurat</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>98a96ca0-ddb4-43ad-a942-a0fb0c1a61de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>749a4c3e-0c9f-4027-bcb5-af118db38e58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>751bc905-4e90-4fb1-9f5b-8968333627e5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f63f9446-cd45-427f-ac0c-e4499fabf229</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Customer Management/Detail/Open tab Informasi Bank</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9b27c358-234c-4a84-a331-bfa93f5efdcd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Customer Management/Detail/Edit Informasi Bank</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>78a8b2a1-fff8-4331-bc06-47fc3303dfbd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>191390ad-74f5-46ea-b039-6f8307cf69a2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7fafde93-2133-453e-83e5-dcdd9edc2846</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

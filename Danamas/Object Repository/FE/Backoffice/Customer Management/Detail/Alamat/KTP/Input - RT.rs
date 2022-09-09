@@ -6,15 +6,19 @@
    <elementGuidId>94429b73-33cd-476b-8600-cfd47c87fcd5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='alamat-ktp']/following-sibling::div[2]//input[@name = 'rt']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'rt']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>input[name=&quot;rt&quot;]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@name='rt']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>454f9339-7128-4ea5-bdb3-7374e65ed7ed</webElementGuid>
+      <webElementGuid>f1b93899-ad9a-4502-92a9-15759472561c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>dc667725-1530-419a-864a-f875e9efe7ad</webElementGuid>
+      <webElementGuid>4e7a8295-accd-4936-8ceb-9a4dfeb5d105</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>rt</value>
-      <webElementGuid>7689a11b-4805-4b96-aa0a-b229b3aa6bf8</webElementGuid>
+      <webElementGuid>0001457c-f91b-4651-886e-147079c14446</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>rt</value>
-      <webElementGuid>cb9f373f-5428-484f-ab83-cd75e3852ddd</webElementGuid>
+      <webElementGuid>4a71897f-335c-4793-8a0f-bbf08ef90934</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>ex: 001</value>
-      <webElementGuid>33650313-a3b8-43f0-8a6e-b36e9cf76892</webElementGuid>
+      <webElementGuid>6f9731b0-0945-45ca-9587-3d40aaa4ac2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>90588005-294e-4430-8722-327fa34609d7</webElementGuid>
+      <webElementGuid>77ea5eca-6937-4778-9ef5-d019fa8e6bd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;section-0&quot;)/div[@class=&quot;d-flex&quot;]/div[1]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[3]/div[@class=&quot;mb-24&quot;]/lancar-input[1]/div[@class=&quot;input-wrapper default&quot;]/input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]</value>
-      <webElementGuid>938b36ef-23ce-497a-8c3a-cb98611f6a13</webElementGuid>
+      <webElementGuid>c1e7d51b-433e-413e-871c-62ae0e22ca42</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='rt']</value>
-      <webElementGuid>8d10c90c-5f6a-4a9d-bda4-ee62090ed258</webElementGuid>
+      <webElementGuid>43074f9f-793f-45c3-a9aa-aacc1a849c1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='section-0']/div/div/form/div[3]/div/lancar-input/div/input</value>
-      <webElementGuid>a910819d-e580-4cba-bc06-dd87ddaf2ed7</webElementGuid>
+      <webElementGuid>04294983-066b-4894-8415-726e4caa5d48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>886a26f0-d935-4dff-b919-e3a0229fc344</webElementGuid>
+      <webElementGuid>da909ec4-400a-4a86-ba0b-111d8d1474d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'rt' and @placeholder = 'ex: 001']</value>
-      <webElementGuid>7e5d901e-2538-4b5d-8605-0e9a262c3f89</webElementGuid>
+      <webElementGuid>a2f660c8-ad57-478b-bdc0-3d50a8aeb32d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

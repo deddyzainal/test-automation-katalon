@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Lanjut</name>
+   <tag></tag>
+   <elementGuidId>a8fce614-c1d0-4b63-8d9b-3f8e1907eecf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Lanjut']/ancestor::button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-wrapper.primary-dark-blue</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cf40eac5-ff27-4739-bad7-db4cbc619961</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-wrapper primary-dark-blue</value>
+      <webElementGuid>17df3002-ccce-4928-bd50-2734a42c505a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lanjut</value>
+      <webElementGuid>c24f79b5-6471-43b4-bcf2-87cfa93a75ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-tns-c82-0 ng-star-inserted&quot;]/div[@class=&quot;main-container ng-tns-c82-0&quot;]/div[@class=&quot;padding-32-32-32-32 ng-tns-c82-0 padding-left&quot;]/app-edit-agent[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;card-ffffff-0 shadow d-flex justify-content-between padding-18-40-18-40&quot;]/div[@class=&quot;d-flex&quot;]/lancar-btn[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;btn-wrapper primary-dark-blue&quot;]</value>
+      <webElementGuid>64a3ebb7-8c76-4628-9288-c472b0bdbcf4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/following::button[1]</value>
+      <webElementGuid>d7bee0ff-9914-4705-a202-f19e7b7374d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto NPWP:'])[1]/following::button[2]</value>
+      <webElementGuid>d23a8618-3abc-473e-ace3-5ff1177e76a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>6735486e-031b-4aa0-9139-ddbc4d8d1334</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/lancar-btn/button</value>
+      <webElementGuid>514ef4ec-3bb2-45db-8071-0d2227562d32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Lanjut' or . = 'Lanjut')]</value>
+      <webElementGuid>8cfbe749-1732-4545-8162-8f0272701042</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

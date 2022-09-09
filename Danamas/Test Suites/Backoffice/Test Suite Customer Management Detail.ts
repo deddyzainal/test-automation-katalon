@@ -22,7 +22,7 @@
       <guid>19186bc1-9b45-4ee1-84ff-92d64566a4e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click Customer Management</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click menu Customer Management</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

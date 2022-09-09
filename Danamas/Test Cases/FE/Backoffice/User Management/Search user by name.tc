@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search user by name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13e54615-e25b-48eb-a7ab-c3b64e7a3371</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc9c7b5c-637d-48d9-9b9f-5ea8a383aa98</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Test CA Staging'</defaultValue>
+      <description></description>
+      <id>fc9c7b5c-637d-48d9-9b9f-5ea8a383aa98</id>
+      <masked>false</masked>
+      <name>nama_pengguna</name>
+   </variable>
+</TestCaseEntity>

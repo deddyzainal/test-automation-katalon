@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by No HP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f424cd1e-e75e-46ad-ac6e-697c56c83fc7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d9ebc5c-ec13-4688-bf40-3d881a43ba6d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'20220715154056'</defaultValue>
+      <description></description>
+      <id>3d9ebc5c-ec13-4688-bf40-3d881a43ba6d</id>
+      <masked>false</masked>
+      <name>nomor_hp</name>
+   </variable>
+</TestCaseEntity>

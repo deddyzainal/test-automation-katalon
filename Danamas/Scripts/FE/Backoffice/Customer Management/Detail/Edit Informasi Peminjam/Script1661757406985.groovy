@@ -91,11 +91,11 @@ WebUI.uploadFile(findTestObject('FE/Backoffice/Customer Management/Detail/Inform
 WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Button - Simpan'))
 
 //Click button Confirm on onfirmation modal
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Button - Confirm'), 2, FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('FE/Backoffice/Button - Confirm'))
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Button - Confirm'), 2, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FE/Backoffice/Common/Button - Confirm'))
 
 //Verify success snackbar is shown
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Snackbar Text'), 5)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Snackbar Text'), 'Sukses Mengubah Data', FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 5)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 'Sukses Mengubah Data', FailureHandling.STOP_ON_FAILURE)
 
 

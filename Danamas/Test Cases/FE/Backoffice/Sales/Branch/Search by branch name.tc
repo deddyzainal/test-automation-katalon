@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search by branch name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4508a5ac-9d67-4409-995b-72bb77933d7d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>599f23b0-5b39-434f-82b8-383582d83289</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon 1'</defaultValue>
+      <description></description>
+      <id>599f23b0-5b39-434f-82b8-383582d83289</id>
+      <masked>false</masked>
+      <name>nama_branch</name>
+   </variable>
+</TestCaseEntity>

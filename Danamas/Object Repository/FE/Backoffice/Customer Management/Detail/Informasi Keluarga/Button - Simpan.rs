@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Simpan</name>
+   <tag></tag>
+   <elementGuidId>17854d09-56f0-4454-8ef6-32e2a215544f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-edit-informasi-keluarga/footer//div[text()='Simpan']/parent::button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-wrapper.primary-dark-blue</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d577be48-5217-4e1e-92a3-01548142257f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-wrapper primary-dark-blue</value>
+      <webElementGuid>85215348-6649-45d9-92e9-550e0f2cf296</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Simpan</value>
+      <webElementGuid>fbc727bd-2e8f-4787-9089-584337ead4ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-tns-c84-0 ng-star-inserted&quot;]/div[@class=&quot;main-container ng-tns-c84-0&quot;]/div[@class=&quot;padding-32-32-32-32 ng-tns-c84-0 padding-left&quot;]/app-edit-informasi-keluarga[@class=&quot;ng-star-inserted&quot;]/footer[@class=&quot;d-flex card-ffffff-0 shadow-1 align-items-center mt-24 p-12&quot;]/lancar-btn[@class=&quot;mr-12&quot;]/button[@class=&quot;btn-wrapper primary-dark-blue&quot;]</value>
+      <webElementGuid>6c61e0c3-9fb5-4d5a-a6ab-638a314de4a6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Keluarga 1'])[2]/following::button[1]</value>
+      <webElementGuid>2e9ae10c-2602-4160-ad24-390fe64616e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AKSES CEPAT'])[1]/following::button[1]</value>
+      <webElementGuid>a44ecdea-f6cf-4993-95c8-1f90d5055022</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>b2a383c6-6422-4441-99a7-5c850f5a9fd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//footer/lancar-btn/button</value>
+      <webElementGuid>07d4becb-239a-482e-8f0a-5c460ccd5680</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Simpan' or . = 'Simpan')]</value>
+      <webElementGuid>a261d467-9679-4f27-a3fb-6a30378ae883</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

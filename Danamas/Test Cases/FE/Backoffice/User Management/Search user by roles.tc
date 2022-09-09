@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search user by roles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0fe1cc4-0d43-474a-84f7-5350aa087cbc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d00db7b-311b-40e1-b013-808ee477060f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Product'</defaultValue>
+      <description></description>
+      <id>0d00db7b-311b-40e1-b013-808ee477060f</id>
+      <masked>false</masked>
+      <name>role</name>
+   </variable>
+</TestCaseEntity>

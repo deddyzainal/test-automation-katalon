@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add branch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e61c3dc4-610d-468f-9c32-cdde09d9488b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d8e4b153-64ce-43eb-8131-e29fb2576412</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b9759dae-5de8-4d3f-baa9-2621303bf28c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>078402f8-58d0-4d90-9d67-b970881d7b54</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Jakarta Barat'</defaultValue>
+      <description></description>
+      <id>d8e4b153-64ce-43eb-8131-e29fb2576412</id>
+      <masked>false</masked>
+      <name>kota</name>
+   </variable>
+   <variable>
+      <defaultValue>'Katalon 3'</defaultValue>
+      <description></description>
+      <id>b9759dae-5de8-4d3f-baa9-2621303bf28c</id>
+      <masked>false</masked>
+      <name>nama_branch</name>
+   </variable>
+   <variable>
+      <defaultValue>'Grade E'</defaultValue>
+      <description></description>
+      <id>078402f8-58d0-4d90-9d67-b970881d7b54</id>
+      <masked>false</masked>
+      <name>grade</name>
+   </variable>
+</TestCaseEntity>

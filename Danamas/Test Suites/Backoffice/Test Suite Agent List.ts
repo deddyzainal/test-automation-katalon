@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Suite Agent List</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a6935856-9071-493e-97a4-333b855cb406</testSuiteGuid>
+   <testCaseLink>
+      <guid>c760a5bc-519d-4cfe-ae9f-f50b32055cdb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Login/Login with valid credential</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>60d5bfbb-8620-4713-9bc3-18da2b993188</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click menu Sales</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f600bfeb-6700-4ca0-a5e3-98f44c0d7126</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click menu Agent RM</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b5fce5e4-fe16-48d5-95d6-e50bb4174264</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Sales/Agent RM/List/Filter list by Nama</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>13b3100c-e8d8-4e3d-80a5-2d62f574488d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>92042093-12d2-4263-ac8f-e17df938d313</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Sales/Agent RM/List/Filter list by No HP</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3d9ebc5c-ec13-4688-bf40-3d881a43ba6d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>779893b4-748e-46d2-a999-73141bfd1c86</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Sales/Agent RM/List/Filter list by Kategori Agen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>168a0549-b55a-4e6e-b69e-9f735adb3bae</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e5a75801-1737-44a2-b93b-85ea30af0514</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Sales/Agent RM/List/Filter list by Kota Cabang</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1d251645-9b69-4675-a727-b8ad4c5a9bbb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e1c2e393-9167-4142-b9ff-6dd45272e537</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Sales/Agent RM/List/Filter list by Nama Cabang</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9e69f6e3-4278-4bba-bef9-9b3da737572a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b79be175-6703-41c8-82db-7303296f6cac</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>423e0a14-2ed0-4464-9aaf-72bda205bea5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Sales/Agent RM/List/Filter list by Posisi</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>82ea6f76-423a-4314-b863-0171dfbfdcfc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>02f2ad3a-add6-4c3c-b758-978d5e697788</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Sales/Agent RM/List/Filter list by Tipe Partner</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cc574475-3e08-47ea-801b-3affdabd94ac</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cd8dac48-d94c-415a-8a43-fbfcef29edff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Sales/Agent RM/List/Filter list by Nama Partner</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3346ce56-34c6-4291-a535-3242207d5197</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2e337b27-df14-4e1a-bd39-cb11dd5fb82b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>60f750b9-ff31-428b-80f9-e675e4028da2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Sales/Agent RM/List/Filter list by Cabang Partner</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>79b10b9d-918d-4e74-8ea4-6344f58d9531</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da4d2cff-be33-4971-aaa3-3c56e0fb13d4</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

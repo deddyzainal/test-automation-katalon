@@ -64,5 +64,5 @@ WebUI.setText(findTestObject('FE/Backoffice/Loan Origination/Detail/Detail Aguna
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/Detail/Detail Agunan/Button - Perbarui Informasi'))
 
 //Verify success snackbar is shown
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Snackbar Text'), 5, FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Snackbar Text'), 'Informasi agunan telah diperbarui!')
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 'Informasi agunan telah diperbarui!')

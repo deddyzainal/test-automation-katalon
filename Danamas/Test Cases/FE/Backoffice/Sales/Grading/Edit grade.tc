@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit grade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9ace5e6-6292-4da6-b40a-237049bc31fc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6192fffc-08b0-4d7b-b7c4-617d52bf4fd5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'500000000'</defaultValue>
+      <description></description>
+      <id>6192fffc-08b0-4d7b-b7c4-617d52bf4fd5</id>
+      <masked>false</masked>
+      <name>nominal_target_penjualan</name>
+   </variable>
+</TestCaseEntity>

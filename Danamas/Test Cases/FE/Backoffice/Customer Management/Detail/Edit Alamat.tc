@@ -9,208 +9,221 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f1b6d3f1-842c-4904-b602-1884a26ab8ca</variableId>
+      <variableId>08d0df0b-155e-49fb-b103-0012dc639971</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3ea7a47f-6baa-4b28-b873-ff8e1882e310</variableId>
+      <variableId>e8f776f1-2323-4d02-a39b-f6d6c2a7d1aa</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>99ff7e48-73eb-42b3-b79b-6cd636e61680</variableId>
+      <variableId>bb2730d2-72de-4b40-a872-d692ca86edec</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>849db9ef-9c7b-45ae-82d3-51e4cf79136f</variableId>
+      <variableId>8e5a47f2-934b-436f-a788-6e1f6d8fbcd5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4f569c87-b89d-4397-a430-eb088ce677fd</variableId>
+      <variableId>712554fa-f9ba-42e1-b253-45f737e2919d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c72fa528-0392-476b-a1e9-9dc2bd2042cf</variableId>
+      <variableId>61c8d35c-d7ac-4678-b063-81d2962acaa8</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0a164e37-fd92-464e-907b-1d464e5d4846</variableId>
+      <variableId>285bc13a-3fd2-45d4-8181-0f2ff0f516fb</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b6d8442c-e75a-4e57-b0fb-c4ce09989c76</variableId>
+      <variableId>4b8b5127-1db8-45ff-8fd1-e4d0591b74e6</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b61341eb-0840-46cf-9ee2-f50841f764f6</variableId>
+      <variableId>03729571-46c9-49ba-a65d-1ab48f21b189</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5a83b3bf-185b-4a04-b198-2a108103676d</variableId>
+      <variableId>6c3da666-a589-4b7d-a069-84e6d759e471</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0603ae7c-a071-44a5-ae41-f1681ee49f07</variableId>
+      <variableId>79219f8b-9690-48e3-ac4f-a049af8122cb</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>534b6e80-b0fd-4247-be46-58eb644518d9</variableId>
+      <variableId>da702f91-7c26-4870-af11-410f5969bdc5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9f474933-87e3-41bb-8f53-0ca2329f5aca</variableId>
+      <variableId>bc1abd54-ebce-406a-9c77-c2982db1eaaa</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>52f12c2c-ad98-44b4-8a45-00c9315a7d32</variableId>
+      <variableId>39d84109-841d-46d3-bb25-7deddd7c9237</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0a398dc6-901f-43f6-ad01-a1da1f976b02</variableId>
+      <variableId>de6377a8-7713-4cab-aa2d-e6afb7f5856d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f110b5fb-f21b-4ea9-87b7-d128152037e9</variableId>
+      <variableId>cf8db8da-06fb-45b5-8d22-77d9a519b858</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c03b20f-5ba9-4e01-ad62-b2ec38fc5f4c</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Nama123'</defaultValue>
+      <defaultValue>'Alamat KTP'</defaultValue>
       <description></description>
-      <id>f1b6d3f1-842c-4904-b602-1884a26ab8ca</id>
+      <id>08d0df0b-155e-49fb-b103-0012dc639971</id>
       <masked>false</masked>
-      <name>nama</name>
+      <name>ktp_alamat</name>
    </variable>
    <variable>
-      <defaultValue>'1234567890123'</defaultValue>
+      <defaultValue>'11'</defaultValue>
       <description></description>
-      <id>3ea7a47f-6baa-4b28-b873-ff8e1882e310</id>
+      <id>e8f776f1-2323-4d02-a39b-f6d6c2a7d1aa</id>
       <masked>false</masked>
-      <name>nik</name>
+      <name>ktp_rt</name>
    </variable>
    <variable>
-      <defaultValue>'Perempuan'</defaultValue>
+      <defaultValue>'22'</defaultValue>
       <description></description>
-      <id>99ff7e48-73eb-42b3-b79b-6cd636e61680</id>
+      <id>bb2730d2-72de-4b40-a872-d692ca86edec</id>
       <masked>false</masked>
-      <name>jenis_kelamin</name>
+      <name>ktp_rw</name>
    </variable>
    <variable>
-      <defaultValue>'IbuIbuIbu'</defaultValue>
+      <defaultValue>'Bali'</defaultValue>
       <description></description>
-      <id>849db9ef-9c7b-45ae-82d3-51e4cf79136f</id>
+      <id>8e5a47f2-934b-436f-a788-6e1f6d8fbcd5</id>
       <masked>false</masked>
-      <name>nama_ibu_kandung</name>
+      <name>ktp_provinsi</name>
    </variable>
    <variable>
-      <defaultValue>'Bukittinggi'</defaultValue>
+      <defaultValue>'Badung'</defaultValue>
       <description></description>
-      <id>4f569c87-b89d-4397-a430-eb088ce677fd</id>
+      <id>712554fa-f9ba-42e1-b253-45f737e2919d</id>
       <masked>false</masked>
-      <name>tempat_lahir</name>
+      <name>ktp_kota_kabupaten</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Kuta'</defaultValue>
       <description></description>
-      <id>c72fa528-0392-476b-a1e9-9dc2bd2042cf</id>
+      <id>61c8d35c-d7ac-4678-b063-81d2962acaa8</id>
       <masked>false</masked>
-      <name>tanggal_lahir</name>
+      <name>ktp_kecamatan</name>
    </variable>
    <variable>
-      <defaultValue>'81268956094'</defaultValue>
+      <defaultValue>'KUTA'</defaultValue>
       <description></description>
-      <id>0a164e37-fd92-464e-907b-1d464e5d4846</id>
+      <id>285bc13a-3fd2-45d4-8181-0f2ff0f516fb</id>
       <masked>false</masked>
-      <name>nomor_handphone</name>
+      <name>ktp_kelurahan</name>
    </variable>
    <variable>
-      <defaultValue>'jastipjastipclub@gmail.com'</defaultValue>
+      <defaultValue>'11111'</defaultValue>
       <description></description>
-      <id>b6d8442c-e75a-4e57-b0fb-c4ce09989c76</id>
+      <id>4b8b5127-1db8-45ff-8fd1-e4d0591b74e6</id>
       <masked>false</masked>
-      <name>email</name>
-   </variable>
-   <variable>
-      <defaultValue>'Cerai Hidup'</defaultValue>
-      <description></description>
-      <id>b61341eb-0840-46cf-9ee2-f50841f764f6</id>
-      <masked>false</masked>
-      <name>status_pernikahan</name>
-   </variable>
-   <variable>
-      <defaultValue>'SMA'</defaultValue>
-      <description></description>
-      <id>5a83b3bf-185b-4a04-b198-2a108103676d</id>
-      <masked>false</masked>
-      <name>pendidikan_terakhir</name>
-   </variable>
-   <variable>
-      <defaultValue>'Kristen'</defaultValue>
-      <description></description>
-      <id>0603ae7c-a071-44a5-ae41-f1681ee49f07</id>
-      <masked>false</masked>
-      <name>agama</name>
-   </variable>
-   <variable>
-      <defaultValue>'WNA'</defaultValue>
-      <description></description>
-      <id>534b6e80-b0fd-4247-be46-58eb644518d9</id>
-      <masked>false</masked>
-      <name>kewarganegaraan</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
-      <description></description>
-      <id>9f474933-87e3-41bb-8f53-0ca2329f5aca</id>
-      <masked>false</masked>
-      <name>foto_kk</name>
+      <name>ktp_kode_pos</name>
    </variable>
    <variable>
       <defaultValue>'/Users/meitridelfiza/Downloads/Foto Npwpp.png'</defaultValue>
       <description></description>
-      <id>52f12c2c-ad98-44b4-8a45-00c9315a7d32</id>
+      <id>03729571-46c9-49ba-a65d-1ab48f21b189</id>
       <masked>false</masked>
-      <name>foto_npwp</name>
+      <name>foto_tempat_tinggal</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KTP (2).png'</defaultValue>
+      <defaultValue>'Alamat Domisili'</defaultValue>
       <description></description>
-      <id>0a398dc6-901f-43f6-ad01-a1da1f976b02</id>
+      <id>6c3da666-a589-4b7d-a069-84e6d759e471</id>
       <masked>false</masked>
-      <name>foto_ktp</name>
+      <name>domisili_alamat</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto Selfie &amp; KTP (2).png'</defaultValue>
+      <defaultValue>'33'</defaultValue>
       <description></description>
-      <id>f110b5fb-f21b-4ea9-87b7-d128152037e9</id>
+      <id>79219f8b-9690-48e3-ac4f-a049af8122cb</id>
       <masked>false</masked>
-      <name>foto_selfie</name>
+      <name>domisili_rt</name>
+   </variable>
+   <variable>
+      <defaultValue>'44'</defaultValue>
+      <description></description>
+      <id>da702f91-7c26-4870-af11-410f5969bdc5</id>
+      <masked>false</masked>
+      <name>domisili_rw</name>
+   </variable>
+   <variable>
+      <defaultValue>'Banten'</defaultValue>
+      <description></description>
+      <id>bc1abd54-ebce-406a-9c77-c2982db1eaaa</id>
+      <masked>false</masked>
+      <name>domisili_provinsi</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lebak'</defaultValue>
+      <description></description>
+      <id>39d84109-841d-46d3-bb25-7deddd7c9237</id>
+      <masked>false</masked>
+      <name>domisili_kota_kabupaten</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cibadak'</defaultValue>
+      <description></description>
+      <id>de6377a8-7713-4cab-aa2d-e6afb7f5856d</id>
+      <masked>false</masked>
+      <name>domisili_kecamatan</name>
+   </variable>
+   <variable>
+      <defaultValue>'ASEM'</defaultValue>
+      <description></description>
+      <id>cf8db8da-06fb-45b5-8d22-77d9a519b858</id>
+      <masked>false</masked>
+      <name>domisili_kelurahan</name>
+   </variable>
+   <variable>
+      <defaultValue>'22222'</defaultValue>
+      <description></description>
+      <id>4c03b20f-5ba9-4e01-ad62-b2ec38fc5f4c</id>
+      <masked>false</masked>
+      <name>domisili_kode_pos</name>
    </variable>
 </TestCaseEntity>

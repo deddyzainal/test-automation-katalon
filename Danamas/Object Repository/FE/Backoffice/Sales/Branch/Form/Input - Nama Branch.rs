@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Nama Branch</name>
+   <tag></tag>
+   <elementGuidId>695d61c8-0391-40e7-b8a7-bdf0f870fe6d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-group > lancar-input > div.input-wrapper.default > input[name=&quot;branch&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@name='branch'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>308feed0-551b-4f80-b189-0c184a93352a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>6cc55119-9489-4d76-a37d-0586f1199bf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>branch</value>
+      <webElementGuid>184de4d6-ac27-4693-aba0-8be7d9d00c1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>branch</value>
+      <webElementGuid>afd235f5-b016-43bf-b03b-f12e4380384d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukkan nama branch</value>
+      <webElementGuid>01dcb702-78c9-4b8b-a2fd-9e4660bcdf58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>22da6b18-aed9-4fe8-88d3-bdefe7e44da1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-tns-c82-0 ng-star-inserted&quot;]/div[@class=&quot;main-container ng-tns-c82-0&quot;]/div[@class=&quot;padding-32-32-32-32 ng-tns-c82-0 padding-left&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;shadow card-ffffff-0 padding-32-32-32-32 wrapper&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;col-12 col-sm-10 col-lg-7 col-xl-5 ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form-group&quot;]/lancar-input[1]/div[@class=&quot;input-wrapper default&quot;]/input[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]</value>
+      <webElementGuid>dfce43f0-4825-48d1-8085-8729eaaac4bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@name='branch'])[2]</value>
+      <webElementGuid>ad090e6c-4390-4ea9-9838-89365d37f075</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/lancar-input/div/input</value>
+      <webElementGuid>b47fbb24-558b-46d1-a5b4-8ad82ab016fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @name = 'branch' and @placeholder = 'Masukkan nama branch']</value>
+      <webElementGuid>9faf800b-3460-4d72-90b5-2e851e94e62f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

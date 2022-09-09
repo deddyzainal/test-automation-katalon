@@ -21,5 +21,5 @@ import org.openqa.selenium.Keys as Keys
 WebUI.click(findTestObject('FE/Backoffice/Offer Letter/Detail/Ringkasan/Button - Save'))
 
 //Verify success snackbar is shown
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Snackbar Text'), 5, FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Snackbar Text'), 'Surat penawaran pinjaman berhasil disimpan')
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 'Surat penawaran pinjaman berhasil disimpan')

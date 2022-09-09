@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Simpan</name>
+   <tag></tag>
+   <elementGuidId>049873a0-9e13-4aff-9c52-36329f633fa7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-edit-informasi-bank/footer//div[text()='Simpan']/parent::button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-wrapper.primary-dark-blue</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8492e3c3-499a-4b1c-90fd-fdb8ff9fe12d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-wrapper primary-dark-blue</value>
+      <webElementGuid>ca7f7871-d108-48f4-997a-f767278d9b90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Simpan</value>
+      <webElementGuid>75fe553e-ab9e-409f-95ab-c52cf02aa22d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-tns-c85-0 ng-star-inserted&quot;]/div[@class=&quot;main-container ng-tns-c85-0&quot;]/div[@class=&quot;padding-32-32-32-32 ng-tns-c85-0 padding-left&quot;]/app-edit-informasi-bank[@class=&quot;ng-star-inserted&quot;]/footer[@class=&quot;d-flex card-ffffff-0 shadow-1 align-items-center mt-24 p-12&quot;]/lancar-btn[@class=&quot;mr-12&quot;]/button[@class=&quot;btn-wrapper primary-dark-blue&quot;]</value>
+      <webElementGuid>9a531ae8-e9b0-4202-9213-c1661e04ffda</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Bank'])[1]/following::button[1]</value>
+      <webElementGuid>2d4b46f6-d0f8-4920-9493-935556aff1b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AKSES CEPAT'])[1]/following::button[1]</value>
+      <webElementGuid>cd6079a1-2954-48b7-9135-1b167b3f0ee4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>9cb3b399-26f7-45d6-9bdc-b3c5bb3aba85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>81b401fd-6530-45d8-ac40-b1c693a9f7c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Simpan' or . = 'Simpan')]</value>
+      <webElementGuid>1d653440-d32e-470d-8db7-811f6797f830</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

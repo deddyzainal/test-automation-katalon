@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Nama Ibu Kandung</name>
+   <tag></tag>
+   <elementGuidId>3e03e15a-3882-483a-84e1-6d0d849a0511</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[11]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>361903ad-6139-48b2-8899-87486cc4e4a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>a4683005-aa83-4889-9ddb-ae51b3305d05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Nama Ibu Kandung</value>
+      <webElementGuid>e033db16-0159-45fb-a62a-e9a9bc635fd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>mother_name</value>
+      <webElementGuid>7b3378c6-d8eb-4493-bf20-c596c8f075ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>f4d242bc-9d3d-486b-a59f-b118a00659f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-tns-c82-0 ng-star-inserted&quot;]/div[@class=&quot;main-container ng-tns-c82-0&quot;]/div[@class=&quot;padding-32-32-32-32 ng-tns-c82-0 padding-left&quot;]/app-edit-agent[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;card-ffffff-0 shadow padding-32-32-32-32 mb-24 ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;ng-star-inserted&quot;]/ul[@class=&quot;form-pribadi mb-42&quot;]/li[11]/lancar-input[1]/div[@class=&quot;input-wrapper default&quot;]/input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>4ef16859-b9a4-4f7e-8bd2-5d46d816f1b4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[11]</value>
+      <webElementGuid>4f63de12-515c-4491-b0ca-5ab2d76c4342</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[11]/lancar-input/div/input</value>
+      <webElementGuid>dc288f67-f285-4a61-8f10-932d65d211b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Nama Ibu Kandung']</value>
+      <webElementGuid>d9979480-b552-4dc5-be37-e233238bcfb8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//lancar-input//input[@formcontrolname='province_name']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${provinsi} ']</value>
+         <value>//div[@id='alamat-ktp']/following-sibling::div[3]//input[@formcontrolname='province_name']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${provinsi} ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>988a00ff-d54e-41f4-b832-c7e5a3640d03</webElementGuid>
+      <webElementGuid>e0a6e07c-b75b-4b80-a468-c221c7ffb46e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1661790085256</value>
-      <webElementGuid>0ec4ed19-2490-4c8f-8eeb-1e389203e841</webElementGuid>
+      <webElementGuid>931938d0-604f-4f1b-b3e9-322a58da69fa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

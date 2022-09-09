@@ -6,15 +6,18 @@
    <elementGuidId>7dc8583a-14b8-4642-a763-3d424812cc1d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='alamat-ktp']/following-sibling::div[4]//input[@formcontrolname = 'city_name']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='text'])[4]</value>
+         <key>BASIC</key>
+         <value>//input[@formcontrolname = 'city_name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>093f859d-2840-4d6f-97f0-765f1a233737</webElementGuid>
+      <webElementGuid>293a73d1-dd69-4d56-a915-d276dfd9b72d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>77f756f2-77cb-42dd-85fa-f16a5bceaafc</webElementGuid>
+      <webElementGuid>e34b8fbc-27af-49ca-83f5-f80a6e632d01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +41,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Pilih Kota/Kabupaten</value>
-      <webElementGuid>ccf74f8d-f2e0-4280-9862-4e0d02716a74</webElementGuid>
+      <webElementGuid>ad1dcd6a-975a-4441-b326-e699ba097c10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +49,7 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>city_name</value>
-      <webElementGuid>a7d686f6-55fb-4d99-9e69-3401d6c32fcf</webElementGuid>
+      <webElementGuid>449d2083-eca4-4a84-97c5-ac2b2aee9ed8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +57,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-toggle ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>bcd5d954-12d7-4986-9aa5-feafa4c58433</webElementGuid>
+      <webElementGuid>cd2c7cb6-169b-4834-9bc8-a16693c80747</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f4ce7572-0d30-4d60-bd9e-b7d47e2ce87a</webElementGuid>
+      <webElementGuid>422a4408-bcc1-4912-9b49-df8313e199a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;section-0&quot;)/div[@class=&quot;d-flex&quot;]/div[1]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;mb-24&quot;]/div[@class=&quot;dropdown&quot;]/lancar-input[1]/div[@class=&quot;input-wrapper default&quot;]/input[@class=&quot;dropdown-toggle ng-untouched ng-pristine ng-valid&quot;]</value>
-      <webElementGuid>60cedbde-5445-4978-b501-1267a7001281</webElementGuid>
+      <webElementGuid>6cd0ca50-1db9-458e-8f26-08fe93185d9f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@type='text'])[4]</value>
-      <webElementGuid>29425e50-0377-42ca-a018-85ae432ef249</webElementGuid>
+      <webElementGuid>7319b8ad-9af8-4d4f-91a5-87f6b58a673f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='section-0']/div/div/form/div[5]/div/lancar-input/div/input</value>
-      <webElementGuid>c5bd9098-a13a-48ce-a2dd-0a4c91c1bb12</webElementGuid>
+      <webElementGuid>6947c005-a903-4b00-bc1c-dd0d3190625c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/lancar-input/div/input</value>
-      <webElementGuid>b7f16e72-65f4-41ee-9e59-57ec5b7eeff7</webElementGuid>
+      <webElementGuid>2dc86ac2-3805-408e-ae9d-4c70e81088f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Pilih Kota/Kabupaten']</value>
-      <webElementGuid>eb2eb9b6-7b01-49ed-a975-3ea3d1c13ab5</webElementGuid>
+      <webElementGuid>e5df4232-fde8-403d-aaa7-6a12fc956709</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
