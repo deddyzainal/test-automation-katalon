@@ -67,7 +67,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://stage-apis.lancar.id:8443/userservice/api/guest/v1/user/register</restUrl>
+   <restUrl>${endpoint}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -96,6 +96,20 @@
       <id>38a0876b-4378-4ec9-9e9a-a707e5d3e502</id>
       <masked>false</masked>
       <name>requestBody</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.requestURL</defaultValue>
+      <description></description>
+      <id>bcd6ca37-b2be-43ba-a8c6-e481c8f06728</id>
+      <masked>false</masked>
+      <name>requestURL</name>
+   </variables>
+   <variables>
+      <defaultValue>'${requestURL}/userservice/api/guest/v1/user/register'</defaultValue>
+      <description></description>
+      <id>bcaac9d9-7ba4-457f-9513-f07f3ad2008d</id>
+      <masked>false</masked>
+      <name>endpoint</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

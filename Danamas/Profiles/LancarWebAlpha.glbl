@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>LancarWebStage</name>
+   <name>LancarWebAlpha</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://stage.lancar.id'</initValue>
+      <initValue>'https://alpha.lancar.id'</initValue>
       <name>LancarWeb</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,12 +21,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://stage-boms.lancar.id/'</initValue>
+      <initValue>'https://alpha-boms.lancar.id'</initValue>
       <name>LancarBOMS</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'stg_ca@danamas.co.id'</initValue>
+      <initValue>'ca@test.com'</initValue>
       <name>CAemail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://stage-apis.lancar.id:8443'</initValue>
+      <initValue>'https://sandbox-apis.lancar.id:8443'</initValue>
       <name>requestURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
