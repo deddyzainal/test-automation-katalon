@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Assign Credit Analyst</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>285e87e6-deaa-42ec-9b26-243951fe5206</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18ea2d3e-c9cc-4c39-919a-23d6f80770f4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'stg_ca'</defaultValue>
+      <description></description>
+      <id>18ea2d3e-c9cc-4c39-919a-23d6f80770f4</id>
+      <masked>false</masked>
+      <name>nama_credit_analyst</name>
+   </variable>
+</TestCaseEntity>

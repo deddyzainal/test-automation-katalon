@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter by No Pinjaman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75cc73f6-7979-4bf5-8eb9-d717fdf59117</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>038222bb-2830-46a3-ac73-c5c9d49788ab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'KC-KFP-0922-08-0006'</defaultValue>
+      <description></description>
+      <id>038222bb-2830-46a3-ac73-c5c9d49788ab</id>
+      <masked>false</masked>
+      <name>no_pinjaman</name>
+   </variable>
+</TestCaseEntity>

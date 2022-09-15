@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click Loan Assessment menu
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Side Menu/Menu - Loan Assessment'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Side Menu/Menu - Loan Assessment'))
+//Input Nama Peminjam
+WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/List/Input - Nama Peminjam'), nama_peminjam)
+//CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Loan Assessment/List/Input - Nama Peminjam'), nama_peminjam)
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(3)
 
-//verify label Loan Assessment visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Assessment/List/Label - Loan Assessment'))
+//Verify Nama Peminjam value in the list match with keyword
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/List/TextValue - Nama Peminjam'), nama_peminjam, FailureHandling.STOP_ON_FAILURE)

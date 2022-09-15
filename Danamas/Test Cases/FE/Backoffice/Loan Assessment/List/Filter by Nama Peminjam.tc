@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter by Nama Peminjam</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44caf8c5-1cb2-41b4-a883-0cca23e7bcf8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c588830-e8f9-4369-a0b6-fca7b15540b0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Agnes Monica'</defaultValue>
+      <description></description>
+      <id>8c588830-e8f9-4369-a0b6-fca7b15540b0</id>
+      <masked>false</masked>
+      <name>nama_peminjam</name>
+   </variable>
+</TestCaseEntity>

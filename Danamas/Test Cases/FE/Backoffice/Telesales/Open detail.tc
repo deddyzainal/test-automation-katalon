@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Delete user</name>
+   <name>Open detail</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c1de9eee-f337-4e8c-91d4-051c8944ea7e</testCaseGuid>
+   <testCaseGuid>7e84967b-b2ce-4a27-a9d4-a7b9aa3066a7</testCaseGuid>
 </TestCaseEntity>

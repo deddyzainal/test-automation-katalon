@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click Loan Assessment menu
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Side Menu/Menu - Loan Assessment'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Side Menu/Menu - Loan Assessment'))
+//Click dropdown Tipe Pinjaman
+WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Select - Tipe Pinjaman'))
 
-WebUI.waitForPageLoad(5)
+//Select option
+WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Option - Tipe Pinjaman', [('tipe_pinjaman') : tipe_pinjaman]))
 
-//verify label Loan Assessment visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Assessment/List/Label - Loan Assessment'))
+WebUI.waitForPageLoad(3)
+
+//Verify Tipe Pinjaman value on the list match with selected option
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Telesales/List/TextValue - Tipe Pinjaman'), tipe_pinjaman, FailureHandling.STOP_ON_FAILURE)

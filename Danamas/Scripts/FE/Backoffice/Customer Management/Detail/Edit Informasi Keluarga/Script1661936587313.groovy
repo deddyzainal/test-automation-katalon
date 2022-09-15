@@ -24,11 +24,11 @@ if (count_data > 0) {
 	
 	//Select Status Pernikahan
 	WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Select - Status Pernikahan', [('no') : count_data]))
-	WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Option - Status Pernikahan', [('no'):count_data, ('status_pernikahan'):status_pernikahan]))
+	WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Option - Status Pernikahan', [('no') : count_data, ('status_pernikahan'):status_pernikahan]))
 	
 	//Select Hubungan
 	WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Select - Hubungan', [('no') : count_data]))
-	WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Option - Hubungan', [('no'):count_data, ('hubungan'):hubungan]))
+	WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Option - Hubungan', [('no') : count_data, ('hubungan'):hubungan]))
 	
 	//Input Tanggal Lahir
 	//WebUI.setText(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Input - Tanggal Lahir', [('no') : count_data]), tanggal_lahir)

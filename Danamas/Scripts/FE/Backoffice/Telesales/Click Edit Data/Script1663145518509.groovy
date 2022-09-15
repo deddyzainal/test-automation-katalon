@@ -17,11 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click Loan Assessment menu
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Side Menu/Menu - Loan Assessment'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Side Menu/Menu - Loan Assessment'))
+//Click button Edit Data
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Telesales/Detail/Button - Edit Data'), 2)
+WebUI.click(findTestObject('FE/Backoffice/Telesales/Detail/Button - Edit Data'))
 
-WebUI.waitForPageLoad(5)
-
-//verify label Loan Assessment visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Assessment/List/Label - Loan Assessment'))
+WebUI.waitForPageLoad(3)

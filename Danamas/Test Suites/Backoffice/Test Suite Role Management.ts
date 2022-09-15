@@ -123,7 +123,7 @@
       <guid>7bbbd336-73f5-44d1-9fc8-651eefcdde86</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Role Management/Delete user</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Role Management/Delete role</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

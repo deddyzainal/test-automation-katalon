@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Label - Beranda Loan Assessment</name>
+   <name>Input - Foto Selfie ditempat Kerja</name>
    <tag></tag>
-   <elementGuidId>0a1018f0-d40f-4053-a9f6-06ea17c7cd17</elementGuidId>
+   <elementGuidId>31dcdb68-8bc2-4a8b-b402-b75ecbbb6527</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h4[text()=' Beranda Loan Assessment ']</value>
+         <value>//label[text()='Foto selfie ditempat kerja atau ID card']/following-sibling::app-drag-input-file/div[contains(@class, 'container-upload')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

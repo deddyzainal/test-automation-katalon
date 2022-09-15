@@ -13,15 +13,17 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click Loan Assessment menu
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Side Menu/Menu - Loan Assessment'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Side Menu/Menu - Loan Assessment'))
+//Select Status
+WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/List/Select - Status'))
+WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/List/Option - Status', [('status') : status]))
 
-WebUI.waitForPageLoad(5)
+//WebUI.waitForPageLoad(5)
+WebUI.delay(3)
 
-//verify label Loan Assessment visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Assessment/List/Label - Loan Assessment'))
+//Verify Status value in the list match with keyword
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/List/TextValue - Status'), status, FailureHandling.STOP_ON_FAILURE)

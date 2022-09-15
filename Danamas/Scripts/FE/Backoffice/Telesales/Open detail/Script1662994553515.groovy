@@ -17,11 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click Loan Assessment menu
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Side Menu/Menu - Loan Assessment'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Side Menu/Menu - Loan Assessment'))
+//Click data on the list
+WebUI.click(findTestObject('FE/Backoffice/Telesales/List/DataTable - Row 1'))
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(3)
 
-//verify label Loan Assessment visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Assessment/List/Label - Loan Assessment'))
+//Verify label Ringkasan Pinjaman is visible
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Telesales/Detail/Label - Ringkasan Pinjaman'), FailureHandling.STOP_ON_FAILURE)

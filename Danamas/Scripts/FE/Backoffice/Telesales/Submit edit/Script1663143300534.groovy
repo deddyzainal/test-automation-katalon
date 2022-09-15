@@ -17,11 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click Loan Assessment menu
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Side Menu/Menu - Loan Assessment'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Side Menu/Menu - Loan Assessment'))
+//Click button Submit
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Telesales/Edit/Button - Submit'), 2)
+WebUI.click(findTestObject('FE/Backoffice/Telesales/Edit/Button - Submit'))
 
-WebUI.waitForPageLoad(5)
-
-//verify label Loan Assessment visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Assessment/List/Label - Loan Assessment'))
+//Verify success dialog is shown
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Telesales/Edit/Snackbar - Heading'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Telesales/Edit/Snackbar - Heading'), 'Sukses', FailureHandling.STOP_ON_FAILURE)
