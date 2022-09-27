@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set property and loan value and tenure</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1d06d56-6823-4680-94ca-33cb4240598b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ebb5545-9fcd-485b-9810-73030f0fb48d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90855575-5b48-4cb0-8f46-913ee59c22d4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae5d09d6-0494-4622-9a0c-689b764e0aa8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1500'</defaultValue>
+      <description></description>
+      <id>5ebb5545-9fcd-485b-9810-73030f0fb48d</id>
+      <masked>false</masked>
+      <name>nilaiProperti</name>
+   </variable>
+   <variable>
+      <defaultValue>'550'</defaultValue>
+      <description></description>
+      <id>90855575-5b48-4cb0-8f46-913ee59c22d4</id>
+      <masked>false</masked>
+      <name>nilaiPinjaman</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>ae5d09d6-0494-4622-9a0c-689b764e0aa8</id>
+      <masked>false</masked>
+      <name>tenor</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+{
+  "keywordFileContentHash": "781D038EF11BB21B81E194E1BC4AA538",
+  "keywordClasses": [
+    {
+      "name": "mobileHelper.CommonActions",
+      "keywordMethods": [
+        {
+          "name": "closeCurrentApp",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "swipeLeft",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "swipeRight",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "swipeUp",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "swipeDown",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
