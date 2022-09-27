@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Pasca &amp; hasil CUE Quant' or . = 'Pasca &amp; hasil CUE Quant')]</value>
+         <value>//a[(text() = 'Assessment Tempat Usaha' or . = 'Assessment Tempat Usaha')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7e7e8fb6-3146-4d9f-acdf-ffba069ba131</webElementGuid>
+      <webElementGuid>2c7ff009-4d4f-49c5-b6e9-afda83c2765d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Pasca &amp; hasil CUE Quant</value>
-      <webElementGuid>a1096ab2-ee40-48b5-b5a2-64391f4030a6</webElementGuid>
+      <value>Assessment Tempat Usaha</value>
+      <webElementGuid>fe885ab5-5a06-4bed-9195-f02ba0e1b325</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

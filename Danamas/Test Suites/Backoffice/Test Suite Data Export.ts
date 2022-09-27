@@ -22,7 +22,7 @@
       <guid>6919d962-ef22-47f5-9a37-1a9560f17ae8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click menu Data Export</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Navigation/Click menu Data Export</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

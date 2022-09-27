@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add new template</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86f2106c-5b92-4afe-9e7c-b51ae245dc01</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0da1b32d-59bd-43b4-acb9-6fd6aa9f2ebc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85623be7-c6d7-439d-85dc-2ce2eb0a4bb5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3070a96-a3f0-4263-ab13-5ff180b57478</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon'</defaultValue>
+      <description></description>
+      <id>0da1b32d-59bd-43b4-acb9-6fd6aa9f2ebc</id>
+      <masked>false</masked>
+      <name>nama_audience</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Deskripsi'</defaultValue>
+      <description></description>
+      <id>85623be7-c6d7-439d-85dc-2ce2eb0a4bb5</id>
+      <masked>false</masked>
+      <name>deskripsi</name>
+   </variable>
+   <variable>
+      <defaultValue>['meitri.delfiza@gmail.com', 'meitri.delfiza@yahoo.com']</defaultValue>
+      <description></description>
+      <id>c3070a96-a3f0-4263-ab13-5ff180b57478</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

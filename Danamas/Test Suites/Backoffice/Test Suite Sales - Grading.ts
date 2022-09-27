@@ -22,14 +22,14 @@
       <guid>0b5bdd64-60b6-42b1-a442-0d85d4083b98</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click menu Sales</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Navigation/Click menu Sales</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e4347d3b-e674-4ef3-8713-cb69aa05364e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click menu Grading Master</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Navigation/Click menu Grading Master</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

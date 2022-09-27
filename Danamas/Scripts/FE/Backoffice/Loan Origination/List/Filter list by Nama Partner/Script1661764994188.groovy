@@ -18,9 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [:])
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Side Menu/Click menu Data and Prospect'), [:])
+WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Data and Prospect'), [:])
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Side Menu/Click menu Loan Origination'), [:])
+WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Origination'), [:])
 
 //Filter list by Tipe Partner
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Tipe Partner'), [('tipe_partner') : tipe_partner], FailureHandling.STOP_ON_FAILURE)

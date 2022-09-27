@@ -11,11 +11,24 @@
       <value></value>
       <variableId>18ea2d3e-c9cc-4c39-919a-23d6f80770f4</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ed4e24c-c7d5-4798-8a4d-cce9be94d06b</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'stg_ca'</defaultValue>
       <description></description>
       <id>18ea2d3e-c9cc-4c39-919a-23d6f80770f4</id>
       <masked>false</masked>
       <name>nama_credit_analyst</name>
+   </variable>
+   <variable>
+      <defaultValue>'KC-KFN-0922-16-0001'</defaultValue>
+      <description></description>
+      <id>5ed4e24c-c7d5-4798-8a4d-cce9be94d06b</id>
+      <masked>false</masked>
+      <name>no_pinjaman</name>
    </variable>
 </TestCaseEntity>

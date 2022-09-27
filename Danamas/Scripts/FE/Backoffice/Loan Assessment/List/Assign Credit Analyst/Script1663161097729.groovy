@@ -17,23 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Search loan by no pinjaman
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Pinjaman'), [('no_pinjaman') : no_pinjaman],
+	FailureHandling.STOP_ON_FAILURE)
+
 //Click checkbox on the list
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/List/Checkbox - Assessment List'))
 
 //Click button Tugaskan
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/List/Button - Tugaskan'), 3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/List/Button - Tugaskan'))
 
 //Select Nama CA
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/List/Penugasan CA/Select - Nama Credit Analyst'), 3, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/List/Penugasan CA/Select - Nama Credit Analyst'), 
+    3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/List/Penugasan CA/Select - Nama Credit Analyst'))
+
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/List/Penugasan CA/Option - Nama Credit Analyst', [('nama_credit_analyst') : nama_credit_analyst]))
 
 //Click button Tugaskan on the dialog
 WebUI.waitForElementClickable(findTestObject('FE/Backoffice/Loan Assessment/List/Penugasan CA/Button - Tugaskan'), 3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/List/Penugasan CA/Button - Tugaskan'))
 
 WebUI.waitForPageLoad(5)
 
 //Verify Nama Credit Analyst in the list already filled
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/List/TextValue - Nama Credit Analyst'), nama_credit_analyst, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Pinjaman'), [('no_pinjaman') : no_pinjaman], 
+    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/List/TextValue - Nama Credit Analyst'), nama_credit_analyst, 
+    FailureHandling.STOP_ON_FAILURE)
+

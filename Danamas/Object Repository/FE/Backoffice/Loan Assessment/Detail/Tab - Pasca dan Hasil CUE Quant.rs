@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Biro Modul' or . = 'Biro Modul')]</value>
+         <value>//a[(text() = 'Pasca &amp; hasil CUE Quant' or . = 'Pasca &amp; hasil CUE Quant')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2e5ab88e-2c86-43ee-a295-7323f666088a</webElementGuid>
+      <webElementGuid>cc5ac18f-1493-4699-8d8a-0cc84b333232</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Biro Modul</value>
-      <webElementGuid>ece252db-8de9-4e52-8f68-db28ed9c4f8c</webElementGuid>
+      <value>Pasca &amp; hasil CUE Quant</value>
+      <webElementGuid>15b46444-f036-40f4-a1f5-7ae95df8d968</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -22,7 +22,7 @@
       <guid>102959e7-cf50-40ab-9023-f6044736f1b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click menu Role Management</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Navigation/Click menu Role Management</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

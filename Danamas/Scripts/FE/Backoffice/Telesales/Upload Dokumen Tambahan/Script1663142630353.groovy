@@ -9,8 +9,8 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 //WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [:])
-//WebUI.callTestCase(findTestCase('FE/Backoffice/Side Menu/Click menu Task List'), [:])
-//WebUI.callTestCase(findTestCase('FE/Backoffice/Side Menu/Click menu Telesales'), [:])
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Task List'), [:])
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Telesales'), [:])
 //WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by ID Pinjaman'), [('id_pinjaman') : 'KC-KFO-0922-13-0004'])
 //WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Open detail'), [:])
 //WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Click Edit Data'), [:])

@@ -11,17 +11,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'meitri.delfiza@icehousecorp.com'</initValue>
+      <initValue>'stg_ca@danamas.co.id'</initValue>
       <name>email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ELeIGSF4J+I='</initValue>
+      <initValue>'NKAHewjCsCvdggNkUy5Ovw=='</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://stage-backoffice.lancar.id/'</initValue>
       <name>url_backoffice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'stg_ca'</initValue>
+      <name>nama_ca</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -22,7 +22,7 @@
       <guid>0e985f14-28ac-40a2-ad6b-575e1172a276</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click menu Offer Letter</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Navigation/Click menu Offer Letter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

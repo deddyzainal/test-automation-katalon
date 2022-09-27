@@ -21,5 +21,5 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'backoffice.common.fillLoginForm'(GlobalVariable.email, GlobalVariable.password)
 
 //Verify Lancar image is visible after successfull login
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Side Menu/Image - Lancar'))
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Navigation/Image - Lancar'))
 

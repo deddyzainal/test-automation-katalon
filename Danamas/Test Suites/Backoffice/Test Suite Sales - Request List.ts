@@ -22,14 +22,14 @@
       <guid>0b5bdd64-60b6-42b1-a442-0d85d4083b98</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click menu Sales</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Navigation/Click menu Sales</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4705a2b3-5fc4-473d-b65b-71f7427f2cbd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Side Menu/Click menu Request</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Navigation/Click menu Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

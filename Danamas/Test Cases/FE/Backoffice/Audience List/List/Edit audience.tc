@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit audience</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20917f84-2296-4b42-8244-ee1be923a155</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3f2e1abb-b087-43b3-b46d-222e5a486732</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09ccc7b6-4c6d-4225-80ee-d82334c7aa10</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5c622bbc-7e2f-45af-a789-1db3cd216d51</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon 2'</defaultValue>
+      <description></description>
+      <id>3f2e1abb-b087-43b3-b46d-222e5a486732</id>
+      <masked>false</masked>
+      <name>nama_audience</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Deskripsi 2'</defaultValue>
+      <description></description>
+      <id>09ccc7b6-4c6d-4225-80ee-d82334c7aa10</id>
+      <masked>false</masked>
+      <name>deskripsi</name>
+   </variable>
+   <variable>
+      <defaultValue>['stg@gmail.com', 'stg@yahoo.com']</defaultValue>
+      <description></description>
+      <id>5c622bbc-7e2f-45af-a789-1db3cd216d51</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>
