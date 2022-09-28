@@ -21,4 +21,12 @@ Mobile.tap(findTestObject('FE/LancarMobile/Android/Upload KTP/Documents/Button -
 
 Mobile.sendKeys(findTestObject('FE/LancarMobile/Android/Upload KTP/Documents/Input - Search'), 'Debby')
 
+Mobile.delay(2)
+
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Upload KTP/Documents/Image - KTP Debby'), 5)
+
+Mobile.waitForElementPresent(findTestObject('FE/LancarMobile/Android/Upload KTP/Image - Preview Image'), 10, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - Kirim Image'), 2)
+
+Mobile.waitForElementNotPresent(findTestObject('FE/LancarMobile/Android/Upload KTP/Image - Preview Image'), 10, FailureHandling.STOP_ON_FAILURE)

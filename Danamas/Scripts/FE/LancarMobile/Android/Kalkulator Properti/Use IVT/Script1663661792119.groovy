@@ -63,10 +63,10 @@ Mobile.tap(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Button - 
 
 Mobile.delay(2)
 
-boolean buttonVisible = Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Button - LIHAT NILAI PINJAMAN'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+boolean buttonVisible = Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Button - LIHAT NILAI PINJAMAN'), 2, FailureHandling.OPTIONAL)
 
 if (buttonVisible == true) {
-    Mobile.tap(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Button - LIHAT NILAI PINJAMAN'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+    Mobile.tap(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Button - LIHAT NILAI PINJAMAN'), 1, FailureHandling.STOP_ON_FAILURE)
 }
 
 Mobile.delay(2)
