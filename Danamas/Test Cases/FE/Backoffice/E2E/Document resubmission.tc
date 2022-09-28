@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filter by No Pinjaman</name>
+   <name>Document resubmission</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>75cc73f6-7979-4bf5-8eb9-d717fdf59117</testCaseGuid>
+   <testCaseGuid>58897246-5cdd-4a22-8a33-2728234533bf</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>038222bb-2830-46a3-ac73-c5c9d49788ab</variableId>
+      <variableId>e1bf848d-0d45-4cb5-ab3f-58840702058e</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'KC-KFN-0922-22-0003'</defaultValue>
       <description></description>
-      <id>038222bb-2830-46a3-ac73-c5c9d49788ab</id>
+      <id>e1bf848d-0d45-4cb5-ab3f-58840702058e</id>
       <masked>false</masked>
       <name>no_pinjaman</name>
    </variable>

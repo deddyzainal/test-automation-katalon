@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filter by No Pinjaman</name>
+   <name>Filter by KTP Peminjam</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>75cc73f6-7979-4bf5-8eb9-d717fdf59117</testCaseGuid>
+   <testCaseGuid>4a6c9732-3f78-45ee-a3f7-83364731405e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>038222bb-2830-46a3-ac73-c5c9d49788ab</variableId>
+      <variableId>7cfef90c-21e4-4083-aee1-3b97581ea499</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'KC-KFN-0922-22-0003'</defaultValue>
+      <defaultValue>'2022092811371312'</defaultValue>
       <description></description>
-      <id>038222bb-2830-46a3-ac73-c5c9d49788ab</id>
+      <id>7cfef90c-21e4-4083-aee1-3b97581ea499</id>
       <masked>false</masked>
-      <name>no_pinjaman</name>
+      <name>ktp</name>
    </variable>
 </TestCaseEntity>

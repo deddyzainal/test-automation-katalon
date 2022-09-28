@@ -48,7 +48,7 @@
    <testCaseLink>
       <guid>6cd02c12-7783-4db6-b220-be1dbfa0a064</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Loan Assessment/List/Filter by No Pinjaman</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -106,7 +106,7 @@
    <testCaseLink>
       <guid>20ab45db-5b9f-4ddb-ada0-31b893e4646f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Loan Assessment/List/Open assessment detail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -455,8 +455,34 @@
    <testCaseLink>
       <guid>285f66ae-8c63-4fb5-8dba-960f5ddeb457</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/Navigation/Notification is added</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>078135f1-c958-402b-a604-9485009fbd02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Loan Assessment/Detail/Open folder Dokumen Agunan</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1342c5f1-0045-42aa-8e0e-3f7bdfbd5051</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Loan Assessment/Detail/Submit resubmission form</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>de772d20-728e-4884-ad02-9d6cdea323ec</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>00d8e164-445b-4e30-aa4d-16a8686b9ecc</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filter by No Pinjaman</name>
+   <name>Reactivate loan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>75cc73f6-7979-4bf5-8eb9-d717fdf59117</testCaseGuid>
+   <testCaseGuid>82a489ed-09e0-442b-850d-e26ff9585495</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>038222bb-2830-46a3-ac73-c5c9d49788ab</variableId>
+      <variableId>6c76f1f3-9ac6-4561-8493-ed59f30c7021</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'KC-KFN-0922-22-0003'</defaultValue>
+      <defaultValue>'reactivate reason'</defaultValue>
       <description></description>
-      <id>038222bb-2830-46a3-ac73-c5c9d49788ab</id>
+      <id>6c76f1f3-9ac6-4561-8493-ed59f30c7021</id>
       <masked>false</masked>
-      <name>no_pinjaman</name>
+      <name>alasan_pengaktifan_kembali</name>
    </variable>
 </TestCaseEntity>
