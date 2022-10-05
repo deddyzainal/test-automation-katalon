@@ -26,8 +26,15 @@ WebUI.setText(findTestObject('FE/Backoffice/Sales/Grading/Form/Input - Grade'), 
 //Input Nominal Target Penjualan
 WebUI.setText(findTestObject('FE/Backoffice/Sales/Grading/Form/Input - Nominal Target Penjualan'), nominal_target_penjualan)
 
+//Input Persentase Pencapaian
+WebUI.setText(findTestObject('FE/Backoffice/Sales/Grading/Form/Input - Persentase Pencapaian'), persentase_pencapaian)
+
+//WebUI.delay(4)
+
 //Click button Tambah Grade Baru
 WebUI.click(findTestObject('FE/Backoffice/Sales/Grading/Form/Button - Tambah Grade Baru'))
+WebUI.click(findTestObject('FE/Backoffice/Sales/Grading/Form/Button - Tambah Grade Baru'))
+
 
 //Click button Confirm on the dialog
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Button - Confirm'), 2, FailureHandling.STOP_ON_FAILURE)

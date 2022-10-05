@@ -20,5 +20,5 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Customer Management/List/Input - Nama'), nama)
 
 //Verify Nama in the list match with inputted text
-WebUI.waitForPageLoad(5)
+WebUI.delay(2)
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Customer Management/List/TextValue - Nama'), nama)

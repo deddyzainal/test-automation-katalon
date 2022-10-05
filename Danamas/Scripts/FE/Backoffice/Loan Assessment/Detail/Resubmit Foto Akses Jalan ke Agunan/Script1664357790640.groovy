@@ -22,4 +22,4 @@ WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Button - Resubmission Foto Akses Jalan ke Agunan'))
 
 //Fill resubmission form
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Submit resubmission form'), [('alasan') : 'Low quality', ('deskripsi') : 'Test deskripsi Foto Akses Jalan ke Agunan'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Submit resubmission form'), [('alasan') : alasan, ('deskripsi') : deskripsi], FailureHandling.STOP_ON_FAILURE)

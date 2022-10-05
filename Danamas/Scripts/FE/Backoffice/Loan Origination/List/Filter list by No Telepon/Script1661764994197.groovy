@@ -18,10 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 //Input no telepon in No Telepon field
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/List/Input - No Telepon'), 3)
+//WebUI.setText(findTestObject('FE/Backoffice/Loan Origination/List/Input - No Telepon'), no_telepon)
 CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Loan Origination/List/Input - No Telepon'), no_telepon)
 
-//WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Input - No Telepon'))
-//WebUI.setText(findTestObject('FE/Backoffice/Loan Origination/List/Input - No Telepon'), no_telepon)
-
 WebUI.delay(3)
-//WebUI.waitForPageLoad(5)

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Bukti Keuangan - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91a3804f-bee6-4e1d-8446-981d1bff2584</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb5854b6-7045-4e30-add3-7a379e1a2f51</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dfee4d47-ca9d-4c84-82f7-32f40006051a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec386334-30fc-4345-ad8f-3c681b190f55</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7795c1d7-e7ab-4f24-b078-cb5045273bd7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a43d52b6-e875-424a-a663-8a3090df9f9c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d65e4fab-ebac-487b-968e-bafa3c581d6b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4740b9f-a7c6-4d60-89e0-0f4e1b62f343</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ca3218b-6de7-4a31-b947-a85d3ed3758d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>756d8c38-7c6f-4d41-a34f-3073ecf287e9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84f93dee-151b-4426-ae46-65e66f555973</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d33d4239-1df8-45e0-a165-147c0aefd888</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4293485b-daf3-4410-9167-338a1b896b76</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c769f7c3-9c3d-480a-a8c6-e9232734ae12</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90ebeee5-9978-49ff-9216-6e4766ba0d13</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21ddff07-8087-4a15-b0c6-f4c34ee2bfe1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <description></description>
+      <id>fb5854b6-7045-4e30-add3-7a379e1a2f51</id>
+      <masked>false</masked>
+      <name>pbb</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <description></description>
+      <id>dfee4d47-ca9d-4c84-82f7-32f40006051a</id>
+      <masked>false</masked>
+      <name>sertifikat_kepemilikan</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <description></description>
+      <id>ec386334-30fc-4345-ad8f-3c681b190f55</id>
+      <masked>false</masked>
+      <name>imb</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <description></description>
+      <id>7795c1d7-e7ab-4f24-b078-cb5045273bd7</id>
+      <masked>false</masked>
+      <name>agunan_tampak_dalam</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <description></description>
+      <id>a43d52b6-e875-424a-a663-8a3090df9f9c</id>
+      <masked>false</masked>
+      <name>agunan_tampak_depan</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <description></description>
+      <id>d65e4fab-ebac-487b-968e-bafa3c581d6b</id>
+      <masked>false</masked>
+      <name>akses_jalan_masuk</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK copy.png'</defaultValue>
+      <description></description>
+      <id>f4740b9f-a7c6-4d60-89e0-0f4e1b62f343</id>
+      <masked>false</masked>
+      <name>rekening_koran_operasional</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK copy.png'</defaultValue>
+      <description></description>
+      <id>4ca3218b-6de7-4a31-b947-a85d3ed3758d</id>
+      <masked>false</masked>
+      <name>bukti_transaksi_usaha</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <description></description>
+      <id>756d8c38-7c6f-4d41-a34f-3073ecf287e9</id>
+      <masked>false</masked>
+      <name>izin_usaha</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <description></description>
+      <id>84f93dee-151b-4426-ae46-65e66f555973</id>
+      <masked>false</masked>
+      <name>tempat_usaha</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK copy.png'</defaultValue>
+      <description></description>
+      <id>d33d4239-1df8-45e0-a165-147c0aefd888</id>
+      <masked>false</masked>
+      <name>selfie_ditempat_usaha</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK copy.png'</defaultValue>
+      <description></description>
+      <id>4293485b-daf3-4410-9167-338a1b896b76</id>
+      <masked>false</masked>
+      <name>slip_gaji</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <description></description>
+      <id>c769f7c3-9c3d-480a-a8c6-e9232734ae12</id>
+      <masked>false</masked>
+      <name>rekening_koran_payroll</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <description></description>
+      <id>90ebeee5-9978-49ff-9216-6e4766ba0d13</id>
+      <masked>false</masked>
+      <name>selfie_ditempat_kerja</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK copy.png'</defaultValue>
+      <description></description>
+      <id>21ddff07-8087-4a15-b0c6-f4c34ee2bfe1</id>
+      <masked>false</masked>
+      <name>surat_keterangan_kerja</name>
+   </variable>
+</TestCaseEntity>

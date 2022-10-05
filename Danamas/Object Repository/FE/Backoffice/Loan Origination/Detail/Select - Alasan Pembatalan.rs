@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>//input[@formcontrolname = 'cancel_reason']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@formcontrolname = 'cancel_reason']/parent::div</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -18,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a9bf190f-4a77-4faa-bf06-8eb6d4a1c261</webElementGuid>
+      <webElementGuid>63b28de6-4908-43ec-a955-aae2db354518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +30,6 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>cancel_reason</value>
-      <webElementGuid>83d3dc37-4a0d-4735-aa75-0702ceeee78e</webElementGuid>
+      <webElementGuid>10f62b18-8607-418e-8fac-5439beab1757</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

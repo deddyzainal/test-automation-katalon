@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Click tab Detail Agunan
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/Detail/Tab - Detail Agunan'), 3)
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Origination/Detail/Tab - Detail Agunan'), 3)
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/Detail/Tab - Detail Agunan'))
 
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Origination/Detail/Tab - Detail Agunan'), 3)

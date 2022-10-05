@@ -27,3 +27,5 @@ WebUI.scrollToElement(findTestObject('Object Repository/FE/Backoffice/Loan Origi
 WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Origination/Detail/Pencairan/Label - Informasi Pencairan'))
 
 WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Origination/Detail/Pencairan/DataTable - Row 1'))
+
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Origination/Detail/Pencairan/TextValue - Status'), 3)

@@ -21,5 +21,5 @@ WebUI.click(findTestObject('FE/Backoffice/Customer Management/List/Select - Digi
 WebUI.click(findTestObject('FE/Backoffice/Customer Management/List/Option - Digi Sign Status', [('digi_sign_status'):digi_sign_status]))
 
 //Verify Status in the list match with selected option
-WebUI.waitForPageLoad(5)
+WebUI.delay(2)
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Customer Management/List/TextValue - Sign Status'), digi_sign_status.toUpperCase())

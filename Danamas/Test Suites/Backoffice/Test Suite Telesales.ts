@@ -95,97 +95,19 @@
       <guid>3d9faa6a-f495-43dc-8ba6-88a9074b3f45</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Telesales/Upload Dokumen Agunan</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Telesales/Upload file</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>620fc304-528d-46bf-88f7-60a3ea9c041a</variableId>
+         <variableId>d7322c66-d6b4-4198-858f-807ee350ed95</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e98ff080-3082-4902-89d4-e4a5ffc34b41</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c00a032d-1194-4a1c-9d58-3ca0e2d752e8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0f129ded-0c56-4625-a654-324a758bdb6b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7249ab02-f3eb-4deb-a5c4-2a2199aafc06</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>59710556-e5b7-407e-a31c-e1e3f90fbcf5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7131ee41-1299-4730-9a5f-2f5b6c2e69c0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b7cc6bf3-ec65-4f14-af52-4e8e1e36797e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4fed45d8-42e9-41a2-a5ad-827e7a49412c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>dd16362d-bde4-4740-a867-22890d35725e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8025487f-b8df-4c33-b2e5-5c02bc10aee8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6db8cade-17ec-4906-9c8d-c41d729fdaae</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e49cfffb-2655-45f4-8eb0-eb0b774f60b8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7590b942-0eaa-4e0c-8f70-ace9f5a2afc9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6d2dd264-ac01-484d-9fb9-15f78a0d9f62</variableId>
+         <variableId>97d3c5f6-5999-4da9-bb7b-cd5df15c5c63</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

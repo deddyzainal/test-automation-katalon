@@ -12,7 +12,7 @@
       <variableId>2481a489-5104-408e-bbcb-0ca38a470a10</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Katalon'</defaultValue>
+      <defaultValue>'Test User'</defaultValue>
       <description></description>
       <id>2481a489-5104-408e-bbcb-0ca38a470a10</id>
       <masked>false</masked>

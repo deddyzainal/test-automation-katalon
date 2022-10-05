@@ -34,6 +34,7 @@ WebUI.setText(findTestObject('FE/Backoffice/Sales/Branch/Form/Input - Nama Branc
 
 //Select Grade
 WebUI.click(findTestObject('FE/Backoffice/Sales/Branch/Form/Select - Grade'))
+WebUI.setText(findTestObject('FE/Backoffice/Sales/Branch/Form/Input - Search Grade'), grade)
 WebUI.click(findTestObject('FE/Backoffice/Sales/Branch/Form/Option - Grade', [('grade') : grade]))
 
 //Click button Simpan

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Input No Telepon
-WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/List/Input - No Telepon'), no_telepon)
-//CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Loan Assessment/List/Input - No Telepon'), no_telepon)
+//WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/List/Input - No Telepon'), no_telepon)
+CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Loan Assessment/List/Input - No Telepon'), no_telepon)
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(3)

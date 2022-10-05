@@ -23,9 +23,9 @@ WebUI.scrollToElement(findTestObject('FE/Backoffice/Sales/Request/Detail/Button 
 WebUI.click(findTestObject('FE/Backoffice/Sales/Request/Detail/Button - Non-aktifkan Agen'))
 
 //Click Confirm button on confirmation dialog
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Button - Confirm'), 2, FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('FE/Backoffice/Common/Button - Confirm'))
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Sales/Request/Detail/Edit Agent/Button - Ya, non aktifkan'), 2, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FE/Backoffice/Sales/Request/Detail/Edit Agent/Button - Ya, non aktifkan'))
 
 //Verify success snackbar is shown
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 5)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 'Berhasil Non-Aktifkan Agent', FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Subheading'), 5)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Subheading'), 'Silahkan cek melalui status agen', FailureHandling.STOP_ON_FAILURE)

@@ -27,15 +27,17 @@ WebUI.delay(3)
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Button - Edit'))
 
 //Generate Data Pefindo
-WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Button - Generate Data Pefindo'))
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Snackbar - Heading'), 5, FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Snackbar - Heading'), 'Sukses', FailureHandling.STOP_ON_FAILURE)
+//WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Button - Generate Data Pefindo'), 2)
+//WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Button - Generate Data Pefindo'))
+//WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Snackbar - Heading'), 5, FailureHandling.STOP_ON_FAILURE)
+//WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Snackbar - Heading'), 'Sukses', FailureHandling.STOP_ON_FAILURE)
 //Verify Data Pefindo is shown
 
 
 //Open Fasilitas Aktif (All)
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Pemohon/Button - Fasilitas Aktif'), 2)
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Pemohon/Button - Fasilitas Aktif'))
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Pemohon/Label - Fasilitas Aktif'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Pemohon/Label - Fasilitas Aktif'), 3, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyTextPresent('Semua', false, FailureHandling.STOP_ON_FAILURE)
 
 //Open Detail Fasilitas Aktif
@@ -48,6 +50,7 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Pemo
 
 //Open Fasilitas Aktif Pasangan
 if(status == 'Kawin') {
+	WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Pasangan/Button - Fasilitas Aktif'), 2)
 	WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Pasangan/Button - Fasilitas Aktif'))
 	WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Biro Modul/Pasangan/Label - Fasilitas Aktif'), 0, FailureHandling.STOP_ON_FAILURE)
 	WebUI.verifyTextPresent('Semua', false, FailureHandling.STOP_ON_FAILURE)

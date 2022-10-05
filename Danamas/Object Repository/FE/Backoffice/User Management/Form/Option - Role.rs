@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//lancar-input//input[@formcontrolname='roleName']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${role} ']</value>
+         <value>/html/body/ngb-modal-window/div/div/div/div[2]/add-admin-form/form/div[1]/div/lancar-dropdown-list/ul/li[text()=' ${role} ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>dcf8477c-7980-4705-972a-8f79178acc02</webElementGuid>
+      <webElementGuid>61110a82-211c-471b-beca-8c222a743bf1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1662436400217</value>
-      <webElementGuid>a2d82592-6ceb-40b9-9e06-7facea02286a</webElementGuid>
+      <webElementGuid>7fb8d92f-919f-4207-8b10-c7294d30d380</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

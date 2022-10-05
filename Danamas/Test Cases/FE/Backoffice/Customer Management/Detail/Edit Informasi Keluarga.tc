@@ -30,14 +30,14 @@
       <variableId>93629393-f6d7-4fe5-8fbe-de5044ab324a</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Namananamo'</defaultValue>
+      <defaultValue>'Ponzu'</defaultValue>
       <description></description>
       <id>a3a8ff5e-1b4c-4ae2-baf1-4cecacf795be</id>
       <masked>false</masked>
       <name>nama</name>
    </variable>
    <variable>
-      <defaultValue>'888888877'</defaultValue>
+      <defaultValue>'13242423232323'</defaultValue>
       <description></description>
       <id>9447f1a9-3721-48c9-85ee-45af11233d38</id>
       <masked>false</masked>

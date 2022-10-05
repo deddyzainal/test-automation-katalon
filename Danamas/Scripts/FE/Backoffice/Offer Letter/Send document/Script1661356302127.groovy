@@ -25,5 +25,5 @@ WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Offer Letter/Detail/Ri
 WebUI.click(findTestObject('FE/Backoffice/Offer Letter/Detail/Ringkasan/Button - Ya, kirim sekarang'))
 
 //Verify success snackbar is shown
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 5, FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 'Surat penawaran pinjaman berhasil dikirim')
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Subheading'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Subheading'), 'Surat penawaran pinjaman berhasil dikirim')

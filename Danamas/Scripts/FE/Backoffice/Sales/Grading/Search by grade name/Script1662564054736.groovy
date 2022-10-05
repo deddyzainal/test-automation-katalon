@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 //Input grade name
 CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Sales/Grading/List/Input - Grade'), grade)
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(2)
 
 //Verify branch name value in the list match with keyword
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Sales/Grading/List/TextValue - Grade'), grade, FailureHandling.STOP_ON_FAILURE)

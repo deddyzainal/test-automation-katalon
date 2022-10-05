@@ -26,5 +26,5 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Status 
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Status Pinjaman', [('status_pinjaman'):status_pinjaman]))
 
 //Verify Status Pinjaman in the list match with selected option
-WebUI.waitForPageLoad(5)
+WebUI.delay(3)
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Origination/List/TextValue - Status'), status_pinjaman.toUpperCase())

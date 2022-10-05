@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>664460ce-52f6-478b-a660-a5aeffec20da</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d7a5a9f-d065-47d0-8783-f42de1aaa692</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>442b6245-e17c-4778-83c5-62936140422f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Low quality'</defaultValue>
+      <description></description>
+      <id>5d7a5a9f-d065-47d0-8783-f42de1aaa692</id>
+      <masked>false</masked>
+      <name>alasan</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test deskripsi PBB'</defaultValue>
+      <description></description>
+      <id>442b6245-e17c-4778-83c5-62936140422f</id>
+      <masked>false</masked>
+      <name>deskripsi</name>
+   </variable>
 </TestCaseEntity>

@@ -20,6 +20,6 @@ import org.openqa.selenium.Keys as Keys
 //Navigate to boms, fill login form and submit
 CustomKeywords.'backoffice.common.fillLoginForm'(GlobalVariable.email, GlobalVariable.password)
 
-//Verify Lancar image is visible after successfull login
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Navigation/Image - Lancar'))
-
+//Verify label Homepage is visible after successfull login
+//WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Homepage/Label - Homepage'), FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Homepage/Label - Homepage'), 5, FailureHandling.STOP_ON_FAILURE)

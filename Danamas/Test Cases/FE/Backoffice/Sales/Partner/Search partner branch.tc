@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search partner branch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c8f012c-74ee-43cf-8350-af6727df0190</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f47f83eb-1872-4c8d-97e1-81e9b01d6df5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'partner2'</defaultValue>
+      <description></description>
+      <id>f47f83eb-1872-4c8d-97e1-81e9b01d6df5</id>
+      <masked>false</masked>
+      <name>partner_branch</name>
+   </variable>
+</TestCaseEntity>

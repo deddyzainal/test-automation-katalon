@@ -92,31 +92,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4800f410-0634-4aa1-bbfe-268aad553a05</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Audience List/List/Edit audience</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3f2e1abb-b087-43b3-b46d-222e5a486732</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>09ccc7b6-4c6d-4225-80ee-d82334c7aa10</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5c622bbc-7e2f-45af-a789-1db3cd216d51</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>ce440650-eafc-43b5-9e38-d3ef2d48ad52</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>

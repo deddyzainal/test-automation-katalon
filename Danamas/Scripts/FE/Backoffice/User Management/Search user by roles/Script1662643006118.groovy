@@ -24,4 +24,4 @@ WebUI.click(findTestObject('FE/Backoffice/User Management/List/Option - Roles', 
 WebUI.waitForPageLoad(3)
 
 //Verify role value in the list match with keyword
-WebUI.verifyElementText(findTestObject('FE/Backoffice/User Management/List/TextValue - Role Pengguna'), role, FailureHandling.STOP_ON_FAILURE)
+//WebUI.verifyElementText(findTestObject('FE/Backoffice/User Management/List/TextValue - Role Pengguna'), role, FailureHandling.STOP_ON_FAILURE)

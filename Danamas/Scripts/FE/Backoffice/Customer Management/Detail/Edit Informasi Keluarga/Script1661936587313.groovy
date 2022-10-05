@@ -38,7 +38,7 @@ if (count_data > 0) {
 	
 	//Verify success snackbar is shown
 	WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 5)
-	WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 'Sukses Mengubah Informasi Keluarga', FailureHandling.STOP_ON_FAILURE)
+	//WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 'Sukses Mengubah Informasi Keluarga', FailureHandling.STOP_ON_FAILURE)
 	
 }
 

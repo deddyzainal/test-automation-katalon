@@ -26,52 +26,101 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>05183188-8716-4d3f-8068-6a8c09433f5c</guid>
+      <guid>26d0cb6e-c759-41a9-8732-e396214a71f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/Data Export/Export User Management</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/Data Export/Export report User Management</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>260df310-ae8e-4682-b8c8-229b81bf806e</variableId>
+         <variableId>8eb30b3a-8d13-446c-8f69-8715717ac0ca</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b7285e9a-81b1-4bad-80f5-50b3e61af1a8</variableId>
+         <variableId>1411f481-5c34-4f7b-b41f-2f90a0ed771e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b8704383-7a8d-4593-a995-9b98f7517577</variableId>
+         <variableId>9a298bcd-ef92-424c-b1d9-87fbd0ece618</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>65b1cbd2-dfb4-4ad8-acd8-390f16794cf7</variableId>
+         <variableId>6db52faa-f054-4213-b3cc-d43200d1435f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>41922031-ea68-4453-bf57-230652ab2da1</variableId>
+         <variableId>1ec8afe2-a4ef-49eb-8eaa-a9283f496b94</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5cc9ca28-65a3-40bf-b2cc-bf115afd00be</variableId>
+         <variableId>0606cf5d-ae68-4d6a-a121-1d711c5e5240</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0e396498-418b-401e-b18c-368d7488d0ef</variableId>
+         <variableId>20af0e60-9744-4acb-ba37-6bd93a41d40c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9d7e828b-3d50-488a-970e-6cb6b0e40fd2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/Data Export/Export report Loan Origination System</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cb681b3d-bb52-4f2e-a8a6-fb2121592ae2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>df5897d5-9ff9-4378-a51f-5e42f1e237f2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1f936e60-687a-4ac7-b8d9-db2aa3dc60d7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>07026144-e0b4-4544-a131-0afc1e718c7b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>87d404e3-0c91-472f-abd5-c19f2c34d631</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e822dba0-20f6-4455-81dc-a134e39b7282</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1a80aef1-7a6d-42a0-85f6-ced690dfe247</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

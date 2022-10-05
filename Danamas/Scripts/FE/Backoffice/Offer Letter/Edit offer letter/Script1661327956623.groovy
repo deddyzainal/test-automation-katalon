@@ -27,10 +27,10 @@ WebUI.waitForPageLoad(3)
 WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Label - Buat Surat Penawaran Pinjaman'))
 
 //Input Borrower's Name
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Borrower Name'), borrower_name)
+//WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Borrower Name'), borrower_name)
 
 //Input Loan Amount
-WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Loan Amount'), loan_amount)
+//WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Loan Amount'), loan_amount)
 
 //Input Tenure
 WebUI.setText(findTestObject('FE/Backoffice/Offer Letter/Detail/Offer Letter Edit/Input - Tenure'), tenure)

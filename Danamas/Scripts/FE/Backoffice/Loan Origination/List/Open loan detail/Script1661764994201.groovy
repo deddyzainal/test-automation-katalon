@@ -17,13 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click on the list (data row 1)
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/List/DataTable - Row 1'), 3)
+//Filter list by No Pinjaman
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by ID Pinjaman'), [('no_pinjaman') : no_pinjaman], FailureHandling.STOP_ON_FAILURE)
+
+//Click data on the list
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/DataTable - Row 1'))
 
 WebUI.waitForPageLoad(5)
 
 //Verify some elements in detail page is visible
 WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Origination/Detail/Label - Ringkasan Pinjaman'))
+
 WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Origination/Detail/Label - Informasi Peminjam'))
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Origination/Detail/TextValue - Status Pinjaman'))
+

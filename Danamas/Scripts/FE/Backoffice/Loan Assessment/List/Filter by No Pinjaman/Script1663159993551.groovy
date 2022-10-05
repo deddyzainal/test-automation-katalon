@@ -21,7 +21,6 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/List/Input - No Pinjaman'), no_pinjaman)
 CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Loan Assessment/List/Input - No Pinjaman'), no_pinjaman)
 
-//WebUI.waitForPageLoad(3)
 WebUI.delay(2)
 
 //Verify No Peminjam value in the list match with keyword

@@ -17,6 +17,12 @@
       <value></value>
       <variableId>55567db7-d451-41f2-ae91-d5ccabdac6bc</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88fbcba6-208e-40af-aebf-8df47de5510a</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Grade Q'</defaultValue>
       <description></description>
@@ -30,5 +36,12 @@
       <id>55567db7-d451-41f2-ae91-d5ccabdac6bc</id>
       <masked>false</masked>
       <name>nominal_target_penjualan</name>
+   </variable>
+   <variable>
+      <defaultValue>'70'</defaultValue>
+      <description></description>
+      <id>88fbcba6-208e-40af-aebf-8df47de5510a</id>
+      <masked>false</masked>
+      <name>persentase_pencapaian</name>
    </variable>
 </TestCaseEntity>

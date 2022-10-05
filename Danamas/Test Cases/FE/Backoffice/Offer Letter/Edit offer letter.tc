@@ -108,14 +108,14 @@
       <variableId>85ab8d35-6427-4231-8d22-375cd7c78ff4</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Joko 1'</defaultValue>
+      <defaultValue>'Hazel'</defaultValue>
       <description></description>
       <id>96bb2f97-5c67-413c-8274-c8e8ff34a82c</id>
       <masked>false</masked>
       <name>borrower_name</name>
    </variable>
    <variable>
-      <defaultValue>'50000001'</defaultValue>
+      <defaultValue>'90000001'</defaultValue>
       <description></description>
       <id>e4e771b2-14cf-441d-ac04-bf74446850ba</id>
       <masked>false</masked>
@@ -171,56 +171,56 @@
       <name>building_size</name>
    </variable>
    <variable>
-      <defaultValue>'33'</defaultValue>
+      <defaultValue>'7'</defaultValue>
       <description></description>
       <id>7ec772eb-9b21-4a59-8cd9-9028c0381c52</id>
       <masked>false</masked>
       <name>provision</name>
    </variable>
    <variable>
-      <defaultValue>'33000'</defaultValue>
+      <defaultValue>'700000'</defaultValue>
       <description></description>
       <id>07c81555-48c3-4b3d-b99b-6658bebf78e9</id>
       <masked>false</masked>
       <name>provision_fee</name>
    </variable>
    <variable>
-      <defaultValue>'44'</defaultValue>
+      <defaultValue>'5'</defaultValue>
       <description></description>
       <id>f2c4cdcb-59f6-4862-83ad-a36d5dc7e159</id>
       <masked>false</masked>
       <name>administration</name>
    </variable>
    <variable>
-      <defaultValue>'55555'</defaultValue>
+      <defaultValue>'600000'</defaultValue>
       <description></description>
       <id>fdf66ce9-3144-4ab1-836c-de3d18598801</id>
       <masked>false</masked>
       <name>life_insurance_fee</name>
    </variable>
    <variable>
-      <defaultValue>'6666'</defaultValue>
+      <defaultValue>'650000'</defaultValue>
       <description></description>
       <id>6f609622-3f97-47fc-ac2c-5ecaeb951bf8</id>
       <masked>false</masked>
       <name>fire_insurance_fee</name>
    </variable>
    <variable>
-      <defaultValue>'777'</defaultValue>
+      <defaultValue>'250000'</defaultValue>
       <description></description>
       <id>e0f64db8-0917-4dee-bc78-8ab025f6a200</id>
       <masked>false</masked>
       <name>notary_fee</name>
    </variable>
    <variable>
-      <defaultValue>'8'</defaultValue>
+      <defaultValue>'5'</defaultValue>
       <description></description>
       <id>08d2d367-7bc6-411c-882c-78664e3ccd54</id>
       <masked>false</masked>
       <name>advance_penalty_fee</name>
    </variable>
    <variable>
-      <defaultValue>'9'</defaultValue>
+      <defaultValue>'4'</defaultValue>
       <description></description>
       <id>85ab8d35-6427-4231-8d22-375cd7c78ff4</id>
       <masked>false</masked>

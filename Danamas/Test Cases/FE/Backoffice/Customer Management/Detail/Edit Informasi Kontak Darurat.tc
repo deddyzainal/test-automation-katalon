@@ -24,14 +24,14 @@
       <variableId>751bc905-4e90-4fb1-9f5b-8968333627e5</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Kontak Daruratt'</defaultValue>
+      <defaultValue>'Ritesa'</defaultValue>
       <description></description>
       <id>98a96ca0-ddb4-43ad-a942-a0fb0c1a61de</id>
       <masked>false</masked>
       <name>nama</name>
    </variable>
    <variable>
-      <defaultValue>'4434343434'</defaultValue>
+      <defaultValue>'0824434343434'</defaultValue>
       <description></description>
       <id>749a4c3e-0c9f-4027-bcb5-af118db38e58</id>
       <masked>false</masked>

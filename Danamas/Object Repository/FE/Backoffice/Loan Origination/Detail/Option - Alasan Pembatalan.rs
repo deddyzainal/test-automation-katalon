@@ -6,12 +6,12 @@
    <elementGuidId>b665f5b2-e79c-4e96-b5fe-0e15b974ea1f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@formcontrolname='cancel_reason']/ancestor::lancar-input/following-sibling::lancar-search-checkbox-list//lancar-check-box-list/ul/li[.='${alasan_pembatalan}']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//input[@formcontrolname = 'cancel_reason']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li/lancar-check-box/div/p[.='${alasan_pembatalan}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4138c634-d071-4ac3-8a5a-47a377d8a9d1</webElementGuid>
+      <webElementGuid>669163d7-54c6-4000-a2c3-c7f57e080dc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +30,6 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>cancel_reason</value>
-      <webElementGuid>e4f1e209-5b87-47d8-9543-636db919fb48</webElementGuid>
+      <webElementGuid>f74fd8b8-b93b-4113-9091-9f1a76f32347</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

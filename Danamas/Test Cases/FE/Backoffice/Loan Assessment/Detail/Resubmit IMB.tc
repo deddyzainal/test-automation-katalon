@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>fec5354c-ed1f-4115-aab4-ecbdb455ee26</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3223b153-3b7c-45c1-9499-28b5f3066b97</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>57d6abc5-7244-41ca-b04a-45b3c458de6e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Low quality'</defaultValue>
+      <description></description>
+      <id>3223b153-3b7c-45c1-9499-28b5f3066b97</id>
+      <masked>false</masked>
+      <name>alasan</name>
+   </variable>
+   <variable>
+      <defaultValue>'Deskripsi  IMB'</defaultValue>
+      <description></description>
+      <id>57d6abc5-7244-41ca-b04a-45b3c458de6e</id>
+      <masked>false</masked>
+      <name>deskripsi</name>
+   </variable>
 </TestCaseEntity>

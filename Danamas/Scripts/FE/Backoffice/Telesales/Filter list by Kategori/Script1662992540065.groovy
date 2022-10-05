@@ -23,7 +23,7 @@ WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Select - Kategori'))
 //Select option
 WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Option - Kategori', [('kategori') : kategori]))
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(3)
 
 //Verify Kategory value on the list match with selected option
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Telesales/List/TextValue - Kategori'), kategori, FailureHandling.STOP_ON_FAILURE)

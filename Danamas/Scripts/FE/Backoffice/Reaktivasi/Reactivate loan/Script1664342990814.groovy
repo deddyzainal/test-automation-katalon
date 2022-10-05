@@ -28,5 +28,5 @@ WebUI.setText(findTestObject('FE/Backoffice/Loan Origination/Detail/Input - Alas
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/Detail/Button - Ya, Aktifkan Kembali'))
 
 //Verify success snackbar is shown
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Subeading'), 5, FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Subeading'), 'Pengajuan telah diaktifkan kembali', FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Subheading'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Subheading'), 'Pengajuan telah diaktifkan kembali', FailureHandling.STOP_ON_FAILURE)

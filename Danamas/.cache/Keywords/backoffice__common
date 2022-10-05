@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "8B95F9CFE0314E3AE3D6E8AD3459AC84",
+  "keywordFileContentHash": "8C21DEA55C49ADC97A64DD4920661025",
   "keywordClasses": [
     {
       "name": "backoffice.common",
@@ -54,6 +54,44 @@
             },
             {
               "name": "text",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "isFileDownloaded",
+          "parameters": [
+            {
+              "name": "fileName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "replaceMonth",
+          "parameters": [
+            {
+              "name": "month",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

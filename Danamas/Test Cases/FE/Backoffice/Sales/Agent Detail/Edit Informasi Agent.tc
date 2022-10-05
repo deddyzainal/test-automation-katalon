@@ -186,21 +186,21 @@
       <variableId>4b32cddb-bfd2-4d9f-9b77-934e9903ec76</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'testing regis91'</defaultValue>
+      <defaultValue>'Ricky'</defaultValue>
       <description></description>
       <id>cd08efab-dc16-4647-86d2-3b4f13ea6504</id>
       <masked>false</masked>
       <name>nama_lengkap</name>
    </variable>
    <variable>
-      <defaultValue>'999999999990'</defaultValue>
+      <defaultValue>'353452342342343'</defaultValue>
       <description></description>
       <id>815c2798-3e5f-40bf-aa0c-597efda6de1c</id>
       <masked>false</masked>
       <name>nik</name>
    </variable>
    <variable>
-      <defaultValue>'Medan Bkt'</defaultValue>
+      <defaultValue>'Medan'</defaultValue>
       <description></description>
       <id>776db851-d66b-4512-ab3e-d319db0881eb</id>
       <masked>false</masked>
@@ -221,7 +221,7 @@
       <name>jenis_kelamin</name>
    </variable>
    <variable>
-      <defaultValue>'Ibu Turkey'</defaultValue>
+      <defaultValue>'Ibu Ricky'</defaultValue>
       <description></description>
       <id>631103a5-a177-4a39-b33e-110ae9f6036c</id>
       <masked>false</masked>
@@ -242,7 +242,7 @@
       <name>status_pernikahan</name>
    </variable>
    <variable>
-      <defaultValue>'email_turkey@gmail.com'</defaultValue>
+      <defaultValue>'ricky@gmail.com'</defaultValue>
       <description></description>
       <id>10baa649-9f3b-49a6-a0b4-cce94430c48a</id>
       <masked>false</masked>
@@ -256,7 +256,7 @@
       <name>npwp</name>
    </variable>
    <variable>
-      <defaultValue>'KTP turkey'</defaultValue>
+      <defaultValue>'Jl Anggrek Garuda II'</defaultValue>
       <description></description>
       <id>b224c7cb-4280-4bc8-884f-975814e095ef</id>
       <masked>false</masked>
@@ -284,7 +284,7 @@
       <name>kode_pos_ktp</name>
    </variable>
    <variable>
-      <defaultValue>'Domisili turkey'</defaultValue>
+      <defaultValue>'Jl Anggrek Garuda IV'</defaultValue>
       <description></description>
       <id>cd7eaa1c-ec0b-491a-88cf-0c4641f1b031</id>
       <masked>false</masked>
@@ -312,21 +312,21 @@
       <name>kode_pos_domisili</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KTP (2).png'</defaultValue>
+      <defaultValue>'/Users/meitridelfiza/Documents/Foto KTP.png'</defaultValue>
       <description></description>
       <id>39826476-e4a0-41eb-8c5e-064f204179a9</id>
       <masked>false</masked>
       <name>foto_ktp</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto Selfie &amp; KTP (2).png'</defaultValue>
+      <defaultValue>'/Users/meitridelfiza/Documents/Foto Selfie.png'</defaultValue>
       <description></description>
       <id>ece6416d-c7b2-48c6-8d66-e5d2bd7e460c</id>
       <masked>false</masked>
       <name>foto_selfie_ktp</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto Npwpp.png'</defaultValue>
+      <defaultValue>'/Users/meitridelfiza/Documents/Foto NPWP.png'</defaultValue>
       <description></description>
       <id>f42de359-350e-4e21-a950-ca999fad9f7f</id>
       <masked>false</masked>

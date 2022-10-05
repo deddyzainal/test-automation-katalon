@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Search loan by No Pinjaman
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by ID Pinjaman'), [('no_pinjaman') : no_pinjaman], 
+    FailureHandling.STOP_ON_FAILURE)
+
 //Click checkbox on the list
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Checkbox - Origination List'))
 
@@ -24,11 +28,18 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Checkbox - Origi
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Button - Tugaskan'))
 
 //Select Telesales
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/List/Penugasan Telesales/Select - Nama Telesales'), 2, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/List/Penugasan Telesales/Select - Nama Telesales'), 
+    2, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Penugasan Telesales/Select - Nama Telesales'))
+
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Penugasan Telesales/Option - Nama Telesales', [('nama_telesales') : nama_telesales]))
 
 //Click button Tugaskan
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Penugasan Telesales/Button - Tugaskan'))
 
-//Verify
+//Verify telesales is assigned by checking value on the list
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by ID Pinjaman'), [('no_pinjaman') : no_pinjaman],
+	FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Origination/List/TextValue - Telesales'), nama_telesales, FailureHandling.STOP_ON_FAILURE)
+

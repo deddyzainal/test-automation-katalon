@@ -48,14 +48,14 @@
       <variableId>dee2b6f0-601e-4bfe-90dc-84caf6b298f1</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'11111111111'</defaultValue>
+      <defaultValue>'7676676756543454'</defaultValue>
       <description></description>
       <id>b585edf1-c634-490a-9f4c-9acb871a887e</id>
       <masked>false</masked>
       <name>nik_penjamin</name>
    </variable>
    <variable>
-      <defaultValue>'Penjaminnnn'</defaultValue>
+      <defaultValue>'Caroline'</defaultValue>
       <description></description>
       <id>cbc8713b-f7e0-4fc5-947c-8c9fda134112</id>
       <masked>false</masked>
@@ -76,14 +76,14 @@
       <name>tanggal_lahir</name>
    </variable>
    <variable>
-      <defaultValue>'Alamatttt'</defaultValue>
+      <defaultValue>'Jl Anggrek Neli Murni'</defaultValue>
       <description></description>
       <id>7b5b9698-6c40-48de-8e1f-320e8f245b28</id>
       <masked>false</masked>
       <name>alamat</name>
    </variable>
    <variable>
-      <defaultValue>'22222222'</defaultValue>
+      <defaultValue>'081268376273'</defaultValue>
       <description></description>
       <id>5e3c7ca8-bbab-4283-add1-aa843b9431b2</id>
       <masked>false</masked>

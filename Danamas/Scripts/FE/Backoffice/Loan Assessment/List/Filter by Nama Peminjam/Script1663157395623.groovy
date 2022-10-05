@@ -18,10 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Input Nama Peminjam
-WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/List/Input - Nama Peminjam'), nama_peminjam)
-//CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Loan Assessment/List/Input - Nama Peminjam'), nama_peminjam)
+//WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/List/Input - Nama Peminjam'), nama_peminjam)
+CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Loan Assessment/List/Input - Nama Peminjam'), nama_peminjam)
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(3)
 
 //Verify Nama Peminjam value in the list match with keyword
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/List/TextValue - Nama Peminjam'), nama_peminjam, FailureHandling.STOP_ON_FAILURE)

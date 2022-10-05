@@ -18,14 +18,14 @@
       <variableId>26d6516f-c0d1-4eca-82a1-b0093f9225a0</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Jakarta Timur'</defaultValue>
+      <defaultValue>'Jakarta Barat'</defaultValue>
       <description></description>
       <id>eed2750e-6cee-42c7-bd76-d6166e603a03</id>
       <masked>false</masked>
       <name>branch_city</name>
    </variable>
    <variable>
-      <defaultValue>'Jakarta 8'</defaultValue>
+      <defaultValue>'Danamas Jakarta'</defaultValue>
       <description></description>
       <id>26d6516f-c0d1-4eca-82a1-b0093f9225a0</id>
       <masked>false</masked>

@@ -56,28 +56,28 @@
       <name>jabatan</name>
    </variable>
    <variable>
-      <defaultValue>'Katalon4'</defaultValue>
+      <defaultValue>'Test User 02'</defaultValue>
       <description></description>
       <id>ce92ac2d-aec3-4ec4-97eb-3ac0afe980cb</id>
       <masked>false</masked>
       <name>nama_pengguna</name>
    </variable>
    <variable>
-      <defaultValue>'katalon4@yahoo.co.id'</defaultValue>
+      <defaultValue>'test01@yahoo.co.id'</defaultValue>
       <description></description>
       <id>df012041-016e-43cc-84a6-fe4e2f1531d9</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>'1234'</defaultValue>
+      <defaultValue>'1234456789'</defaultValue>
       <description></description>
       <id>69df85c2-a580-454a-ad5e-d4da19e1a683</id>
       <masked>false</masked>
       <name>kata_sandi</name>
    </variable>
    <variable>
-      <defaultValue>'Tidak Aktif'</defaultValue>
+      <defaultValue>'Aktif'</defaultValue>
       <description></description>
       <id>9a014750-be8e-4abf-a237-559bd941dc80</id>
       <masked>false</masked>

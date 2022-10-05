@@ -18,7 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Input audience name
-WebUI.setText(findTestObject('FE/Backoffice/Audience List/List/Input - Nama Audien'), nama_audien)
+CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Audience List/List/Input - Nama Audien'), nama_audien)
+//WebUI.setText(findTestObject('FE/Backoffice/Audience List/List/Input - Nama Audien'), nama_audien)
 
 WebUI.delay(1)
 

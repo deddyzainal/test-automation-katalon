@@ -21,5 +21,5 @@ import org.openqa.selenium.Keys as Keys
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Button - Resubmission Sertifikat Agunan'), 3, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Button - Resubmission Sertifikat Agunan'))
 
-//Fill resubmission form
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Submit resubmission form'), [('alasan') : 'Low quality', ('deskripsi') : 'Test deskripsi Sertifikat Agunan'], FailureHandling.STOP_ON_FAILURE)
+//Submit resubmission form
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Submit resubmission form'), [('alasan') : alasan, ('deskripsi') : deskripsi], FailureHandling.STOP_ON_FAILURE)

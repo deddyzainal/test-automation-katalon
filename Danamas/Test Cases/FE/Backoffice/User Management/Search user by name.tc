@@ -12,7 +12,7 @@
       <variableId>fc9c7b5c-637d-48d9-9b9f-5ea8a383aa98</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Test CA Staging'</defaultValue>
+      <defaultValue>'Katalon1'</defaultValue>
       <description></description>
       <id>fc9c7b5c-637d-48d9-9b9f-5ea8a383aa98</id>
       <masked>false</masked>

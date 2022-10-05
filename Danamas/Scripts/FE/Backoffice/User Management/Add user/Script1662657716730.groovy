@@ -21,9 +21,9 @@ import org.openqa.selenium.Keys as Keys
 WebUI.click(findTestObject('FE/Backoffice/User Management/List/Button - Buat Pengguna Baru'))
 
 //Select Role
-//WebUI.waitForElementVisible(findTestObject('FE/Backoffice/User Management/Form/Select - Role'), 3)
-//WebUI.click(findTestObject('FE/Backoffice/User Management/Form/Select - Role'))
-//WebUI.click(findTestObject('FE/Backoffice/User Management/Form/Option - Role', [('role') : role]))
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/User Management/Form/Select - Role'), 3)
+WebUI.click(findTestObject('FE/Backoffice/User Management/Form/Select - Role'))
+WebUI.click(findTestObject('FE/Backoffice/User Management/Form/Option - Role', [('role') : role]))
 
 //Select Jabatan
 WebUI.click(findTestObject('FE/Backoffice/User Management/Form/Select - Jabatan'))

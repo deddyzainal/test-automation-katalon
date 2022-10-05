@@ -20,14 +20,10 @@ import internal.GlobalVariable as GlobalVariable
 
 //Input no pinjaman in No Pinjaman field
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/List/Input - ID Pinjaman'), 3)
+//WebUI.setText(findTestObject('FE/Backoffice/Loan Origination/List/Input - ID Pinjaman'), no_pinjaman)
+CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Loan Origination/List/Input - ID Pinjaman'), no_pinjaman)
 
-CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Loan Origination/List/Input - ID Pinjaman'), 
-    no_pinjaman)
+WebUI.delay(3)
 
-//WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Input - ID Pinjaman'))
-//WebUI.sendKeys(findTestObject('FE/Backoffice/Loan Origination/List/Input - ID Pinjaman'), no_pinjaman)
-//Verify No Pinjaman in the list match with inputted text
-WebUI.waitForPageLoad(5)
-
-WebUI.verifyMatch(WebUI.getText(findTestObject('FE/Backoffice/Loan Origination/List/TextValue - ID Pinjaman')), no_pinjaman.toUpperCase(), 
-    true)
+//Verify input text match with No Pinjaman value on the list
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Origination/List/TextValue - ID Pinjaman'), no_pinjaman, FailureHandling.STOP_ON_FAILURE)

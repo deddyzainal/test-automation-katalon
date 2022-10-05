@@ -22,4 +22,4 @@ WebUI.click(findTestObject('FE/Backoffice/Audience List/List/Button - Reset Filt
 
 //Verify filter and sorting fields are reseted
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Audience List/List/Input - Nama Audien'), '', FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Audience List/List/Select - Sorting'), 'Update Terkini', FailureHandling.STOP_ON_FAILURE)
+//WebUI.verifyElementText(findTestObject('FE/Backoffice/Audience List/List/Select - Sorting'), 'Update Terkini', FailureHandling.STOP_ON_FAILURE)

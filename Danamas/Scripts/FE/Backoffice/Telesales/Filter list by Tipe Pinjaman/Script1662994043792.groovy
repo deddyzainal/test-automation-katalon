@@ -23,7 +23,7 @@ WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Select - Tipe Pinjaman'
 //Select option
 WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Option - Tipe Pinjaman', [('tipe_pinjaman') : tipe_pinjaman]))
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(3)
 
 //Verify Tipe Pinjaman value on the list match with selected option
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Telesales/List/TextValue - Tipe Pinjaman'), tipe_pinjaman, FailureHandling.STOP_ON_FAILURE)

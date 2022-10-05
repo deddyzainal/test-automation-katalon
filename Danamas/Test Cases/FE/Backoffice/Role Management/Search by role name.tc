@@ -12,7 +12,7 @@
       <variableId>971d8ff4-124a-4397-b21b-ecb220653a90</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'test_yio'</defaultValue>
+      <defaultValue>'credit_analyst'</defaultValue>
       <description></description>
       <id>971d8ff4-124a-4397-b21b-ecb220653a90</id>
       <masked>false</masked>

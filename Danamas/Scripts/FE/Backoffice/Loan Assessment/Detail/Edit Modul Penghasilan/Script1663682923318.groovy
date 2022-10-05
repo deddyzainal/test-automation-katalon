@@ -22,28 +22,31 @@ import org.openqa.selenium.Keys as Keys
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Tab - Modul Penghasilan'), 3)
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Tab - Modul Penghasilan'))
 
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Label - Modul Pendapatan'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Label - Modul Penghasilan'), 5, FailureHandling.STOP_ON_FAILURE)
 
 //Click button Edit
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Button - Edit'), 5, FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(3)
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Button - Edit'))
 
-//Input Penghasilan tahunan
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Tahunan'), 2)
-WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Tahunan'), penghasilan_tahunan)
-
-//Input Penghasilan bulanan
-WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Bulanan'), penghasilan_bulanan)
-
-//Input Penghasilan rekening koran bulan 1
-WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 1'), penghasilan_bulan_1)
-
-//Input Penghasilan rekening koran bulan 2
-WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 2'), penghasilan_bulan_2)
-
-//Input Penghasilan rekening koran bulan 3
-WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 3'), penghasilan_bulan_3)
+if(occupation == 'Pegawai Tetap') {
+	//Input Penghasilan tahunan
+	WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Tahunan'), 2)
+	WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Tahunan'), penghasilan_tahunan)
+	
+	//Input Penghasilan bulanan
+	//WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Bulanan'), penghasilan_bulanan)
+}
+else if (occupation == 'Pekerja Profesional') {
+	//Input Penghasilan rekening koran bulan 1
+	WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 1'), penghasilan_bulan_1)
+	
+	//Input Penghasilan rekening koran bulan 2
+	WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 2'), penghasilan_bulan_2)
+	
+	//Input Penghasilan rekening koran bulan 3
+	WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 3'), penghasilan_bulan_3)
+}
 
 //Input EBIT
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Jumlah Penghasilan/Input - EBIT'), 2)

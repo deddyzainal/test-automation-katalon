@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h1[text()='Loan Origination']/following-sibling::table-wrapper//tr[2]/td[8]//span</value>
+         <value>//table//tr[2]/td[10]//span</value>
       </entry>
       <entry>
          <key>BASIC</key>

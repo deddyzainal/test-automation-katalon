@@ -12,7 +12,7 @@
       <variableId>d37a5696-a8f4-450f-91f5-9139e3016ac9</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Passed'</defaultValue>
+      <defaultValue>'PASSED'</defaultValue>
       <description></description>
       <id>d37a5696-a8f4-450f-91f5-9139e3016ac9</id>
       <masked>false</masked>

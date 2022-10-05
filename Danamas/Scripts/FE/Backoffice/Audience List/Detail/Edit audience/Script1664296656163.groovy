@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Click button Edit
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Audience List/Detail/Button - Edit'), 2)
 WebUI.click(findTestObject('FE/Backoffice/Audience List/Detail/Button - Edit'))
 
 //Input Nama Audience

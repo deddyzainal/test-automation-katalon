@@ -26,6 +26,8 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Sumber 
 //WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Origination/List/Option - Sumber Pinjaman', [('sumber_pinjaman'):sumber_pinjaman]), 3)
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Sumber Pinjaman', [('sumber_pinjaman'):sumber_pinjaman]))
 
+WebUI.delay(3)
+
 //Verify Sumber Pinjaman in the list match with selected option
 //WebUI.waitForPageLoad(5)
-//WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Origination/List/TextValue - Sumber Pinjaman'), sumber_pinjaman)
+//WebUI.verifyElementText(findTestObject('null'), sumber_pinjaman)

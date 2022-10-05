@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 //Input Nama Peminjam
 CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Telesales/List/Input - Nama Peminjam'), nama_peminjam)
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(2)
 
 //Verify Nama Peminjam value in the list match with keyword
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Telesales/List/TextValue - Nama Peminjam'), nama_peminjam, FailureHandling.STOP_ON_FAILURE)

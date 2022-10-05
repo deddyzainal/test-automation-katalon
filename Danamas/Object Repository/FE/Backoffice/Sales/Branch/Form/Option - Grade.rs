@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//lancar-input//input[@formcontrolname='grade']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${grade} ']</value>
+         <value>//input[@formcontrolname='grade']/ancestor::lancar-input/following-sibling::div//ul/li[text()=' ${grade} ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>74849f5d-1fb6-45fd-a378-aec3268fc25b</webElementGuid>
+      <webElementGuid>86ebe053-107c-4661-808c-bb49845d9b91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1662436414994</value>
-      <webElementGuid>d63ab09e-ea34-4a8a-9edd-1c7784eddf99</webElementGuid>
+      <webElementGuid>02e5f348-76e5-4558-a8de-dc57af162990</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

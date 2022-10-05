@@ -68,7 +68,7 @@
       <name>jabatan</name>
    </variable>
    <variable>
-      <defaultValue>'Namaaa'</defaultValue>
+      <defaultValue>'Katalon1'</defaultValue>
       <description></description>
       <id>06814dc8-967d-4a3f-8e63-1998e950ba72</id>
       <masked>false</masked>
@@ -89,14 +89,14 @@
       <name>nomor_hp</name>
    </variable>
    <variable>
-      <defaultValue>'1234'</defaultValue>
+      <defaultValue>'sfsdfd35353'</defaultValue>
       <description></description>
       <id>b783c747-f11c-4ee6-b0f0-ebc4a8e0fb77</id>
       <masked>false</masked>
       <name>kata_sandi</name>
    </variable>
    <variable>
-      <defaultValue>'Tidak Aktif'</defaultValue>
+      <defaultValue>'Aktif'</defaultValue>
       <description></description>
       <id>1060256e-74cd-477d-babe-e9942dde99ce</id>
       <masked>false</masked>

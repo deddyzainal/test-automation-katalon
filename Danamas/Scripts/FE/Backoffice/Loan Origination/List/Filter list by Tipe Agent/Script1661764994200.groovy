@@ -28,4 +28,4 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Tipe Ag
 //WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Origination/List/Option - Tipe Agent', [('tipe_agent') : tipe_agent]), 3)
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Tipe Agent', [('tipe_agent') : tipe_agent]))
 
-WebUI.waitForPageLoad(5)
+WebUI.delay(2)

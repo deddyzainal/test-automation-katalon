@@ -16,7 +16,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-W
+
 //Filter list by Branch City
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Branch City'), [('branch_city') : branch_city], FailureHandling.STOP_ON_FAILURE)
 
@@ -28,4 +28,4 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Branch 
 //WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Origination/List/Option - Branch Name', [('branch_name') : branch_name]), 3)
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Branch Name', [('branch_name') : branch_name]))
 
-WebUI.waitForPageLoad(5)
+WebUI.delay(3)

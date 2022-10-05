@@ -28,6 +28,6 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Branch 
 //WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Origination/List/Option - Branch City', [('branch_city') : branch_city]), 3)
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Branch City', [('branch_city') : branch_city]))
 
-WebUI.waitForPageLoad(5)
+WebUI.delay(2)
 
 

@@ -28,4 +28,4 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Tipe Pa
 //ßWebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Origination/List/Option - Tipe Partner', [('tipe_partner') : tipe_partner]), 3)
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Tipe Partner', [('tipe_partner') : tipe_partner]))
 
-WebUI.waitForPageLoad(5)
+WebUI.delay(3)

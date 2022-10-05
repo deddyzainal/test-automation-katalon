@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5d17d5f9-2400-4bb7-afb9-30bc3168327c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8403d1e5-ce5b-49cc-8336-795d2983a8b9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a4f2314e-1d04-46f0-8150-67633c39381f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Low quality'</defaultValue>
+      <description></description>
+      <id>8403d1e5-ce5b-49cc-8336-795d2983a8b9</id>
+      <masked>false</masked>
+      <name>alasan</name>
+   </variable>
+   <variable>
+      <defaultValue>'Deskripsi Sertifikat Agunan'</defaultValue>
+      <description></description>
+      <id>a4f2314e-1d04-46f0-8150-67633c39381f</id>
+      <masked>false</masked>
+      <name>deskripsi</name>
+   </variable>
 </TestCaseEntity>
