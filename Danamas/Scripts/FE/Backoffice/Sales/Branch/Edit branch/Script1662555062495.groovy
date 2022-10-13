@@ -45,5 +45,5 @@ WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Button - Confir
 WebUI.click(findTestObject('FE/Backoffice/Common/Button - Confirm'))
 
 //Verify success dialog is shown
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Sales/Branch/Form/Snackbar - Subheading'), 5, FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Sales/Branch/Form/Snackbar - Subheading'), 'Berhasil menambahkan Branch baru', FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 'Informasi Branch berhasil diubah', FailureHandling.STOP_ON_FAILURE)

@@ -38,7 +38,7 @@
       <name>deskripsi</name>
    </variable>
    <variable>
-      <defaultValue>['meitri.delfiza@gmail.com', 'meitri.delfiza@yahoo.com']</defaultValue>
+      <defaultValue>['katalon@gmail.com', 'katalon@yahoo.com']</defaultValue>
       <description></description>
       <id>c3070a96-a3f0-4263-ab13-5ff180b57478</id>
       <masked>false</masked>

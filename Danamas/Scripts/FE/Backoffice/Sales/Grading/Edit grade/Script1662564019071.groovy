@@ -31,8 +31,6 @@ WebUI.setText(findTestObject('FE/Backoffice/Sales/Grading/Form/Input - Persentas
 
 //Click button Simpan
 WebUI.click(findTestObject('FE/Backoffice/Sales/Grading/Form/Button - Simpan'))
-WebUI.click(findTestObject('FE/Backoffice/Sales/Grading/Form/Button - Tambah Grade Baru'))
-
 
 //Click button Confirm on the dialog
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Button - Confirm'), 2, FailureHandling.STOP_ON_FAILURE)

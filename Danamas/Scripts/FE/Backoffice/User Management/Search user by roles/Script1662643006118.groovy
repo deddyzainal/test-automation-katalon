@@ -17,11 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Select Roles
+//Click dropdown Roles
 WebUI.click(findTestObject('FE/Backoffice/User Management/List/Select - Roles'))
-WebUI.click(findTestObject('FE/Backoffice/User Management/List/Option - Roles', [('role') : role]))
 
-WebUI.waitForPageLoad(3)
+//Select Roles
+for(int i = 0; i < roles.size; i++) {
+	WebUI.click(findTestObject('FE/Backoffice/User Management/List/Option - Roles', [('roles') : roles[i]]))
+}
+
+WebUI.click(findTestObject('FE/Backoffice/User Management/List/Select - Roles'))
+
+
+WebUI.delay(3)
 
 //Verify role value in the list match with keyword
-//WebUI.verifyElementText(findTestObject('FE/Backoffice/User Management/List/TextValue - Role Pengguna'), role, FailureHandling.STOP_ON_FAILURE)
+//WebUI.verifyElementText(findTestObject('FE/Backoffice/User Management/List/TextValue - Role Pengguna'), roles, FailureHandling.STOP_ON_FAILURE)

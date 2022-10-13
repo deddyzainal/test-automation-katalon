@@ -42,14 +42,14 @@
       <variableId>9a014750-be8e-4abf-a237-559bd941dc80</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Product'</defaultValue>
+      <defaultValue>['it_tech', 'operation', 'credit_analyst']</defaultValue>
       <description></description>
       <id>08f5dda7-64bf-461c-a07a-c26a11f032d3</id>
       <masked>false</masked>
       <name>role</name>
    </variable>
    <variable>
-      <defaultValue>'Admin Sales'</defaultValue>
+      <defaultValue>'Credit Analyst'</defaultValue>
       <description></description>
       <id>01b1c430-c734-4edd-8625-f01898d71e4d</id>
       <masked>false</masked>

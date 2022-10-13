@@ -18,8 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Search loan by no pinjaman
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Pinjaman'), [('no_pinjaman') : no_pinjaman],
-	FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Pinjaman'), [('no_pinjaman') : no_pinjaman],
+//	FailureHandling.STOP_ON_FAILURE)
 
 //Click checkbox on the list
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/List/Checkbox - Assessment List'))

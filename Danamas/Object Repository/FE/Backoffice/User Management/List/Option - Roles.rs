@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//lancar-input//input[@formcontrolname='roleName']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${role} ']</value>
+         <value>//app-multiselect-dropdown/div/div[contains(@class, 'drop-show')]//*[text()='${roles}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>1c5517d8-9aae-4852-8016-8d75cb6b1ee4</webElementGuid>
+      <webElementGuid>0a035c79-4dd5-49c2-8faf-fbc98a3983be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1662436400217</value>
-      <webElementGuid>9f93c5f8-16f2-49e8-86ae-1933319617e9</webElementGuid>
+      <webElementGuid>2933d571-20d8-4007-83f8-cd09798a89c9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

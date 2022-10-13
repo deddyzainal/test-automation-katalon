@@ -22,6 +22,6 @@ CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffic
 	nomor_hp)
 
 //Verify phone number in the list match inputted text
-WebUI.waitForPageLoad(5)
+WebUI.delay(3)
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Sales/Sales Team/List/TextValue - Nomor HP'), nomor_hp)
 //WebUI.verifyElementText(findTestObject('FE/Backoffice/Sales/Request/List/TextValue - Nomor HP'), '+62'+nomor_hp)

@@ -27,7 +27,7 @@ WebUI.click(findTestObject('FE/Backoffice/Sales/Sales Team/List/Select - Tipe Pa
 //Select option
 WebUI.click(findTestObject('FE/Backoffice/Sales/Sales Team/List/Option - Tipe Partner', [('tipe_partner') : tipe_partner]))
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(3)
 
 //Verify Kota Cabang/Tipe Partner value on the list match with selected option
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Sales/Sales Team/List/TextValue - Kota Cabang Tipe Partner'), tipe_partner, FailureHandling.STOP_ON_FAILURE)

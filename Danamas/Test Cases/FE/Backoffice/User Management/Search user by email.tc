@@ -12,7 +12,7 @@
       <variableId>4d2b7fa1-e6ff-44f6-ac81-9466ab838464</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'aa@gmail.com'</defaultValue>
+      <defaultValue>'test_abc@gmail.com'</defaultValue>
       <description></description>
       <id>4d2b7fa1-e6ff-44f6-ac81-9466ab838464</id>
       <masked>false</masked>

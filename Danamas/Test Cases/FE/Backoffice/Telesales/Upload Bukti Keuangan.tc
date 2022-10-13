@@ -9,42 +9,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1f16f660-8c5b-4738-b9fc-f58732756824</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ede48bfa-f443-48e4-8ccd-b0201bdb5e25</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>083bdb9c-48a8-4b42-ab35-2b0cf931eec7</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>872b4229-95be-4606-9a1d-69b7f54f2423</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>c60322e8-96cd-4926-8f19-322d86912203</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>9af184c4-3a66-4485-a3e5-85024b854444</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>ffe65f2d-8b3e-43dc-a90e-acfefee7686b</variableId>
    </variableLinks>
    <variableLinks>
@@ -96,105 +60,63 @@
       <variableId>a426348b-45ed-4876-8ba8-74cd17c9a715</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
-      <description></description>
-      <id>1f16f660-8c5b-4738-b9fc-f58732756824</id>
-      <masked>false</masked>
-      <name>pbb</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
-      <description></description>
-      <id>ede48bfa-f443-48e4-8ccd-b0201bdb5e25</id>
-      <masked>false</masked>
-      <name>sertifikat_kepemilikan</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
-      <description></description>
-      <id>083bdb9c-48a8-4b42-ab35-2b0cf931eec7</id>
-      <masked>false</masked>
-      <name>imb</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
-      <description></description>
-      <id>872b4229-95be-4606-9a1d-69b7f54f2423</id>
-      <masked>false</masked>
-      <name>agunan_tampak_dalam</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
-      <description></description>
-      <id>c60322e8-96cd-4926-8f19-322d86912203</id>
-      <masked>false</masked>
-      <name>agunan_tampak_depan</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
-      <description></description>
-      <id>9af184c4-3a66-4485-a3e5-85024b854444</id>
-      <masked>false</masked>
-      <name>akses_jalan_masuk</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK copy.png'</defaultValue>
+      <defaultValue>'/Users/meitridelfiza/Documents/file.png'</defaultValue>
       <description></description>
       <id>ffe65f2d-8b3e-43dc-a90e-acfefee7686b</id>
       <masked>false</masked>
       <name>rekening_koran_operasional</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK copy.png'</defaultValue>
+      <defaultValue>'/Users/meitridelfiza/Documents/file.png'</defaultValue>
       <description></description>
       <id>d63382cf-c614-42f0-8183-85e0cbc8c6c5</id>
       <masked>false</masked>
       <name>bukti_transaksi_usaha</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <defaultValue>'/Users/meitridelfiza/Documents/file.png'</defaultValue>
       <description></description>
       <id>ae14dc87-418a-4d9d-93b4-6ce0eb564401</id>
       <masked>false</masked>
       <name>izin_usaha</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <defaultValue>'/Users/meitridelfiza/Documents/file.png'</defaultValue>
       <description></description>
       <id>5ae37ae0-57e6-44a4-b34d-29d68f8a28f3</id>
       <masked>false</masked>
       <name>tempat_usaha</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK copy.png'</defaultValue>
+      <defaultValue>'/Users/meitridelfiza/Documents/file.png'</defaultValue>
       <description></description>
       <id>c8cedc0f-67c3-45e0-b7a0-3d029ea52226</id>
       <masked>false</masked>
       <name>selfie_ditempat_usaha</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK copy.png'</defaultValue>
+      <defaultValue>'/Users/meitridelfiza/Documents/file.png'</defaultValue>
       <description></description>
       <id>dc484288-6659-486a-9403-0b14663142b5</id>
       <masked>false</masked>
       <name>slip_gaji</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <defaultValue>'/Users/meitridelfiza/Documents/file.png'</defaultValue>
       <description></description>
       <id>1b82e3bf-0960-4558-9168-34d6d07f9821</id>
       <masked>false</masked>
       <name>rekening_koran_payroll</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK.png'</defaultValue>
+      <defaultValue>'/Users/meitridelfiza/Documents/file.png'</defaultValue>
       <description></description>
       <id>1f298170-dbed-40ca-975b-7e77f7c25845</id>
       <masked>false</masked>
       <name>selfie_ditempat_kerja</name>
    </variable>
    <variable>
-      <defaultValue>'/Users/meitridelfiza/Downloads/Foto KKK copy.png'</defaultValue>
+      <defaultValue>'/Users/meitridelfiza/Documents/file.png'</defaultValue>
       <description></description>
       <id>a426348b-45ed-4876-8ba8-74cd17c9a715</id>
       <masked>false</masked>

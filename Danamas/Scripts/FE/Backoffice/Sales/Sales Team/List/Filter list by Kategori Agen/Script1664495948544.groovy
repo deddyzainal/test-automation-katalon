@@ -23,7 +23,7 @@ WebUI.click(findTestObject('FE/Backoffice/Sales/Sales Team/List/Select - Kategor
 //Select option
 WebUI.click(findTestObject('FE/Backoffice/Sales/Sales Team/List/Option - Kategori Agen', [('kategori_agen') : kategori_agen]))
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(3)
 
 //Verify Kategory Agen value on the list match with selected option
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Sales/Sales Team/List/TextValue - Kategori Agen'), kategori_agen, FailureHandling.STOP_ON_FAILURE)

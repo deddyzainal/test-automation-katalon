@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 //Input partner name
 CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Sales/Partner/List/Input - Nama Partner'), nama_partner)
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(3)
 
 //Verify partner name value in the list match with keyword
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Sales/Partner/List/TextValue - Nama Partner'), nama_partner, FailureHandling.STOP_ON_FAILURE)

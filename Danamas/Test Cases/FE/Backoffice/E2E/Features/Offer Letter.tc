@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Offer Letter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb91b6ed-49cc-4e17-b5c0-4de669b9dd15</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f3265f8-77dd-46e0-af39-f4be4051ab6b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'KC-KFN-1022-12-0003'</defaultValue>
+      <description></description>
+      <id>0f3265f8-77dd-46e0-af39-f4be4051ab6b</id>
+      <masked>false</masked>
+      <name>no_pinjaman</name>
+   </variable>
+</TestCaseEntity>

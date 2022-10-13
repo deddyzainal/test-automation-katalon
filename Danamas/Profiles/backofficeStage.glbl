@@ -29,4 +29,14 @@
       <initValue>'stg_ca'</initValue>
       <name>nama_ca</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'stg_ca@danamas.co.id'</initValue>
+      <name>email_ca</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'NKAHewjCsCvdggNkUy5Ovw=='</initValue>
+      <name>password_ca</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

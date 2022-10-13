@@ -12,7 +12,7 @@
       <variableId>599f23b0-5b39-434f-82b8-383582d83289</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Katalon 1'</defaultValue>
+      <defaultValue>'Kantor Pusat'</defaultValue>
       <description></description>
       <id>599f23b0-5b39-434f-82b8-383582d83289</id>
       <masked>false</masked>

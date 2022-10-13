@@ -31,14 +31,14 @@
       <name>nama_audience</name>
    </variable>
    <variable>
-      <defaultValue>'Test Deskripsi 3'</defaultValue>
+      <defaultValue>'Edit Deskripsi 1'</defaultValue>
       <description></description>
       <id>099ae22c-dc38-4244-886a-4ca30b89285d</id>
       <masked>false</masked>
       <name>deskripsi</name>
    </variable>
    <variable>
-      <defaultValue>['meitri@gmail.com']</defaultValue>
+      <defaultValue>['katalon@danamas.com']</defaultValue>
       <description></description>
       <id>493be887-d459-4b34-8e87-6b071627c97d</id>
       <masked>false</masked>

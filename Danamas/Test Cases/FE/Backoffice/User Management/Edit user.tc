@@ -54,7 +54,7 @@
       <variableId>4cbf13eb-1563-4afc-8dc2-03a18e151db1</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Product'</defaultValue>
+      <defaultValue>['product']</defaultValue>
       <description></description>
       <id>d66efabc-5bb1-47a2-a8d6-f8785928b5be</id>
       <masked>false</masked>

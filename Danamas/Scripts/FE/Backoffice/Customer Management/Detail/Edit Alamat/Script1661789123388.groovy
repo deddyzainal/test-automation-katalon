@@ -56,8 +56,10 @@ WebUI.setText(findTestObject('FE/Backoffice/Customer Management/Detail/Alamat/KT
 //Upload Foto Tempat Tinggal Saat Ini
 WebUI.uploadFile(findTestObject('FE/Backoffice/Customer Management/Detail/Alamat/KTP/Input - Foto Tempat Tinggal'), foto_tempat_tinggal)
 
-//Check Alamat domisili berbeda dengan di KTP
-WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Alamat/Checkbox - Alamat Domisili'))
+if(WebUI.verifyElementNotPresent(findTestObject('FE/Backoffice/Customer Management/Detail/Alamat/Domisili/Input - Alamat'), 3, FailureHandling.OPTIONAL)) {
+	//Check Alamat domisili berbeda dengan di KTP
+	WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Alamat/Checkbox - Alamat Domisili'))
+}
 
 //Edit Alamat Domisili
 //Input Alamat

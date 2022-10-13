@@ -17,10 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.scrollToElement(findTestObject('FE/Backoffice/Telesales/Edit/Dokumen Agunan/Label - Dokumen Agunan'), 0, FailureHandling.STOP_ON_FAILURE)
-
-//Upload file
-
 if(WebUI.verifyElementPresent(findTestObject(object), 3, FailureHandling.OPTIONAL)) {
 	WebUI.scrollToElement(findTestObject(object), 3, FailureHandling.STOP_ON_FAILURE)
 	WebUI.waitForElementClickable(findTestObject(object), 5, FailureHandling.STOP_ON_FAILURE)

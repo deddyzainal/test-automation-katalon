@@ -38,4 +38,4 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Detail Pinjaman
 
 //Verify success snackbar is shown
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Detail Pinjaman/Snackbar - Heading'), 5, FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Detail Pinjaman/Snackbar - Heading'), 'Sukses!', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Detail Pinjaman/Snackbar - Heading'), 'Sukses', FailureHandling.STOP_ON_FAILURE)

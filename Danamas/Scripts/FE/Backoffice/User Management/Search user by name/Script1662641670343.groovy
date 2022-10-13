@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 //Input user name
 CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/User Management/List/Input - Nama Pengguna'), nama_pengguna)
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(3)
 
 //Verify name value in the list match with keyword
 WebUI.verifyElementText(findTestObject('FE/Backoffice/User Management/List/TextValue - Nama Pengguna'), nama_pengguna, FailureHandling.STOP_ON_FAILURE)

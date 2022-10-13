@@ -27,5 +27,5 @@ WebUI.click(findTestObject('FE/Backoffice/Sales/Sales Team/List/Select - Posisi'
 //Select option
 WebUI.click(findTestObject('FE/Backoffice/Sales/Sales Team/List/Option - Posisi', [('posisi') : posisi]))
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(3)
 

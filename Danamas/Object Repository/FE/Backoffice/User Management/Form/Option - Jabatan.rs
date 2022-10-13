@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//lancar-input//input[@formcontrolname='title']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${jabatan} ']</value>
+         <value>//input[@formcontrolname = 'title']/ancestor::lancar-input/following-sibling::lancar-search-list//li[text()=' ${jabatan} ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>6548074e-6581-4b34-9eba-b6baa9f1d9b2</webElementGuid>
+      <webElementGuid>0df91c12-acda-461a-86fa-352623dd4cee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1662436400217</value>
-      <webElementGuid>17acc857-be44-4352-85ef-3319516ad30b</webElementGuid>
+      <webElementGuid>feda55ff-c98b-4e48-ad2e-96ac7d8a06c7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

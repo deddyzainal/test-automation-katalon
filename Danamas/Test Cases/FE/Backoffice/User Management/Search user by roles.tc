@@ -12,10 +12,10 @@
       <variableId>0d00db7b-311b-40e1-b013-808ee477060f</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Product'</defaultValue>
+      <defaultValue>['it_tech', 'operation', 'credit_analyst']</defaultValue>
       <description></description>
       <id>0d00db7b-311b-40e1-b013-808ee477060f</id>
       <masked>false</masked>
-      <name>role</name>
+      <name>roles</name>
    </variable>
 </TestCaseEntity>

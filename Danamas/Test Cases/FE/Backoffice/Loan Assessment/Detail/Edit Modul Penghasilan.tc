@@ -9,12 +9,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6d30afc4-d58c-4a78-be3b-a910f907887e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>3f131422-1140-4c80-8a0a-f04026ca90af</variableId>
    </variableLinks>
    <variableLinks>
@@ -53,13 +47,6 @@
       <value></value>
       <variableId>25e94fab-092e-435a-894d-efea0173d02d</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>'Pegawai Tetap'</defaultValue>
-      <description></description>
-      <id>6d30afc4-d58c-4a78-be3b-a910f907887e</id>
-      <masked>false</masked>
-      <name>occupation</name>
-   </variable>
    <variable>
       <defaultValue>'300000000'</defaultValue>
       <description></description>

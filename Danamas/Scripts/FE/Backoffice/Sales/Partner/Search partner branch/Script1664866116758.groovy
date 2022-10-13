@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 //Input partner branch name
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Sales/Partner/Detail/Input - Partner Branch'), 2, FailureHandling.STOP_ON_FAILURE)
-WebUI.setText(findTestObject('FE/Backoffice/Sales/Partner/Detail/Input - Partner Branch'), partner_branch)
+CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/Sales/Partner/Detail/Input - Partner Branch'), partner_branch)
+//WebUI.setText(findTestObject('FE/Backoffice/Sales/Partner/Detail/Input - Partner Branch'), partner_branch)
 
 WebUI.delay(3)
 

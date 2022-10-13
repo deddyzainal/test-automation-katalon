@@ -74,3 +74,5 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Persetujuan Akh
 //Verify success snackbar is shown
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Persetujuan Akhir/Snackbar - Heading'), 5, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Persetujuan Akhir/Snackbar - Heading'), 'Sukses', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)

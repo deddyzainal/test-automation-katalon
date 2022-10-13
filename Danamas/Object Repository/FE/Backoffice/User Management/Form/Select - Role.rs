@@ -14,7 +14,7 @@
          <value>//input[@formcontrolname = 'roleName']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b94b219e-ba05-48d8-9dfc-9bc33a6650df</webElementGuid>
+      <webElementGuid>ee1a00d2-34ce-45f9-bab4-a5c7421e2700</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +30,6 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>roleName</value>
-      <webElementGuid>fdf9fca7-4e7f-4a5a-90f7-e19083c0a803</webElementGuid>
+      <webElementGuid>9cf5dab4-359a-4fdf-b8af-312f1aaac79e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

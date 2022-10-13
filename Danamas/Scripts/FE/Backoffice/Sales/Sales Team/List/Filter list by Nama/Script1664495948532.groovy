@@ -22,6 +22,6 @@ CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffic
 	nama)
 
 //Verify name in the list match inputted text
-WebUI.waitForPageLoad(5)
+WebUI.delay(2)
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Sales/Sales Team/List/TextValue - Nama'), nama)
 

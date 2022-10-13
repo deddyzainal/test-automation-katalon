@@ -29,15 +29,33 @@ WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul
 WebUI.delay(3)
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Button - Edit'))
 
-if(occupation == 'Pegawai Tetap') {
+String occupation = WebUI.getText(findTestObject('FE/Backoffice/Loan Assessment/Detail/TextValue - Tipe Peminjam'), FailureHandling.STOP_ON_FAILURE).drop(2)
+
+if(occupation == 'Saya pegawai tetap') {
 	//Input Penghasilan tahunan
 	WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Tahunan'), 2)
 	WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Tahunan'), penghasilan_tahunan)
 	
-	//Input Penghasilan bulanan
-	//WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Bulanan'), penghasilan_bulanan)
+	//Verify Penghasilan bulanan is auto filled
+	WebUI.delay(3)
+	WebUI.verifyNotMatch(WebUI.getText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Bulanan')), '0', false, FailureHandling.STOP_ON_FAILURE)
+	
+		
+	if(WebUI.verifyElementNotPresent(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 1'), 3, FailureHandling.OPTIONAL)) {
+		WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Checkbox - Penghasilan Rekening Koran'))
+	}
+	
+	//Input Penghasilan rekening koran bulan 1
+	WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 1'), 2)
+	WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 1'), penghasilan_bulan_1)
+	
+	//Input Penghasilan rekening koran bulan 2
+	WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 2'), penghasilan_bulan_2)
+	
+	//Input Penghasilan rekening koran bulan 3
+	WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 3'), penghasilan_bulan_3)
 }
-else if (occupation == 'Pekerja Profesional') {
+else if (occupation == 'Saya pekerja profesional') {
 	//Input Penghasilan rekening koran bulan 1
 	WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 1'), penghasilan_bulan_1)
 	
@@ -46,6 +64,18 @@ else if (occupation == 'Pekerja Profesional') {
 	
 	//Input Penghasilan rekening koran bulan 3
 	WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Rekening Koran/Input - Bulan 3'), penghasilan_bulan_3)
+	
+	if(WebUI.verifyElementNotPresent(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Tahunan'), 3, FailureHandling.OPTIONAL)) {
+		WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Checkbox - Penghasilan Slip Gaji'))
+	}
+	
+	//Input Penghasilan tahunan
+	WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Tahunan'), 2)
+	WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Tahunan'), penghasilan_tahunan)
+	
+	//Verify Penghasilan bulanan is auto filled
+	WebUI.delay(3)
+	WebUI.verifyNotMatch(WebUI.getText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Penghasilan Slip Gaji/Input - Penghasilan Bulanan')), '0', false, FailureHandling.STOP_ON_FAILURE)
 }
 
 //Input EBIT
@@ -62,6 +92,8 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasil
 WebUI.verifyNotMatch(WebUI.getText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Jumlah Penghasilan/Input - Bulan 1')), '0', false, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyNotMatch(WebUI.getText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Jumlah Penghasilan/Input - Bulan 2')), '0', false, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyNotMatch(WebUI.getText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Jumlah Penghasilan/Input - Bulan 3')), '0', false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
 
 //Click button Save
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Modul Penghasilan/Button - Save'), 2)

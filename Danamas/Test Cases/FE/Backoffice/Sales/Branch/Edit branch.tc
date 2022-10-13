@@ -38,7 +38,7 @@
       <name>nama_branch</name>
    </variable>
    <variable>
-      <defaultValue>'Grade E'</defaultValue>
+      <defaultValue>'Grade O'</defaultValue>
       <description></description>
       <id>2f85edfd-89c2-46ff-be6b-5416b8bf699f</id>
       <masked>false</masked>

@@ -25,7 +25,7 @@
       <name>no_pinjaman</name>
    </variable>
    <variable>
-      <defaultValue>'Rukesi'</defaultValue>
+      <defaultValue>'QA Telesales'</defaultValue>
       <description></description>
       <id>b456a8e5-1ff7-4f82-b8ec-636d08e27c92</id>
       <masked>false</masked>

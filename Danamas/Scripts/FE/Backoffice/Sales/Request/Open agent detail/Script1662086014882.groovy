@@ -23,4 +23,4 @@ WebUI.click(findTestObject('FE/Backoffice/Sales/Request/List/DataTable - Row 1')
 WebUI.waitForPageLoad(3)
 
 //Verify label Detail Informasi Agen is visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Sales/Request/Detail/Label - Detail Informasi Agen'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Label - Detail Informasi Agen'), FailureHandling.STOP_ON_FAILURE)

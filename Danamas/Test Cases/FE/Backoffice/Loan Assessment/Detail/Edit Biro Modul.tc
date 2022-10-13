@@ -9,13 +9,13 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>da0d6548-fbf9-4706-812b-4917c6145353</variableId>
+      <variableId>d995f312-697a-440e-80a2-4632956308ac</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Kawin'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>da0d6548-fbf9-4706-812b-4917c6145353</id>
+      <id>d995f312-697a-440e-80a2-4632956308ac</id>
       <masked>false</masked>
-      <name>status</name>
+      <name>variable</name>
    </variable>
 </TestCaseEntity>

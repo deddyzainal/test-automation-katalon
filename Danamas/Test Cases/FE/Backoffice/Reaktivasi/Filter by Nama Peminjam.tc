@@ -12,7 +12,7 @@
       <variableId>1b90f9cc-8189-45b0-9d0a-8e7465190a84</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Katalon 20220922100350'</defaultValue>
+      <defaultValue>'Pineapple'</defaultValue>
       <description></description>
       <id>1b90f9cc-8189-45b0-9d0a-8e7465190a84</id>
       <masked>false</masked>

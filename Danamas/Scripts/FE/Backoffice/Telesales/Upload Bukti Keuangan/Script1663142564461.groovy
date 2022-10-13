@@ -18,41 +18,37 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Upload Foto Rekening Koran Operasional
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Rekening Koran Operasional'), 2)
-WebUI.uploadFileWithDragAndDrop(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Rekening Koran Operasional'), rekening_koran_operasional)
-WebUI.waitForElementNotVisible(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Rekening Koran Operasional'), 8, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Upload file'), [('object') : 'FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Rekening Koran Operasional'
+        , ('file') : rekening_koran_operasional], FailureHandling.STOP_ON_FAILURE)
 
 //Upload Bukti Transaksi Usaha
-WebUI.uploadFileWithDragAndDrop(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Bukti Transaksi Usaha'), bukti_transaksi_usaha)
-WebUI.waitForElementNotVisible(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Bukti Transaksi Usaha'), 8, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Upload file'), [('object') : 'FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Bukti Transaksi Usaha'
+        , ('file') : bukti_transaksi_usaha], FailureHandling.STOP_ON_FAILURE)
 
 //Upload Izin Usaha
-WebUI.uploadFileWithDragAndDrop(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Izin Usaha'), izin_usaha)
-WebUI.waitForElementNotVisible(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Izin Usaha'), 8, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Upload file'), [('object') : 'FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Izin Usaha'
+        , ('file') : izin_usaha], FailureHandling.STOP_ON_FAILURE)
 
 //Upload Foto Tempat Usaha
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Foto Tempat Usaha'), 2)
-WebUI.uploadFileWithDragAndDrop(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Foto Tempat Usaha'), tempat_usaha)
-WebUI.waitForElementNotVisible(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Foto Tempat Usaha'), 8, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Upload file'), [('object') : 'FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Foto Tempat Usaha'
+        , ('file') : tempat_usaha], FailureHandling.STOP_ON_FAILURE)
 
 //Upload Foto Selfie dengan Tempat Usaha
-WebUI.uploadFileWithDragAndDrop(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Foto Selfie dengan Tempat Usaha'), selfie_ditempat_usaha)
-WebUI.waitForElementNotVisible(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Foto Selfie dengan Tempat Usaha'), 8, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Upload file'), [('object') : 'FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Foto Selfie dengan Tempat Usaha'
+        , ('file') : selfie_ditempat_usaha], FailureHandling.STOP_ON_FAILURE)
 
 //Upload Slip Gaji
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Slip Gaji'), 2)
-WebUI.uploadFileWithDragAndDrop(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Slip Gaji'), slip_gaji)
-WebUI.waitForElementNotVisible(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Slip Gaji'), 8, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Upload file'), [('object') : 'FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Slip Gaji'
+        , ('file') : slip_gaji], FailureHandling.STOP_ON_FAILURE)
 
 //Upload Rekening Koran Payroll
-WebUI.uploadFileWithDragAndDrop(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Rekening Koran Payroll'), rekening_koran_payroll)
-WebUI.waitForElementNotVisible(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Rekening Koran Payroll'), 8, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Upload file'), [('object') : 'FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Rekening Koran Payroll'
+        , ('file') : rekening_koran_payroll], FailureHandling.STOP_ON_FAILURE)
 
 //Upload Foto Selfie ditempat Kerja
-WebUI.uploadFileWithDragAndDrop(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Foto Selfie ditempat Kerja'), selfie_ditempat_kerja)
-WebUI.waitForElementNotVisible(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Foto Selfie ditempat Kerja'), 8, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Upload file'), [('object') : 'FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Foto Selfie ditempat Kerja'
+        , ('file') : selfie_ditempat_kerja], FailureHandling.STOP_ON_FAILURE)
 
 //Upload Surat Keterangan Kerja
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Surat Keterangan Kerja'), 2)
-WebUI.uploadFileWithDragAndDrop(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Surat Keterangan Kerja'), surat_keterangan_kerja)
-WebUI.waitForElementNotVisible(findTestObject('FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Surat Keterangan Kerja'), 8, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Upload file'), [('object') : 'FE/Backoffice/Telesales/Edit/Bukti Keuangan/Input - Surat Keterangan Kerja'
+        , ('file') : surat_keterangan_kerja], FailureHandling.STOP_ON_FAILURE)

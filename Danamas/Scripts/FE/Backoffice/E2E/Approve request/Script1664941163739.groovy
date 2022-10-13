@@ -3,8 +3,11 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+import internal.GlobalVariable
+
 //Login
-WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [('email') : GlobalVariable.email, ('password') : GlobalVariable.password], 
+    FailureHandling.STOP_ON_FAILURE)
 
 //Click menu Sales
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Sales'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -18,7 +21,3 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by No H
 //Approve request
 WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Approve request'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//Verify status is Approved
-//WebUI.refresh()
-//WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by No HP'), [('nomor_hp') : no_hp], FailureHandling.STOP_ON_FAILURE)
-//WebUI.verifyElementText(findTestCase('FE/Backoffice/Sales/Request/List/TextValue - Status'), 'Approved', FailureHandling.STOP_ON_FAILURE)

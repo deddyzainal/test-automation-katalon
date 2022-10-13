@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 //Input user email
 CustomKeywords.'backoffice.common.setTextWithDelay'(findTestObject('FE/Backoffice/User Management/List/Input - Email'), email)
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(3)
 
 //Verify email value in the list match with keyword
 WebUI.verifyElementText(findTestObject('FE/Backoffice/User Management/List/TextValue - Email Pengguna'), email, FailureHandling.STOP_ON_FAILURE)

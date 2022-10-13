@@ -22,12 +22,14 @@ WebUI.scrollToElement(findTestObject('FE/Backoffice/User Management/Detail/Butto
 WebUI.click(findTestObject('FE/Backoffice/User Management/Detail/Button - Ubah Informasi'))
 
 //Select Role
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/User Management/Form/Select - Role'), 2, FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('FE/Backoffice/User Management/Form/Select - Role'))
-WebUI.click(findTestObject('FE/Backoffice/User Management/Form/Option - Role', [('role') : role]))
+for(int i = 0; i < role.size; i++) {
+	WebUI.click(findTestObject('FE/Backoffice/User Management/Form/Select - Role'))
+	WebUI.click(findTestObject('FE/Backoffice/User Management/Form/Option - Role', [('role') : role[i]]))
+}
 
 //Select Jabatan
 WebUI.click(findTestObject('FE/Backoffice/User Management/Form/Select - Jabatan'))
+WebUI.setText(findTestObject('FE/Backoffice/User Management/Form/Input - Search Jabatan'), jabatan)
 WebUI.click(findTestObject('FE/Backoffice/User Management/Form/Option - Jabatan', [('jabatan') : jabatan]))
 
 //Input Nama Pengguna

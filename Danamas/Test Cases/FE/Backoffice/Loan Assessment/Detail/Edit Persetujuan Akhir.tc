@@ -107,7 +107,7 @@
       <name>catatan_ca</name>
    </variable>
    <variable>
-      <defaultValue>'Bob Telesales'</defaultValue>
+      <defaultValue>'Test CA stage'</defaultValue>
       <description></description>
       <id>c6391ff6-836a-4e06-b1e0-cac3e300a9c0</id>
       <masked>false</masked>

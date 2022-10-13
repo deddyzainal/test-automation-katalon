@@ -29,4 +29,4 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Open assessment detail'), null, FailureHandling.STOP_ON_FAILURE)
 
 //Request additional document
-WebUI.callTestCase(findTestCase('Test Cases/FE/Backoffice/Loan Assessment/Detail/Request additional document'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Request additional document'), [:], FailureHandling.STOP_ON_FAILURE)

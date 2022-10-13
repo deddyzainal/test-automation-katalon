@@ -20,6 +20,9 @@ import org.openqa.selenium.Keys as Keys
 //Click button Setujui
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Button - Setujui'))
 
+//Click button Lanjutkan on confirmation dialog
+WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Button - Lanjutkan'))
+
 //Verify success snackbar is shown
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Snackbar - Heading'), 5, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Snackbar - Heading'), 'Sukses', FailureHandling.STOP_ON_FAILURE)
