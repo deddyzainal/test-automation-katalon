@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Ketik ulang PIN2</name>
+   <tag></tag>
+   <elementGuidId>9347ba5a-9960-4b23-924b-cc4e7ae524ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='password'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f95a20ee-8652-4087-b2f5-1ef679a9b0cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>71906913-28d6-4f3b-a680-9ad35dd3b31a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukkan ulang PIN 6 digit</value>
+      <webElementGuid>ac7e60d8-a172-4f34-94f0-a91d85d1635c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>46d12ca6-7354-48aa-94fa-ec3d401e8aa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>reTypePin</value>
+      <webElementGuid>beec168b-5ee7-4c69-9b94-78e65207d9b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;bottom-dialog-outer&quot;]/app-bottom-dialog[@class=&quot;ng-tns-c60-7&quot;]/div[@class=&quot;bottom-dialog ng-tns-c60-7 ng-trigger ng-trigger-openClosed&quot;]/div[@class=&quot;bottom-dialog-body ng-tns-c60-7&quot;]/form[@class=&quot;ng-tns-c60-7 ng-untouched ng-pristine ng-invalid&quot;]/app-form-group[3]/div[@class=&quot;form-group row mb-4&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-input[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;input-group app-input-group ng-star-inserted&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>da1edd55-dae9-428a-838b-c77c1ccb92d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='password'])[3]</value>
+      <webElementGuid>d8149757-e012-4bf7-9f33-e3d30cb80ef3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ketik ulang PIN'])[1]/following::input[1]</value>
+      <webElementGuid>6ddf02c5-7df4-48d7-ad95-0cd5607388ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buat PIN baru'])[1]/following::input[2]</value>
+      <webElementGuid>4f03b730-b2ab-4a45-82df-f1b1824c6313</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan'])[1]/preceding::input[1]</value>
+      <webElementGuid>cb8c1d7f-bfa5-42b3-bf09-3d5c593a2dfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[3]/div/div/app-input/div/input</value>
+      <webElementGuid>652be885-95a5-483b-a059-837c99a21c5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Masukkan ulang PIN 6 digit' and @type = 'password']</value>
+      <webElementGuid>a146a6cf-2430-4e69-95e7-1cfeee48dbbc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Informasi Pribadi</name>
+   <tag></tag>
+   <elementGuidId>0c2eeb9b-8415-4a8d-b9f5-49b9fee00fea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.Profile-menu</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/ng-component/ul/li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>3b44ec43-31b9-4657-97e3-3b3349776c4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Profile-menu</value>
+      <webElementGuid>eecf535d-9e1a-462a-928c-e0880f4c6e40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Informasi Pribadi </value>
+      <webElementGuid>df9ec4e7-98dd-4223-875a-05ed81a3ac10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/ul[@class=&quot;Profile-noBullets&quot;]/li[@class=&quot;Profile-menu&quot;]</value>
+      <webElementGuid>5eb865b3-17c6-437d-967c-f2607da8d2ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/ng-component/ul/li</value>
+      <webElementGuid>2dae10ff-9311-4990-ae3b-8257aab3419f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[1]/following::li[1]</value>
+      <webElementGuid>9c923b94-88de-4548-a7a2-59d6530861d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='muhammad yusuf'])[1]/following::li[1]</value>
+      <webElementGuid>f2a21c77-54dc-4b40-90d2-20c75a9ed3b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur PIN'])[1]/preceding::li[1]</value>
+      <webElementGuid>db619237-56b5-4ebc-9b0a-ef64814882f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ubah Kata Sandi'])[1]/preceding::li[2]</value>
+      <webElementGuid>b4ae0eb1-7907-4181-b0b2-d618b7b69310</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li</value>
+      <webElementGuid>bddd05f2-10a9-4a1c-a23c-0a709a686f84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = ' Informasi Pribadi ' or . = ' Informasi Pribadi ')]</value>
+      <webElementGuid>1d6e45dc-6941-4e02-880b-83a33c864189</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

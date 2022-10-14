@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Lupa kata sandi Anda</name>
+   <tag></tag>
+   <elementGuidId>a9962890-4c87-4529-9e36-33bb7e8e23fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.font-weight-700</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/app-card/div/div[2]/div/form/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b60516f8-49e5-4e63-a194-b4dfa3aca081</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>181f1de3-f1d6-4cf1-802e-3113baab911c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-weight-700</value>
+      <webElementGuid>38b8ff01-9382-4a1d-a8fb-8c259b38a758</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Lupa kata sandi Anda? </value>
+      <webElementGuid>ef44e449-8f7e-44bf-ae7a-cb1c58362b39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/app-card[@class=&quot;ng-tns-c79-10 ng-star-inserted&quot;]/div[@class=&quot;card app-card ng-tns-c79-10&quot;]/div[@class=&quot;ng-tns-c79-10 ng-trigger ng-trigger-expandCollapse&quot;]/div[@class=&quot;card-body ng-tns-c79-10&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid ng-tns-c79-10 ng-star-inserted&quot;]/div[@class=&quot;d-flex justify-content-end&quot;]/a[@class=&quot;font-weight-700&quot;]</value>
+      <webElementGuid>b5b7aab6-ace0-41fa-bbce-f79951b494a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div[2]/div/form/div/a</value>
+      <webElementGuid>71409f39-5b3d-40da-8d4a-1cc8aafb11da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Lupa kata sandi Anda?')]</value>
+      <webElementGuid>9d53d4c7-c857-4f29-a3d5-4fb4c6eff475</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kata Sandi'])[1]/following::a[1]</value>
+      <webElementGuid>bdd28bcc-ed9a-4de3-87d0-ae984c1c45f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP'])[1]/following::a[1]</value>
+      <webElementGuid>4e7df42e-e412-436d-b90e-d2704b6220f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[2]/preceding::a[1]</value>
+      <webElementGuid>76ff4b06-b6a3-4d4a-a261-fe3709827abe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#')]</value>
+      <webElementGuid>45d800db-df08-46e8-8b86-3696665a1e0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>9a84ef60-864b-46b5-93c1-0e7e5869e048</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = ' Lupa kata sandi Anda? ' or . = ' Lupa kata sandi Anda? ')]</value>
+      <webElementGuid>2a8ecd8d-970d-45f9-b4d1-4499833b50d1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

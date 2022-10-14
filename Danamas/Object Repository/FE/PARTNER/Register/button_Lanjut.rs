@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Lanjut</name>
+   <tag></tag>
+   <elementGuidId>9982d15e-e244-4df5-9525-0493a15b07a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Lanjut ' or . = ' Lanjut ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//footer[@id='footer']/div/div/app-button/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.btn-md</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6e4103c1-c1af-49ef-bde7-4765bb6470fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-md</value>
+      <webElementGuid>e4ceb72d-3589-4053-8adf-5b536efb7f87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Lanjut </value>
+      <webElementGuid>4d75f5dc-37cd-4b7f-b33f-a0e9f2ed8693</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;footer&quot;)/div[@class=&quot;py-3 px-3&quot;]/div[@class=&quot;d-grid gap-2 ng-star-inserted&quot;]/app-button[1]/button[@class=&quot;btn btn-primary btn-md&quot;]</value>
+      <webElementGuid>a5d76860-0d20-4ded-a6f4-b030dec4baa8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//footer[@id='footer']/div/div/app-button/button</value>
+      <webElementGuid>e4fd8492-b27a-417e-bd87-bf77216336da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP tidak boleh kurang dari 8 digit'])[1]/following::button[1]</value>
+      <webElementGuid>c594501d-aa93-4e20-9cc9-2d6c93f51197</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP'])[1]/following::button[1]</value>
+      <webElementGuid>a77a1bc3-f46f-4c44-8e0d-f7b81d39896b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lanjut']/parent::*</value>
+      <webElementGuid>e21624c9-ff45-4e8a-bc61-0d3ef2cc2be9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>e110315b-68f7-4cdf-bca0-aa5341d27972</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Lanjut ' or . = ' Lanjut ')]</value>
+      <webElementGuid>aa442794-3087-4a1c-a73e-486ec78debcb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

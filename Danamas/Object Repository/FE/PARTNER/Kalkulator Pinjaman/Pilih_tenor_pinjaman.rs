@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pilih_tenor_pinjaman</name>
+   <tag></tag>
+   <elementGuidId>9d82ec08-9738-4906-a917-69b226f05e9f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-select.app-drop-down-select.ng-untouched.ng-pristine.ng-invalid.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/app-card/div/div/div/form/app-form-group[3]/div/div/app-select/select</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Pilih tenor pinjaman  1  2  3  4  5  6  7  8  9  10 ' or . = ' Pilih tenor pinjaman  1  2  3  4  5  6  7  8  9  10 ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>74fcb954-3285-4394-acbb-52df85f4e6e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select app-drop-down-select ng-untouched ng-pristine ng-invalid ng-star-inserted</value>
+      <webElementGuid>121e2c4f-7cc8-4101-a5ef-fc01779c9f8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>tenure</value>
+      <webElementGuid>8f5d0765-85a7-41ad-8916-7a0091060831</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Pilih tenor pinjaman  1  2  3  4  5  6  7  8  9  10 </value>
+      <webElementGuid>fd6765af-72ed-4c71-8b04-7a63e5ff9e53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/app-card[@class=&quot;ng-tns-c79-16 ng-star-inserted&quot;]/div[@class=&quot;card app-card ng-tns-c79-16&quot;]/div[@class=&quot;ng-tns-c79-16 ng-trigger ng-trigger-expandCollapse&quot;]/div[@class=&quot;card-body ng-tns-c79-16&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-tns-c79-16 ng-star-inserted ng-touched&quot;]/app-form-group[3]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-select[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/select[@class=&quot;form-select app-drop-down-select ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]</value>
+      <webElementGuid>097ec518-7e6e-46ee-8c8e-cf2ce69f47ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div/div/form/app-form-group[3]/div/div/app-select/select</value>
+      <webElementGuid>2d604c0d-763f-4afa-9c9a-44f4eea73404</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor Pinjaman (Tahun)'])[1]/following::select[1]</value>
+      <webElementGuid>b466a7d4-e4c0-4f78-b679-283db2902716</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[2]/following::select[1]</value>
+      <webElementGuid>dba1436c-7b90-4461-bed9-4dab2efd69d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hitung Simulasi'])[1]/preceding::select[1]</value>
+      <webElementGuid>587e8b93-d66f-4880-a793-7ba9de31da48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>ded4c02a-e6aa-4bfb-981c-5076f436c03f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = ' Pilih tenor pinjaman  1  2  3  4  5  6  7  8  9  10 ' or . = ' Pilih tenor pinjaman  1  2  3  4  5  6  7  8  9  10 ')]</value>
+      <webElementGuid>aa75a2cd-c3dd-4c09-a708-28a396cd5699</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

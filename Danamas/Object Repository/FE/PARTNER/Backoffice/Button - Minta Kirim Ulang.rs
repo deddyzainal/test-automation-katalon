@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Minta Kirim Ulang</name>
+   <tag></tag>
+   <elementGuidId>22980928-4860-4c5f-98e3-69dae2ecb180</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/app-resubmission-dialog/form/div/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.btn-md</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>29c9a338-7d0f-4cb2-8da6-bcfda04fbc2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-md</value>
+      <webElementGuid>1c4f5b79-efe6-43a7-b297-4e6aae248765</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Minta Kirim Ulang </value>
+      <webElementGuid>8b9aed13-d4b4-4f28-8493-2e345b9904ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/app-resubmission-dialog[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/div[1]/button[@class=&quot;btn btn-primary btn-md&quot;]</value>
+      <webElementGuid>6b87c30c-de58-4451-ab31-77bdac979792</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-resubmission-dialog/form/div/button[2]</value>
+      <webElementGuid>2360d8ee-15a8-458e-8082-0fd57eb552e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/following::button[1]</value>
+      <webElementGuid>7b195e2f-ecff-459a-a171-1c8ecec9f263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keterangan'])[1]/following::button[2]</value>
+      <webElementGuid>d3f89cf7-41e4-471e-88fc-a803423c33d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Minta Kirim Ulang']/parent::*</value>
+      <webElementGuid>3354840c-89c4-4f4d-99a4-22dfef32e534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/button[2]</value>
+      <webElementGuid>fe1b15f1-704c-4bec-83a3-1d8341ddf6a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Minta Kirim Ulang ' or . = ' Minta Kirim Ulang ')]</value>
+      <webElementGuid>46578ff5-4311-4c2a-a455-ab188fc9dfe1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

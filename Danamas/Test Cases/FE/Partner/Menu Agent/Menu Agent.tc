@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Menu Agent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9be609d-bd22-41c2-8e4c-efa9f5868ef4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7a523f8-8955-4f57-b22f-b14b6db3a514</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'20221006132607'</defaultValue>
+      <description></description>
+      <id>d7a523f8-8955-4f57-b22f-b14b6db3a514</id>
+      <masked>false</masked>
+      <name>nama_nohp</name>
+   </variable>
+</TestCaseEntity>

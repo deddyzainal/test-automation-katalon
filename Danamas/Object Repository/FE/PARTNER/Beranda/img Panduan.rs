@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img Panduan</name>
+   <tag></tag>
+   <elementGuidId>c7fc8a14-6371-4de7-bc84-aa0ba5b2b8dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@alt = 'guideline']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;createLoan&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/ng-component/div/div[2]/ul/li[3]/a/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>96a28f9c-434b-4e66-bba2-7a596ff477e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://cdn.lancar.id/public/fassets/Production-V1/Icons/Ic_Loan_Simulator.png</value>
+      <webElementGuid>98031450-e55e-4fcf-a302-0499e2fbfcb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>guideline</value>
+      <webElementGuid>25c8969e-9f8f-41a7-a608-63b75379c65f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;home&quot;]/div[@class=&quot;body&quot;]/ul[@class=&quot;menu-list&quot;]/li[@class=&quot;menu-item ng-star-inserted&quot;]/a[@class=&quot;menu-link&quot;]/div[@class=&quot;icon-wrap&quot;]/img[1]</value>
+      <webElementGuid>9c86a53e-10b1-4ae4-b5f8-e0dfda98e1dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/ng-component/div/div[2]/ul/li[3]/a/div</value>
+      <webElementGuid>e77867d3-094e-40e4-a380-2a1b6bfb0621</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Panduan'])[1]/following::div[1]</value>
+      <webElementGuid>bcf16b79-3587-4629-b3fc-c6ecec9d31db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buat Pengajuan'])[1]/following::div[2]</value>
+      <webElementGuid>8ca63691-251d-4318-bfa9-c2ca6cfa74ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalkulator Pinjaman'])[1]/preceding::div[1]</value>
+      <webElementGuid>0bc883e0-1d28-42d1-9463-b81add02b748</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='loanCalculator']</value>
+      <webElementGuid>eb10fe43-59c4-47fa-82dc-797d10ab9611</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/div</value>
+      <webElementGuid>1770bfaa-46a1-410c-b07e-a11447beedd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://cdn.lancar.id/public/fassets/Production-V1/Icons/Ic_Loan_Simulator.png' and @alt = 'loanCalculator']</value>
+      <webElementGuid>481828d0-221a-4c6c-aa06-bfdc738bb607</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

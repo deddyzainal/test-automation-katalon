@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Approve request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>294193ce-0342-4c04-a24a-d58c21d86b88</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fca10114-1b98-40da-91be-819b4a6e72a9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'20221004131320'</defaultValue>
+      <description></description>
+      <id>fca10114-1b98-40da-91be-819b4a6e72a9</id>
+      <masked>false</masked>
+      <name>no_hp</name>
+   </variable>
+</TestCaseEntity>

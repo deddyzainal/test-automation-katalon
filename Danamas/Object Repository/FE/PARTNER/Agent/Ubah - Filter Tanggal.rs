@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Ubah - Filter Tanggal</name>
+   <tag></tag>
+   <elementGuidId>ba1f9b6e-ecec-477b-98bf-fd37f3d57da2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div[2]/div/div/h6[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.d-flex.align-items-center.cursor-pointer</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>2d3a4173-60a5-488b-9cc8-6c522a1121a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-flex align-items-center cursor-pointer</value>
+      <webElementGuid>aaaddbbd-94a4-43e6-a1c4-d9c663422808</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Ubah </value>
+      <webElementGuid>6a37e946-33d4-494f-9ba6-bedba4c086f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;detail-agent-content mt-5&quot;]/div[@class=&quot;content-filter&quot;]/div[@class=&quot;d-flex align-items-center justify-content-between mb-1&quot;]/h6[@class=&quot;d-flex align-items-center cursor-pointer&quot;]</value>
+      <webElementGuid>dcd0731b-ad9c-4ca8-94f3-c5a1ebbdf9e5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div[2]/div/div/h6[2]</value>
+      <webElementGuid>9933b034-40a4-4b4f-bcce-e87cada7fb09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter Tanggal'])[1]/following::h6[1]</value>
+      <webElementGuid>2fdfb910-4dc8-4691-97da-a1b616f80ad4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bambang'])[1]/following::h6[2]</value>
+      <webElementGuid>6ffc6ae7-1461-46e7-b2bd-1e091d11905a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ringkasan'])[1]/preceding::h6[1]</value>
+      <webElementGuid>8b9e5dd0-0cc5-45b3-a51b-425d14b031fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan'])[1]/preceding::h6[2]</value>
+      <webElementGuid>68786afb-32a8-4b62-8bb4-b26435a471a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ubah']/parent::*</value>
+      <webElementGuid>0124e032-0bae-4987-b843-1f1537d570fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h6[2]</value>
+      <webElementGuid>c18d1460-9b62-4096-8427-0cd3dc5dd619</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = ' Ubah ' or . = ' Ubah ')]</value>
+      <webElementGuid>25bb5b0f-8751-4543-b31a-57c6ddaa0625</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

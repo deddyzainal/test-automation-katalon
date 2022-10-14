@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Agen</name>
+   <tag></tag>
+   <elementGuidId>8af215eb-a881-4a07-a750-7e0b687df0f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/app-card/div/div[2]/div/form/app-form-group[11]/div/div/app-select/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-select.app-drop-down-select.ng-untouched.ng-pristine.ng-invalid.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@auto_name=&quot;partner_type&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>d87b2418-9317-434b-a214-997fcf0d0e63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@auto_name=&quot;partner_type&quot;]</value>
+      <webElementGuid>b54f0923-e50b-4329-b557-12583d63581a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div[2]/div/form/app-form-group[11]/div/div/app-select/select</value>
+      <webElementGuid>ebeee33d-5b3a-4e21-8b0d-069bc611ebbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Agama'])[1]/following::select[1]</value>
+      <webElementGuid>6f5809eb-eb75-4ae8-ab74-7799bc096a92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data tidak boleh kosong'])[8]/following::select[1]</value>
+      <webElementGuid>2505ce99-f954-48c2-ac1c-2477aa5ad900</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan alamat sesuai KTP'])[1]/preceding::select[1]</value>
+      <webElementGuid>af595a70-2f5a-4e65-9699-2a5c6a365607</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan RT/RW'])[1]/preceding::select[1]</value>
+      <webElementGuid>58b1db10-d912-4b56-9c08-790a9a25c2ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[11]/div/div/app-select/select</value>
+      <webElementGuid>ca104125-22a0-40f1-8e22-58f2f4999bdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = ' Agama  Islam  Kristen  Katolik  Hindu  Buddha  Kong Hu Chu  Lain-lain ' or . = ' Agama  Islam  Kristen  Katolik  Hindu  Buddha  Kong Hu Chu  Lain-lain ')]</value>
+      <webElementGuid>561fa75f-5549-4561-ae17-0e824cb2bc0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

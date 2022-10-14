@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Masukkan alamat sesuai KTP</name>
+   <tag></tag>
+   <elementGuidId>3cadee0e-c625-4389-8b98-5aa5d9208e34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@auto_name = 'address']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/app-card/div/div[2]/div/form/app-form-group[12]/div/div/app-textarea/textarea</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.form-control.ng-untouched.ng-pristine.ng-invalid.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>888e6917-1c1c-4d28-8453-77985f107cbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cols</name>
+      <type>Main</type>
+      <value>30</value>
+      <webElementGuid>3b066ec4-0426-4399-8227-8717b891e496</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>3d25fae5-794d-4a4e-aa82-5a23859cc17a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-pristine ng-invalid ng-star-inserted</value>
+      <webElementGuid>3ea50d0a-6fce-406a-b025-982ad328c6e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Alamat KTP</value>
+      <webElementGuid>c2c97b8b-5e20-4ba3-8754-993a2978a313</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>address</value>
+      <webElementGuid>5b89bd34-11f4-4467-af99-7bb75f144206</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/app-card[@class=&quot;ng-tns-c81-3 ng-star-inserted&quot;]/div[@class=&quot;card app-card ng-tns-c81-3&quot;]/div[@class=&quot;ng-tns-c81-3 ng-trigger ng-trigger-expandCollapse&quot;]/div[@class=&quot;card-body ng-tns-c81-3&quot;]/form[@class=&quot;ng-invalid ng-tns-c81-3 ng-star-inserted ng-touched ng-dirty&quot;]/app-form-group[12]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-textarea[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/textarea[@class=&quot;form-control ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]</value>
+      <webElementGuid>e1be01fc-b61b-4221-a3f0-d32d40f07e0c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div[2]/div/form/app-form-group[12]/div/div/app-textarea/textarea</value>
+      <webElementGuid>8da2ad43-ec30-43bd-9e1b-05cba39dc1e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>a1f49924-16a6-432d-b123-df798895b560</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Alamat KTP']</value>
+      <webElementGuid>883ca2df-c73e-4e15-83d2-01c71661d42b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

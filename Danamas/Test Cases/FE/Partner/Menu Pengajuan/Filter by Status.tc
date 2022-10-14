@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter by Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09c5b573-d1c0-4a71-953e-5c8e15d11641</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8052d670-a982-46ec-95e3-2c5f83be6514</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'passed'</defaultValue>
+      <description></description>
+      <id>8052d670-a982-46ec-95e3-2c5f83be6514</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

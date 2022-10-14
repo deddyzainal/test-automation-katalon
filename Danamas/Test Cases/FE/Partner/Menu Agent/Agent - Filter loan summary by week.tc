@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Agent - Filter loan summary by week</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eabca1a8-bc6c-481f-b18e-c0b9d70fb156</testCaseGuid>
+</TestCaseEntity>

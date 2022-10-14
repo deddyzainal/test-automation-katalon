@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>close</name>
+   <tag></tag>
+   <elementGuidId>39bd1866-13af-4dd4-9883-65d67df6dff3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/em</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>em.fas.fa-times.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[@class=&quot;bottom-dialog-outer&quot;]/app-bottom-dialog[@class=&quot;ng-tns-c60-34&quot;]/div[@class=&quot;bottom-dialog ng-tns-c60-34 ng-trigger ng-trigger-openClosed&quot;]/div[@class=&quot;bottom-dialog-header ng-tns-c60-34&quot;]/div[@class=&quot;bottom-dialog-close-button ng-tns-c60-34&quot;]/em[@class=&quot;fas fa-times ng-star-inserted&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>em</value>
+      <webElementGuid>58aaf791-a3e0-402d-b549-c3cd7c668507</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-times ng-star-inserted</value>
+      <webElementGuid>90c8cec3-8854-41f4-b90a-87f5564dedea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;bottom-dialog-outer&quot;]/app-bottom-dialog[@class=&quot;ng-tns-c60-34&quot;]/div[@class=&quot;bottom-dialog ng-tns-c60-34 ng-trigger ng-trigger-openClosed&quot;]/div[@class=&quot;bottom-dialog-header ng-tns-c60-34&quot;]/div[@class=&quot;bottom-dialog-close-button ng-tns-c60-34&quot;]/em[@class=&quot;fas fa-times ng-star-inserted&quot;]</value>
+      <webElementGuid>03241e88-89a9-4bde-a1c3-7a172a1bf99e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/em</value>
+      <webElementGuid>4243c3b0-239a-4b60-a7cf-9f1a2cf86c17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

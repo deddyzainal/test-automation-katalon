@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Atur PIN</name>
+   <tag></tag>
+   <elementGuidId>184b486b-c120-47d6-a245-af30645ec8b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/ng-component/ul/li[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>01308390-7d17-48b6-bd98-55417364589a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Profile-menu</value>
+      <webElementGuid>59150439-814b-444c-b9ac-73d2a9cff554</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Atur PIN </value>
+      <webElementGuid>2b072057-c783-44a4-b040-353074a8fbf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/ul[@class=&quot;Profile-noBullets&quot;]/li[@class=&quot;Profile-menu&quot;]</value>
+      <webElementGuid>0502246a-d683-41ba-9d05-51307922378f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/ng-component/ul/li[2]</value>
+      <webElementGuid>6623de0a-1a59-4287-8344-8be447ef6703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Pribadi'])[1]/following::li[1]</value>
+      <webElementGuid>27e7bb28-9a35-4341-b1db-bb1f447ab322</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[1]/following::li[2]</value>
+      <webElementGuid>e5233991-8862-4d12-9fe7-7688663cb90e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ubah Kata Sandi'])[1]/preceding::li[1]</value>
+      <webElementGuid>42b68c27-9505-4d3e-b683-c904cd5bdf2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Referral'])[1]/preceding::li[2]</value>
+      <webElementGuid>6e9cc126-5ce1-4752-a549-508f48bce8a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]</value>
+      <webElementGuid>0c85420f-b502-4ddb-afc9-359a38238c3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = ' Atur PIN ' or . = ' Atur PIN ')]</value>
+      <webElementGuid>6d61c5ec-a1e3-4cff-91ac-213381a528cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

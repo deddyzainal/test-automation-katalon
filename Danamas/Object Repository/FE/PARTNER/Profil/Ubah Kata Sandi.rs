@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Ubah Kata Sandi</name>
+   <tag></tag>
+   <elementGuidId>5f0590c3-dc88-4a7d-bff7-cf3e04db8f4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/ng-component/ul/li[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>e194b0f8-9fe3-4df4-8b27-d4b5b0024bfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Profile-menu</value>
+      <webElementGuid>0ce19716-84a4-48df-9a0d-24e0ad3dab04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Ubah Kata Sandi </value>
+      <webElementGuid>0c34537b-fec4-48f5-9b1e-04624964fd4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/ul[@class=&quot;Profile-noBullets&quot;]/li[@class=&quot;Profile-menu&quot;]</value>
+      <webElementGuid>1f6c9613-4b74-4bd9-94ed-0a1b9e9c472c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/ng-component/ul/li[3]</value>
+      <webElementGuid>9615daac-e4af-494f-9aaf-344b110e5ded</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atur PIN'])[1]/following::li[1]</value>
+      <webElementGuid>4590947a-767f-4121-b0f4-f66b0c36535f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Pribadi'])[1]/following::li[2]</value>
+      <webElementGuid>e3803aee-8d08-46bd-8073-559236b6bd57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Referral'])[1]/preceding::li[1]</value>
+      <webElementGuid>1ff54950-85ac-4a18-bc48-0cc8e7a617f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar'])[1]/preceding::li[2]</value>
+      <webElementGuid>85159a6c-a354-458e-8a8a-c913327b82ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ubah Kata Sandi']/parent::*</value>
+      <webElementGuid>c2614cbd-a434-43e6-9099-d8c132bfb5d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]</value>
+      <webElementGuid>6e4cacd3-71e4-47bc-bbdc-6d26d80a1c58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = ' Ubah Kata Sandi ' or . = ' Ubah Kata Sandi ')]</value>
+      <webElementGuid>41e36883-b03f-4eb8-b0cd-25ff49a9ef3b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>1. Informasi Peminjam</name>
+   <tag></tag>
+   <elementGuidId>24e45779-902c-49a4-9467-d6bae9cbe987</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/ng-component/app-list/ul/app-list-item/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.list-group-item.border-0.mb-3.px-3.rounded.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>69374b7f-de99-49f0-a4f9-ef39f257dfa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-group-item border-0 mb-3 px-3 rounded ng-star-inserted</value>
+      <webElementGuid>12351989-84c9-47c4-a87c-316dc8879939</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 1  Informasi Peminjam </value>
+      <webElementGuid>847fe49c-fefe-4af5-99d6-b61b2c86744c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/app-list[1]/ul[@class=&quot;app-list list-group&quot;]/app-list-item[@class=&quot;ng-star-inserted&quot;]/li[@class=&quot;list-group-item border-0 mb-3 px-3 rounded ng-star-inserted&quot;]</value>
+      <webElementGuid>7548a49a-84a1-4d49-87d1-54ff03f2d79e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/app-list/ul/app-list-item/li</value>
+      <webElementGuid>20f2fe97-8434-4050-9efc-e03b28647652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Pengajuan'])[1]/following::li[1]</value>
+      <webElementGuid>a2a90e34-5360-4152-99ed-ec6b04bfdd83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Penjamin'])[1]/preceding::li[1]</value>
+      <webElementGuid>4437e61d-7ab2-4e38-a755-bb28bb701847</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li</value>
+      <webElementGuid>41f7f583-3189-4b0a-9bdb-1644b7a93bc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = ' 1  Informasi Peminjam ' or . = ' 1  Informasi Peminjam ')]</value>
+      <webElementGuid>455091bf-c358-48ea-bcf3-ab4c7bde7f0a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

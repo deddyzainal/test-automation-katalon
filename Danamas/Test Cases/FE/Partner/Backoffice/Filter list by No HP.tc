@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by No HP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7db40d73-1af3-451a-b1d2-24abc207ac10</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a881d5d6-c27a-4f78-9e18-05282d0dee88</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.datetime</defaultValue>
+      <description></description>
+      <id>a881d5d6-c27a-4f78-9e18-05282d0dee88</id>
+      <masked>false</masked>
+      <name>nohp</name>
+   </variable>
+</TestCaseEntity>

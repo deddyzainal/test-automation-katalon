@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Make New Loan (From button at tab Pengajuan)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9d25c92-9d40-41db-8042-38f0b94db2b2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>037c2cb8-2db8-4a86-a383-5782a9f8939c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88ecc233-06f9-4663-8bef-bb207c14ec78</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>740b7694-abea-447d-9ecf-29a6daa96df6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'pinjaman beragunan properti'</defaultValue>
+      <description></description>
+      <id>037c2cb8-2db8-4a86-a383-5782a9f8939c</id>
+      <masked>false</masked>
+      <name>pengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.badge</defaultValue>
+      <description></description>
+      <id>88ecc233-06f9-4663-8bef-bb207c14ec78</id>
+      <masked>false</masked>
+      <name>badge</name>
+   </variable>
+   <variable>
+      <defaultValue>'3114050501850036'</defaultValue>
+      <description></description>
+      <id>740b7694-abea-447d-9ecf-29a6daa96df6</id>
+      <masked>false</masked>
+      <name>nik</name>
+   </variable>
+</TestCaseEntity>

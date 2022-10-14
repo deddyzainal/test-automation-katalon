@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Ketik Ulang Kata Sandi Baru</name>
+   <tag></tag>
+   <elementGuidId>70252903-40bd-4f31-ac02-888b0f98bfa7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>app-input.ng-untouched.ng-pristine.ng-invalid > div.input-group.app-input-group.ng-star-inserted > input.form-control</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='password'])[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'Masukkan ulang kata sandi baru' and @type = 'password']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>164a3164-64fb-4238-8226-8216ebbf0e95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>ffa114b0-3c3c-43c0-9a84-a0afe5cde2ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukkan ulang kata sandi baru</value>
+      <webElementGuid>b966edee-f50d-495c-a5cb-aad7c7dc9fe5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>7fd833ef-355a-4787-a0c2-cde0dbed9722</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>reTypePassword</value>
+      <webElementGuid>44d173df-3598-4adc-83d1-0e02e73c6b63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;bottom-dialog-outer&quot;]/app-bottom-dialog[@class=&quot;ng-tns-c60-27&quot;]/div[@class=&quot;bottom-dialog ng-tns-c60-27 ng-trigger ng-trigger-openClosed&quot;]/div[@class=&quot;bottom-dialog-body ng-tns-c60-27&quot;]/form[@class=&quot;ng-tns-c60-27 ng-pristine ng-invalid ng-touched&quot;]/app-form-group[3]/div[@class=&quot;form-group row mb-4&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-input[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;input-group app-input-group ng-star-inserted&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>6d49e162-5dff-4b5c-b456-a35dd8381d91</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='password'])[3]</value>
+      <webElementGuid>dc358c92-a320-4669-ae07-3922b5ac773f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[3]/div/div/app-input/div/input</value>
+      <webElementGuid>f6c25c11-f26d-4a68-aaa5-69f3e9b9783d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Masukkan ulang kata sandi baru' and @type = 'password']</value>
+      <webElementGuid>39306254-51de-40ae-ac01-64ff8e343eb2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Kirim Kelengkapan Data</name>
+   <tag></tag>
+   <elementGuidId>559dd5b3-0c3c-46c5-9e55-c2bef5bbd890</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.btn-md</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;footer&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//footer[@id='footer']/div/div/app-button/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d2ea996d-dd72-4597-b393-4903b6a2bb6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-md</value>
+      <webElementGuid>38ae2ee9-c258-4ac3-82a5-70536f80bcec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Lanjut </value>
+      <webElementGuid>8108816e-0c40-41cf-ae2d-7e7cf8aa7895</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;footer&quot;]</value>
+      <webElementGuid>d01e561b-1b67-4f0b-94b9-41167a7d2683</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//footer[@id='footer']/div/div/app-button/button</value>
+      <webElementGuid>35bdd821-29f1-42f5-b7f1-0dda79520a25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP tidak boleh kurang dari 8 digit'])[1]/following::button[1]</value>
+      <webElementGuid>747cf744-e95a-4698-8dfd-abd90849b153</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP'])[1]/following::button[1]</value>
+      <webElementGuid>a685e325-5978-48a9-a1d3-e2cbd25ff1dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lanjut']/parent::*</value>
+      <webElementGuid>dd475c10-0a9a-4aa5-8494-330c9720582b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>688be3b1-5395-48e4-bb9b-52b0418cf3e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Lanjut ' or . = ' Lanjut ')]</value>
+      <webElementGuid>28c8042e-599c-43d2-95c0-b57afd4d791a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

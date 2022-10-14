@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>filter_byperiode</name>
+   <tag></tag>
+   <elementGuidId>efd0cedd-89d8-48dd-a2d7-49d970a001af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/ng-component/div/div/home-summary-agent-stats/div/div/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7e5a4bfb-3759-4270-9911-5fa8914331e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>9619b97f-d841-4ac4-b8a3-1454f0ce28b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Mingguan </value>
+      <webElementGuid>4f013fe3-b17e-4aba-b224-f9de2ffecd2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;home&quot;]/div[@class=&quot;header&quot;]/home-summary-agent-stats[1]/div[@class=&quot;summary-agent-stats ng-star-inserted&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;filter&quot;]/div[@class=&quot;button-filter&quot;]/span[@class=&quot;text&quot;]</value>
+      <webElementGuid>3d971e67-289c-45e7-a16a-427fbf2fbb54</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/ng-component/div/div/home-summary-agent-stats/div/div/div[2]/div/span</value>
+      <webElementGuid>fbe64c5f-ac6e-4cdd-9447-681b5daca84f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[1]/following::span[2]</value>
+      <webElementGuid>c9415b46-b784-48bd-81e7-20543019ec37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hi, muhammad yusuf!'])[1]/following::span[3]</value>
+      <webElementGuid>7d395641-6ebd-49a0-a573-d4e1e7b1dcaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 0'])[1]/preceding::span[1]</value>
+      <webElementGuid>464a1744-f35c-4b3c-bca8-1240edfc3427</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Detail'])[1]/preceding::span[1]</value>
+      <webElementGuid>fdd85dc3-759e-4be1-9069-59d6ec840fda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mingguan']/parent::*</value>
+      <webElementGuid>a4d8f90b-97d9-4db2-b89e-b0ca575011ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/span</value>
+      <webElementGuid>a296fa52-38c2-4022-adc4-e9729422fc52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Mingguan ' or . = ' Mingguan ')]</value>
+      <webElementGuid>3dcbef7a-492f-4072-ac0c-5c9a35a918e1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

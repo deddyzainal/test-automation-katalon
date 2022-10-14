@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Batal</name>
+   <tag></tag>
+   <elementGuidId>90065df2-c546-4566-8a46-e98a1e7ad3e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim'])[2]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-md.btn-outline-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3ff5cb8c-c384-4ef9-bb89-cb20ae7ed3a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-md btn-outline-primary</value>
+      <webElementGuid>df66fe10-7c83-40d5-a042-1979606998b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Batal </value>
+      <webElementGuid>e68060a3-17e8-4261-bae4-8161bd0a2a93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/ngb-modal-window[@class=&quot;alert-dialog d-block modal fade show&quot;]/div[@class=&quot;modal-SM modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/ng-component[1]/app-popup[1]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;alert-dialog alert-dialog-info ng-star-inserted&quot;]/div[@class=&quot;d-grid gap-2 mt-4&quot;]/app-button[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;btn btn-md btn-outline-primary&quot;]</value>
+      <webElementGuid>0f1b6adf-d63d-4522-a7d1-59b17511210c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim'])[2]/following::button[1]</value>
+      <webElementGuid>2c6e9f78-522d-4967-bf99-0b15413e4df2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim pengajuan pinjaman?'])[1]/following::button[2]</value>
+      <webElementGuid>58f6d3e3-02ca-4478-a22f-170da43eca31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Batal']/parent::*</value>
+      <webElementGuid>f5611b16-f702-47ad-a710-b7ee00df0538</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-button[2]/button</value>
+      <webElementGuid>09d22a04-9259-45a7-9e64-41ab195add13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Batal ' or . = ' Batal ')]</value>
+      <webElementGuid>ce3b6cd7-a3a7-4ce0-84fc-13c0c75cfbde</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

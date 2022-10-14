@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>E2E</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e87f429a-b523-44d7-bff4-15df2f6288ed</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>181849d4-583f-4ed4-a08c-c7ad5ca27a4f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.timestamp</defaultValue>
+      <description></description>
+      <id>181849d4-583f-4ed4-a08c-c7ad5ca27a4f</id>
+      <masked>false</masked>
+      <name>timestamp1</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Daftar Agen</name>
+   <tag></tag>
+   <elementGuidId>168736f0-c433-45b8-9d7b-214d12e20f40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header']/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2.px-4.max-line.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>669c4503-891f-4946-9a6d-b168870f3eac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-4 max-line ng-star-inserted</value>
+      <webElementGuid>0007e915-898d-45a4-94ea-52c97cb3608f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daftar Agen</value>
+      <webElementGuid>600a1f6d-c9e5-4b68-a694-e36f9da05fe2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/h2[@class=&quot;px-4 max-line ng-star-inserted&quot;]</value>
+      <webElementGuid>57d93db0-d1d3-4738-85e0-f1147613d586</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/h2</value>
+      <webElementGuid>c45dd092-42e6-4cfc-b2d8-3bb464c11907</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bambang'])[1]/preceding::h2[1]</value>
+      <webElementGuid>19bb36ce-f1e9-4996-82cd-32f272250a29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Bergabung'])[1]/preceding::h2[1]</value>
+      <webElementGuid>bbf8da14-8e16-46ad-933e-9b8b04fa2971</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Daftar Agen']/parent::*</value>
+      <webElementGuid>926124fa-0057-4b89-b691-f137bab9cead</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>b06fae6f-967c-4983-be0e-7b86d78d655b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Daftar Agen' or . = 'Daftar Agen')]</value>
+      <webElementGuid>5ef1ef97-66d9-468d-9d0e-8b5205f6a2b3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

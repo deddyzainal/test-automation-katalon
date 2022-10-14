@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Profile After Set Pin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7a74750-5f2f-48ca-8fc9-6d1ed56cb6a6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6fea7b5c-c9a0-41c1-8be7-f0dbaba22395</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>6fea7b5c-c9a0-41c1-8be7-f0dbaba22395</id>
+      <masked>false</masked>
+      <name>newpin</name>
+   </variable>
+</TestCaseEntity>

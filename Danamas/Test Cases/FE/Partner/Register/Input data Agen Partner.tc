@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input data Agen Partner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7aa7a914-359a-4f2f-b167-c7b944a4cd55</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5fccd09e-fb2b-43d1-864f-97102092b99d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d1810d2-b19e-4e84-b7e4-b1eed77ffa12</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a720952-bea7-4400-b479-ec3060292752</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'external'</defaultValue>
+      <description></description>
+      <id>5fccd09e-fb2b-43d1-864f-97102092b99d</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Freelance HO'</defaultValue>
+      <description></description>
+      <id>7d1810d2-b19e-4e84-b7e4-b1eed77ffa12</id>
+      <masked>false</masked>
+      <name>namapartner</name>
+   </variable>
+   <variable>
+      <defaultValue>'B063011190'</defaultValue>
+      <description></description>
+      <id>6a720952-bea7-4400-b479-ec3060292752</id>
+      <masked>false</masked>
+      <name>kodereferral</name>
+   </variable>
+</TestCaseEntity>

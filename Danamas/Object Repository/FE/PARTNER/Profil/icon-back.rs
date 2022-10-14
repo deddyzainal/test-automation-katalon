@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon-back</name>
+   <tag></tag>
+   <elementGuidId>9157bacc-15ee-49bd-93d2-d49c3e501706</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>em.fas.fa-arrow-left.icon-back</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header']/span/em</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>em</value>
+      <webElementGuid>7a30b5c6-348c-4279-bbbf-254efc039708</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-arrow-left icon-back</value>
+      <webElementGuid>2f497140-c3f9-45b3-8945-e9b9b40c5f7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/span[@class=&quot;button-back ng-star-inserted&quot;]/em[@class=&quot;fas fa-arrow-left icon-back&quot;]</value>
+      <webElementGuid>161a6f4a-42fb-4d0d-95b0-6d7a3193732d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/span/em</value>
+      <webElementGuid>8a78f264-967b-41a8-9567-98aa65e44ef1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ubah Informasi Pribadi'])[1]/preceding::em[1]</value>
+      <webElementGuid>5d45f320-5276-42a7-8a3c-2df362bc10ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Lengkap'])[1]/preceding::em[1]</value>
+      <webElementGuid>e26aad68-1897-484f-91ae-0ae9615805fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//em</value>
+      <webElementGuid>298e1fc3-6f02-444d-94ff-a30ac0bab2f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

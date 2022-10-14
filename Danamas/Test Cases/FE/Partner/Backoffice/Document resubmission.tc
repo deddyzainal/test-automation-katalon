@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Document resubmission</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6bbfa6c-81a1-46ee-bbdf-c04fd1a4bbff</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>698a2339-5d74-496e-9bd4-e77eced68ee1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Joko Tingkir'</defaultValue>
+      <description></description>
+      <id>698a2339-5d74-496e-9bd4-e77eced68ee1</id>
+      <masked>false</masked>
+      <name>nama_peminjam</name>
+   </variable>
+</TestCaseEntity>

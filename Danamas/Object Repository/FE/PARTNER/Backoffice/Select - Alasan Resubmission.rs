@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select - Alasan Resubmission</name>
+   <tag></tag>
+   <elementGuidId>f01ad197-236f-416b-93b6-f5ff41fa7e2d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/app-resubmission-dialog/form/section/mat-form-field/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c62-28</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9cd684c2-0dc3-457c-8775-915000e0ca48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c62-28</value>
+      <webElementGuid>052940e5-7b8f-46fa-9176-a4119e60accc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose OneChoose One</value>
+      <webElementGuid>a1d342cc-d4bc-4ecc-b774-fee74e07d772</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//mat-select[@formcontrolname=&quot;reason&quot;]</value>
+      <webElementGuid>5d4cedf5-b28a-413f-816e-d8de4c64292d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-resubmission-dialog/form/section/mat-form-field/div/div/div</value>
+      <webElementGuid>e02398d2-c529-4ad9-a994-43272a95d7b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alasan'])[1]/following::div[3]</value>
+      <webElementGuid>e0237c01-acfd-4c10-8d68-0fda01e44d13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih alasan mengapa calon peminjam perlu untuk mengirim PBB mereka.'])[1]/following::div[3]</value>
+      <webElementGuid>8297c5d5-b2ea-4494-b348-07ec1c9dd8f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field/div/div/div</value>
+      <webElementGuid>6aae262c-3543-477c-ba01-7b2311b7e168</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Choose OneChoose One' or . = 'Choose OneChoose One')]</value>
+      <webElementGuid>cf73c185-16b7-49b8-89ef-1450a34ecbc3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

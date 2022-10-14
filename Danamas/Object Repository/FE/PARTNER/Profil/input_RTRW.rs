@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_RTRW</name>
+   <tag></tag>
+   <elementGuidId>470cf8ca-8edf-482f-8e1e-5fbb4dd1f92d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'Masukkan RT/RW' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>app-input.ng-untouched.ng-dirty.ng-valid > div.input-group.app-input-group.ng-star-inserted > input.form-control</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>03bb9316-cb88-4f7e-80f5-d2f07a849510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>5404649a-fc37-4051-902d-0c6a502262f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukkan RT/RW</value>
+      <webElementGuid>94a7e8aa-65b6-4116-8049-46c9ab4fbb79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>domicile_rtOrRw</value>
+      <webElementGuid>b9599331-3732-4d8e-a669-bc8f17e32cf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>6ba8597d-9db5-4b63-836e-284fa5773a71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/app-form-group[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;form-group row mb-4&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-input[@class=&quot;ng-untouched ng-dirty ng-valid&quot;]/div[@class=&quot;input-group app-input-group ng-star-inserted&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>47f39162-39dc-440c-98bf-da27dc8da6af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[4]</value>
+      <webElementGuid>2354422e-6ded-4251-8ce0-40ab97d1fe61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/form/app-form-group[13]/div/div/app-input/div/input</value>
+      <webElementGuid>06dd4584-4338-40bf-8ac8-14b66e1c9a53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RT/RW'])[2]/following::input[1]</value>
+      <webElementGuid>c36fdc36-ac4c-4ef4-b374-a067dcc40429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Domisili'])[1]/following::input[1]</value>
+      <webElementGuid>208b4e4e-4a0f-402d-8525-b015cab6be3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Pos'])[2]/preceding::input[1]</value>
+      <webElementGuid>4c2bc3f4-4987-4849-9097-96c869567de9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fax'])[2]/preceding::input[2]</value>
+      <webElementGuid>8bc800ca-de55-4081-9b10-ae4d0d9c0958</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[13]/div/div/app-input/div/input</value>
+      <webElementGuid>1638f93a-4052-4c20-9eb5-ca3ab5433126</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Masukkan RT/RW' and @type = 'text']</value>
+      <webElementGuid>ac9b1aba-8610-4e46-843a-0c20eeee348f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

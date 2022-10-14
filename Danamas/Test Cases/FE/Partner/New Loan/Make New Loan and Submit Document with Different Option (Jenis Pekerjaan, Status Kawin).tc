@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Make New Loan and Submit Document with Different Option (Jenis Pekerjaan, Status Kawin)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2d8e9fa-e208-471a-a1a7-e7126fe72f8a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb7f1941-6183-470b-8b18-8b4b3e9e3002</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2a253f0-1d47-4227-9b9c-de1d6b27525c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'dana express'</defaultValue>
+      <description></description>
+      <id>eb7f1941-6183-470b-8b18-8b4b3e9e3002</id>
+      <masked>false</masked>
+      <name>pengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.badge</defaultValue>
+      <description></description>
+      <id>f2a253f0-1d47-4227-9b9c-de1d6b27525c</id>
+      <masked>false</masked>
+      <name>badge</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input data Agen Branch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5382d9b2-d0a9-4280-bb7c-9b91978df682</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa166f55-a5c9-4fb3-8a38-da31ef588fba</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ba0e2a2-776c-4a27-8612-afd5c829e528</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04668374-d33c-4005-b019-9965cebe4874</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Bandung'</defaultValue>
+      <description></description>
+      <id>aa166f55-a5c9-4fb3-8a38-da31ef588fba</id>
+      <masked>false</masked>
+      <name>kota</name>
+   </variable>
+   <variable>
+      <defaultValue>'Danamas Bandung'</defaultValue>
+      <description></description>
+      <id>2ba0e2a2-776c-4a27-8612-afd5c829e528</id>
+      <masked>false</masked>
+      <name>cabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'Branch Manager'</defaultValue>
+      <description></description>
+      <id>04668374-d33c-4005-b019-9965cebe4874</id>
+      <masked>false</masked>
+      <name>posisi</name>
+   </variable>
+</TestCaseEntity>

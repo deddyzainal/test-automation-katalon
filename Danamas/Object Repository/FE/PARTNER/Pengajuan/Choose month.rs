@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Choose month</name>
+   <tag></tag>
+   <elementGuidId>0fc7de0b-4d47-4c90-b694-444622fa1a0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;pick-month&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;pick-month&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>aa656f56-ab55-4b94-a997-354f2f862644</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>23eac713-f05c-4399-a429-ecdbaf274330</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> September </value>
+      <webElementGuid>c5b2d5fb-671f-4e38-9087-82f644f4b1be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;pick-month&quot;]</value>
+      <webElementGuid>4ab64704-3e71-45bc-a01d-7f687a8235ee</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih'])[1]/following::span[1]</value>
+      <webElementGuid>e88044fa-c02d-48ca-83bb-563b60b9682e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Tanggal'])[1]/following::span[2]</value>
+      <webElementGuid>b54cb461-2d9c-448c-83ec-4db142a81aea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Min'])[1]/preceding::span[4]</value>
+      <webElementGuid>3df020ca-7d64-49af-9367-4a4a52c455b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sen'])[1]/preceding::span[4]</value>
+      <webElementGuid>8fd93700-ca10-455f-a770-77d9b6a80f9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/span</value>
+      <webElementGuid>3597ee0f-6121-410a-ba8f-c0a0ef3e950c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' September ' or . = ' September ')]</value>
+      <webElementGuid>7664a607-e34e-4359-b44a-95cc9480ebf0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

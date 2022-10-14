@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Pilih Posisi</name>
+   <tag></tag>
+   <elementGuidId>aaaad36c-9e13-4540-b038-14b953f9ebe3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@auto_name=&quot;position_secure_id&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Pilih Posisi  Branch Manager  Relationship Manager ' or . = ' Pilih Posisi  Branch Manager  Relationship Manager ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>e179b40d-f110-4cd5-83ca-5ade01029ced</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select app-drop-down-select ng-untouched ng-pristine ng-invalid ng-star-inserted</value>
+      <webElementGuid>c67dbcbe-88b6-49c5-b744-3acf160785e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>position_secure_id</value>
+      <webElementGuid>36316f04-988d-4223-bc2b-b0eac0f97cd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Pilih Posisi  Branch Manager  Relationship Manager </value>
+      <webElementGuid>8e5a6ff5-9495-4f51-880c-a567e1d917d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/app-card[@class=&quot;ng-tns-c81-10 ng-star-inserted&quot;]/div[@class=&quot;card app-card ng-tns-c81-10&quot;]/div[@class=&quot;ng-tns-c81-10 ng-trigger ng-trigger-expandCollapse&quot;]/div[@class=&quot;card-body ng-tns-c81-10&quot;]/form[@class=&quot;ng-invalid ng-tns-c81-10 ng-star-inserted ng-dirty ng-touched&quot;]/agent-information-branch[@class=&quot;ng-dirty ng-invalid ng-star-inserted ng-touched&quot;]/app-form-group[3]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-select[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/select[@class=&quot;form-select app-drop-down-select ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]</value>
+      <webElementGuid>f669cbf0-08ca-422a-9c82-52cbd177f4e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div[2]/div/form/agent-information-branch/app-form-group[3]/div/div/app-select/select</value>
+      <webElementGuid>b0fc5dae-32d9-46d9-8809-a3c4eca0e971</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Posisi'])[1]/following::select[1]</value>
+      <webElementGuid>bb916b54-40b7-4b80-a982-438e36b0bdd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Cabang'])[1]/following::select[2]</value>
+      <webElementGuid>653096cc-f30c-4106-a150-3d4c3164a756</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lanjut'])[1]/preceding::select[1]</value>
+      <webElementGuid>97775a17-28b6-4e5e-8bc7-674100acc378</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[3]/div/div/app-select/select</value>
+      <webElementGuid>dfd501ce-0af8-42d6-8e15-83fbe61cad9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = ' Pilih Posisi  Branch Manager  Relationship Manager ' or . = ' Pilih Posisi  Branch Manager  Relationship Manager ')]</value>
+      <webElementGuid>043dff56-0f10-4c12-9a0f-3d0eaf7c8354</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

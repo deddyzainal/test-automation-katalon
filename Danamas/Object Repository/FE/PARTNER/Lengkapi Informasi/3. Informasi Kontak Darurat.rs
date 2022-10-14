@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>3. Informasi Kontak Darurat</name>
+   <tag></tag>
+   <elementGuidId>9a955012-7785-45df-a1ff-4c72fa9caf47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/ng-component/app-list/ul/app-list-item[3]/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>972fc7ae-eb08-4864-adeb-0ce40d46fa88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-group-item border-0 mb-3 px-3 rounded ng-star-inserted</value>
+      <webElementGuid>bbdda5f9-35a2-4923-8f85-66cf6365ee83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 3  Informasi Kontak Darurat </value>
+      <webElementGuid>305c943c-2dfd-4422-a422-52b448bd4058</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/app-list[1]/ul[@class=&quot;app-list list-group&quot;]/app-list-item[@class=&quot;ng-star-inserted&quot;]/li[@class=&quot;list-group-item border-0 mb-3 px-3 rounded ng-star-inserted&quot;]</value>
+      <webElementGuid>48c33a34-675c-4b44-a888-6bb00df3b9af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/app-list/ul/app-list-item[3]/li</value>
+      <webElementGuid>08ce2d25-d8de-4bab-97c6-ee15b8dc7def</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Opsional'])[1]/following::li[1]</value>
+      <webElementGuid>00f8cb5b-cf83-4546-94c0-3b0ab3e36b09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Penjamin'])[1]/following::li[1]</value>
+      <webElementGuid>68935ffa-3921-4972-b5d2-a2f375d0eb91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Agunan'])[1]/preceding::li[1]</value>
+      <webElementGuid>982f1e77-2130-44e0-8139-aec338a0130d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-list-item[3]/li</value>
+      <webElementGuid>263a290f-b55f-423b-9f35-2bc7d6c5a2fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = ' 3  Informasi Kontak Darurat ' or . = ' 3  Informasi Kontak Darurat ')]</value>
+      <webElementGuid>fa6f3bd2-cc63-4048-8967-c68ef72bfee7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Nama Ibu Kandung</name>
+   <tag></tag>
+   <elementGuidId>68bb6506-20ea-46e1-b3e8-1976d8391a9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'Masukkan nama ibu kandung' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>app-input.ng-untouched.ng-pristine.ng-invalid > div.input-group.app-input-group.ng-star-inserted > input.form-control</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f2ab87e8-9122-4df2-8148-0f0a3bd9c4af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>f12dc83c-302b-4955-bcd7-84ae9ca4a720</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukkan nama ibu kandung</value>
+      <webElementGuid>028143f0-9e92-426c-ad61-51adb7c10443</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>mother_name</value>
+      <webElementGuid>93e394a5-52b9-4a4a-99de-2399f4918377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>14b751ef-98c4-424c-81a3-d078ddb3ea3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/app-card[@class=&quot;ng-tns-c81-3 ng-star-inserted&quot;]/div[@class=&quot;card app-card ng-tns-c81-3&quot;]/div[@class=&quot;ng-tns-c81-3 ng-trigger ng-trigger-expandCollapse&quot;]/div[@class=&quot;card-body ng-tns-c81-3&quot;]/form[@class=&quot;ng-invalid ng-tns-c81-3 ng-star-inserted ng-touched ng-dirty&quot;]/app-form-group[9]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-input[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;input-group app-input-group ng-star-inserted&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>587d9384-961c-4e0c-af38-1ba46ec8bc3c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[3]</value>
+      <webElementGuid>f9cd1f17-2b8e-4ceb-b8a0-7d81d199d16f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div[2]/div/form/app-form-group[9]/div/div/app-input/div/input</value>
+      <webElementGuid>736cc4d0-2e77-4506-b986-b4aa8e3a00fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[9]/div/div/app-input/div/input</value>
+      <webElementGuid>0947b2a7-22bd-4a75-90ff-b7bbcb7af1c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Masukkan nama ibu kandung' and @type = 'text']</value>
+      <webElementGuid>bcbacbdf-c60c-419d-9b9d-7fd1d6f86372</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

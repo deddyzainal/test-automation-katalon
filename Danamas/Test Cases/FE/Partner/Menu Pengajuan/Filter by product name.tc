@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter by product name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a22af75-d428-44cf-8cc6-af8f609bd8d0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbd0988f-c5f9-4b82-8661-5872406de630</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'pinjaman beragunan properti'</defaultValue>
+      <description></description>
+      <id>dbd0988f-c5f9-4b82-8661-5872406de630</id>
+      <masked>false</masked>
+      <name>productname</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tanggal Lahir</name>
+   <tag></tag>
+   <elementGuidId>f1652123-b487-4f2d-9a1d-37355dbc2c8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/app-card/div/div[2]/div/form/app-form-group[8]/div/div/app-date-picker/div/div/span/em</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>em.fas.fa-calendar-alt</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>em</value>
+      <webElementGuid>e0780c81-1407-414f-a626-5ce82fc336ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-calendar-alt</value>
+      <webElementGuid>9c63f85f-983d-404b-a2cd-d145663dfc6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/app-card[@class=&quot;ng-tns-c81-3 ng-star-inserted&quot;]/div[@class=&quot;card app-card ng-tns-c81-3&quot;]/div[@class=&quot;ng-tns-c81-3 ng-trigger ng-trigger-expandCollapse&quot;]/div[@class=&quot;card-body ng-tns-c81-3&quot;]/form[@class=&quot;ng-invalid ng-tns-c81-3 ng-star-inserted ng-touched ng-dirty&quot;]/app-form-group[8]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-date-picker[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;date-picker ng-star-inserted dropdown&quot;]/div[@class=&quot;input-group&quot;]/span[@class=&quot;input-group-text&quot;]/em[@class=&quot;fas fa-calendar-alt&quot;]</value>
+      <webElementGuid>ac7e4eac-3704-4cfd-851c-861f3ce49777</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div[2]/div/form/app-form-group[8]/div/div/app-date-picker/div/div/span/em</value>
+      <webElementGuid>7376bc0a-7b98-4af4-af48-19c3f08938ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/em</value>
+      <webElementGuid>380d6c64-a88f-4085-8940-8840bc2122f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
