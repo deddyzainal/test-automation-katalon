@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Alamat KTP</name>
+   <tag></tag>
+   <elementGuidId>bc6f7ba0-17e7-4022-8b20-02b186148804</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[12]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.list1 > li > lancar-input > div.input-wrapper.default > input.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>6890a64f-cd4e-4c7a-8d23-6f9fbe69f662</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>208a60f4-1628-413e-897a-531701dca08d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Alamat Sesuai KTP</value>
+      <webElementGuid>795087dc-5fa2-4eb2-8514-0048289b986d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>address</value>
+      <webElementGuid>2a8a2ae7-0921-47dc-b11a-908e994ac03e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>689bff66-b220-4743-935e-111291aa4b52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-tns-c82-0 ng-star-inserted&quot;]/div[@class=&quot;main-container ng-tns-c82-0&quot;]/div[@class=&quot;padding-32-32-32-32 ng-tns-c82-0 padding-left&quot;]/app-edit-agent[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;card-ffffff-0 shadow padding-32-32-32-32 mb-24 ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;form2&quot;]/ul[@class=&quot;list1&quot;]/li[1]/lancar-input[1]/div[@class=&quot;input-wrapper default&quot;]/input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>d3c9e4a2-29a2-498a-b13f-cba255b6f840</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[12]</value>
+      <webElementGuid>76c0844e-a997-42eb-94da-e0ead560c8b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/ul/li/lancar-input/div/input</value>
+      <webElementGuid>92a2e66d-c213-4dc4-bedd-61580f8ea3a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Alamat Sesuai KTP']</value>
+      <webElementGuid>5bdcf84f-80ab-4228-956a-579b998bf023</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

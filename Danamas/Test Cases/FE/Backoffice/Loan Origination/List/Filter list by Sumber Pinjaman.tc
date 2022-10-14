@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Sumber Pinjaman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3630ba9-fc91-4090-b953-4b8a8ae19d86</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6dee7895-0448-46a0-a050-bccb5266ac63</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Lancar Aplikasi'</defaultValue>
+      <description></description>
+      <id>6dee7895-0448-46a0-a050-bccb5266ac63</id>
+      <masked>false</masked>
+      <name>sumber_pinjaman</name>
+   </variable>
+</TestCaseEntity>

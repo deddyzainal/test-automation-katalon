@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Persentase Pencapaian</name>
+   <tag></tag>
+   <elementGuidId>7badec63-9e5a-405c-b30b-2b4c1ec286f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@name='branch'])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'percentage']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-group > lancar-input > div.input-wrapper.default > input[name=&quot;branch&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>8fec3d67-4673-4fef-86b3-e84b40a039d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>percentage</value>
+      <webElementGuid>547ab859-fddc-453b-be7b-728b6ac11ab5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@name='branch'])[2]</value>
+      <webElementGuid>16df07ca-409d-41bc-8c10-13f4b55fa8f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/lancar-input/div/input</value>
+      <webElementGuid>b8980f61-7adf-4120-80fd-653e21a45cfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @name = 'branch' and @placeholder = 'Masukkan nama branch']</value>
+      <webElementGuid>9f9b7828-1e6e-4654-9c2d-ab4c6c615d55</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

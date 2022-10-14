@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Nomor HP</name>
+   <tag></tag>
+   <elementGuidId>2e9dfdd6-3c89-49f8-9d99-ba7c4b28ab40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f0ebf006-c6c2-4313-97ec-4817f2594121</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>8711c416-5559-472a-8cbb-03ac08d64ea2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>phone_number</value>
+      <webElementGuid>cc7e3590-7bb3-419c-9831-6724a5192f78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value> Telepon</value>
+      <webElementGuid>7f841e14-b8a6-4d94-bc4a-642f6d8bae93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>282c1dd3-c355-411b-b663-7ad634407cc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-tns-c84-0 ng-star-inserted&quot;]/div[@class=&quot;main-container ng-tns-c84-0&quot;]/div[@class=&quot;padding-32-32-32-32 ng-tns-c84-0 padding-left&quot;]/app-request[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;card-ffffff-0 shadow padding-32-40-32-16&quot;]/form[@class=&quot;mt-16 ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;d-flex mt-32&quot;]/lancar-input[@class=&quot;mr-24&quot;]/div[@class=&quot;input-wrapper default&quot;]/input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>e8ef4785-4f10-462c-8d44-d88fbe991dad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[2]</value>
+      <webElementGuid>9b219c37-9c3b-40fa-b816-5a07fd59ea9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//lancar-input[2]/div/input</value>
+      <webElementGuid>0035dd76-8b17-4bdf-8418-4767bf636e86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = ' Telepon']</value>
+      <webElementGuid>739398c1-c7c5-4da8-94c4-328abfdf0a8c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

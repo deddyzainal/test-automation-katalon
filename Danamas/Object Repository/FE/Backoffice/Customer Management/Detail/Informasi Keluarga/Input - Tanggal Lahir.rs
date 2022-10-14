@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Tanggal Lahir</name>
+   <tag></tag>
+   <elementGuidId>82478c77-292e-4632-a370-d566cdeab43a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h3[text()=' Data Keluarga ${no} ']/following-sibling::div//input[@formcontrolname='dob']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mb-24.dropdown > lancar-input > div.input-wrapper.default > input.dropdown-toggle.ng-untouched.ng-pristine.ng-invalid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1f7220e9-daef-42d3-9418-3fd3a3f6265d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>92bd7f25-4abb-49e9-ba8f-c78d9c4855bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Tanggal lahir</value>
+      <webElementGuid>359b88ca-78cd-4d47-a86c-97443bd19768</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>dob</value>
+      <webElementGuid>ac8d6488-bffd-42e8-9e2d-2fef18d04b94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-toggle ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>a32a8a59-7bcf-4396-92a0-83f0c64c3360</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>56aaa43c-3bd1-4c79-8e65-08e752a8263b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;section-0&quot;)/div[@class=&quot;d-flex&quot;]/div[1]/div[@class=&quot;mb-24&quot;]/div[@class=&quot;mb-24 dropdown&quot;]/lancar-input[1]/div[@class=&quot;input-wrapper default&quot;]/input[@class=&quot;dropdown-toggle ng-untouched ng-pristine ng-invalid&quot;]</value>
+      <webElementGuid>ad1d83e3-1c02-43d5-95da-18a282f76e18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[5]</value>
+      <webElementGuid>b1745d3b-60bd-4a67-8246-65be72fb3915</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='section-0']/div/div/div[5]/div/lancar-input/div/input</value>
+      <webElementGuid>715d2e2f-fbe5-4b47-bfe4-6c31ed64d743</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/lancar-input/div/input</value>
+      <webElementGuid>382f2590-882e-4c3c-a6c4-bb163e65f9ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Tanggal lahir']</value>
+      <webElementGuid>e4f3f03d-0bca-431c-998e-015532fe94a6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Tipe Partner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>523c6eee-9cb3-46c3-acf1-4e310cf98abf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cc574475-3e08-47ea-801b-3affdabd94ac</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Internal'</defaultValue>
+      <description></description>
+      <id>cc574475-3e08-47ea-801b-3affdabd94ac</id>
+      <masked>false</masked>
+      <name>tipe_partner</name>
+   </variable>
+</TestCaseEntity>

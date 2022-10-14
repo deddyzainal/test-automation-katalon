@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Kategori Agen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a120de6a-79c8-4f4a-833a-903217dda2a2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>168a0549-b55a-4e6e-b69e-9f735adb3bae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Branch'</defaultValue>
+      <description></description>
+      <id>168a0549-b55a-4e6e-b69e-9f735adb3bae</id>
+      <masked>false</masked>
+      <name>kategori_agen</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit audience</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>053d440d-3c12-47cc-84d0-a9abc8fa6e1e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3e2fd39d-a5ce-495d-9619-1d5b951ce6b8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c514d55-8c85-4fef-a6ff-513aa044e105</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>958f0c25-fbcb-4a46-9a2c-e05c470ec787</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon 3'</defaultValue>
+      <description></description>
+      <id>3e2fd39d-a5ce-495d-9619-1d5b951ce6b8</id>
+      <masked>false</masked>
+      <name>nama_audience</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Deskripsi 3'</defaultValue>
+      <description></description>
+      <id>4c514d55-8c85-4fef-a6ff-513aa044e105</id>
+      <masked>false</masked>
+      <name>deskripsi</name>
+   </variable>
+   <variable>
+      <defaultValue>['meitri@yahoo.com']</defaultValue>
+      <description></description>
+      <id>958f0c25-fbcb-4a46-9a2c-e05c470ec787</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>
