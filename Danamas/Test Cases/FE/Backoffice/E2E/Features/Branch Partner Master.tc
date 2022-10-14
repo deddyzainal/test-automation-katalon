@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Branch Partner Master</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03da88b3-4ae8-4a81-b8a8-4cc5c0c50a80</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c81672d5-e436-4353-8d98-f3c6a4990823</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Partner - Katalon5'</defaultValue>
+      <description></description>
+      <id>c81672d5-e436-4353-8d98-f3c6a4990823</id>
+      <masked>false</masked>
+      <name>nama_partner</name>
+   </variable>
+</TestCaseEntity>

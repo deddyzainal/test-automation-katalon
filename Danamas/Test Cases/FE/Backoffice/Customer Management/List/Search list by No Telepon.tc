@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search list by No Telepon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>885ee69e-44bd-4fb2-915e-398c1cd036c6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66014215-fa92-47ce-b4fc-a12735ab3cd6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'8126895678'</defaultValue>
+      <description></description>
+      <id>66014215-fa92-47ce-b4fc-a12735ab3cd6</id>
+      <masked>false</masked>
+      <name>no_telepon</name>
+   </variable>
+</TestCaseEntity>

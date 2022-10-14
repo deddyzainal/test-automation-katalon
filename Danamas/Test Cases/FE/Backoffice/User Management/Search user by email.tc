@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search user by email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77f8c488-759d-4454-b763-4163536ccade</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d2b7fa1-e6ff-44f6-ac81-9466ab838464</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test_abc@gmail.com'</defaultValue>
+      <description></description>
+      <id>4d2b7fa1-e6ff-44f6-ac81-9466ab838464</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

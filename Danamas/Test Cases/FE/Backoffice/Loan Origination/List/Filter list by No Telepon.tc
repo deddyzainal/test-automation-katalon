@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by No Telepon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df0c3746-e3a0-4bfc-a29d-e2d58c90b38e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65522bfc-b4e7-45a2-92e0-50e97ed0ac88</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'6281268956094'</defaultValue>
+      <description></description>
+      <id>65522bfc-b4e7-45a2-92e0-50e97ed0ac88</id>
+      <masked>false</masked>
+      <name>no_telepon</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open offer letter detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>827cdb36-958c-4b14-80e9-95892de98656</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1f77c7f-d370-4a21-b520-d9f1f33dfbe8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'KC-KFA-0821-31-0003'</defaultValue>
+      <description></description>
+      <id>a1f77c7f-d370-4a21-b520-d9f1f33dfbe8</id>
+      <masked>false</masked>
+      <name>id_pinjaman</name>
+   </variable>
+</TestCaseEntity>

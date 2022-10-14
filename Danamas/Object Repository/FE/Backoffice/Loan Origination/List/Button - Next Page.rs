@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Next Page</name>
+   <tag></tag>
+   <elementGuidId>b6adb906-c105-4704-8d07-5544b0a21f86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-loan-origination-table//div[@class='pagination rounded-box']/button[last()]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.page-button-action.page-button-style.mat-button.mat-button-base.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper > mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-icon</value>
+      <webElementGuid>ccf97154-2fa1-4f3b-a699-d1bd60356f5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>656e6f65-bb12-4f44-b804-546ea7172fd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-icon notranslate material-icons mat-icon-no-color</value>
+      <webElementGuid>94085ba2-c91a-4def-8b55-a1dd293b82ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6558c0f4-b501-4218-8b9a-4a56def98475</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-mat-icon-type</name>
+      <type>Main</type>
+      <value>font</value>
+      <webElementGuid>4a4eac51-c768-4ee1-8d95-8c18c76c1ad0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>chevron_right </value>
+      <webElementGuid>a6c52636-80b1-46bd-b6a4-0c11659834e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-dashboard[@class=&quot;ng-tns-c149-2 ng-star-inserted&quot;]/div[@class=&quot;dashboard-layout ng-tns-c149-2&quot;]/div[@class=&quot;d-flex main-layout ng-tns-c149-2 padding-left&quot;]/div[@class=&quot;pt-5 pb-5 px-4 w-100 position-relative ng-tns-c149-2 ng-trigger ng-trigger-routeAnimations&quot;]/app-loan-origination-list[@class=&quot;ng-star-inserted&quot;]/app-loan-origination-table[@class=&quot;ng-star-inserted&quot;]/app-pagination[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex mt-1rem&quot;]/div[@class=&quot;pagination rounded-box&quot;]/button[@class=&quot;mat-focus-indicator page-button-action page-button-style mat-button mat-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/mat-icon[@class=&quot;mat-icon notranslate material-icons mat-icon-no-color&quot;]</value>
+      <webElementGuid>f1f4acec-8761-42fd-ad4d-154deb4b98c0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='...'])[1]/following::mat-icon[1]</value>
+      <webElementGuid>bceb34a4-fe92-4555-8ca4-83295979b8f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[118]/following::mat-icon[2]</value>
+      <webElementGuid>ea653d85-6a3a-45e5-82a9-d886aeb4111a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='chevron_right']/parent::*</value>
+      <webElementGuid>933d979d-972b-4b60-96e8-7b0d8e34b582</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span/mat-icon</value>
+      <webElementGuid>acdf6db9-1bf7-4554-9b26-e6332c843582</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-icon[(text() = 'chevron_right ' or . = 'chevron_right ')]</value>
+      <webElementGuid>3aa2ffd2-8170-4f78-87bc-0b45dae65ffd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

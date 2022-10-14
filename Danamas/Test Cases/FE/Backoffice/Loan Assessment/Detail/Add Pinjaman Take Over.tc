@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Pinjaman Take Over</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04ffecc3-51ef-4667-8d7f-c44ad67497d7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>23bcf953-e40e-4a7d-aa32-0b20d9f7bcad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>75b3fd77-7779-4018-bd4a-fe40ea346fc2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6be2cb81-ea46-4e4d-b42b-2be8b180544e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>07362200-025b-4edb-af57-f6c42d09ed3d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5740f94-6149-4341-bdba-a45f0c8c24e4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Bank Jago'</defaultValue>
+      <description></description>
+      <id>23bcf953-e40e-4a7d-aa32-0b20d9f7bcad</id>
+      <masked>false</masked>
+      <name>nama_bank</name>
+   </variable>
+   <variable>
+      <defaultValue>'Trade Receipt'</defaultValue>
+      <description></description>
+      <id>75b3fd77-7779-4018-bd4a-fe40ea346fc2</id>
+      <masked>false</masked>
+      <name>jenis_fasilitas</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000000'</defaultValue>
+      <description></description>
+      <id>6be2cb81-ea46-4e4d-b42b-2be8b180544e</id>
+      <masked>false</masked>
+      <name>original_plafon</name>
+   </variable>
+   <variable>
+      <defaultValue>'Secured'</defaultValue>
+      <description></description>
+      <id>07362200-025b-4edb-af57-f6c42d09ed3d</id>
+      <masked>false</masked>
+      <name>secure_type</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000000'</defaultValue>
+      <description></description>
+      <id>d5740f94-6149-4341-bdba-a45f0c8c24e4</id>
+      <masked>false</masked>
+      <name>outstanding_pinjaman</name>
+   </variable>
+</TestCaseEntity>

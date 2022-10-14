@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input - Foto KTP Pasangan</name>
+   <tag></tag>
+   <elementGuidId>537d6c32-e57c-464b-82f6-e2c155d9eb41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mb-24.ng-star-inserted > #file</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h3[text()=' Foto KTP Pasangan ']/following-sibling::input[@type='file']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>fced410e-b1f2-4dbc-84c0-6aeb593d3a24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>8ee8c918-572b-4589-944e-ae9422f24674</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>6922f4b1-83e8-4fdf-bc02-21f2cb9a22fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accept</name>
+      <type>Main</type>
+      <value>.png,.jpg,.jpeg,.heif</value>
+      <webElementGuid>7e9d4187-841b-4d03-a1c7-b118c019ec97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;section-1&quot;)/div[@class=&quot;mb-24 ng-star-inserted&quot;]/input[@id=&quot;file&quot;]</value>
+      <webElementGuid>1e94eaf0-2f1d-4385-a49c-e6aa60d734a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@id='file'])[3]</value>
+      <webElementGuid>5c748c70-180e-43f4-b929-0fb53242d529</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='section-1']/div[6]/input</value>
+      <webElementGuid>44579fb2-bdad-4c4d-8bcd-acd02c7752bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/input</value>
+      <webElementGuid>73d7e928-1845-462e-b217-9fb26c1e8dbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'file' and @id = 'file']</value>
+      <webElementGuid>8800d9f2-9afa-4bf1-a2de-67213e821f36</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

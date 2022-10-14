@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Request additional document</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75b17cef-cf4f-4d0a-a05b-6f768642bf47</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba26380d-35b0-4a0a-b7cc-0f6ecd9b301c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b5287734-907e-4f77-ab10-0ef9f119175d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a952a8f4-8934-43ae-a4a0-d78d68e29eb1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2de2f0a2-cf1d-4e4b-bd4c-30c769f0a710</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a37e95e6-6adf-45ec-9f7c-6ce96885a1c1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ef823ff-fad6-4a8e-8187-43d0096a07bf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Dokumen Katalon 1'</defaultValue>
+      <description></description>
+      <id>ba26380d-35b0-4a0a-b7cc-0f6ecd9b301c</id>
+      <masked>false</masked>
+      <name>nama_dokumen_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Deskripsi 1'</defaultValue>
+      <description></description>
+      <id>b5287734-907e-4f77-ab10-0ef9f119175d</id>
+      <masked>false</masked>
+      <name>deskripsi_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dokumen Katalon 2'</defaultValue>
+      <description></description>
+      <id>a952a8f4-8934-43ae-a4a0-d78d68e29eb1</id>
+      <masked>false</masked>
+      <name>nama_dokumen_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Deskripsi 2'</defaultValue>
+      <description></description>
+      <id>2de2f0a2-cf1d-4e4b-bd4c-30c769f0a710</id>
+      <masked>false</masked>
+      <name>deskripsi_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dokumen Katalon 3'</defaultValue>
+      <description></description>
+      <id>a37e95e6-6adf-45ec-9f7c-6ce96885a1c1</id>
+      <masked>false</masked>
+      <name>nama_dokumen_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Deskripsi 3'</defaultValue>
+      <description></description>
+      <id>7ef823ff-fad6-4a8e-8187-43d0096a07bf</id>
+      <masked>false</masked>
+      <name>deskripsi_3</name>
+   </variable>
+</TestCaseEntity>
