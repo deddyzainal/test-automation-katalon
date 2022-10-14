@@ -7,8 +7,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable as GlobalVariable
 
-//WebUI.callTestCase(findTestCase('BE/Register account'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Login/Login with credential'), [('phoneNumber') : '20220928092904'
+//Mobile.startExistingApplication(GlobalVariable.packageId, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('BE/Register account'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Login/Login with credential'), [('phoneNumber') : GlobalVariable.datetime
         , ('password') : GlobalVariable.defaultPassword], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Home/Button - COBA SEKARANG 1'), 10)
@@ -21,10 +23,68 @@ WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Simulasi Pinjaman/Set p
         , ('nilaiPinjaman') : '550', ('tenor') : '10'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Profil Kustomer/Any Profil with SHM as Agunan'), [('tujuan') : 'Pribadi'
-        , ('agunan') : 'Ya', ('pemilikSertifikat') : 'Supri', ('pekerjaan') : 'Pegawai', ('pendapatan') : '20000000', ('pengalaman') : '6'], 
+        , ('agunan') : 'Ya', ('pemilikSertifikat') : 'Supri', ('pekerjaan') : 'Bisnis', ('pendapatan') : '25000000', ('pengalaman') : '6'], 
     FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Upload KTP/Unggah KTP'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Upload KTP/Handle Scan KTP error when uploading'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Upload KTP/Complete KTP Data'), [('namaKTP') : 'Debby Anggraini'
+        , ('nik') : '3114050501850036', ('namaIbuKandung') : 'Ibu Debby', ('jenisKelamin') : 'Perempuan', ('statusPerkawinan') : 'Kawin'
+        , ('dobTanggal') : '12', ('dobBulan') : '4', ('dobTahun') : '1989', ('tempatLahir') : 'Surabaya', ('pendidikan') : 'Sarjana'
+        , ('alamatKTP') : 'Jl. Kenangan no. 5', ('rt') : '011', ('rw') : '033', ('provinsi') : 'Jawa Timur', ('kotaKabupaten') : 'Lamongan'
+        , ('kecamatan') : 'Pucuk', ('kelurahan') : 'KESAMBI'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Upload KTP/Unggah Selfie dengan KTP'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Upload KTP/Unggah KTP Pasangan'), [('nikPasangan') : '1234123456785678'
+        , ('namaPasangan') : 'Ahmad Subarjo', ('dobDatePasangan') : '5', ('dobMonthPasangan') : '2', ('dobYearPasangan') : '1985'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Upload KTP/Unggah Kartu Keluarga'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - KIRIM'), 3)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Pre-screening/Accept Gimmick Offer'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah Buku Nikah'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah Faktur Perusahaan'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah Foto Tempat Usaha'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah Rekening Koran Payroll'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah Izin Usaha'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah IMB'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah PBB Terbaru'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah Sertifikat Kepemilikan'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah Foto Agunan Dalam'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah Foto Agunan Depan'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah Foto Akses Jalan Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Button - KIRIM DOKUMEN'), 5)
+
+Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Text - Submit Document Success'), 10)
+
+//WebUI.callTestCase(findTestCase('FE/LancarMobile/Backoffice/Trigger IMB Resubmission'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Button - Back'), 3)
+//
+//Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Button - UNGGAH SEKARANG'), 5)
+//
+//Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Text - Document Resubmission Warning'), 10)
+//
+//WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah IMB'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.scrollToText('KIRIM DOKUMEN')
+//
+//Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Button - KIRIM DOKUMEN'), 5)
+//
+//Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Text - Submit Document Success'), 10)

@@ -2,6 +2,10 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
+import internal.GlobalVariable
+
+//Mobile.startExistingApplication(GlobalVariable.packageId)
+
 if (tujuan.toLowerCase() == "pribadi") {
 	Mobile.tap(findTestObject('FE/LancarMobile/Android/Profil Kustomer/RadioBtn - Tujuan Pribadi'), 10)
 }
@@ -44,6 +48,7 @@ else if (pekerjaan.toLowerCase() == "pegawai") {
 Mobile.scrollToText('SAYA SIAP MENDAPATKAN TAWARAN')
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Profil Kustomer/Button - Edit Pendapatan'), 2)
+Mobile.delay(1)
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Profil Kustomer/Input - Pendapatan Bulanan'), 2)
 Mobile.sendKeys(findTestObject('FE/LancarMobile/Android/Profil Kustomer/Input - Pendapatan Bulanan'), pendapatan)
 Mobile.hideKeyboard()
@@ -51,6 +56,7 @@ Mobile.hideKeyboard()
 // First tap to remove focus from Pendapatan Bulanan input field
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Profil Kustomer/Button - Edit Pengalaman'), 2)
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Profil Kustomer/Button - Edit Pengalaman'), 2)
+Mobile.delay(1)
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Profil Kustomer/Input - Pengalaman'), 2)
 Mobile.clearText(findTestObject('FE/LancarMobile/Android/Profil Kustomer/Input - Pengalaman'), 2)
 Mobile.sendKeys(findTestObject('FE/LancarMobile/Android/Profil Kustomer/Input - Pengalaman'), pengalaman)

@@ -9,10 +9,6 @@ Mobile.startExistingApplication(GlobalVariable.packageId, FailureHandling.STOP_O
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - Upload KTP'), 3)
 
-//if (Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - Upload KTP'), 2)) {
-//	Mobile.tap(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - Upload KTP'), 3)
-//}
-
 Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - Capture Camera'), 3)
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - Upload File'), 2)
@@ -29,4 +25,4 @@ Mobile.waitForElementPresent(findTestObject('FE/LancarMobile/Android/Upload KTP/
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - Kirim Image'), 2)
 
-Mobile.waitForElementNotPresent(findTestObject('FE/LancarMobile/Android/Upload KTP/Image - Preview Image'), 10, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementNotVisible(findTestObject('FE/LancarMobile/Android/Upload KTP/Image - Preview Image'), 10)

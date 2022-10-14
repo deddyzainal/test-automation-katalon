@@ -29,7 +29,7 @@ WebUI.click(findTestObject('FE/LancarWeb/BOMS/Text - Latest SUBMITTED loan'))
 // Approve the loan
 WebUI.click(findTestObject('FE/LancarWeb/BOMS/Loan Assessment/Button - Lihat Detail'))
 WebUI.waitForElementVisible(findTestObject('FE/LancarWeb/BOMS/Loan Assessment/TextValue - No Pinjaman'), 10)
-GlobalVariable.loanNumber = WebUI.getText(findTestObject('FE/LancarWeb/BOMS/Loan Assessment/TextValue - No Pinjaman'))
+GlobalVariable.loanID = WebUI.getText(findTestObject('FE/LancarWeb/BOMS/Loan Assessment/TextValue - No Pinjaman'))
 WebUI.waitForElementVisible(findTestObject('FE/LancarWeb/BOMS/Loan Assessment/Button - Approve'), 30)
 WebUI.click(findTestObject('FE/LancarWeb/BOMS/Loan Assessment/Button - Approve'))
 WebUI.waitForElementVisible(findTestObject('FE/LancarWeb/BOMS/Loan Assessment/Button - Yes (Approve)'), 3)
@@ -55,7 +55,7 @@ WebUI.waitForElementVisible(findTestObject('FE/LancarWeb/BOMS/Loan Assessment/Me
 WebUI.click(findTestObject('FE/LancarWeb/BOMS/Loan Assessment/Menu - Operation'))
 WebUI.waitForElementVisible(findTestObject('FE/LancarWeb/BOMS/Loan Assessment/Menu - Offer Letter'), 10)
 WebUI.click(findTestObject('FE/LancarWeb/BOMS/Loan Assessment/Menu - Offer Letter'))
-String loan = String.format('//table//*[contains(text(), "%s")]', GlobalVariable.loanNumber)
+String loan = String.format('//table//*[contains(text(), "%s")]', GlobalVariable.loanID)
 WebUI.click(CustomKeywords.'commonHelper.LocatorBuilder.buildTestObject'('xpath', loan))
 
 // Edit Offer Letter
