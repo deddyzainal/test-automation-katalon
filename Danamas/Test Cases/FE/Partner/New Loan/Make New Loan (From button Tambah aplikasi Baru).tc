@@ -4,30 +4,30 @@
    <name>Make New Loan (From button Tambah aplikasi Baru)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5eb20138-fc29-40cd-a41a-a3af2df9ee96</testCaseGuid>
+   <testCaseGuid>4fb0e933-391c-4121-aff9-31021686e7d2</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ce2d8eb7-34a5-418a-a4d9-b2cb4329b92e</variableId>
+      <variableId>00a54fe9-8462-469f-8f1b-8a81073a240b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>cf05a41d-6b0b-4033-ac95-4f6b75fffc85</variableId>
+      <variableId>2b2afd77-de3f-4725-b7ba-e502eb1bb751</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'pinjaman beragunan properti'</defaultValue>
       <description></description>
-      <id>ce2d8eb7-34a5-418a-a4d9-b2cb4329b92e</id>
+      <id>00a54fe9-8462-469f-8f1b-8a81073a240b</id>
       <masked>false</masked>
       <name>pengajuan</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.badge</defaultValue>
       <description></description>
-      <id>cf05a41d-6b0b-4033-ac95-4f6b75fffc85</id>
+      <id>2b2afd77-de3f-4725-b7ba-e502eb1bb751</id>
       <masked>false</masked>
       <name>badge</name>
    </variable>

@@ -4,17 +4,17 @@
    <name>Filter by product name</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3a22af75-d428-44cf-8cc6-af8f609bd8d0</testCaseGuid>
+   <testCaseGuid>d3b9be44-7159-4cfd-bb6e-a38e1fb5f9c4</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>dbd0988f-c5f9-4b82-8661-5872406de630</variableId>
+      <variableId>7c9d6812-2dac-43ea-8bb8-bbbcf2637f42</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'pinjaman beragunan properti'</defaultValue>
       <description></description>
-      <id>dbd0988f-c5f9-4b82-8661-5872406de630</id>
+      <id>7c9d6812-2dac-43ea-8bb8-bbbcf2637f42</id>
       <masked>false</masked>
       <name>productname</name>
    </variable>

@@ -4,17 +4,17 @@
    <name>Menu Agent</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a9be609d-bd22-41c2-8e4c-efa9f5868ef4</testCaseGuid>
+   <testCaseGuid>77b9b842-a6ed-4f8a-8745-f10ea0532bed</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d7a523f8-8955-4f57-b22f-b14b6db3a514</variableId>
+      <variableId>868d0331-f6ba-49ef-a509-7a9a1cb0680e</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'20221006132607'</defaultValue>
       <description></description>
-      <id>d7a523f8-8955-4f57-b22f-b14b6db3a514</id>
+      <id>868d0331-f6ba-49ef-a509-7a9a1cb0680e</id>
       <masked>false</masked>
       <name>nama_nohp</name>
    </variable>

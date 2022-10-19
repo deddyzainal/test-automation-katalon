@@ -10,16 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>4362b1e0-0cac-4d36-ba91-aeab63f8ad92</testSuiteGuid>
+   <testSuiteGuid>e91c8dda-c206-47e5-aff1-5ca4c65e5484</testSuiteGuid>
    <testCaseLink>
-      <guid>996fc115-b5eb-49d8-883c-94dba5fcaf0f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Menu Akun/Personal Information</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bb43458b-9175-4e5d-9c9c-87c0f653a569</guid>
+      <guid>fd003ac5-2901-4355-9472-900e4b306bea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Akun/Change Bank Information (Profile)</testCaseId>
@@ -28,170 +21,29 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>53692639-ef41-4270-ba35-978fd9261c54</variableId>
+         <variableId>0af18af4-9bf6-41c5-a5ef-35026d7e93ec</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b6ec1959-4c99-4be6-8835-c2dc7bb13a26</variableId>
+         <variableId>f01dcff8-3a9d-4e0f-b912-6fa8956aaf21</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>85e21d1f-e31a-4fb3-ae8c-e57f6cfac82c</variableId>
+         <variableId>6054987f-0439-475c-84e5-b3d1f300f36d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>661fc518-db89-4d2d-9a56-a1268ffe69a5</variableId>
+         <variableId>6b83714e-a0cf-40f6-bba6-3dab85f567a9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3e4bfbf9-e634-4ecd-9386-659450675786</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Menu Akun/Change Private Information (Profile)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7a68a838-0b2f-43df-a4c0-4db3cc257fde</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>33a30f86-d137-4791-8651-31a6b6da0afd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cee0e586-6b07-4f3a-b5c9-b71451697b84</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>16f6bc16-871f-4339-946f-b1254ce144a3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c269398e-5a0c-479b-a5d2-66cec6006615</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5d687d77-c6ae-4550-bfd5-acebae221e41</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3f339114-8962-4324-a350-51cd9ea8e0ce</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>193358e2-51e0-4e91-8280-bf66510f79d3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4e64925d-eb0d-4dfe-8a54-2d0c6db22b82</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c6270c53-023a-400a-a5c6-303edeb08d5a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>49f7f170-6e94-411d-8446-3e95ff2c5504</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2f8ad551-e521-47a2-ae26-f7e292bc6d09</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>11e0f1ea-0142-4b9c-89b7-5d5af5e039a3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f6f776e1-04b7-4250-9290-3dbebfc9ceaa</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9d5d07ea-13c1-468b-9c6e-d93b095ef4b0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d9a4d4eb-337c-4b73-80da-408723e592e2</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bab0ad1f-5a03-40d6-9c91-3db502b8ed2e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Menu Akun/Change PIN</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>89595ee1-0b40-4939-8c0f-002efc437a29</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e568ed53-a8e3-4273-920f-3e44125a6602</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a9cdac8e-c2d8-44b2-8a25-5ace7c82bf16</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d44ba4df-4d54-41b8-8db1-d6365f64cec4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Menu Akun/Forgot Pin or ResetPIN</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0734b390-429f-472b-aadb-3380ecb97e22</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6712c9f2-e3cc-4821-a003-9997092d0a67</guid>
+      <guid>734a4d2e-6c53-4360-9fb4-cfd006e6d0e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Akun/Change Password</testCaseId>
@@ -200,14 +52,162 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>32f6f42b-6adf-41a4-8563-6aef37a222ab</variableId>
+         <variableId>5d4e6f7a-18ee-4740-83b9-71a9c33680d1</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b4ad3e3f-56e4-413d-b4e0-c0a6c71697d7</guid>
+      <guid>52df079a-a184-48e7-9c1f-8223258090a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Menu Akun/Change PIN</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>66b9534f-f6e6-434e-97af-5747d79b1109</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9bd42427-fe8b-4a5b-a911-bd9ec66d16e9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7511313d-02a2-44fe-8453-d0e04ebd6867</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5ae8662a-2442-495c-af19-cbea9d1c5c6c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Menu Akun/Change Private Information (Profile)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b6d90bca-c083-4184-85b9-def6f5ae4482</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>436dcb14-e0b7-4543-9bdb-b1a538cfadc2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fb55d64f-9a06-4404-a8c3-da47a1f98efa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>67b41957-f76f-4151-8088-c4f92246d5e9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b59a6579-8181-4e06-9442-ae4758542dae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>20a123c7-39f4-4d06-af29-fe7d2fe37e52</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>22bb96eb-2e16-4850-ac38-cf08e3a30ef3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3397d1a7-20c6-4743-9eb4-c42827f21ddf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>df383f4a-7824-4cfb-b9de-7b2f2aa74497</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b114d4c8-6827-41a9-8334-0115a5c1020c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da3b1d7b-84b5-453c-8c5d-ea533ae7bc54</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fd9b7d83-5477-411e-b625-8415d61de1d7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>deea4239-eaf3-4f41-91b7-9056ba6f4726</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b9d6a06a-d902-449a-a815-f93989471ae2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>30c02688-b87c-487e-b782-e6aed718689f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>deaed609-3b37-444d-8dde-7b640eb36a93</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe67b9b1-0c78-4e18-93a6-0ecb36bae110</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Menu Akun/Forgot Pin or ResetPIN</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>84202a7d-59f0-4060-a6fa-f4cdbb3fcb74</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fedd8e38-b77a-41ce-8aab-8d1e1144dc57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Akun/Kode Referral</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2476554c-e73c-4c50-af06-ce3108cab74b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Menu Akun/Personal Information</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

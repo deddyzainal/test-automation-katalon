@@ -4,30 +4,30 @@
    <name>Make New Loan (From Loan Simulator)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>82e30382-62f1-49a6-a107-b555297a8305</testCaseGuid>
+   <testCaseGuid>ab8d9710-dab5-49f6-b557-bf6d0c60d50d</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>589e8609-ec6c-4999-9ac2-b93b0269f98e</variableId>
+      <variableId>042cd4cc-628d-4133-abd3-fc44217b87d9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c427a014-97d7-4df4-bd77-5c07fd41c510</variableId>
+      <variableId>8d320733-11b8-4eb7-9b76-284332859e50</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'pinjaman beragunan properti'</defaultValue>
       <description></description>
-      <id>589e8609-ec6c-4999-9ac2-b93b0269f98e</id>
+      <id>042cd4cc-628d-4133-abd3-fc44217b87d9</id>
       <masked>false</masked>
       <name>pengajuan</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.badge</defaultValue>
       <description></description>
-      <id>c427a014-97d7-4df4-bd77-5c07fd41c510</id>
+      <id>8d320733-11b8-4eb7-9b76-284332859e50</id>
       <masked>false</masked>
       <name>badge</name>
    </variable>

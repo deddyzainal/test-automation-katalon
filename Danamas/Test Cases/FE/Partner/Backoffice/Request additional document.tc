@@ -4,17 +4,17 @@
    <name>Request additional document</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5e8fa15c-4c5c-4ae9-9440-125ff1309de1</testCaseGuid>
+   <testCaseGuid>cd329b80-107c-4cb9-8e96-ca3c1f628b29</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>31b1cc03-225d-4908-b125-bd733d6afb61</variableId>
+      <variableId>98af2356-97d5-4017-b690-95f6d3984b67</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'KC-KFN-0922-26-0002'</defaultValue>
       <description></description>
-      <id>31b1cc03-225d-4908-b125-bd733d6afb61</id>
+      <id>98af2356-97d5-4017-b690-95f6d3984b67</id>
       <masked>false</masked>
       <name>no_pinjaman</name>
    </variable>

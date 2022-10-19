@@ -4,147 +4,147 @@
    <name>Informasi Agunan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8d787345-bf80-4475-849f-c82b8b585188</testCaseGuid>
+   <testCaseGuid>3351f0fd-c2b4-4cb4-93a2-794ad87f5d92</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d3f4bfd5-f048-4956-a921-db0edb7cbe73</variableId>
+      <variableId>6b314fca-5d5d-47fc-bde4-478e65aff492</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3f0004d1-22c4-4ce8-b7d5-98126bbf470e</variableId>
+      <variableId>4601e7b1-24f0-461b-bf30-4b6cd94a6a78</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fedb10ba-1838-4d74-848d-12919adaa6c4</variableId>
+      <variableId>39d9fddf-6a64-441e-9a0c-58adb052a449</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f9e01871-b0b7-4719-9c8d-9608fef28f48</variableId>
+      <variableId>2eafad60-9058-4d5b-846b-05bb655f9e88</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>41fe954f-2c44-4fb7-a588-4acb5247c7c6</variableId>
+      <variableId>60d44c22-5596-4ff3-a440-8911611a4c73</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a5ad5994-129f-4b6d-8c53-36773d9a9d99</variableId>
+      <variableId>b0bbf4c8-4824-45fe-b097-e8f85bb73949</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>dbecc3be-c98d-466d-af3b-ec453df81685</variableId>
+      <variableId>89775dc1-905c-44f3-8089-8f7db41a4fa6</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7f7f57ce-59fa-4de7-aab2-3a52e3a8026e</variableId>
+      <variableId>b3d72683-41ac-4c82-b357-594e4611bae2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>596bf153-0318-4b02-91f3-af407a737e16</variableId>
+      <variableId>f2097c51-24a2-491c-bffe-db34e54765ba</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>860d4b72-e8fe-4a56-8f28-822e26f7f35c</variableId>
+      <variableId>eb243019-5dc5-478b-96bd-76016a1bba9c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ad20afb0-ebbd-42d0-b0ed-3bcc297f5773</variableId>
+      <variableId>4816ca6a-b820-4d75-aa6c-bedbfcf16ed0</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'DKI Jakarta'</defaultValue>
       <description></description>
-      <id>d3f4bfd5-f048-4956-a921-db0edb7cbe73</id>
+      <id>6b314fca-5d5d-47fc-bde4-478e65aff492</id>
       <masked>false</masked>
       <name>Provinsi</name>
    </variable>
    <variable>
       <defaultValue>'Jakarta Selatan'</defaultValue>
       <description></description>
-      <id>3f0004d1-22c4-4ce8-b7d5-98126bbf470e</id>
+      <id>4601e7b1-24f0-461b-bf30-4b6cd94a6a78</id>
       <masked>false</masked>
       <name>Kota</name>
    </variable>
    <variable>
       <defaultValue>'Kebayoran Baru'</defaultValue>
       <description></description>
-      <id>fedb10ba-1838-4d74-848d-12919adaa6c4</id>
+      <id>39d9fddf-6a64-441e-9a0c-58adb052a449</id>
       <masked>false</masked>
       <name>Kecamatan</name>
    </variable>
    <variable>
       <defaultValue>'SENAYAN'</defaultValue>
       <description></description>
-      <id>f9e01871-b0b7-4719-9c8d-9608fef28f48</id>
+      <id>2eafad60-9058-4d5b-846b-05bb655f9e88</id>
       <masked>false</masked>
       <name>Kelurahan</name>
    </variable>
    <variable>
       <defaultValue>'12134'</defaultValue>
       <description></description>
-      <id>41fe954f-2c44-4fb7-a588-4acb5247c7c6</id>
+      <id>60d44c22-5596-4ff3-a440-8911611a4c73</id>
       <masked>false</masked>
       <name>kodepos</name>
    </variable>
    <variable>
       <defaultValue>'100'</defaultValue>
       <description></description>
-      <id>a5ad5994-129f-4b6d-8c53-36773d9a9d99</id>
+      <id>b0bbf4c8-4824-45fe-b097-e8f85bb73949</id>
       <masked>false</masked>
       <name>luastanah</name>
    </variable>
    <variable>
       <defaultValue>'rumah'</defaultValue>
       <description></description>
-      <id>dbecc3be-c98d-466d-af3b-ec453df81685</id>
+      <id>89775dc1-905c-44f3-8089-8f7db41a4fa6</id>
       <masked>false</masked>
       <name>JenisAgunan</name>
    </variable>
    <variable>
       <defaultValue>'150'</defaultValue>
       <description></description>
-      <id>7f7f57ce-59fa-4de7-aab2-3a52e3a8026e</id>
+      <id>b3d72683-41ac-4c82-b357-594e4611bae2</id>
       <masked>false</masked>
       <name>bangunan</name>
    </variable>
    <variable>
       <defaultValue>'Jl Sungai Sambas'</defaultValue>
       <description></description>
-      <id>596bf153-0318-4b02-91f3-af407a737e16</id>
+      <id>f2097c51-24a2-491c-bffe-db34e54765ba</id>
       <masked>false</masked>
       <name>alamat</name>
    </variable>
    <variable>
       <defaultValue>'Sutrisno'</defaultValue>
       <description></description>
-      <id>860d4b72-e8fe-4a56-8f28-822e26f7f35c</id>
+      <id>eb243019-5dc5-478b-96bd-76016a1bba9c</id>
       <masked>false</masked>
       <name>namapemilik</name>
    </variable>
    <variable>
       <defaultValue>'milik sendiri'</defaultValue>
       <description></description>
-      <id>ad20afb0-ebbd-42d0-b0ed-3bcc297f5773</id>
+      <id>4816ca6a-b820-4d75-aa6c-bedbfcf16ed0</id>
       <masked>false</masked>
       <name>milik</name>
    </variable>

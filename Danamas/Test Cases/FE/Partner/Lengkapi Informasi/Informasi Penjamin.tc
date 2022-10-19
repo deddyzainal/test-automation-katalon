@@ -4,69 +4,69 @@
    <name>Informasi Penjamin</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7a98a62d-024f-4361-bc85-77a747492bb7</testCaseGuid>
+   <testCaseGuid>c19bd00e-df77-48f4-a7b9-20b52a532418</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c319eaf4-6fc2-4e1a-976a-479cd5307def</variableId>
+      <variableId>70e95206-d7b4-4c44-8821-ec74a4986597</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d688df76-1956-401d-a1a1-3a2a5b462684</variableId>
+      <variableId>bec67cc4-ed86-4c71-ac4d-437abc021a34</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>636b840c-2283-400d-a039-44e43525ec97</variableId>
+      <variableId>e420322f-ef82-4237-9e24-40f05d85cbfa</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5217a9c3-7613-4fbc-be69-7bb94053fa4d</variableId>
+      <variableId>dd7183d8-809b-4c85-ad01-a914ef03c4f7</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8392c08d-151f-4888-a634-ee2982043ebd</variableId>
+      <variableId>244e66d0-b3ee-4691-8903-0e060110c710</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'saudara'</defaultValue>
       <description></description>
-      <id>c319eaf4-6fc2-4e1a-976a-479cd5307def</id>
+      <id>70e95206-d7b4-4c44-8821-ec74a4986597</id>
       <masked>false</masked>
       <name>hubungan</name>
    </variable>
    <variable>
       <defaultValue>'10-Maret-2022'</defaultValue>
       <description></description>
-      <id>d688df76-1956-401d-a1a1-3a2a5b462684</id>
+      <id>bec67cc4-ed86-4c71-ac4d-437abc021a34</id>
       <masked>false</masked>
       <name>date1</name>
    </variable>
    <variable>
       <defaultValue>'Ricardo'</defaultValue>
       <description></description>
-      <id>636b840c-2283-400d-a039-44e43525ec97</id>
+      <id>e420322f-ef82-4237-9e24-40f05d85cbfa</id>
       <masked>false</masked>
       <name>nama</name>
    </variable>
    <variable>
       <defaultValue>'Bandung'</defaultValue>
       <description></description>
-      <id>5217a9c3-7613-4fbc-be69-7bb94053fa4d</id>
+      <id>dd7183d8-809b-4c85-ad01-a914ef03c4f7</id>
       <masked>false</masked>
       <name>tempatlahir</name>
    </variable>
    <variable>
       <defaultValue>'Jl sungai sambas'</defaultValue>
       <description></description>
-      <id>8392c08d-151f-4888-a634-ee2982043ebd</id>
+      <id>244e66d0-b3ee-4691-8903-0e060110c710</id>
       <masked>false</masked>
       <name>alamat</name>
    </variable>

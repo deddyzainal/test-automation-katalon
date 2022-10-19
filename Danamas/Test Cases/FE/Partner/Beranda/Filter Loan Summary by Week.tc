@@ -4,30 +4,30 @@
    <name>Filter Loan Summary by Week</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4723fbf9-e3e4-4fd9-9e94-9e6391747049</testCaseGuid>
+   <testCaseGuid>0e3a7984-e1f0-4042-a80b-264c25c43879</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>10c0d57f-41a7-4934-a704-e0ef0a5bfb91</variableId>
+      <variableId>8b7c63df-d4c2-4605-9856-de3649685d6c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6d333bd9-115b-4273-a40c-c014693bc1bb</variableId>
+      <variableId>e9b11288-49b8-4eb7-821d-102a0bf2f388</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'September'</defaultValue>
       <description></description>
-      <id>10c0d57f-41a7-4934-a704-e0ef0a5bfb91</id>
+      <id>8b7c63df-d4c2-4605-9856-de3649685d6c</id>
       <masked>false</masked>
       <name>Month</name>
    </variable>
    <variable>
       <defaultValue>'19-23-September-2022'</defaultValue>
       <description></description>
-      <id>6d333bd9-115b-4273-a40c-c014693bc1bb</id>
+      <id>e9b11288-49b8-4eb7-821d-102a0bf2f388</id>
       <masked>false</masked>
       <name>date1</name>
    </variable>

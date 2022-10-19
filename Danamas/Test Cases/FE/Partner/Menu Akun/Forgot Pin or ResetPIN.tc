@@ -4,17 +4,17 @@
    <name>Forgot Pin or ResetPIN</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>79fee2b4-963e-4336-8014-308e5e910a53</testCaseGuid>
+   <testCaseGuid>c3a44b9e-3e80-4c04-8864-a341af98ad5e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0734b390-429f-472b-aadb-3380ecb97e22</variableId>
+      <variableId>84202a7d-59f0-4060-a6fa-f4cdbb3fcb74</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'gomez'</defaultValue>
       <description></description>
-      <id>0734b390-429f-472b-aadb-3380ecb97e22</id>
+      <id>84202a7d-59f0-4060-a6fa-f4cdbb3fcb74</id>
       <masked>false</masked>
       <name>ibu</name>
    </variable>

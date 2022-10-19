@@ -4,17 +4,17 @@
    <name>User Branch Partner</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>65f72b15-1750-4c29-bc2f-1198f2830e35</testCaseGuid>
+   <testCaseGuid>f9a92227-b8e1-422f-97c5-0eb15889ecae</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>239ba9fe-0a8c-4a74-a83c-c79e1297ae59</variableId>
+      <variableId>d72aa9fd-e986-4f62-9718-3f09a96edf40</variableId>
    </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.badge</defaultValue>
       <description></description>
-      <id>239ba9fe-0a8c-4a74-a83c-c79e1297ae59</id>
+      <id>d72aa9fd-e986-4f62-9718-3f09a96edf40</id>
       <masked>false</masked>
       <name>badge</name>
    </variable>

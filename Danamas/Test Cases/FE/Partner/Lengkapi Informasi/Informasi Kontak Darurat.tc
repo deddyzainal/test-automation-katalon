@@ -4,43 +4,43 @@
    <name>Informasi Kontak Darurat</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7c6a80f9-2f7f-4f3a-850c-7515f1a1ee78</testCaseGuid>
+   <testCaseGuid>1bac625e-541a-49b8-9706-5667f5957254</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3bf0bf61-9dfc-4294-85b0-c35be12bf110</variableId>
+      <variableId>ea4cf5ff-09c1-441c-a9f8-05c6e1e18937</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c9151f9b-b7e8-4b96-ac15-18e34a2db0ae</variableId>
+      <variableId>81d8cb88-c563-4585-8820-256efff2a786</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6dda2ab9-f07b-4f39-912c-57c8a9239507</variableId>
+      <variableId>e6f79e6c-1def-42d8-9ea4-b6264077461a</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'sutiyem'</defaultValue>
       <description></description>
-      <id>3bf0bf61-9dfc-4294-85b0-c35be12bf110</id>
+      <id>ea4cf5ff-09c1-441c-a9f8-05c6e1e18937</id>
       <masked>false</masked>
       <name>nama</name>
    </variable>
    <variable>
       <defaultValue>'081265311111'</defaultValue>
       <description></description>
-      <id>c9151f9b-b7e8-4b96-ac15-18e34a2db0ae</id>
+      <id>81d8cb88-c563-4585-8820-256efff2a786</id>
       <masked>false</masked>
       <name>nohp</name>
    </variable>
    <variable>
       <defaultValue>'anak'</defaultValue>
       <description></description>
-      <id>6dda2ab9-f07b-4f39-912c-57c8a9239507</id>
+      <id>e6f79e6c-1def-42d8-9ea4-b6264077461a</id>
       <masked>false</masked>
       <name>hubungan</name>
    </variable>

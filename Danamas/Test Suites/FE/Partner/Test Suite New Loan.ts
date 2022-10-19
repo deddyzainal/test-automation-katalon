@@ -10,79 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>01b395c7-804e-4b0d-b18e-d3f5d47e2fe3</testSuiteGuid>
+   <testSuiteGuid>cb993781-b3e5-4a00-be49-c3bb047cd298</testSuiteGuid>
    <testCaseLink>
-      <guid>801af99d-4d08-4d53-a45d-7a35f0522823</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/New Loan/Make New Loan with Domicile address not same as KTP</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>da019966-1eda-463b-9da6-5e3efd66c498</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b537fc67-6696-42cc-8de4-a261e1177612</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>77a57c8b-cc13-431d-8956-b4e00743b821</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/New Loan/Make New Loan using existing NIK</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e2b24802-7dff-4970-b1c1-931f0774720e</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a1bd27fa-215c-4302-8118-b06d4ab64667</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/New Loan/Make New Loan (From Loan Simulator)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>589e8609-ec6c-4999-9ac2-b93b0269f98e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c427a014-97d7-4df4-bd77-5c07fd41c510</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6b26a9ba-08e3-4137-b3ad-f1c11cad9abc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/New Loan/Make New Loan (From button Tambah aplikasi Baru)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ce2d8eb7-34a5-418a-a4d9-b2cb4329b92e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cf05a41d-6b0b-4033-ac95-4f6b75fffc85</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>675bd235-9cf5-4405-84b0-27fee43f4840</guid>
+      <guid>e21b42bd-5106-4dc7-8feb-13bef9d017e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/New Loan/Make New Loan (From button at tab Pengajuan)</testCaseId>
@@ -91,19 +21,89 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>037c2cb8-2db8-4a86-a383-5782a9f8939c</variableId>
+         <variableId>a3da21d0-5432-42ad-ac52-25e08a1f47c7</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>88ecc233-06f9-4663-8bef-bb207c14ec78</variableId>
+         <variableId>b7288059-1d08-438b-807f-e26fcc876943</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>740b7694-abea-447d-9ecf-29a6daa96df6</variableId>
+         <variableId>409058e9-f9c6-4ddf-abda-2bbc36ab0832</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b87543e-3e80-4790-b41f-eb9f495875af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/New Loan/Make New Loan (From button Tambah aplikasi Baru)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>00a54fe9-8462-469f-8f1b-8a81073a240b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2b2afd77-de3f-4725-b7ba-e502eb1bb751</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9d357b09-a240-446a-b247-10f49523dd26</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/New Loan/Make New Loan (From Loan Simulator)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>042cd4cc-628d-4133-abd3-fc44217b87d9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8d320733-11b8-4eb7-9b76-284332859e50</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>27295fdd-b5dc-469f-8c3d-d3ab14f59be0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/New Loan/Make New Loan using existing NIK</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7445d74c-fb70-4c2e-99ae-d1f5515c9395</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>493b30db-4488-4112-885c-ad5bcdc2ec97</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/New Loan/Make New Loan with Domicile address not same as KTP</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>432a35ed-08b3-42ce-94aa-9cf11722024c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>406452ea-c684-4640-a849-88dd4b0ccaf2</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

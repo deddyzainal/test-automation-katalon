@@ -4,17 +4,17 @@
    <name>E2E</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e87f429a-b523-44d7-bff4-15df2f6288ed</testCaseGuid>
+   <testCaseGuid>14526969-c898-48fa-b280-2225275fc420</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>181849d4-583f-4ed4-a08c-c7ad5ca27a4f</variableId>
+      <variableId>46a62f9a-2cc6-435c-a771-9582a2811c6a</variableId>
    </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.timestamp</defaultValue>
       <description></description>
-      <id>181849d4-583f-4ed4-a08c-c7ad5ca27a4f</id>
+      <id>46a62f9a-2cc6-435c-a771-9582a2811c6a</id>
       <masked>false</masked>
       <name>timestamp1</name>
    </variable>

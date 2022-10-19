@@ -4,17 +4,17 @@
    <name>Filter list by No HP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7db40d73-1af3-451a-b1d2-24abc207ac10</testCaseGuid>
+   <testCaseGuid>b2b087d0-5273-4c71-b800-0e8c1c041234</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a881d5d6-c27a-4f78-9e18-05282d0dee88</variableId>
+      <variableId>25a1e611-c652-4718-b2fa-8fd115c209a3</variableId>
    </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.datetime</defaultValue>
       <description></description>
-      <id>a881d5d6-c27a-4f78-9e18-05282d0dee88</id>
+      <id>25a1e611-c652-4718-b2fa-8fd115c209a3</id>
       <masked>false</masked>
       <name>nohp</name>
    </variable>

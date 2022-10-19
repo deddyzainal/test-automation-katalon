@@ -4,108 +4,108 @@
    <name>Input Data - Alamat Domisili sama dengan KTP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c2298dd1-e9c6-47d8-a9c9-d918581afb6f</testCaseGuid>
+   <testCaseGuid>5032d4e5-573e-45ed-92bc-319427ec076e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>062ab6b9-e119-4b11-8e24-2d8100d1d0fd</variableId>
+      <variableId>39272175-4040-48fa-9f2d-0347841a1b32</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>566d97c2-bd9b-40bb-8f0a-92615507dc78</variableId>
+      <variableId>edcaa794-bb64-48f9-b63e-b4258998d0e9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b6cc96c8-f1c8-4d89-bee0-dfb7a0682bd7</variableId>
+      <variableId>8dfd0ed9-1336-4a17-9f60-36aa57610ff2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e6d19031-2d89-4e4a-afc5-951332946e14</variableId>
+      <variableId>b9f57fe2-57d2-455f-9357-e358977be012</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>23056f4b-5749-4b1a-9e2b-c39dd613de99</variableId>
+      <variableId>774297cf-2366-4ba3-a8ff-88ef519b35ed</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>100294aa-056f-4595-b2bf-13c2c5f5a469</variableId>
+      <variableId>975278e3-1edb-4bf0-ae14-9ee82c1863a2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>94db7dc8-cc00-4992-a365-5c57572d18e2</variableId>
+      <variableId>409615b9-5352-4d0e-8634-2edd6d2b5a67</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ccc06897-2dc2-4907-9e23-dbda953a15b1</variableId>
+      <variableId>e7c3c2fc-ea03-497c-a241-3d488e38db63</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'jl sungai sambas'</defaultValue>
       <description></description>
-      <id>062ab6b9-e119-4b11-8e24-2d8100d1d0fd</id>
+      <id>39272175-4040-48fa-9f2d-0347841a1b32</id>
       <masked>false</masked>
       <name>alamat</name>
    </variable>
    <variable>
       <defaultValue>'10/'</defaultValue>
       <description></description>
-      <id>566d97c2-bd9b-40bb-8f0a-92615507dc78</id>
+      <id>edcaa794-bb64-48f9-b63e-b4258998d0e9</id>
       <masked>false</masked>
       <name>rt</name>
    </variable>
    <variable>
       <defaultValue>'05'</defaultValue>
       <description></description>
-      <id>b6cc96c8-f1c8-4d89-bee0-dfb7a0682bd7</id>
+      <id>8dfd0ed9-1336-4a17-9f60-36aa57610ff2</id>
       <masked>false</masked>
       <name>rw</name>
    </variable>
    <variable>
       <defaultValue>'DKI Jakarta'</defaultValue>
       <description></description>
-      <id>e6d19031-2d89-4e4a-afc5-951332946e14</id>
+      <id>b9f57fe2-57d2-455f-9357-e358977be012</id>
       <masked>false</masked>
       <name>Provinsi</name>
    </variable>
    <variable>
       <defaultValue>'Jakarta Selatan'</defaultValue>
       <description></description>
-      <id>23056f4b-5749-4b1a-9e2b-c39dd613de99</id>
+      <id>774297cf-2366-4ba3-a8ff-88ef519b35ed</id>
       <masked>false</masked>
       <name>Kota</name>
    </variable>
    <variable>
       <defaultValue>'Kebayoran Baru'</defaultValue>
       <description></description>
-      <id>100294aa-056f-4595-b2bf-13c2c5f5a469</id>
+      <id>975278e3-1edb-4bf0-ae14-9ee82c1863a2</id>
       <masked>false</masked>
       <name>Kecamatan</name>
    </variable>
    <variable>
       <defaultValue>'SENAYAN'</defaultValue>
       <description></description>
-      <id>94db7dc8-cc00-4992-a365-5c57572d18e2</id>
+      <id>409615b9-5352-4d0e-8634-2edd6d2b5a67</id>
       <masked>false</masked>
       <name>Kelurahan</name>
    </variable>
    <variable>
       <defaultValue>'10293'</defaultValue>
       <description></description>
-      <id>ccc06897-2dc2-4907-9e23-dbda953a15b1</id>
+      <id>e7c3c2fc-ea03-497c-a241-3d488e38db63</id>
       <masked>false</masked>
       <name>kodepos</name>
    </variable>

@@ -4,69 +4,69 @@
    <name>Input Data - Informasi Pekerjaan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1c71f3c1-a2fe-485c-99fd-e320d889bdc1</testCaseGuid>
+   <testCaseGuid>b96af0ec-98fe-4ea7-b172-faffa2118a31</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fd4ae3fa-0e91-48b2-af80-51ddfac91336</variableId>
+      <variableId>fc6ee21e-11d9-457a-9af1-945d0dab382e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>14be3b78-e156-40b7-a0f5-535211972e62</variableId>
+      <variableId>400ccc82-1187-4bd9-8cb7-06fa98dcf49d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a2f099cc-dcf5-4b7b-95a1-9a10fcd76230</variableId>
+      <variableId>fe87e4c2-2f3d-46a4-a8a7-fde2d4314cde</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ae72d138-98b4-435c-a9fd-7933d1c9dc32</variableId>
+      <variableId>c2bfe6cc-dc60-4fc3-8b17-3aea497f9356</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>38274047-edde-49d5-9b9a-114b7b123a7e</variableId>
+      <variableId>ad4da87f-4e3f-430d-a80a-773365de8339</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Saya pegawai tetap'</defaultValue>
       <description></description>
-      <id>fd4ae3fa-0e91-48b2-af80-51ddfac91336</id>
+      <id>fc6ee21e-11d9-457a-9af1-945d0dab382e</id>
       <masked>false</masked>
       <name>pekerjaan</name>
    </variable>
    <variable>
       <defaultValue>'Pegawai BUMN/BUMD'</defaultValue>
       <description></description>
-      <id>14be3b78-e156-40b7-a0f5-535211972e62</id>
+      <id>400ccc82-1187-4bd9-8cb7-06fa98dcf49d</id>
       <masked>false</masked>
       <name>detailpekerjaan</name>
    </variable>
    <variable>
       <defaultValue>'5'</defaultValue>
       <description></description>
-      <id>a2f099cc-dcf5-4b7b-95a1-9a10fcd76230</id>
+      <id>fe87e4c2-2f3d-46a4-a8a7-fde2d4314cde</id>
       <masked>false</masked>
       <name>lamabekerja</name>
    </variable>
    <variable>
       <defaultValue>'Dana Hibah'</defaultValue>
       <description></description>
-      <id>ae72d138-98b4-435c-a9fd-7933d1c9dc32</id>
+      <id>c2bfe6cc-dc60-4fc3-8b17-3aea497f9356</id>
       <masked>false</masked>
       <name>sumberpendapatan</name>
    </variable>
    <variable>
       <defaultValue>'100000000'</defaultValue>
       <description></description>
-      <id>38274047-edde-49d5-9b9a-114b7b123a7e</id>
+      <id>ad4da87f-4e3f-430d-a80a-773365de8339</id>
       <masked>false</masked>
       <name>pendapatanbulanan</name>
    </variable>

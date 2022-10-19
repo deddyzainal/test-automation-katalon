@@ -10,26 +10,33 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>d5d72250-410c-4415-aac8-6115901e6774</testSuiteGuid>
+   <testSuiteGuid>2f926b1c-60b6-4e9e-b53a-ae1b58c4a331</testSuiteGuid>
    <testCaseLink>
-      <guid>1a61c64c-3cb0-48b9-8b87-d34140ea2391</guid>
+      <guid>d6da7089-44c1-4ef0-aa93-7a5b9764ec48</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Beranda/detail/Filter Loan Summary by Date</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>286daeb2-d041-49b0-b44b-33c2fa18f4aa</guid>
+      <guid>29b9142e-f1ce-4329-824e-5578851c5b3e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Beranda/detail/Filter Loan Summary by Month</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>41c1a392-e6c1-4a23-9749-3f2e1e213a3d</guid>
+      <guid>59b1c019-c0ec-4a83-968b-898eae7cd45f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Beranda/detail/Filter Loan Summary by Week</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>50d3164d-5c68-48a5-b167-d9c8e094a819</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Beranda/Menu Panduan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

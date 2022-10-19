@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>47f16d85-4e3d-4148-ae1d-544cbf230c05</testSuiteGuid>
+   <testSuiteGuid>8ece8fe4-7626-4b89-b7ec-bb1de2246178</testSuiteGuid>
    <testCaseLink>
-      <guid>ff60cac9-5be9-4a9d-8292-73941330a1ea</guid>
+      <guid>e4ae07a9-8289-472f-be04-0cd7595760fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/E2E/E2E</testCaseId>
@@ -21,7 +21,7 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>181849d4-583f-4ed4-a08c-c7ad5ca27a4f</variableId>
+         <variableId>46a62f9a-2cc6-435c-a771-9582a2811c6a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

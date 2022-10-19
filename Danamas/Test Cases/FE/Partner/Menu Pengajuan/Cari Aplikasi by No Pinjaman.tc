@@ -4,17 +4,17 @@
    <name>Cari Aplikasi by No Pinjaman</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f69f602e-9fde-45fc-accc-1f07497002bf</testCaseGuid>
+   <testCaseGuid>6538fb24-ecd4-4cfb-944b-fbf2eb248d3f</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8b09a930-3aa8-4e73-afbd-98425278cec8</variableId>
+      <variableId>46282ab4-5eee-4a7d-9222-b09a2a829e99</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Joko Tingkir'</defaultValue>
       <description></description>
-      <id>8b09a930-3aa8-4e73-afbd-98425278cec8</id>
+      <id>46282ab4-5eee-4a7d-9222-b09a2a829e99</id>
       <masked>false</masked>
       <name>nama_peminjam</name>
    </variable>

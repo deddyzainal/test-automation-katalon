@@ -4,43 +4,43 @@
    <name>Change PIN</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1d8f1e8f-dd01-4934-9052-fdee990c6deb</testCaseGuid>
+   <testCaseGuid>97120f6e-3677-419c-b269-a63c55f92a0c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>89595ee1-0b40-4939-8c0f-002efc437a29</variableId>
+      <variableId>66b9534f-f6e6-434e-97af-5747d79b1109</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e568ed53-a8e3-4273-920f-3e44125a6602</variableId>
+      <variableId>9bd42427-fe8b-4a5b-a911-bd9ec66d16e9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a9cdac8e-c2d8-44b2-8a25-5ace7c82bf16</variableId>
+      <variableId>7511313d-02a2-44fe-8453-d0e04ebd6867</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'123456'</defaultValue>
       <description></description>
-      <id>89595ee1-0b40-4939-8c0f-002efc437a29</id>
+      <id>66b9534f-f6e6-434e-97af-5747d79b1109</id>
       <masked>false</masked>
       <name>newpin</name>
    </variable>
    <variable>
       <defaultValue>'PIN Anda berhasil di ubah'</defaultValue>
       <description></description>
-      <id>e568ed53-a8e3-4273-920f-3e44125a6602</id>
+      <id>9bd42427-fe8b-4a5b-a911-bd9ec66d16e9</id>
       <masked>false</masked>
       <name>text</name>
    </variable>
    <variable>
       <defaultValue>'123456'</defaultValue>
       <description></description>
-      <id>a9cdac8e-c2d8-44b2-8a25-5ace7c82bf16</id>
+      <id>7511313d-02a2-44fe-8453-d0e04ebd6867</id>
       <masked>false</masked>
       <name>newpin2</name>
    </variable>

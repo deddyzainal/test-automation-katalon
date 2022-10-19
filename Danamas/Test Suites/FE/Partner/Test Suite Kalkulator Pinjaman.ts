@@ -10,16 +10,16 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>416fdc50-8c22-4d62-9ff8-8c95304cddb2</testSuiteGuid>
+   <testSuiteGuid>15d4a579-18f9-4b0c-a90f-44f32c5ebf6e</testSuiteGuid>
    <testCaseLink>
-      <guid>b1da237a-1f36-4dda-b7af-7d26d75d80f7</guid>
+      <guid>6ff27d40-5cb9-47f0-b5e0-6ad6a3f05bea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Kalkulator Pinjaman/kalkulatorpinjaman</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c8cab02c-66a6-42ff-90a9-1c00abbf1ff5</guid>
+      <guid>39fd24a9-4213-4296-91dd-bb660210eb36</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Kalkulator Pinjaman/underpropertyvalue</testCaseId>

@@ -10,36 +10,16 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>3492f90e-d8d5-4008-9bef-0794713e50a1</testSuiteGuid>
+   <testSuiteGuid>d549766b-41e5-496a-bee1-11ec3c7fecea</testSuiteGuid>
    <testCaseLink>
-      <guid>1deae23b-f1e4-47ac-8215-a5de7bf24ba4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Login/Wrong password</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>09531833-ab1b-48f4-a2ab-987067fba257</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>15259db3-fb4c-48f9-b813-a75828585b0e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Login/Invalid phone number</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3f4289bc-797c-4f13-90a9-0f0bae6b31e7</guid>
+      <guid>dcd91971-1df6-4b40-b468-cebbcf70a251</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Login/Login and logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f2e6a5d8-3310-4c6e-bfbd-4ece293be6ec</guid>
+      <guid>c488285b-94a2-4167-bea8-8bb6888f946f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Login/Forgot password</testCaseId>
@@ -48,7 +28,27 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>fdcb33be-6f33-4c24-a8c5-d165544dddbc</variableId>
+         <variableId>c8c8e309-0e56-44ea-a230-996ff6bed8c2</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d5e5655-2a14-4a2b-b96e-bb910eddf0de</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Login/Wrong password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e771c345-ec06-40c4-9a52-cdfb4491efd4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3dababf0-d005-4bf1-9c3c-4a6e8767a6f4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Login/Invalid phone number</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

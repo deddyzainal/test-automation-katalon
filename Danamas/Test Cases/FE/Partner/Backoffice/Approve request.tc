@@ -4,17 +4,17 @@
    <name>Approve request</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>294193ce-0342-4c04-a24a-d58c21d86b88</testCaseGuid>
+   <testCaseGuid>c0724564-a2c8-43fb-84ac-7b93ce9bf261</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fca10114-1b98-40da-91be-819b4a6e72a9</variableId>
+      <variableId>5e4287c6-0766-4911-91f8-997ae64a1169</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'20221004131320'</defaultValue>
       <description></description>
-      <id>fca10114-1b98-40da-91be-819b4a6e72a9</id>
+      <id>5e4287c6-0766-4911-91f8-997ae64a1169</id>
       <masked>false</masked>
       <name>no_hp</name>
    </variable>

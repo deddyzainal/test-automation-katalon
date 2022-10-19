@@ -4,17 +4,17 @@
    <name>Filter by Status</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>09c5b573-d1c0-4a71-953e-5c8e15d11641</testCaseGuid>
+   <testCaseGuid>79865b88-4496-4948-ad2c-6987aefc9bd2</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8052d670-a982-46ec-95e3-2c5f83be6514</variableId>
+      <variableId>7b256afe-d66c-4c3d-b64a-837bbbe5ba97</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'passed'</defaultValue>
       <description></description>
-      <id>8052d670-a982-46ec-95e3-2c5f83be6514</id>
+      <id>7b256afe-d66c-4c3d-b64a-837bbbe5ba97</id>
       <masked>false</masked>
       <name>status</name>
    </variable>

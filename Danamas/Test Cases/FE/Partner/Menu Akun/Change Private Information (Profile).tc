@@ -4,212 +4,212 @@
    <name>Change Private Information (Profile)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>060e400e-e31a-4087-a63d-208974980786</testCaseGuid>
+   <testCaseGuid>86661653-71b7-40f4-8b1c-25de6874c565</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7a68a838-0b2f-43df-a4c0-4db3cc257fde</variableId>
+      <variableId>b6d90bca-c083-4184-85b9-def6f5ae4482</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>33a30f86-d137-4791-8651-31a6b6da0afd</variableId>
+      <variableId>436dcb14-e0b7-4543-9bdb-b1a538cfadc2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>cee0e586-6b07-4f3a-b5c9-b71451697b84</variableId>
+      <variableId>fb55d64f-9a06-4404-a8c3-da47a1f98efa</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>16f6bc16-871f-4339-946f-b1254ce144a3</variableId>
+      <variableId>67b41957-f76f-4151-8088-c4f92246d5e9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c269398e-5a0c-479b-a5d2-66cec6006615</variableId>
+      <variableId>b59a6579-8181-4e06-9442-ae4758542dae</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5d687d77-c6ae-4550-bfd5-acebae221e41</variableId>
+      <variableId>20a123c7-39f4-4d06-af29-fe7d2fe37e52</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3f339114-8962-4324-a350-51cd9ea8e0ce</variableId>
+      <variableId>22bb96eb-2e16-4850-ac38-cf08e3a30ef3</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>193358e2-51e0-4e91-8280-bf66510f79d3</variableId>
+      <variableId>3397d1a7-20c6-4743-9eb4-c42827f21ddf</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4e64925d-eb0d-4dfe-8a54-2d0c6db22b82</variableId>
+      <variableId>df383f4a-7824-4cfb-b9de-7b2f2aa74497</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c6270c53-023a-400a-a5c6-303edeb08d5a</variableId>
+      <variableId>b114d4c8-6827-41a9-8334-0115a5c1020c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>49f7f170-6e94-411d-8446-3e95ff2c5504</variableId>
+      <variableId>da3b1d7b-84b5-453c-8c5d-ea533ae7bc54</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>2f8ad551-e521-47a2-ae26-f7e292bc6d09</variableId>
+      <variableId>fd9b7d83-5477-411e-b625-8415d61de1d7</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>11e0f1ea-0142-4b9c-89b7-5d5af5e039a3</variableId>
+      <variableId>deea4239-eaf3-4f41-91b7-9056ba6f4726</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f6f776e1-04b7-4250-9290-3dbebfc9ceaa</variableId>
+      <variableId>b9d6a06a-d902-449a-a815-f93989471ae2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9d5d07ea-13c1-468b-9c6e-d93b095ef4b0</variableId>
+      <variableId>30c02688-b87c-487e-b782-e6aed718689f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d9a4d4eb-337c-4b73-80da-408723e592e2</variableId>
+      <variableId>deaed609-3b37-444d-8dde-7b640eb36a93</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'perempuan'</defaultValue>
       <description></description>
-      <id>7a68a838-0b2f-43df-a4c0-4db3cc257fde</id>
+      <id>b6d90bca-c083-4184-85b9-def6f5ae4482</id>
       <masked>false</masked>
       <name>gender</name>
    </variable>
    <variable>
       <defaultValue>'Kristen'</defaultValue>
       <description></description>
-      <id>33a30f86-d137-4791-8651-31a6b6da0afd</id>
+      <id>436dcb14-e0b7-4543-9bdb-b1a538cfadc2</id>
       <masked>false</masked>
       <name>Agama</name>
    </variable>
    <variable>
       <defaultValue>'selena'</defaultValue>
       <description></description>
-      <id>cee0e586-6b07-4f3a-b5c9-b71451697b84</id>
+      <id>fb55d64f-9a06-4404-a8c3-da47a1f98efa</id>
       <masked>false</masked>
       <name>nama</name>
    </variable>
    <variable>
       <defaultValue>'ambon'</defaultValue>
       <description></description>
-      <id>16f6bc16-871f-4339-946f-b1254ce144a3</id>
+      <id>67b41957-f76f-4151-8088-c4f92246d5e9</id>
       <masked>false</masked>
       <name>tempatlahir</name>
    </variable>
    <variable>
       <defaultValue>'gomez'</defaultValue>
       <description></description>
-      <id>c269398e-5a0c-479b-a5d2-66cec6006615</id>
+      <id>b59a6579-8181-4e06-9442-ae4758542dae</id>
       <masked>false</masked>
       <name>namaibu</name>
    </variable>
    <variable>
       <defaultValue>'Belum kawin'</defaultValue>
       <description></description>
-      <id>5d687d77-c6ae-4550-bfd5-acebae221e41</id>
+      <id>20a123c7-39f4-4d06-af29-fe7d2fe37e52</id>
       <masked>false</masked>
       <name>statusPerkawinan</name>
    </variable>
    <variable>
       <defaultValue>'jl sungai sambas 10'</defaultValue>
       <description></description>
-      <id>3f339114-8962-4324-a350-51cd9ea8e0ce</id>
+      <id>22bb96eb-2e16-4850-ac38-cf08e3a30ef3</id>
       <masked>false</masked>
       <name>alamat</name>
    </variable>
    <variable>
       <defaultValue>'09/'</defaultValue>
       <description></description>
-      <id>193358e2-51e0-4e91-8280-bf66510f79d3</id>
+      <id>3397d1a7-20c6-4743-9eb4-c42827f21ddf</id>
       <masked>false</masked>
       <name>rt</name>
    </variable>
    <variable>
       <defaultValue>'03'</defaultValue>
       <description></description>
-      <id>4e64925d-eb0d-4dfe-8a54-2d0c6db22b82</id>
+      <id>df383f4a-7824-4cfb-b9de-7b2f2aa74497</id>
       <masked>false</masked>
       <name>rw</name>
    </variable>
    <variable>
       <defaultValue>'12345'</defaultValue>
       <description></description>
-      <id>c6270c53-023a-400a-a5c6-303edeb08d5a</id>
+      <id>b114d4c8-6827-41a9-8334-0115a5c1020c</id>
       <masked>false</masked>
       <name>kodepos</name>
    </variable>
    <variable>
       <defaultValue>'17-Agustus-2022'</defaultValue>
       <description></description>
-      <id>49f7f170-6e94-411d-8446-3e95ff2c5504</id>
+      <id>da3b1d7b-84b5-453c-8c5d-ea533ae7bc54</id>
       <masked>false</masked>
       <name>date1</name>
    </variable>
    <variable>
       <defaultValue>'jl tssadas'</defaultValue>
       <description></description>
-      <id>2f8ad551-e521-47a2-ae26-f7e292bc6d09</id>
+      <id>fd9b7d83-5477-411e-b625-8415d61de1d7</id>
       <masked>false</masked>
       <name>alamatdomisili</name>
    </variable>
    <variable>
       <defaultValue>'10/'</defaultValue>
       <description></description>
-      <id>11e0f1ea-0142-4b9c-89b7-5d5af5e039a3</id>
+      <id>deea4239-eaf3-4f41-91b7-9056ba6f4726</id>
       <masked>false</masked>
       <name>rt2</name>
    </variable>
    <variable>
       <defaultValue>'01'</defaultValue>
       <description></description>
-      <id>f6f776e1-04b7-4250-9290-3dbebfc9ceaa</id>
+      <id>b9d6a06a-d902-449a-a815-f93989471ae2</id>
       <masked>false</masked>
       <name>rw2</name>
    </variable>
    <variable>
       <defaultValue>'12111'</defaultValue>
       <description></description>
-      <id>9d5d07ea-13c1-468b-9c6e-d93b095ef4b0</id>
+      <id>30c02688-b87c-487e-b782-e6aed718689f</id>
       <masked>false</masked>
       <name>kodepos2</name>
    </variable>
    <variable>
       <defaultValue>'1231231'</defaultValue>
       <description></description>
-      <id>d9a4d4eb-337c-4b73-80da-408723e592e2</id>
+      <id>deaed609-3b37-444d-8dde-7b640eb36a93</id>
       <masked>false</masked>
       <name>fax</name>
    </variable>

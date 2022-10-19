@@ -4,43 +4,43 @@
    <name>Register User AS External (not Freelancer)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>753a30f7-44b9-4d5a-9f76-3a403abef52a</testCaseGuid>
+   <testCaseGuid>6233c28e-54d7-4a99-8d84-b5a27992f455</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>966f7df0-4822-40a4-b5b0-fe4d4e648e6d</variableId>
+      <variableId>6c8a535d-91c2-4240-a62b-f5c16f8dadc2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>eab3effc-0e7b-4381-8e91-0c607a0ee3ae</variableId>
+      <variableId>ef821d5d-bfd8-4914-91ff-cb84de13fe56</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>193bc909-d0c7-4ca9-b0a2-b4593cb86842</variableId>
+      <variableId>b44c0309-8756-4d76-8f00-a4304c9e6664</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'partner'</defaultValue>
       <description></description>
-      <id>966f7df0-4822-40a4-b5b0-fe4d4e648e6d</id>
+      <id>6c8a535d-91c2-4240-a62b-f5c16f8dadc2</id>
       <masked>false</masked>
       <name>Agen</name>
    </variable>
    <variable>
       <defaultValue>'external'</defaultValue>
       <description></description>
-      <id>eab3effc-0e7b-4381-8e91-0c607a0ee3ae</id>
+      <id>ef821d5d-bfd8-4914-91ff-cb84de13fe56</id>
       <masked>false</masked>
       <name>type</name>
    </variable>
    <variable>
       <defaultValue>'Sellury'</defaultValue>
       <description></description>
-      <id>193bc909-d0c7-4ca9-b0a2-b4593cb86842</id>
+      <id>b44c0309-8756-4d76-8f00-a4304c9e6664</id>
       <masked>false</masked>
       <name>namapartner</name>
    </variable>

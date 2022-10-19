@@ -4,30 +4,30 @@
    <name>Make New Loan with Domicile address not same as KTP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bcc83a39-b25b-4409-a32e-dae386e973ea</testCaseGuid>
+   <testCaseGuid>68549e8f-6510-45db-aea6-8d05ad526ea1</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>da019966-1eda-463b-9da6-5e3efd66c498</variableId>
+      <variableId>432a35ed-08b3-42ce-94aa-9cf11722024c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b537fc67-6696-42cc-8de4-a261e1177612</variableId>
+      <variableId>406452ea-c684-4640-a849-88dd4b0ccaf2</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'pinjaman beragunan properti'</defaultValue>
       <description></description>
-      <id>da019966-1eda-463b-9da6-5e3efd66c498</id>
+      <id>432a35ed-08b3-42ce-94aa-9cf11722024c</id>
       <masked>false</masked>
       <name>pengajuan</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.badge</defaultValue>
       <description></description>
-      <id>b537fc67-6696-42cc-8de4-a261e1177612</id>
+      <id>406452ea-c684-4640-a849-88dd4b0ccaf2</id>
       <masked>false</masked>
       <name>badge</name>
    </variable>

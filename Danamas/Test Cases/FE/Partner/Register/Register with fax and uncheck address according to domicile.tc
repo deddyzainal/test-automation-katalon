@@ -4,30 +4,30 @@
    <name>Register with fax and uncheck address according to domicile</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>55c345d0-2e40-4c92-b854-c811290c1813</testCaseGuid>
+   <testCaseGuid>ec95d237-ff6d-40fd-b638-3ffa80e060b9</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>beeb68a7-53fb-4595-ba8d-77227e0a7afc</variableId>
+      <variableId>42fd282e-434a-4c9e-89a1-c62b2c387d77</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b7acffcd-6319-4352-aa43-55b677cfd435</variableId>
+      <variableId>8d76e05d-b039-459d-adfa-343ba6ac7e38</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'12311'</defaultValue>
       <description></description>
-      <id>beeb68a7-53fb-4595-ba8d-77227e0a7afc</id>
+      <id>42fd282e-434a-4c9e-89a1-c62b2c387d77</id>
       <masked>false</masked>
       <name>fax</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.timestamp</defaultValue>
       <description></description>
-      <id>b7acffcd-6319-4352-aa43-55b677cfd435</id>
+      <id>8d76e05d-b039-459d-adfa-343ba6ac7e38</id>
       <masked>false</masked>
       <name>timestamp1</name>
    </variable>

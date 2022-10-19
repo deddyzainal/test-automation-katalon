@@ -4,82 +4,82 @@
    <name>Input Data - Informasi Pinjaman</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3639b35c-9381-44a3-83d1-78194389cb6f</testCaseGuid>
+   <testCaseGuid>3ed98472-b40e-4213-ade7-05d23d6a713e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>db7a4eb1-b333-4aa9-88d3-054cd9c7c61c</variableId>
+      <variableId>f0f30df3-20d1-4988-aac8-572ed6ba82b1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8ffdaa11-f285-49a1-b82c-1ab47879ca44</variableId>
+      <variableId>8275e0a6-4594-49bc-92c1-f7c3d3758d81</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6b5e3eeb-4174-4a0c-847c-18d8312595c3</variableId>
+      <variableId>63cbc9a9-19e0-4e8f-923a-0ece217f394e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c12e38ca-e4e9-42ca-982b-de377749aeb2</variableId>
+      <variableId>9eb99d91-941e-4ffe-889f-05c72d8b9005</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>11e05509-5e12-4f96-add1-6de8ee60f606</variableId>
+      <variableId>4c56e1bd-be0f-4dc5-9af0-0f8b94b7d954</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a1f0efb6-7a63-49b9-bd54-58b491fa0aee</variableId>
+      <variableId>98259238-729e-4fa4-b8e3-636baf709dad</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'1000000000'</defaultValue>
       <description></description>
-      <id>db7a4eb1-b333-4aa9-88d3-054cd9c7c61c</id>
+      <id>f0f30df3-20d1-4988-aac8-572ed6ba82b1</id>
       <masked>false</masked>
       <name>nilai_Agunan</name>
    </variable>
    <variable>
       <defaultValue>'100000000'</defaultValue>
       <description></description>
-      <id>8ffdaa11-f285-49a1-b82c-1ab47879ca44</id>
+      <id>8275e0a6-4594-49bc-92c1-f7c3d3758d81</id>
       <masked>false</masked>
       <name>jumlah_pinjaman</name>
    </variable>
    <variable>
       <defaultValue>'individual'</defaultValue>
       <description></description>
-      <id>6b5e3eeb-4174-4a0c-847c-18d8312595c3</id>
+      <id>63cbc9a9-19e0-4e8f-923a-0ece217f394e</id>
       <masked>false</masked>
       <name>tipepeminjam</name>
    </variable>
    <variable>
       <defaultValue>'pribadi'</defaultValue>
       <description></description>
-      <id>c12e38ca-e4e9-42ca-982b-de377749aeb2</id>
+      <id>9eb99d91-941e-4ffe-889f-05c72d8b9005</id>
       <masked>false</masked>
       <name>tujuanpinjaman</name>
    </variable>
    <variable>
       <defaultValue>'120'</defaultValue>
       <description></description>
-      <id>11e05509-5e12-4f96-add1-6de8ee60f606</id>
+      <id>4c56e1bd-be0f-4dc5-9af0-0f8b94b7d954</id>
       <masked>false</masked>
       <name>tenor</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.badge</defaultValue>
       <description></description>
-      <id>a1f0efb6-7a63-49b9-bd54-58b491fa0aee</id>
+      <id>98259238-729e-4fa4-b8e3-636baf709dad</id>
       <masked>false</masked>
       <name>badge</name>
    </variable>

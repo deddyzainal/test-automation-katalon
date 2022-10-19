@@ -4,17 +4,17 @@
    <name>Register User AS External Freelancer</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b79a6b6b-3aeb-44da-af4c-636ddb7ddbea</testCaseGuid>
+   <testCaseGuid>c272465b-23c9-4b03-9452-60598b82988f</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>187e4def-f454-40f6-8718-72c8973fbac4</variableId>
+      <variableId>0cce5b95-fb35-4d62-9aa9-8188b52186c4</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'partner'</defaultValue>
       <description></description>
-      <id>187e4def-f454-40f6-8718-72c8973fbac4</id>
+      <id>0cce5b95-fb35-4d62-9aa9-8188b52186c4</id>
       <masked>false</masked>
       <name>Agen</name>
    </variable>

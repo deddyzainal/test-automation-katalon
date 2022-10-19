@@ -10,23 +10,23 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>39e71ddf-333b-40fd-a4cc-5fefaad62524</testSuiteGuid>
+   <testSuiteGuid>ff7083c8-a0d1-4dc3-9989-588d59861e8f</testSuiteGuid>
    <testCaseLink>
-      <guid>7e10f64d-27d9-4b86-92e0-7c9fd47a9f3f</guid>
+      <guid>6df896cf-04e5-48c3-ab51-8d6ffb65586b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - Filter by product name</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>aef953be-88af-46c8-99c4-7bf2f4e171ba</guid>
+      <guid>870ee1e3-40bd-4701-8cad-eb8d0fb6feb6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - Filter by Status</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>155d2a9b-5531-4aff-a0b2-484774a27cd0</guid>
+      <guid>63c58735-066b-46c0-95ef-87df6d698f44</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - Filter loan summary by custom date</testCaseId>
@@ -35,48 +35,61 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d506bd77-10ca-47de-b1e7-bbc4ebfcfea8</variableId>
+         <variableId>e0bad630-2bcb-443a-9ec9-100948c95c85</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e8b70799-4c1b-400f-a0aa-090e3e488ac9</variableId>
+         <variableId>0d25c446-9a6e-4fc8-b416-bc11f57e9025</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>16585761-6a1f-43e0-8709-fa3c1f925704</guid>
+      <guid>cf0f2d99-7658-426e-8ed1-5d2b5e9ca691</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - Filter loan summary by month</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>da46cd16-9755-45bd-a135-58e65c462e62</guid>
+      <guid>738198c9-383e-448d-b2b6-05b589bc832d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - Filter loan summary by week</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>92f2643d-7396-469f-a414-2814e9c3f4fd</guid>
+      <guid>8806dfb0-f38e-4ccf-991e-e14b6418c5cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - sort By Date (Asc Desc)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a5d95f48-95be-4244-a238-ac6611b9d371</guid>
+      <guid>fe204b91-2d71-4efa-904e-43aa74a37931</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - sort By Loan Number (Asc Desc)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5e1171cf-77bf-47a3-b137-cf0fb0f65ee9</guid>
+      <guid>56bc4686-04d2-4e15-9d75-877ec76fc1de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - sort By Name (Asc Desc)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5dc6e45e-7ef0-4f23-b946-34b07268095a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Menu Agent/Menu Agent</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>868d0331-f6ba-49ef-a509-7a9a1cb0680e</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

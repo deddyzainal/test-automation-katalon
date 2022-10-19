@@ -4,43 +4,43 @@
    <name>Input data Agen Partner</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7aa7a914-359a-4f2f-b167-c7b944a4cd55</testCaseGuid>
+   <testCaseGuid>2fc2a385-dd46-4023-8b07-12208375821e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5fccd09e-fb2b-43d1-864f-97102092b99d</variableId>
+      <variableId>6bfef13a-a1a5-420d-811f-00c4852d78e0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7d1810d2-b19e-4e84-b7e4-b1eed77ffa12</variableId>
+      <variableId>561e1359-8a42-48f1-a9d0-9217d97e7ea9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6a720952-bea7-4400-b479-ec3060292752</variableId>
+      <variableId>8838385b-b0ae-43af-b0a4-b14b684b653b</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'external'</defaultValue>
       <description></description>
-      <id>5fccd09e-fb2b-43d1-864f-97102092b99d</id>
+      <id>6bfef13a-a1a5-420d-811f-00c4852d78e0</id>
       <masked>false</masked>
       <name>type</name>
    </variable>
    <variable>
       <defaultValue>'Freelance HO'</defaultValue>
       <description></description>
-      <id>7d1810d2-b19e-4e84-b7e4-b1eed77ffa12</id>
+      <id>561e1359-8a42-48f1-a9d0-9217d97e7ea9</id>
       <masked>false</masked>
       <name>namapartner</name>
    </variable>
    <variable>
       <defaultValue>'B063011190'</defaultValue>
       <description></description>
-      <id>6a720952-bea7-4400-b479-ec3060292752</id>
+      <id>8838385b-b0ae-43af-b0a4-b14b684b653b</id>
       <masked>false</masked>
       <name>kodereferral</name>
    </variable>

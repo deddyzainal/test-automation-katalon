@@ -4,43 +4,43 @@
    <name>Input data Rekening Bank</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>31bcc39b-58eb-402d-aedb-98d4a8003ec5</testCaseGuid>
+   <testCaseGuid>31fdc7a9-462d-4a93-ba69-a4256e41230c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0702e033-4a08-4d41-aadd-9a7fa48d57a3</variableId>
+      <variableId>6d051d40-76ae-4df0-ba16-c9af582b3e4e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>aa9b6b5c-b895-4a41-8110-b4b626148fad</variableId>
+      <variableId>f75302e6-9ca7-4330-a039-bdc79d744aea</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7924f816-76bc-44e6-879b-161442242d88</variableId>
+      <variableId>9caefec0-aecb-40e2-b94c-c7b984838368</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'saya\t'</defaultValue>
       <description></description>
-      <id>0702e033-4a08-4d41-aadd-9a7fa48d57a3</id>
+      <id>6d051d40-76ae-4df0-ba16-c9af582b3e4e</id>
       <masked>false</masked>
       <name>nama</name>
    </variable>
    <variable>
       <defaultValue>'1235167871'</defaultValue>
       <description></description>
-      <id>aa9b6b5c-b895-4a41-8110-b4b626148fad</id>
+      <id>f75302e6-9ca7-4330-a039-bdc79d744aea</id>
       <masked>false</masked>
       <name>norekening</name>
    </variable>
    <variable>
       <defaultValue>'BNI'</defaultValue>
       <description></description>
-      <id>7924f816-76bc-44e6-879b-161442242d88</id>
+      <id>9caefec0-aecb-40e2-b94c-c7b984838368</id>
       <masked>false</masked>
       <name>Bank</name>
    </variable>
