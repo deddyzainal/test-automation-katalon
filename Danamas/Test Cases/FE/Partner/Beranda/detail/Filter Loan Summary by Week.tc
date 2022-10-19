@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Loan Summary by Week</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdd99eb9-a671-4dd0-9c81-a15f1ec927a5</testCaseGuid>
+</TestCaseEntity>

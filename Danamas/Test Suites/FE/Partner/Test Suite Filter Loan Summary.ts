@@ -12,66 +12,24 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d5d72250-410c-4415-aac8-6115901e6774</testSuiteGuid>
    <testCaseLink>
-      <guid>24820f92-8c0b-4bab-9462-cc07291d6644</guid>
+      <guid>1a61c64c-3cb0-48b9-8b87-d34140ea2391</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Beranda/Filter Loan Summary by Date</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Beranda/detail/Filter Loan Summary by Date</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>560146f8-19b7-4e2b-92fa-91050f308ce0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>755118e4-3920-4564-adcb-0a994ea6d58e</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6df5857c-ff0f-4a8c-8fa8-1c097243445f</guid>
+      <guid>286daeb2-d041-49b0-b44b-33c2fa18f4aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Beranda/Filter Loan Summary by Month</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Beranda/detail/Filter Loan Summary by Month</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c2cd3fd8-66e6-4976-a329-7cae718aec91</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>54efba89-e401-45dd-a65f-167326763085</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>78065536-6d77-4aef-8a94-d66fe6ec6e1f</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>cf72ef0e-6aea-40e3-9906-532d638e6b58</guid>
+      <guid>41c1a392-e6c1-4a23-9749-3f2e1e213a3d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Beranda/Filter Loan Summary by Week</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Beranda/detail/Filter Loan Summary by Week</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>10c0d57f-41a7-4934-a704-e0ef0a5bfb91</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6d333bd9-115b-4273-a40c-c014693bc1bb</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
