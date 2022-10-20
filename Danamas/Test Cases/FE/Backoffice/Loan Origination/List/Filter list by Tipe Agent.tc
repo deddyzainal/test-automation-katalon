@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Tipe Agent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8224055d-c14f-4b7c-8295-84c752e585ca</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26f7e605-246f-49fb-abe3-21abcf916226</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Partner'</defaultValue>
+      <description></description>
+      <id>26f7e605-246f-49fb-abe3-21abcf916226</id>
+      <masked>false</masked>
+      <name>tipe_agent</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Posisi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>89fcbc6b-2be6-438c-9b60-e3eec72e0045</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>82ea6f76-423a-4314-b863-0171dfbfdcfc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Branch Manager'</defaultValue>
+      <description></description>
+      <id>82ea6f76-423a-4314-b863-0171dfbfdcfc</id>
+      <masked>false</masked>
+      <name>posisi</name>
+   </variable>
+</TestCaseEntity>

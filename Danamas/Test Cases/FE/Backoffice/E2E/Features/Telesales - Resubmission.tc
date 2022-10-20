@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Telesales - Resubmission</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68792112-826f-44f9-af4a-c9873abce2ea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae9d4034-0af3-4e40-bbb8-89d83a1b12f1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'KC-KFN-0922-29-0001'</defaultValue>
+      <description></description>
+      <id>ae9d4034-0af3-4e40-bbb8-89d83a1b12f1</id>
+      <masked>false</masked>
+      <name>no_pinjaman</name>
+   </variable>
+</TestCaseEntity>

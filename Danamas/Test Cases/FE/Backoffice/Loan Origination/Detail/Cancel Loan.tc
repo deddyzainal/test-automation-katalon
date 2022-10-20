@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cancel loan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68bf442f-ecc3-475a-a26d-5f5b71266ecb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea0a1542-a6be-4955-a01a-cef6d093cb93</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Dokumen - Dokumen tidak lengkap'</defaultValue>
+      <description></description>
+      <id>ea0a1542-a6be-4955-a01a-cef6d093cb93</id>
+      <masked>false</masked>
+      <name>alasan_pembatalan</name>
+   </variable>
+</TestCaseEntity>

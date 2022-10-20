@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search by grade name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1940788-3bba-4be8-81c7-202d5013c387</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c812a257-bd0d-4c32-83fd-5e7f730af3a1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Grade O'</defaultValue>
+      <description></description>
+      <id>c812a257-bd0d-4c32-83fd-5e7f730af3a1</id>
+      <masked>false</masked>
+      <name>grade</name>
+   </variable>
+</TestCaseEntity>

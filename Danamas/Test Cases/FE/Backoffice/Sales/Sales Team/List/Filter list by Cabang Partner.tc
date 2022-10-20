@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Cabang Partner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35af2a74-cd04-4597-99b8-7937cb7d1282</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79b10b9d-918d-4e74-8ea4-6344f58d9531</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>da4d2cff-be33-4971-aaa3-3c56e0fb13d4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SMMF'</defaultValue>
+      <description></description>
+      <id>79b10b9d-918d-4e74-8ea4-6344f58d9531</id>
+      <masked>false</masked>
+      <name>nama_partner</name>
+   </variable>
+   <variable>
+      <defaultValue>'SCBD Jakarta'</defaultValue>
+      <description></description>
+      <id>da4d2cff-be33-4971-aaa3-3c56e0fb13d4</id>
+      <masked>false</masked>
+      <name>cabang_partner</name>
+   </variable>
+</TestCaseEntity>

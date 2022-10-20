@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Branch City</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1edea88b-b7f3-443a-b474-869dcc8ab93b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>545782c1-6ca0-4c5a-8a4d-d2814c1dcb80</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Jakarta Timur'</defaultValue>
+      <description></description>
+      <id>545782c1-6ca0-4c5a-8a4d-d2814c1dcb80</id>
+      <masked>false</masked>
+      <name>branch_city</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Informasi Bank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bba38413-7358-48e5-baf7-7771e17a3299</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78a8b2a1-fff8-4331-bc06-47fc3303dfbd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>191390ad-74f5-46ea-b039-6f8307cf69a2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7fafde93-2133-453e-83e5-dcdd9edc2846</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'BTPN'</defaultValue>
+      <description></description>
+      <id>78a8b2a1-fff8-4331-bc06-47fc3303dfbd</id>
+      <masked>false</masked>
+      <name>nama_bank</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nama Pemilik Rek'</defaultValue>
+      <description></description>
+      <id>191390ad-74f5-46ea-b039-6f8307cf69a2</id>
+      <masked>false</masked>
+      <name>nama_pemilik_rekening</name>
+   </variable>
+   <variable>
+      <defaultValue>'989898989'</defaultValue>
+      <description></description>
+      <id>7fafde93-2133-453e-83e5-dcdd9edc2846</id>
+      <masked>false</masked>
+      <name>no_rekening</name>
+   </variable>
+</TestCaseEntity>

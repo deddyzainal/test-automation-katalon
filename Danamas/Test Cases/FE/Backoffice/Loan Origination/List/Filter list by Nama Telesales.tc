@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Nama Telesales</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a4434c9-316e-427a-b944-ae4c30770ae8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>adabef1c-1370-4d88-b586-8838e732f7f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Susi Susanti'</defaultValue>
+      <description></description>
+      <id>adabef1c-1370-4d88-b586-8838e732f7f6</id>
+      <masked>false</masked>
+      <name>nama_telesales</name>
+   </variable>
+</TestCaseEntity>

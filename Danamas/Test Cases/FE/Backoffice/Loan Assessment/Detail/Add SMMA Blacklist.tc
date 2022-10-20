@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add SMMA Blacklist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b353ca19-01ce-4c99-983a-03ab01eb6dfc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c55c002-ad98-4a37-9f12-e011261bf817</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d22253b-488f-4b60-81cf-f6847ab8d18e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ace7648-45a4-497b-b55e-0c145f50767c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3333d9f2-0678-4594-955e-a03dbdcfa986</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Muhammad Ikhsan'</defaultValue>
+      <description></description>
+      <id>0c55c002-ad98-4a37-9f12-e011261bf817</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+   <variable>
+      <defaultValue>'3201122107910006'</defaultValue>
+      <description></description>
+      <id>6d22253b-488f-4b60-81cf-f6847ab8d18e</id>
+      <masked>false</masked>
+      <name>nik</name>
+   </variable>
+   <variable>
+      <defaultValue>'823123123123'</defaultValue>
+      <description></description>
+      <id>5ace7648-45a4-497b-b55e-0c145f50767c</id>
+      <masked>false</masked>
+      <name>nomor_hp</name>
+   </variable>
+   <variable>
+      <defaultValue>'Keluarga'</defaultValue>
+      <description></description>
+      <id>3333d9f2-0678-4594-955e-a03dbdcfa986</id>
+      <masked>false</masked>
+      <name>hubungan</name>
+   </variable>
+</TestCaseEntity>

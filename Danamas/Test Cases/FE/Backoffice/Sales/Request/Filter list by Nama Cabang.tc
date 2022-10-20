@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Nama Cabang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6a59993-3370-4a1b-851d-f18cade668ad</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50993baa-4801-4aae-b215-77ad91e6cdc8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4bbf9883-aaf2-40d6-bfc0-c7b1290a0e88</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Jakarta Barat'</defaultValue>
+      <description></description>
+      <id>50993baa-4801-4aae-b215-77ad91e6cdc8</id>
+      <masked>false</masked>
+      <name>kota_cabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'Danamas Jakarta'</defaultValue>
+      <description></description>
+      <id>4bbf9883-aaf2-40d6-bfc0-c7b1290a0e88</id>
+      <masked>false</masked>
+      <name>nama_cabang</name>
+   </variable>
+</TestCaseEntity>

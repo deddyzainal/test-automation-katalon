@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter by Nama Audien</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90a43c0d-5f69-4145-a373-497a13eef1fd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2481a489-5104-408e-bbcb-0ca38a470a10</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Test User'</defaultValue>
+      <description></description>
+      <id>2481a489-5104-408e-bbcb-0ca38a470a10</id>
+      <masked>false</masked>
+      <name>nama_audien</name>
+   </variable>
+</TestCaseEntity>
