@@ -17,9 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-if(WebUI.verifyElementPresent(findTestObject(object), 3, FailureHandling.OPTIONAL)) {
-	WebUI.scrollToElement(findTestObject(object), 3, FailureHandling.STOP_ON_FAILURE)
-	WebUI.waitForElementClickable(findTestObject(object), 5, FailureHandling.STOP_ON_FAILURE)
-	WebUI.uploadFileWithDragAndDrop(findTestObject(object), file)
-	WebUI.waitForElementNotVisible(findTestObject(object), 8, FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyElementPresent(findTestObject(object), 3, FailureHandling.OPTIONAL)) {
+    WebUI.scrollToElement(findTestObject(object), 3, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.waitForElementClickable(findTestObject(object), 5, FailureHandling.STOP_ON_FAILURE)
+
+	WebUI.uploadFileWithDragAndDrop(findTestObject(object), file, FailureHandling.STOP_ON_FAILURE)
+    //WebUI.uploadFile(findTestObject(object), file, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.waitForElementNotVisible(findTestObject(object), 8, FailureHandling.STOP_ON_FAILURE)
 }
+

@@ -39,3 +39,5 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Open folde
 //Resubmit PBB
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Resubmit PBB'), [:], FailureHandling.STOP_ON_FAILURE)
 
+//Send request
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Send resubmission request'), [:], FailureHandling.STOP_ON_FAILURE)

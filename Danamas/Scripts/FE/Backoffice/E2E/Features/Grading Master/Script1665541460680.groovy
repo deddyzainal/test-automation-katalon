@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 String datetime = new Date().format('yyMMddHHmmss')
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Sales'), null, FailureHandling.STOP_ON_FAILURE)
 
@@ -34,5 +34,3 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Grading/Search by grade nam
 WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Grading/Open grade detail'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Grading/Edit grade'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()

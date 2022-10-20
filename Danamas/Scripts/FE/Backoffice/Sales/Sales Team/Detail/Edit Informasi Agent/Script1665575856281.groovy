@@ -1,21 +1,8 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 //Click button Edit Informasi
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Button - Edit Informasi'), 2)
@@ -84,16 +71,18 @@ WebUI.setText(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Edit Agent/I
 //Input Kode Pos KTP
 WebUI.setText(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Edit Agent/Input - Kode Pos Domisili'), kode_pos_domisili)
 
+String filePath = RunConfiguration.getProjectDir() + '/Data Files/Backoffice/'
+
 //Upload file KTP
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Edit Agent/Input - Foto KTP'), 2)
-WebUI.uploadFile(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Edit Agent/Input - Foto KTP'), foto_ktp)
+WebUI.uploadFile(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Edit Agent/Input - Foto KTP'), filePath + 'ktp.png')
 
 //Upload file Selfie KTP
-WebUI.uploadFile(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Edit Agent/Input - Foto Selfie KTP'), foto_selfie_ktp)
+WebUI.uploadFile(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Edit Agent/Input - Foto Selfie KTP'), filePath + 'selfie_ktp.jpeg')
 
 //Upload file NPWP
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Edit Agent/Input - Foto NPWP'), 2)
-WebUI.uploadFile(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Edit Agent/Input - Foto NPWP'), foto_npwp)
+WebUI.uploadFile(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Edit Agent/Input - Foto NPWP'), filePath + 'npwp.png')
 
 //CLick button Lanjut
 WebUI.click(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Edit Agent/Button - Lanjut'))

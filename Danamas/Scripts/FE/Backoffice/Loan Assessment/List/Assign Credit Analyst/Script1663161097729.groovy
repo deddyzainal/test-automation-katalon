@@ -45,8 +45,8 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/List/Penugasan CA/Butt
 WebUI.waitForPageLoad(5)
 
 //Verify Nama Credit Analyst in the list already filled
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Pinjaman'), [('no_pinjaman') : no_pinjaman], 
-    FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/List/TextValue - Nama Credit Analyst'), nama_credit_analyst, 
-    FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Pinjaman'), [('no_pinjaman') : no_pinjaman], 
+//    FailureHandling.STOP_ON_FAILURE)
+//WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Assessment/List/TextValue - Nama Credit Analyst'), nama_credit_analyst, 
+//    FailureHandling.STOP_ON_FAILURE)
 

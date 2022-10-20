@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search by level name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aca7ede8-76f4-4e5c-9cd6-c224327c7a5c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f8e1c22-8996-4145-9336-32da16d6bca9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Gold'</defaultValue>
+      <description></description>
+      <id>0f8e1c22-8996-4145-9336-32da16d6bca9</id>
+      <masked>false</masked>
+      <name>level</name>
+   </variable>
+</TestCaseEntity>

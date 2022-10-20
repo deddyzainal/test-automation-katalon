@@ -18,14 +18,14 @@
       <variableId>442b6245-e17c-4778-83c5-62936140422f</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Low quality'</defaultValue>
+      <defaultValue>'Foto blur'</defaultValue>
       <description></description>
       <id>5d7a5a9f-d065-47d0-8783-f42de1aaa692</id>
       <masked>false</masked>
       <name>alasan</name>
    </variable>
    <variable>
-      <defaultValue>'Test deskripsi PBB'</defaultValue>
+      <defaultValue>'Test alasan lainnya PBB'</defaultValue>
       <description></description>
       <id>442b6245-e17c-4778-83c5-62936140422f</id>
       <masked>false</masked>
