@@ -3,8 +3,8 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling
 
-Mobile.tap(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Tooltip - Slider Tutorial'), 3, FailureHandling.OPTIONAL)
-Mobile.tap(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Tooltip - Tenure Tutorial'), 3, FailureHandling.OPTIONAL)
+Mobile.tap(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Tooltip - Slider Tutorial'), 2, FailureHandling.OPTIONAL)
+Mobile.tap(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Tooltip - Tenure Tutorial'), 2, FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Simulasi Pinjaman/Button - Edit Harga Properti'), 5)
 Mobile.delay(1)

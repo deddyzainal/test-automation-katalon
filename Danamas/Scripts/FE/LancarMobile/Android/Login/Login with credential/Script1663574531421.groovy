@@ -21,4 +21,4 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Login/Button - MASUK (Login)'), 2)
 
-Mobile.verifyElementExist(findTestObject('FE/LancarMobile/Android/Home/Button - COBA SEKARANG 1'), 10)
+//Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Home/Button - Profile'), 15)

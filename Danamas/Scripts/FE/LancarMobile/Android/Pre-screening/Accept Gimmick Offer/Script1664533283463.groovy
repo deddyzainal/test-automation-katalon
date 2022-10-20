@@ -12,6 +12,14 @@ Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Pre-screenin
 
 // Tap YA button on NPS rating screen
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Pre-screening/Button - YA (Rating)'), 60, FailureHandling.STOP_ON_FAILURE)
+a = 0
+while(Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Pre-screening/Button - YA (Rating)'), 2, FailureHandling.OPTIONAL) && a<10) {
+	Mobile.tap(findTestObject('FE/LancarMobile/Android/Pre-screening/Button - YA (Rating)'), 2, FailureHandling.OPTIONAL)
+	a++
+}
 
 // Tap AMBIL PENAWARAN button
-Mobile.tap(findTestObject('FE/LancarMobile/Android/Pre-screening/Button - AMBIL PENAWARAN'), 5)
+b = 0
+while(Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Pre-screening/Button - AMBIL PENAWARAN'), 2, FailureHandling.OPTIONAL) && b<10) {
+	Mobile.tap(findTestObject('FE/LancarMobile/Android/Pre-screening/Button - AMBIL PENAWARAN'), 2, FailureHandling.OPTIONAL)
+}

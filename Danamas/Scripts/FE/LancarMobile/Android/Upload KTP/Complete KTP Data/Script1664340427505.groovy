@@ -131,7 +131,7 @@ Mobile.scrollToText(kelurahan)
 String kelurahanLoc = String.format('//hierarchy//*[@class = "android.widget.TextView" and contains(@text, "%s")]', kelurahan)
 Mobile.tap(CustomKeywords.'commonHelper.LocatorBuilder.buildTestObject'('xpath', kelurahanLoc), 3)
 Mobile.tap(CustomKeywords.'commonHelper.LocatorBuilder.buildTestObject'('xpath', kelurahanLoc), 3, FailureHandling.OPTIONAL)
-Mobile.delay(2)
+Mobile.delay(1)
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - DAFTAR'), 3)
 

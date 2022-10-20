@@ -7,7 +7,16 @@ import internal.GlobalVariable as GlobalVariable
 //Mobile.startExistingApplication(GlobalVariable.packageId)
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Tab - Dokumen Agunan'), 3)
+
+if(resubmission == true) {
+	Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Text - Document Resubmission Warning'), 5)
+}
+
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Button - Unggah IMB'), 3)
+
+if(resubmission == true) {
+	Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Text - Document Resubmission Warning'), 5)
+}
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Button - Unggah (Modal)'), 3)
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Upload KTP/Documents/Button - Search'), 3)

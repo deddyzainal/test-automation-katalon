@@ -8,7 +8,7 @@ import internal.GlobalVariable as GlobalVariable
 def slurper = new JsonSlurper()
 
 // Login to Backoffice to get bearer token
-adminLoginResp = WS.sendRequest(findTestObject('BE/Login Backoffice', [('requestURL') : GlobalVariable.requestURL, ('endpoint') : '${requestURL}/lancar/userservice/v2/auth/admin/api/v2/login-admin'
+adminLoginResp = WS.sendRequest(findTestObject('BE/Backoffice/Login Backoffice', [('requestURL') : GlobalVariable.requestURL, ('endpoint') : '${requestURL}/lancar/userservice/v2/auth/admin/api/v2/login-admin'
             , ('backofficeEmail') : GlobalVariable.backofficeEmail, ('backofficePassword') : GlobalVariable.backofficePassword]))
 
 WS.verifyResponseStatusCode(adminLoginResp, 200)
@@ -22,7 +22,7 @@ GlobalVariable.adminBearer = adminBearer
 System.out.println(GlobalVariable.adminBearer)
 
 // Get Loan ID from Loan Assessment list
-loanAssessListResp = WS.sendRequest(findTestObject('BE/Get Loan Assessment list', [('requestURL') : GlobalVariable.requestURL
+loanAssessListResp = WS.sendRequest(findTestObject('BE/Backoffice/Get Loan Assessment list', [('requestURL') : GlobalVariable.requestURL
             , ('endpoint') : '${requestURL}/loanservice/api/backoffice/v1/assessment/list', ('adminBearer') : GlobalVariable.adminBearer]))
 
 WS.verifyResponseStatusCode(loanAssessListResp, 200)
@@ -38,14 +38,14 @@ GlobalVariable.loanID = loanID
 System.out.println(GlobalVariable.loanID)
 
 // Assign Loan ID to stg_ca
-def assignLoanCA = WS.sendRequest(findTestObject('BE/Assign Loan ID to stg_ca', [('requestURL') : GlobalVariable.requestURL
+def assignLoanCA = WS.sendRequest(findTestObject('BE/Backoffice/Assign Loan ID to stg_ca', [('requestURL') : GlobalVariable.requestURL
             , ('endpoint') : '${requestURL}/loanservice/api/backoffice/v1/assessment/submit_ca', ('adminBearer') : GlobalVariable.adminBearer
             , ('loanID') : GlobalVariable.loanID]))
 
 WS.verifyResponseStatusCode(assignLoanCA, 200)
 
 // Login to Backoffice as stg_ca
-caLoginResp = WS.sendRequest(findTestObject('BE/Login Backoffice', [('requestURL') : GlobalVariable.requestURL, ('endpoint') : '${requestURL}/lancar/userservice/v2/auth/admin/api/v2/login-admin'
+caLoginResp = WS.sendRequest(findTestObject('BE/Backoffice/Login Backoffice', [('requestURL') : GlobalVariable.requestURL, ('endpoint') : '${requestURL}/lancar/userservice/v2/auth/admin/api/v2/login-admin'
             , ('backofficeEmail') : GlobalVariable.backofficeEmail, ('backofficePassword') : GlobalVariable.backofficePassword]))
 
 WS.verifyResponseStatusCode(caLoginResp, 200)
@@ -59,7 +59,7 @@ GlobalVariable.caBearer = caBearer
 System.out.println(GlobalVariable.caBearer)
 
 // Get Dokumen Agunan list
-dokAgunanResp = WS.sendRequest(findTestObject('BE/Get Dokumen Agunan List', [('requestURL') : GlobalVariable.requestURL, ('loanID') : GlobalVariable.loanID
+dokAgunanResp = WS.sendRequest(findTestObject('BE/Backoffice/Get Dokumen Agunan List', [('requestURL') : GlobalVariable.requestURL, ('loanID') : GlobalVariable.loanID
             , ('endpoint') : '${requestURL}/loanservice/api/backoffice/v1/get-directory', ('caBearer') : GlobalVariable.caBearer]))
 
 WS.verifyResponseStatusCode(dokAgunanResp, 200)
@@ -75,7 +75,7 @@ GlobalVariable.urlIMB = urlIMB
 System.out.println(GlobalVariable.urlIMB)
 
 // Request IMB resubmission
-reqResubmissionResp = WS.sendRequest(findTestObject('BE/Request IMB Resubmission', [('requestURL') : GlobalVariable.requestURL
+reqResubmissionResp = WS.sendRequest(findTestObject('BE/Backoffice/Request IMB Resubmission', [('requestURL') : GlobalVariable.requestURL
             , ('endpoint') : '${requestURL}/loanservice/api/backoffice/v1/assessment/document-resubmission', ('caBearer') : GlobalVariable.caBearer
             , ('loanID') : GlobalVariable.loanID, ('urlIMB') : GlobalVariable.urlIMB]))
 

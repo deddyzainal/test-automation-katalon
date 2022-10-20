@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Unggah IMB</name>
+   <name>Accept Offer Letter and Disbursement</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2d9d15a7-dec1-4bd1-87ca-6db8ce30509f</testCaseGuid>
+   <testCaseGuid>6b6a84df-d56f-41fc-b9f7-1f679e600550</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4fb02303-2f62-4f09-8468-6d25107fa7a0</variableId>
+      <variableId>e6b55878-f784-42a2-ab6a-9c45c8f3cadb</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>false</defaultValue>
+      <defaultValue>'0046673832'</defaultValue>
       <description></description>
-      <id>4fb02303-2f62-4f09-8468-6d25107fa7a0</id>
+      <id>e6b55878-f784-42a2-ab6a-9c45c8f3cadb</id>
       <masked>false</masked>
-      <name>resubmission</name>
+      <name>noRekening</name>
    </variable>
 </TestCaseEntity>

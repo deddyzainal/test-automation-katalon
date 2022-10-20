@@ -61,14 +61,10 @@ Mobile.scrollToText('HITUNG HARGA PROPERTI')
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Button - HITUNG HARGA PROPERTI'), 3)
 
-Mobile.tap(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Button - LIHAT NILAI PINJAMAN'), 5)
-
-Mobile.delay(2)
-
-boolean buttonVisible = Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Button - LIHAT NILAI PINJAMAN'), 2, FailureHandling.OPTIONAL)
-
-if (buttonVisible == true) {
-    Mobile.tap(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Button - LIHAT NILAI PINJAMAN'), 1, FailureHandling.STOP_ON_FAILURE)
+a = 0
+while(Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Button - LIHAT NILAI PINJAMAN'), 2, FailureHandling.OPTIONAL) && a<10){
+	Mobile.tap(findTestObject('FE/LancarMobile/Android/Kalkulator Properti/Button - LIHAT NILAI PINJAMAN'), 2, FailureHandling.OPTIONAL)
+	a++
 }
 
 Mobile.delay(2)

@@ -21,6 +21,6 @@ Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Unggah Dokum
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Button - UNGGAH (Preview Modal)'), 3)
 
-Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/List - Izin Usaha'), 5)
+Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/List - Izin Usaha'), 10)
 
 Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Button - SIMPAN (Modal)'), 3)

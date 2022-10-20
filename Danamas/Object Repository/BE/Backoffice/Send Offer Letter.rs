@@ -15,11 +15,91 @@
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept-Encoding</name>
+      <type>Main</type>
+      <value>gzip, deflate</value>
+      <webElementGuid>712b00ac-4802-4c0b-9a21-7d8c9a280617</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Connection</name>
+      <type>Main</type>
+      <value>keep-alive</value>
+      <webElementGuid>1661ff23-9bf9-4361-aed7-28e27af6c731</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>authority</name>
+      <type>Main</type>
+      <value>${requestURL}</value>
+      <webElementGuid>f30d445b-81dd-45e4-8d17-e1f339c4903c</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json, text/plain, */*</value>
+      <webElementGuid>d16a05b3-b3e8-45d2-8088-c247d7e3ed64</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept-Language</name>
+      <type>Main</type>
+      <value>en-US,en;q=0.9</value>
+      <webElementGuid>0674e3f2-fe9f-475f-bc6a-2838a90b0a52</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${adminBearer}</value>
+      <webElementGuid>d1dc0377-8aae-4ff9-a808-26eece5e2cae</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Origin</name>
+      <type>Main</type>
+      <value>https://stage-backoffice.lancar.id</value>
+      <webElementGuid>bc0de177-6c3d-4b43-9109-ce314f1008cf</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>platform</name>
+      <type>Main</type>
+      <value>web</value>
+      <webElementGuid>02da7f78-b2e5-4f76-8268-4988d1673178</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Referer</name>
+      <type>Main</type>
+      <value>https://stage-backoffice.lancar.id</value>
+      <webElementGuid>3632696e-afba-4d6f-aeff-d86b425e4699</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x-request-id</name>
+      <type>Main</type>
+      <value>ba22e3af-8d30-4cb0-aa40-4c16026092d2</value>
+      <webElementGuid>221eb6c8-51ee-4305-9204-1fe267f96eb4</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>8.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl></restUrl>
+   <restUrl>${endpoint}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

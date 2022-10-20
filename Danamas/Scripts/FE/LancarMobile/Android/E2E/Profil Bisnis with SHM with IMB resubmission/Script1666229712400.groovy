@@ -63,7 +63,7 @@ WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan
 
 WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah Izin Usaha'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah IMB'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah IMB'), [('resubmission') : false], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah PBB Terbaru'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -79,13 +79,26 @@ Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Button - KIRIM
 
 Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Text - Submit Document Success'), 10)
 
-WebUI.callTestCase(findTestCase('FE/LancarMobile/Backoffice/Approve loan'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Backoffice/Trigger IMB Resubmission'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Login/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Button - Back'), 3)
 
-WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Login/Login with credential'), [('phoneNumber') : GlobalVariable.datetime
-        , ('password') : GlobalVariable.defaultPassword], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Button - UNGGAH SEKARANG'), 3)
 
-WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Pencairan Pinjaman/Accept Offer Letter and Disbursement'), [('noRekening') : '0046673832'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Unggah Dokumen Tambahan/Unggah IMB'), [('resubmission') : true], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.scrollToText('KIRIM DOKUMEN')
+
+Mobile.tap(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Button - KIRIM DOKUMEN'), 5)
+
+Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Unggah Dokumen/Text - Submit Document Success'), 10)
+
+//WebUI.callTestCase(findTestCase('FE/LancarMobile/Backoffice/Approve loan'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Login/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Login/Login with credential'), [('phoneNumber') : GlobalVariable.datetime
+//        , ('password') : GlobalVariable.defaultPassword], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Pencairan Pinjaman/Accept Offer Letter and Disbursement'), [('noRekening') : '0046673832'], 
+//    FailureHandling.STOP_ON_FAILURE)

@@ -7,7 +7,12 @@ import internal.GlobalVariable as GlobalVariable
 
 //Mobile.startExistingApplication(GlobalVariable.packageId, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - Upload KTP'), 3)
+a = 0
+
+while(Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - Upload KTP'), 2, FailureHandling.OPTIONAL) && a<10) {
+	Mobile.tap(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - Upload KTP'), 3, FailureHandling.OPTIONAL)
+	a++
+}
 
 Mobile.verifyElementVisible(findTestObject('FE/LancarMobile/Android/Upload KTP/Button - Capture Camera'), 3)
 

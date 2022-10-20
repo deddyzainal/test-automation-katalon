@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'20221019134952'</initValue>
       <name>datetime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,17 +56,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'LPyKOJP3H2axAQupG6UdrQFzoKz3oyXj'</initValue>
+      <initValue>'ZpJp4K6Ux0cDmz0BpJE0tvzhTZQjTZ7B'</initValue>
       <name>adminBearer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'NIDJPSmL6qc66gpNWsrwzuQn0d086s3U'</initValue>
+      <initValue>'tYdiO6OUTSzZZtZSpMX4rB9di4ZLOzTq'</initValue>
       <name>caBearer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'153eb390-c058-4104-812b-3a61fca96e3d'</initValue>
+      <initValue>'43735241-9d72-448d-8599-886d1857b91'</initValue>
       <name>loanID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,12 +76,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'c4a11a73-c8b1-4b3d-9fb4-cc5f9bbefd49'</initValue>
       <name>borrowerID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'KC-KFO-1022-19-0002'</initValue>
       <name>loanNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'{&quot;loan_id&quot;:&quot;a1bedf9a-6b74-4026-97d2-1e1b5f13bdbd&quot;,&quot;loan_assessment_id&quot;:&quot;e63173bb-c421-488a-a725-fa7e4a88d0e5&quot;,&quot;dbr_calculation&quot;:{&quot;average_income_amount&quot;:50000000,&quot;final_debt_amount&quot;:8957814,&quot;dbr_rate&quot;:0.0018,&quot;dbr_limit&quot;:0.5,&quot;lancar_debt&quot;:{&quot;interest_rate&quot;:0.1525,&quot;monthly_installment&quot;:8957814,&quot;takeover_loan_amount&quot;:0,&quot;tenure&quot;:120,&quot;total_loan_amount&quot;:0,&quot;total_outstanding_amount&quot;:0},&quot;existing_debt&quot;:{&quot;outstanding_debt&quot;:0,&quot;total_monthly_debt_amount&quot;:0,&quot;other_monthly_debt_obligations&quot;:[]}},&quot;takeover_loan_information&quot;:{&quot;takeover_loan_amount&quot;:0,&quot;takeover_loan_information_list&quot;:[]},&quot;collateral_detail&quot;:{&quot;final_collateral_value&quot;:0,&quot;initial_collateral_value&quot;:0,&quot;ltv_rate&quot;:0,&quot;maximum_ltv_rate&quot;:0.8},&quot;calculation_adjustment&quot;:{&quot;total_adjusted_loans&quot;:0,&quot;dbr_rate&quot;:0,&quot;tenure&quot;:0,&quot;ltv_rate&quot;:0,&quot;existing_monthly_installment_amount&quot;:0,&quot;lancar_monthly_installment_amount&quot;:0,&quot;total_income_amount&quot;:50000000}}'</initValue>
+      <name>loanDetail</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
