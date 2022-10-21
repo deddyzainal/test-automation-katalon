@@ -21,9 +21,6 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [('email') : GlobalVariable.email, ('password') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
-//Click menu Sales
-WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Sales'), [:], FailureHandling.STOP_ON_FAILURE)
-
 //Click menu Request
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Request'), [:], FailureHandling.STOP_ON_FAILURE)
 

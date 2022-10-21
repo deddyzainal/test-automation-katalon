@@ -8,6 +8,7 @@ import internal.GlobalVariable
 
 //Get new date
 String datetime = new Date().format('yyyyMMddHHmmss')
+KeywordUtil.logInfo(datetime)
 
 //Get time
 String time = datetime.drop(8)

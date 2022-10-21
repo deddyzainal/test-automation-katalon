@@ -10,7 +10,7 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential
     FailureHandling.STOP_ON_FAILURE)
 
 //Click menu Sales
-WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Sales'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Click menu Request
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Request'), [:], FailureHandling.STOP_ON_FAILURE)

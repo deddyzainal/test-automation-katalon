@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Reaktivasi'), null, FailureHandling.STOP_ON_FAILURE)
 
@@ -50,5 +50,3 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Origin
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by ID Pinjaman'), [('no_pinjaman') : no_pinjaman], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Origination/List/TextValue - Status'), 'CANCELLED', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()

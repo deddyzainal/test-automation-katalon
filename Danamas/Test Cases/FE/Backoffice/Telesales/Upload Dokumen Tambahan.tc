@@ -5,17 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>fd433a85-33f3-40eb-a5ab-f5822dfe2fc4</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>e3ff5e4f-7d86-4ab5-b81b-2c8249d487ba</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Documents/file.png'</defaultValue>
-      <description></description>
-      <id>e3ff5e4f-7d86-4ab5-b81b-2c8249d487ba</id>
-      <masked>false</masked>
-      <name>dokumen_tambahan</name>
-   </variable>
 </TestCaseEntity>

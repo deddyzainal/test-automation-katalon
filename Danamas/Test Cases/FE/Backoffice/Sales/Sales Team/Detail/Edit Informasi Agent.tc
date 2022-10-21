@@ -117,24 +117,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>39826476-e4a0-41eb-8c5e-064f204179a9</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ece6416d-c7b2-48c6-8d66-e5d2bd7e460c</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f42de359-350e-4e21-a950-ca999fad9f7f</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>073d3f58-4155-41ba-83eb-00ca6d486956</variableId>
    </variableLinks>
    <variableLinks>
@@ -310,27 +292,6 @@
       <id>e508510b-5258-4cbe-b78a-535a73342988</id>
       <masked>false</masked>
       <name>kode_pos_domisili</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Documents/Foto KTP.png'</defaultValue>
-      <description></description>
-      <id>39826476-e4a0-41eb-8c5e-064f204179a9</id>
-      <masked>false</masked>
-      <name>foto_ktp</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Documents/Foto Selfie.png'</defaultValue>
-      <description></description>
-      <id>ece6416d-c7b2-48c6-8d66-e5d2bd7e460c</id>
-      <masked>false</masked>
-      <name>foto_selfie_ktp</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Documents/Foto NPWP.png'</defaultValue>
-      <description></description>
-      <id>f42de359-350e-4e21-a950-ca999fad9f7f</id>
-      <masked>false</masked>
-      <name>foto_npwp</name>
    </variable>
    <variable>
       <defaultValue>'Bukopin'</defaultValue>

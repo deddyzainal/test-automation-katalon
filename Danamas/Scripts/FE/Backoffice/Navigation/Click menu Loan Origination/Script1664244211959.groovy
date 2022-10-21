@@ -18,8 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
+if(WebUI.verifyElementNotPresent(findTestObject('FE/Backoffice/Navigation/Menu - Loan Origination'), 3, FailureHandling.OPTIONAL)) {
+	//Click menu Data & Prospect
+	WebUI.click(findTestObject('FE/Backoffice/Navigation/Menu - Data and Prospect'))
+	WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Navigation/Menu - Loan Origination'), 3, FailureHandling.STOP_ON_FAILURE)
+}
 //Click menu Loan Origination
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Navigation/Menu - Loan Origination'), 3)
 WebUI.click(findTestObject('FE/Backoffice/Navigation/Menu - Loan Origination'))
 
 WebUI.waitForPageLoad(5)

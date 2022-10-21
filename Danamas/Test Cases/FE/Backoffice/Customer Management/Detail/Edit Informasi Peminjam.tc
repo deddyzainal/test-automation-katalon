@@ -77,30 +77,6 @@
       <value></value>
       <variableId>89d0bd7d-cd1c-49b3-b831-6bc428039658</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>6c0314ff-dafc-41b1-8f0a-67bd48befddb</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>cea9ac1d-1663-4fa7-a06d-9c4c70802964</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>12879020-e653-47d6-bf00-1d86c55c1d45</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>adf97b38-40fd-49c4-b24d-99c0a6dbb233</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'Pink'</defaultValue>
       <description></description>
@@ -184,33 +160,5 @@
       <id>89d0bd7d-cd1c-49b3-b831-6bc428039658</id>
       <masked>false</masked>
       <name>kewarganegaraan</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Documents/Foto KK.png'</defaultValue>
-      <description></description>
-      <id>6c0314ff-dafc-41b1-8f0a-67bd48befddb</id>
-      <masked>false</masked>
-      <name>foto_kk</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Documents/Foto NPWP.png'</defaultValue>
-      <description></description>
-      <id>cea9ac1d-1663-4fa7-a06d-9c4c70802964</id>
-      <masked>false</masked>
-      <name>foto_npwp</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Documents/Foto KTP.png'</defaultValue>
-      <description></description>
-      <id>12879020-e653-47d6-bf00-1d86c55c1d45</id>
-      <masked>false</masked>
-      <name>foto_ktp</name>
-   </variable>
-   <variable>
-      <defaultValue>'/Users/meitridelfiza/Documents/Foto Selfie.png'</defaultValue>
-      <description></description>
-      <id>adf97b38-40fd-49c4-b24d-99c0a6dbb233</id>
-      <masked>false</masked>
-      <name>foto_selfie</name>
    </variable>
 </TestCaseEntity>

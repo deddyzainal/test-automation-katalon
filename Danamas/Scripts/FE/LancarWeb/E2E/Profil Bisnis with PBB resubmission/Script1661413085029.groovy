@@ -93,7 +93,7 @@ WebUI.waitForElementVisible(findTestObject('FE/LancarWeb/Unggah Dokumen/Text - P
 // Request document resubmission - PBB
 WebUI.navigateToUrl(GlobalVariable.LancarBOMS)
 CustomKeywords.'webHelper.WindowHandler.fullScreenMode'()
-WebUI.callTestCase(findTestCase('FE/LancarWeb/Backoffice/Login BOMS'), [('emailBOMS') : GlobalVariable.CAemail, ('passwordBOMS') : GlobalVariable.CApwd], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/LancarWeb/Backoffice/Login BOMS'), [('emailBOMS') : GlobalVariable.emailCA, ('passwordBOMS') : GlobalVariable.CApwd], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/LancarWeb/Kirim Ulang Dokumen/Trigger resubmit PBB document'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('FE/LancarWeb/BOMS/Button - Log Out'))
 

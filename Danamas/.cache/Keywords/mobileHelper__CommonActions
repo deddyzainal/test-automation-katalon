@@ -1,0 +1,75 @@
+{
+  "keywordFileContentHash": "E7A19D6005D856ACE68EBCB214BB71FB",
+  "keywordClasses": [
+    {
+      "name": "mobileHelper.CommonActions",
+      "keywordMethods": [
+        {
+          "name": "closeCurrentApp",
+          "parameters": []
+        },
+        {
+          "name": "swipeLeft",
+          "parameters": []
+        },
+        {
+          "name": "swipeRight",
+          "parameters": []
+        },
+        {
+          "name": "swipeUp",
+          "parameters": []
+        },
+        {
+          "name": "swipeDown",
+          "parameters": []
+        },
+        {
+          "name": "pickDate",
+          "parameters": [
+            {
+              "name": "dobDate",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dobMonth",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dobYear",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

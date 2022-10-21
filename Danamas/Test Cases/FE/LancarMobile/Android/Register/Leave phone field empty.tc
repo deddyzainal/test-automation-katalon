@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Leave phone field empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad5265a3-3764-4eb1-a5aa-c29154661e63</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ffc6dacf-6680-43bc-9195-7901d88bb130</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>390a70d4-f8c6-401f-a2ac-c80b02930e4a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Registration Test'</defaultValue>
+      <description></description>
+      <id>ffc6dacf-6680-43bc-9195-7901d88bb130</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1'</defaultValue>
+      <description></description>
+      <id>390a70d4-f8c6-401f-a2ac-c80b02930e4a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
