@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>Button - Hubungi Kami Menu</name>
+   <name>TextValue - Syarat dan Ketentuan 1st point</name>
    <tag></tag>
-   <elementGuidId>6658243b-6a8f-41b4-a677-194a6bc1c4b2</elementGuidId>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>ae0906e3-c03e-4468-bd3e-d8f41ba3d0ef</webElementGuid>
+      <webElementGuid>cf6b4bf1-4e6a-4009-b6f0-57fccad2b95b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,23 +20,15 @@
       <name>index</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>7b94d41b-1703-4bdf-927c-4a14813dfe10</webElementGuid>
+      <webElementGuid>630e45a5-0972-4b91-9163-a167526fa7d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Hubungi Kami</value>
-      <webElementGuid>6b516350-99ee-41f2-bb6f-db9db34bd062</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>resource-id</name>
-      <type>Main</type>
-      <value>testId-labelText1</value>
-      <webElementGuid>549c5b9f-7363-4e8d-ad7e-c1ea9e4bb139</webElementGuid>
+      <value>Syarat dan Ketentuan Partisipan Penerima Pinjaman Danamas (“Ketentuan Partisipasi Danamas”) yang diuraikan dalam dokumen ini merupakan satu kesatuan dengan Perjanjian Partisipasi Danamas (“Perjanjian”).</value>
+      <webElementGuid>fd0f5396-3370-4917-ac97-06e196da87c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +36,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.lancar.danamas.stage</value>
-      <webElementGuid>984667a7-7d2e-4e8e-85aa-9a37a92ec689</webElementGuid>
+      <webElementGuid>acea7a68-edb7-4419-a319-211efa5c9787</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +44,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4d63b798-2cba-48f9-aeaf-4cafa318906c</webElementGuid>
+      <webElementGuid>128261e8-26bb-4338-bec6-712a1c4bcb42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +52,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ef49797d-1e94-43d3-af79-c0f92e0ad37e</webElementGuid>
+      <webElementGuid>e588da7e-e03d-4803-9edc-839dcd0b52ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +60,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cefd5ccb-1ed8-4a25-818f-c13325b2087f</webElementGuid>
+      <webElementGuid>9910471a-9bcc-42f8-9a84-5dfeaf652dd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +68,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>7b38077c-47cc-4273-8fb6-5718ad87e5a3</webElementGuid>
+      <webElementGuid>61634c1d-6680-4759-bbab-1cdad35776e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +76,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a450c842-d6ed-4997-b350-f3da7c1aa04f</webElementGuid>
+      <webElementGuid>83295515-0681-4558-8181-234028aee9fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +84,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>36f0fd4f-3f8b-4f51-a385-920547541123</webElementGuid>
+      <webElementGuid>5a3fd0ea-55d0-4e1a-8e78-e08f52b42730</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +92,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b1500a48-8894-4a4e-b757-ba01a8f4fadb</webElementGuid>
+      <webElementGuid>6ed1e48d-5b2a-47ff-a901-b1562b6a6997</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +100,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e5e67aa6-c3cb-4dba-a6bf-9d62f3b8a8c3</webElementGuid>
+      <webElementGuid>d0c0c638-fe94-492e-8997-7fc7af7e6206</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +108,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6269efb1-7b30-405f-8e58-bcded3b55a5d</webElementGuid>
+      <webElementGuid>d5072466-7c02-4963-933f-7db295fedf4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,47 +116,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b126a38b-ec93-4c7c-a852-07103536f998</webElementGuid>
+      <webElementGuid>802fc456-019c-46ef-ad98-f31805ff125c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>41</value>
-      <webElementGuid>c43f789f-eb86-47fc-82d0-1599ef23e7b2</webElementGuid>
+      <value>146</value>
+      <webElementGuid>c5f040f8-d06f-4762-b866-1d111d831e71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>399</value>
-      <webElementGuid>52ec022c-b351-4041-a07b-b057c83f98bb</webElementGuid>
+      <value>1186</value>
+      <webElementGuid>1b6a1d9a-59a4-4131-ace5-f781b84b4d7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>998</value>
-      <webElementGuid>36b8e159-aa4b-42d3-a5b0-fa659e93d1dc</webElementGuid>
+      <value>880</value>
+      <webElementGuid>bc1cb064-6cfe-452a-aaa7-2727118d9aeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>153</value>
-      <webElementGuid>511ba61d-fb1a-4306-8027-19a20b5bdb4b</webElementGuid>
+      <value>431</value>
+      <webElementGuid>3c10b6a1-e226-4ab1-b4bf-b17a2f784094</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[41,399][1039,552]</value>
-      <webElementGuid>618e1d71-516a-43ff-9d09-110bcd2d490f</webElementGuid>
+      <value>[146,1186][1026,1617]</value>
+      <webElementGuid>6ccaa3d2-9b3b-49ba-be5d-4fb999aecabb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,16 +164,16 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>826b1560-e34c-469d-894b-e8698dbba8d7</webElementGuid>
+      <webElementGuid>bf7948c2-f02c-41a4-b088-db719c1ddef2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[2]</value>
-      <webElementGuid>abe25242-0695-49dd-9b75-ee74fcfe02b9</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[3]</value>
+      <webElementGuid>914d9c5f-1fd1-439c-b105-408591f6ea17</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Hubungi Kami' or . = 'Hubungi Kami')]</locator>
+   <locator>//*[@class = 'android.widget.TextView' and @text = 'Syarat dan Ketentuan Partisipan Penerima Pinjaman Danamas (“Ketentuan Partisipasi Danamas”) yang diuraikan dalam dokumen ini merupakan satu kesatuan dengan Perjanjian Partisipasi Danamas (“Perjanjian”).']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>
