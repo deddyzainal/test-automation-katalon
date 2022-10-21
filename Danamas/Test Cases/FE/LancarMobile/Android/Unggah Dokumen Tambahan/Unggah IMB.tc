@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Unggah IMB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d9d15a7-dec1-4bd1-87ca-6db8ce30509f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4fb02303-2f62-4f09-8468-6d25107fa7a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>4fb02303-2f62-4f09-8468-6d25107fa7a0</id>
+      <masked>false</masked>
+      <name>resubmission</name>
+   </variable>
+</TestCaseEntity>
