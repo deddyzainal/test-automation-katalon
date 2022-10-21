@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>backofficeStage</name>
+   <name>BackofficeStage</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://stage-boms.lancar.id/'</initValue>
-      <name>url_boms</name>
-   </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'meitri.delfiza@icehousecorp.com'</initValue>
@@ -22,21 +17,51 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://stage-backoffice.lancar.id/'</initValue>
-      <name>url_backoffice</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'stg_ca'</initValue>
-      <name>nama_ca</name>
+      <name>backofficeURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'stg_ca@danamas.co.id'</initValue>
-      <name>email_ca</name>
+      <name>emailCA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'NKAHewjCsCvdggNkUy5Ovw=='</initValue>
-      <name>password_ca</name>
+      <name>passwordCA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stage-apis.lancar.id:8443'</initValue>
+      <name>requestURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>loanNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>token</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>userId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>loanId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qa.telesales@danamas.co.id'</initValue>
+      <name>emailTelesales</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ELeIGSF4J+I='</initValue>
+      <name>passwordTelesales</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

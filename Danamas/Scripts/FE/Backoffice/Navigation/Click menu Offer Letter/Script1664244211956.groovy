@@ -17,8 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+if(WebUI.verifyElementNotPresent(findTestObject('FE/Backoffice/Navigation/Menu - Offer Letter'), 3, FailureHandling.OPTIONAL)) {
+	//Click menu Operation
+	WebUI.click(findTestObject('FE/Backoffice/Navigation/Menu - Operation'))
+	WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Navigation/Menu - Offer Letter'), 3, FailureHandling.STOP_ON_FAILURE)
+}
+
 //Click menu Offer Letter
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Navigation/Menu - Offer Letter'), 3)
 WebUI.click(findTestObject('FE/Backoffice/Navigation/Menu - Offer Letter'))
 
 WebUI.waitForPageLoad(5)

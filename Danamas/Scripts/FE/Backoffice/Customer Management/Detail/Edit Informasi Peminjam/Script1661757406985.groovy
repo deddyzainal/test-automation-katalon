@@ -1,22 +1,8 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 //Click button Edit Data
 WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Button - Edit Data'))
@@ -68,20 +54,22 @@ WebUI.scrollToElement(findTestObject('FE/Backoffice/Customer Management/Detail/I
 WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Select - Kewarganegaraan'))
 WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Option - Kewarganegaraan', [('kewarganegaraan'):kewarganegaraan]))
 
+String filePath = RunConfiguration.getProjectDir() + '/Data Files/Backoffice/'
+
 //Upload Foto KK
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Input - Foto KK'), 2)
 //WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Input - Foto KK'))
-WebUI.uploadFile(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Input - Foto KK'), foto_kk)
+WebUI.uploadFile(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Input - Foto KK'), filePath + 'kk.jpeg')
 
 //Upload Foto NPWP
-WebUI.uploadFile(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Input - Foto NPWP'), foto_npwp)
+WebUI.uploadFile(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Input - Foto NPWP'), filePath + 'npwp.png')
 
 //Upload Foto KTP
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Input - Foto KTP'), 2)
-WebUI.uploadFile(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Input - Foto KTP'), foto_ktp)
+WebUI.uploadFile(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Input - Foto KTP'), filePath + 'ktp.png')
 
 //Upload Foto Selfie dengan KTP
-WebUI.uploadFile(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Input - Foto Selfie dengan KTP'), foto_selfie)
+WebUI.uploadFile(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Peminjam/Input - Foto Selfie dengan KTP'), filePath + 'selfie_ktp.jpeg')
 
 //Upload Foto KTP Pasangan
 

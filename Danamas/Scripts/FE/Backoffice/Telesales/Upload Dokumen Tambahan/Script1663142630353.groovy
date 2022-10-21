@@ -1,10 +1,14 @@
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
+import org.openqa.selenium.By
+import org.openqa.selenium.WebDriver
+
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+String filePath = RunConfiguration.getProjectDir() + '/Data Files/Backoffice/'
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -18,7 +22,7 @@ for (int i = 0; i < count_data; i++) {
     WebUI.scrollToElement(findTestObject('FE/Backoffice/Telesales/Edit/Dokumen Tambahan/Input - Dokumen Tambahan', [('nama_dokumen') : doc_name]), 3)
 	WebUI.waitForElementClickable(findTestObject('FE/Backoffice/Telesales/Edit/Dokumen Tambahan/Input - Dokumen Tambahan', [('nama_dokumen') : doc_name]), 5, FailureHandling.STOP_ON_FAILURE)
 	WebUI.uploadFileWithDragAndDrop(findTestObject('FE/Backoffice/Telesales/Edit/Dokumen Tambahan/Input - Dokumen Tambahan', 
-            [('nama_dokumen') : doc_name]), dokumen_tambahan)
+            [('nama_dokumen') : doc_name]), filePath + 'dokumen_tambahan.jpeg')
     WebUI.waitForElementNotVisible(findTestObject('FE/Backoffice/Telesales/Edit/Dokumen Tambahan/Input - Dokumen Tambahan', 
             [('nama_dokumen') : doc_name]), 8, FailureHandling.STOP_ON_FAILURE)
 }

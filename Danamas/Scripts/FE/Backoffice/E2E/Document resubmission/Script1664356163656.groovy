@@ -20,9 +20,6 @@ import org.openqa.selenium.Keys as Keys
 //Login
 WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//Click menu Data & Prospect
-WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Data and Prospect'), [:], FailureHandling.STOP_ON_FAILURE)
-
 //Click menu Loan Assessment
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Assessment'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -39,3 +36,5 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Open folde
 //Resubmit PBB
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Resubmit PBB'), [:], FailureHandling.STOP_ON_FAILURE)
 
+//Send request
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Send resubmission request'), [:], FailureHandling.STOP_ON_FAILURE)
