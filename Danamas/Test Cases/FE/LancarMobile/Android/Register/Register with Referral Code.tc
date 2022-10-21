@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register with Referral Code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8362ec07-f2f4-4c4a-a63a-8f865f9fc589</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ac2bcc1-e28a-401c-9ac4-23169c6c4a00</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd9d9fe3-e370-47ab-aaad-7ae941289e00</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a7e6fff-1846-4925-9f7b-d5d9704acc1e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Registration Test'</defaultValue>
+      <description></description>
+      <id>0ac2bcc1-e28a-401c-9ac4-23169c6c4a00</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password.1'</defaultValue>
+      <description></description>
+      <id>cd9d9fe3-e370-47ab-aaad-7ae941289e00</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'QPTS02402675'</defaultValue>
+      <description></description>
+      <id>1a7e6fff-1846-4925-9f7b-d5d9704acc1e</id>
+      <masked>false</masked>
+      <name>referralCode</name>
+   </variable>
+</TestCaseEntity>

@@ -7,9 +7,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 //Login
 WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//Click menu Sales
-WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Sales'), [:], FailureHandling.STOP_ON_FAILURE)
-
 //Click menu Request
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Request'), [:], FailureHandling.STOP_ON_FAILURE)
 

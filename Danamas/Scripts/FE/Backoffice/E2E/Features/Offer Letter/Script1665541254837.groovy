@@ -21,8 +21,6 @@ if(GlobalVariable.loanNumber == '') {
 	WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Features/Loan Assessment'), null, FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Operation'), null, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Offer Letter'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Offer Letter/Open offer letter detail'), [('id_pinjaman') : GlobalVariable.loanNumber], FailureHandling.STOP_ON_FAILURE)
@@ -31,7 +29,7 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Offer Letter/Edit offer letter'),
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Offer Letter/Send document'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Data and Prospect'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('null'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Assessment'), null, FailureHandling.STOP_ON_FAILURE)
 

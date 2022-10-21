@@ -33,7 +33,7 @@ WebUI.waitForElementVisible(findTestObject('FE/LancarWeb/Profil Kustomer/Text - 
 if(pekerjaan.toLowerCase() == "bisnis") {
 	WebUI.click(findTestObject('FE/LancarWeb/Profil Kustomer/Text - Saya memiliki bisnis'))
 } else if(pekerjaan.toLowerCase() == "profesional") {
-	WebUI.click(findTestObject('FE/LancarWeb/Profil Kustomer/Text - Saya pekerja profesioinal'))
+	WebUI.click(findTestObject('FE/LancarWeb/Profil Kustomer/Text - Saya pekerja profesional'))
 } else if(pekerjaan.toLowerCase() == "pegawai") {
 	WebUI.click(findTestObject('FE/LancarWeb/Profil Kustomer/Text - Saya pegawai tetap'))
 }

@@ -22,28 +22,21 @@ if(GlobalVariable.loanNumber == '') {
 	WebUI.callTestCase(findTestCase('BE/Register account'), null, FailureHandling.STOP_ON_FAILURE)
 	
 	//Login
-	WebUI.callTestCase(findTestCase('BE/Lancar/Login'), null, FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('BE/Borrower/Login'), null, FailureHandling.STOP_ON_FAILURE)
 	
 	//Update user
-	WebUI.callTestCase(findTestCase('BE/Lancar/Update user'), null, FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('BE/Borrower/Update user'), null, FailureHandling.STOP_ON_FAILURE)
 	
 	//Submit loan
-	WebUI.callTestCase(findTestCase('BE/Lancar/Create loan'), null, FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('BE/Borrower/Submit loan'), null, FailureHandling.STOP_ON_FAILURE)
 	
 	WebUI.delay(20)
-	
-	//Login backoffice and assign Telesales
-	WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
-	
-	WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Data and Prospect'), null, FailureHandling.STOP_ON_FAILURE)
-	
+		
 	WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Origination'), null, FailureHandling.STOP_ON_FAILURE)
 	
 	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Assign Telesales'), [('no_pinjaman') : GlobalVariable.loanNumber
 			, ('nama_telesales') : 'Meitri Delfiza'], FailureHandling.STOP_ON_FAILURE)
 }
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Task List'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Telesales'), null, FailureHandling.STOP_ON_FAILURE)
 
