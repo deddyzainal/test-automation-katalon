@@ -21,7 +21,7 @@ WebUI.click(findTestObject('FE/PARTNER/Pengajuan/Urutkan'))
 
 WebUI.click(findTestObject('FE/PARTNER/Pengajuan/select_Pilih  Tanggal Pengajuan'))
 
-WebUI.selectOptionByIndex(findTestObject('FE/PARTNER/Pengajuan/select_Pilih  Tanggal Pengajuan'), 1, FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('FE/PARTNER/Pengajuan/select_Pilih  Tanggal Pengajuan'), 3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Pengajuan/select_Pilih  Tanggal Pengajuan'), 3)
 

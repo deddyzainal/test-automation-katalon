@@ -112,6 +112,8 @@ WebUI.clearText(findTestObject('FE/PARTNER/Register/input_Masukkan tempat lahir'
 
 WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_Masukkan tempat lahir'), tempatlahir)
 
+WebUI.scrollToElement(findTestObject('FE/PARTNER/Register/input_Masukkan tempat lahir'), 2)
+
 // Input Tanggal Lahir
 WebUI.click(findTestObject('FE/PARTNER/Pengajuan/Button - Open Calendar'))
 

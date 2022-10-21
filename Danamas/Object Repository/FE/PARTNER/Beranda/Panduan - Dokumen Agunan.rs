@@ -6,11 +6,11 @@
    <elementGuidId>790e0492-6033-4fa1-89ce-fc17906d325f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class=&quot;title ng-tns-c66-7 ng-star-inserted&quot;]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//*[(text() = &quot;Dokumen agunan&quot;)]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>cd2f21e4-a6e4-42b8-9840-9d801fe16aef</webElementGuid>
+      <webElementGuid>26c5aaff-c94c-4728-b421-7990e4606199</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control cursor-pointer</value>
-      <webElementGuid>5b3e4e30-3b3c-4a5f-b3a6-b6928f05ef5b</webElementGuid>
+      <webElementGuid>c9bac09f-bff8-4f88-a88f-c5f3e9fdd346</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,15 +41,15 @@
       <name>text</name>
       <type>Main</type>
       <value> Pilih kecamatan </value>
-      <webElementGuid>17077cd1-5e22-492e-aa4b-8a080c78616e</webElementGuid>
+      <webElementGuid>a9fff43c-94d5-47cb-80b9-d007e91302df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class=&quot;title ng-tns-c66-7 ng-star-inserted&quot;]</value>
-      <webElementGuid>37182045-97b6-4a9d-9264-c3c8f9656426</webElementGuid>
+      <value>//*[(text() = &quot;Dokumen agunan&quot;)]</value>
+      <webElementGuid>3058e15f-ba26-477d-a66d-408fcb4e1105</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main']/ng-component/form/application-address/app-form-group[3]/div/div/app-auto-complete/div/div</value>
-      <webElementGuid>7a683249-7e5c-4c81-8647-4398d2419086</webElementGuid>
+      <webElementGuid>01bc42b6-7b0a-428d-a500-15d63d7c1889</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kecamatan'])[1]/following::div[3]</value>
-      <webElementGuid>85cc07ca-94ff-41e3-8eb2-15d09d9ba3a7</webElementGuid>
+      <webElementGuid>8f21bd2b-47bd-46fd-9463-323927fad274</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih kota/kabupaten'])[1]/following::div[4]</value>
-      <webElementGuid>94b939d9-8475-458a-97ef-560463ff4757</webElementGuid>
+      <webElementGuid>62ff5795-769c-40c4-bc98-82b5eb90109e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kelurahan'])[1]/preceding::div[1]</value>
-      <webElementGuid>f4c17163-70df-410b-a64a-f5bec9dc6b25</webElementGuid>
+      <webElementGuid>d91d221e-1be6-4fb9-bd87-f8352010886f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih kelurahan'])[1]/preceding::div[1]</value>
-      <webElementGuid>5fbf6ecb-c1fa-40fb-ac7b-d30235b357b1</webElementGuid>
+      <webElementGuid>0a662a73-66c8-49de-9ba7-bc0ff69d9d22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Pilih kecamatan']/parent::*</value>
-      <webElementGuid>4211404a-e744-4063-a9da-88626896a8c7</webElementGuid>
+      <webElementGuid>73c14810-8a4c-475c-a4b2-bdf0dbfe2d26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-form-group[3]/div/div/app-auto-complete/div/div</value>
-      <webElementGuid>861624c0-01cb-4be0-8c84-c0e9af924bb3</webElementGuid>
+      <webElementGuid>c60ba89c-0907-4403-988c-629c958e48d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//*[@class=&quot;ngid-accordion-card-header ng-tns-c66-98&quot;]</value>
-      <webElementGuid>d74c20fa-d6ad-4a25-85f1-b170cc9bcda2</webElementGuid>
+      <webElementGuid>18ec23ba-9fc7-48eb-8b97-0f62f3d03237</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

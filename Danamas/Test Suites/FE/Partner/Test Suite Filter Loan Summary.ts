@@ -39,4 +39,23 @@
       <testCaseId>Test Cases/FE/Partner/Beranda/Menu Panduan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>3bef35fc-1893-4b0b-a075-450f54710ee9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Beranda/Tentang Produk</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a1f6830b-fe19-4893-85c9-1b13feda4591</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1f339aaa-9855-4986-b78f-399ef66fc0f8</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

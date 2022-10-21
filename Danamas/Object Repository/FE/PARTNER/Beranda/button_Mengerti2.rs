@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Mengerti</name>
+   <name>button_Mengerti2</name>
    <tag></tag>
-   <elementGuidId>1f24d23b-5aa6-4eb1-b874-37aaa44d4c16</elementGuidId>
+   <elementGuidId>ace259a5-4c06-4518-a846-0d91f1534482</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = ' Saya sudah mengerti' or . = ' Saya sudah mengerti')]</value>
+         <value>//button[(text() = ' Mengerti ' or . = ' Mengerti ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,12 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3d001d3b-13da-48e9-b104-4cbb96b17714</webElementGuid>
+      <webElementGuid>c3fe6685-af2e-43a9-8ceb-17ed8c9e20c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-md</value>
-      <webElementGuid>ac8c40ac-82de-4650-9f43-0dd59d3ed77b</webElementGuid>
+      <webElementGuid>83ee0a42-083c-4b19-b515-f3558feb0a11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Saya sudah mengerti</value>
-      <webElementGuid>2dc93758-a287-4030-82aa-090951829058</webElementGuid>
+      <value> Mengerti </value>
+      <webElementGuid>2a14d7a7-60ad-4266-bfa3-b1a6ed2d1314</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//contains[@class=&quot;text-center font-weight-600 py-2 mt-3 ng-tns-c61-96&quot;]</value>
-      <webElementGuid>d7bcb41c-dcaa-4dfe-b1fe-8f0775e32bd2</webElementGuid>
+      <webElementGuid>e0cf9308-aabd-4aa2-8c45-cd1d8cf346c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan pinjaman telah berhasil di kirim untuk pre-screening!'])[1]/following::button[1]</value>
-      <webElementGuid>41a746bc-4d9a-42c2-acca-a8d6b9e3c6e0</webElementGuid>
+      <webElementGuid>35b5e005-bf77-4a59-b7e3-5f61bb7db81f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim'])[1]/following::button[1]</value>
-      <webElementGuid>6cb7256a-0676-4744-a226-4d26e29623bd</webElementGuid>
+      <webElementGuid>ab1c30cb-4109-4008-bc90-28356c790bbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
-      <webElementGuid>603d446c-d323-4e5d-9a7b-4a94ed8f218d</webElementGuid>
+      <webElementGuid>313e76f8-2da3-4cd6-b9aa-f100f20e63ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/app-button/button</value>
-      <webElementGuid>15604c4e-9c95-4582-930d-7ce5070a0db0</webElementGuid>
+      <webElementGuid>ce8aba37-8908-4b98-977f-bb9ae7e05923</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' OK ' or . = ' OK ')]</value>
-      <webElementGuid>ea626e30-725b-4f78-aecb-efddf3b9210b</webElementGuid>
+      <webElementGuid>18d6c741-4785-475d-9d1d-201b0c437329</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

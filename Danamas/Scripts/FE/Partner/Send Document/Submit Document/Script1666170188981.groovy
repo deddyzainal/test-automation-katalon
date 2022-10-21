@@ -22,6 +22,8 @@ WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('no
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Menu Pengajuan'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Filter by Status'), [('status') : 'passed'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Cari Aplikasi by No Pinjaman'), [('nama_peminjam') : 'test11'], 

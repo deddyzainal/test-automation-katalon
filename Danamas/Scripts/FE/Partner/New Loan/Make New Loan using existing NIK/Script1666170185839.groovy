@@ -36,11 +36,15 @@ WebUI.sendKeys(findTestObject('FE/PARTNER/Beranda/input_NIK'), nik)
 
 WebUI.click(findTestObject('FE/PARTNER/Beranda/button_Cek Status'))
 
-WebUI.verifyElementVisible(findTestObject('FE/PARTNER/Beranda/button_Lihat Data'))
-
-WebUI.click(findTestObject('FE/PARTNER/Beranda/button_Lihat Data'))
-
-WebUI.verifyTextPresent(nik, false)
+if (WebUI.verifyElementPresent(findTestObject('FE/PARTNER/Beranda/button_Mengerti2'), 3, FailureHandling.OPTIONAL)) {
+	WebUI.verifyTextPresent('Data Peminjam telah Diproses', false)
+	WebUI.click(findTestObject('FE/PARTNER/Beranda/button_Mengerti2'))
+	
+}else if (WebUI.verifyElementPresent(findTestObject('FE/PARTNER/Beranda/button_Lihat Data'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.verifyTextPresent('Data Peminjam Ditemukan', false)
+    WebUI.click(findTestObject('FE/PARTNER/Beranda/button_Lihat Data'))
+	
+}
 
 WebUI.closeBrowser()
 

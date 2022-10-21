@@ -62,14 +62,14 @@
       <guid>8806dfb0-f38e-4ccf-991e-e14b6418c5cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - sort By Date (Asc Desc)</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - sort By Loan Number (Asc Desc)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fe204b91-2d71-4efa-904e-43aa74a37931</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - sort By Loan Number (Asc Desc)</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - sort By Date (Asc Desc)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -78,18 +78,5 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Agent/Agent - sort By Name (Asc Desc)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5dc6e45e-7ef0-4f23-b946-34b07268095a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Menu Agent/Menu Agent</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>868d0331-f6ba-49ef-a509-7a9a1cb0680e</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
