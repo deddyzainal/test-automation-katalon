@@ -30,7 +30,7 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Request'), 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by No HP'), [('nomor_hp') : no_hp], FailureHandling.STOP_ON_FAILURE)
 
 //Approve request
-WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Reject request'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Approve request'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Verify status is Approved
 WebUI.refresh()
