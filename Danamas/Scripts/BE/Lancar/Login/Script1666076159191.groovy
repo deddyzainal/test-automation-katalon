@@ -6,7 +6,7 @@ import groovy.json.JsonSlurper
 import internal.GlobalVariable
 
 //Send request
-def response = WS.sendRequest(findTestObject('BE/Lancar/Login', [('recipient') : datetime, ('password') : 'Password1']))
+def response = WS.sendRequest(findTestObject('BE/Lancar/Login', [('recipient') : GlobalVariable.datetime, ('password') : 'Password1']))
 
 //Verify status code 200
 WS.verifyResponseStatusCode(response, 200)

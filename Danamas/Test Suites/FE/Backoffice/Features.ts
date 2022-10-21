@@ -30,11 +30,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Loan Assessment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7ccc0292-8813-494b-bc11-acb4d8c7aeb4</variableId>
-      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5efc3cd4-7c1c-471c-9e52-7f86726acdef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Offer Letter</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

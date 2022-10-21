@@ -17,27 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-////Register account
-//WebUI.callTestCase(findTestCase('BE/Register account'), null, FailureHandling.STOP_ON_FAILURE)
-//
-////Login
-//WebUI.callTestCase(findTestCase('BE/Lancar/Login'), [('datetime') : GlobalVariable.datetime], FailureHandling.STOP_ON_FAILURE)
-//
-////Submit loan
-//WebUI.callTestCase(findTestCase('BE/Lancar/Create loan'), [('token') : GlobalVariable.token, ('userId') : GlobalVariable.userId
-//        , ('datetime') : GlobalVariable.datetime], FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.delay(20)
-
-//Assign telesales in Loan Origination menu
-WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Data and Prospect'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Origination'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Assign Telesales'), [('no_pinjaman') : GlobalVariable.loanNumber
-        , ('nama_telesales') : 'Meitri Delfiza'], FailureHandling.STOP_ON_FAILURE)
+if(GlobalVariable.loanNumber == '') {
+	//Register account
+	WebUI.callTestCase(findTestCase('BE/Register account'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	//Login
+	WebUI.callTestCase(findTestCase('BE/Lancar/Login'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	//Update user
+	WebUI.callTestCase(findTestCase('BE/Lancar/Update user'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	//Submit loan
+	WebUI.callTestCase(findTestCase('BE/Lancar/Create loan'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.delay(20)
+	
+	//Login backoffice and assign Telesales
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Data and Prospect'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Origination'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Assign Telesales'), [('no_pinjaman') : GlobalVariable.loanNumber
+			, ('nama_telesales') : 'Meitri Delfiza'], FailureHandling.STOP_ON_FAILURE)
+}
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Task List'), null, FailureHandling.STOP_ON_FAILURE)
 
@@ -80,6 +84,6 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Upload Bukti Keuangan')
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Submit edit'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by ID Pinjaman - Not found'), [('id_pinjaman') : no_pinjaman], 
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by ID Pinjaman - Not found'), [('id_pinjaman') : GlobalVariable.loanNumber], 
     FailureHandling.STOP_ON_FAILURE)
 

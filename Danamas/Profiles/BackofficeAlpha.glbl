@@ -51,6 +51,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>''</initValue>
+      <name>loanId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'qa.telesales@danamas.co.id'</initValue>
       <name>emailTelesales</name>
    </GlobalVariableEntity>
