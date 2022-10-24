@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register User AS External Freelancer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c272465b-23c9-4b03-9452-60598b82988f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0cce5b95-fb35-4d62-9aa9-8188b52186c4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'partner'</defaultValue>
+      <description></description>
+      <id>0cce5b95-fb35-4d62-9aa9-8188b52186c4</id>
+      <masked>false</masked>
+      <name>Agen</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Cari_Lokasi</name>
+   <tag></tag>
+   <elementGuidId>29566bd4-f3ce-4296-9f36-38c642c06c62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@placeholder=&quot;Cari berdasarkan alamat&quot;]//input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>app-input.ng-untouched.ng-pristine.ng-invalid > div.input-group.app-input-group.ng-star-inserted > input.form-control</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@formcontrolname=&quot;location&quot;]//span</value>
+      <webElementGuid>10e565dd-42cb-4e33-b24c-d60e2aa96a6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/form/app-form-group[6]/div/div/app-input/div/input</value>
+      <webElementGuid>39918894-bd67-43dc-a08a-05e375dd1439</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[6]/div/div/app-input/div/input</value>
+      <webElementGuid>a3f80336-d9c2-4152-80c3-d477c70b030f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//*[@formcontrolname=&quot;location&quot;]//span</value>
+      <webElementGuid>9ade9909-3977-4f51-a27a-37c2dbf7c180</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

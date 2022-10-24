@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Menu_Pengajuan</name>
+   <tag></tag>
+   <elementGuidId>b8f9fa44-047e-41fd-a998-ebbca68b91d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Pengajuan' or . = 'Pengajuan')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;footer&quot;)/nav[@class=&quot;user-navigation&quot;]/ul[@class=&quot;menu-list ng-tns-c59-4&quot;]/li[@class=&quot;menu-item ng-tns-c59-4 ng-star-inserted&quot;]/a[@class=&quot;ng-tns-c59-4&quot;]/div[@class=&quot;ng-tns-c59-4&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c2fc88df-34a3-4a76-89f0-1c7f23bc1efa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c59-4</value>
+      <webElementGuid>dca0a551-5173-4933-9c28-68af970715a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;footer&quot;)/nav[@class=&quot;user-navigation&quot;]/ul[@class=&quot;menu-list ng-tns-c59-4&quot;]/li[@class=&quot;menu-item ng-tns-c59-4 ng-star-inserted&quot;]/a[@class=&quot;ng-tns-c59-4&quot;]/div[@class=&quot;ng-tns-c59-4&quot;]</value>
+      <webElementGuid>38881256-7654-4279-8515-4f714c311b97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//footer[@id='footer']/nav/ul/li[2]/a/div</value>
+      <webElementGuid>c43a241a-19c1-41fc-a1a4-6a41b99b8c48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a/div</value>
+      <webElementGuid>72dede44-06a5-49ef-a55c-9044c11cb16c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

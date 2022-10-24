@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_nilai_property</name>
+   <tag></tag>
+   <elementGuidId>77d70c3a-90a3-498c-85af-5570c2d42b63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-control.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class=&quot;content-editable&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Rp70' or . = 'Rp70')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4123736a-b84a-4a24-b3a9-a66e9fa6bef2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-star-inserted</value>
+      <webElementGuid>5097311a-2306-4fc9-ad10-fc4285c7a4f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rp70</value>
+      <webElementGuid>d604c4ed-89f5-4e1a-8fbc-274adfef0130</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mt-4&quot;]/home-card-loan-calculator[1]/div[@class=&quot;simulation-card&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;form-group mt-2&quot;]/app-input-simulation[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;app-input-simulation&quot;]/div[@class=&quot;form-control ng-star-inserted&quot;]</value>
+      <webElementGuid>b102c30a-4f90-4bef-b0af-2bf8cda88dc4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/ng-component/div[2]/home-card-loan-calculator/div/form/div/app-input-simulation/div/div</value>
+      <webElementGuid>3e00dc09-112e-4543-a6bf-7a2535e1273b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nilai Properti'])[1]/following::div[2]</value>
+      <webElementGuid>27be22ca-b282-4baf-a691-1b1e0f03b449</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingin tahu estimasi nilai pinjaman?'])[1]/following::div[3]</value>
+      <webElementGuid>21ba7074-b0c7-4bd2-88a0-d500d2ed53f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-input-simulation/div/div</value>
+      <webElementGuid>bfcaa0d8-ca89-45d8-be8b-51dd7b5b4a9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Rp70 ,000,000 ' or . = 'Rp70 ,000,000 ')]</value>
+      <webElementGuid>84b12f58-3ae6-48e9-91a1-12b45afd3084</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

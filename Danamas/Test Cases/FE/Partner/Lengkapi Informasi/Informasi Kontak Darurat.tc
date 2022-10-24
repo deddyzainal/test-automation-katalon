@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Informasi Kontak Darurat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1bac625e-541a-49b8-9706-5667f5957254</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea4cf5ff-09c1-441c-a9f8-05c6e1e18937</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81d8cb88-c563-4585-8820-256efff2a786</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e6f79e6c-1def-42d8-9ea4-b6264077461a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'sutiyem'</defaultValue>
+      <description></description>
+      <id>ea4cf5ff-09c1-441c-a9f8-05c6e1e18937</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+   <variable>
+      <defaultValue>'081265311111'</defaultValue>
+      <description></description>
+      <id>81d8cb88-c563-4585-8820-256efff2a786</id>
+      <masked>false</masked>
+      <name>nohp</name>
+   </variable>
+   <variable>
+      <defaultValue>'anak'</defaultValue>
+      <description></description>
+      <id>e6f79e6c-1def-42d8-9ea4-b6264077461a</id>
+      <masked>false</masked>
+      <name>hubungan</name>
+   </variable>
+</TestCaseEntity>

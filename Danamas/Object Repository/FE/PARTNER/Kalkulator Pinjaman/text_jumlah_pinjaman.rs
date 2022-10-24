@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_jumlah_pinjaman</name>
+   <tag></tag>
+   <elementGuidId>6546c365-660a-48af-9ee8-39c1a409ab76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/app-card/div/div/div/form/app-form-group[2]/div/div/app-input-simulation/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0b6467b9-1b17-482d-b7a3-fee6687562a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>app-input-simulation</value>
+      <webElementGuid>90232580-a6a3-4e24-9e20-c9b3f52e4399</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Rp 75,000,000 </value>
+      <webElementGuid>ab60131a-1acb-4bd2-90d2-27e2edf0c85e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/app-card[@class=&quot;ng-tns-c79-6 ng-star-inserted&quot;]/div[@class=&quot;card app-card ng-tns-c79-6&quot;]/div[@class=&quot;ng-tns-c79-6 ng-trigger ng-trigger-expandCollapse&quot;]/div[@class=&quot;card-body ng-tns-c79-6&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid ng-tns-c79-6 ng-star-inserted&quot;]/app-form-group[2]/div[@class=&quot;form-group row mb-4&quot;]/div[@class=&quot;font-weight-500 col-12&quot;]/app-input-simulation[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;app-input-simulation&quot;]</value>
+      <webElementGuid>bba3b504-a5d0-4336-9a98-6d588fe06e80</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div/div/form/app-form-group[2]/div/div/app-input-simulation/div</value>
+      <webElementGuid>2ba5f9c1-d16b-44e0-9cb8-7fd458058bbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jumlah Pinjaman'])[1]/following::div[2]</value>
+      <webElementGuid>7faef1bf-a295-4535-81da-1a1412287bd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 100,000,000'])[1]/following::div[4]</value>
+      <webElementGuid>0caa810e-eab4-4438-b2d0-38c9a21a7284</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor (Tahun)'])[1]/preceding::div[2]</value>
+      <webElementGuid>ffb0af44-3027-44cd-977e-207b0a68cc2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suku Bunga'])[1]/preceding::div[5]</value>
+      <webElementGuid>e7dc5d1e-bc37-4ed6-ade9-27c2701e309e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[2]/div/div/app-input-simulation/div</value>
+      <webElementGuid>3384a48d-5ff0-4d4b-9417-87240bd263ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Rp 75,000,000 ' or . = ' Rp 75,000,000 ')]</value>
+      <webElementGuid>aa547e12-e432-481c-8062-65be14be5df0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

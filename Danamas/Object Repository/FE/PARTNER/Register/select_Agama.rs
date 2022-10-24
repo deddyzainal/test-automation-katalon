@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Agama</name>
+   <tag></tag>
+   <elementGuidId>ef774482-6dcf-49e6-8b7a-ace97357bb4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@auto_name = 'religion']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/app-card/div/div[2]/div/form/app-form-group[11]/div/div/app-select/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-select.app-drop-down-select.ng-untouched.ng-pristine.ng-invalid.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>3cb88d7e-acf0-4ceb-a75b-b46f0d6c5885</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select app-drop-down-select ng-untouched ng-pristine ng-invalid ng-star-inserted</value>
+      <webElementGuid>b501c3ea-2e7d-41e4-a3de-b7f0a6445dd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>religion</value>
+      <webElementGuid>efb240eb-6abb-41bc-aea5-64ced0e79805</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Agama  Islam  Kristen  Katolik  Hindu  Buddha  Kong Hu Chu  Lain-lain </value>
+      <webElementGuid>11681d62-0e7e-482f-90a0-1f5ba88906ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/app-card[@class=&quot;ng-tns-c81-3 ng-star-inserted&quot;]/div[@class=&quot;card app-card ng-tns-c81-3&quot;]/div[@class=&quot;ng-tns-c81-3 ng-trigger ng-trigger-expandCollapse&quot;]/div[@class=&quot;card-body ng-tns-c81-3&quot;]/form[@class=&quot;ng-invalid ng-tns-c81-3 ng-star-inserted ng-touched ng-dirty&quot;]/app-form-group[11]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-select[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/select[@class=&quot;form-select app-drop-down-select ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]</value>
+      <webElementGuid>321180bf-36d3-49ef-a8b0-2adac5b433d1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div[2]/div/form/app-form-group[11]/div/div/app-select/select</value>
+      <webElementGuid>3e2a2bb4-3f89-4f5d-9690-ca1d5cca51da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Agama'])[1]/following::select[1]</value>
+      <webElementGuid>6b9939d9-8c70-43fa-903b-034f6a79dc18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data tidak boleh kosong'])[8]/following::select[1]</value>
+      <webElementGuid>c1ce9a38-10ef-47da-8549-e94478e936b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan alamat sesuai KTP'])[1]/preceding::select[1]</value>
+      <webElementGuid>ae737fba-91a7-4e00-bc17-94bd9e265136</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan RT/RW'])[1]/preceding::select[1]</value>
+      <webElementGuid>43f6074f-03f9-4e97-9f5e-8e63f38da8e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[11]/div/div/app-select/select</value>
+      <webElementGuid>19337843-953e-48ea-9251-d25c2d5515b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = ' Agama  Islam  Kristen  Katolik  Hindu  Buddha  Kong Hu Chu  Lain-lain ' or . = ' Agama  Islam  Kristen  Katolik  Hindu  Buddha  Kong Hu Chu  Lain-lain ')]</value>
+      <webElementGuid>a673db68-55e4-4a6e-ad17-b109464eda6a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

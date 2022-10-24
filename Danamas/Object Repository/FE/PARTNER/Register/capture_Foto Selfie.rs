@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>capture_Foto Selfie</name>
+   <tag></tag>
+   <elementGuidId>af9e6cd5-7b78-4029-9124-4ba0e4724e88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.line</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4c88becd-e24c-40c8-adca-ad623b7f9858</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>line</value>
+      <webElementGuid>625fc583-b09f-4b41-bc15-2f0ccdfbd3a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/ngb-modal-window[@class=&quot;d-block modal upload-guideline fade show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/ng-component[1]/app-popup[1]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;guideline-wrapper ng-star-inserted&quot;]/div[@class=&quot;guideline-footer&quot;]/button[1]/span[@class=&quot;line&quot;]</value>
+      <webElementGuid>e1fd0dbb-5009-4922-9d26-d709f57de8c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>abd39895-a243-4dd8-b272-4955301737f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

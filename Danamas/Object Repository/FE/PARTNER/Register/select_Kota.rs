@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Kota</name>
+   <tag></tag>
+   <elementGuidId>26f6d64f-17b6-4570-9661-98909d756df2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/app-card/div/div[2]/div/form/app-form-group[11]/div/div/app-select/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-select.app-drop-down-select.ng-untouched.ng-pristine.ng-invalid.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@auto_name=&quot;position_secure_id&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>3a795d23-2a51-4b22-b10d-3713c70792df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@auto_name=&quot;position_secure_id&quot;]</value>
+      <webElementGuid>44ccdc07-ef64-4fdb-b23f-75b90835436b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div[2]/div/form/app-form-group[11]/div/div/app-select/select</value>
+      <webElementGuid>cbaf2b0a-ca52-4565-bfa1-3c3fd2f0de9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Agama'])[1]/following::select[1]</value>
+      <webElementGuid>8ff40927-20a1-49fd-8dc8-ff8dd0a59660</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data tidak boleh kosong'])[8]/following::select[1]</value>
+      <webElementGuid>a02fd099-60a4-49e7-9e66-76cba25f43f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan alamat sesuai KTP'])[1]/preceding::select[1]</value>
+      <webElementGuid>0bd588f8-634d-4bb9-a06b-e605b907bd87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan RT/RW'])[1]/preceding::select[1]</value>
+      <webElementGuid>a4f4a27f-ef3e-4506-b579-a9bcea730ee7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[11]/div/div/app-select/select</value>
+      <webElementGuid>548ac8f6-2ae9-4605-bf10-05bfae940f0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = ' Agama  Islam  Kristen  Katolik  Hindu  Buddha  Kong Hu Chu  Lain-lain ' or . = ' Agama  Islam  Kristen  Katolik  Hindu  Buddha  Kong Hu Chu  Lain-lain ')]</value>
+      <webElementGuid>4b8d6595-89e8-4ad1-b64f-1d1d8301e243</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

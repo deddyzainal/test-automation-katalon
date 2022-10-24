@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Loan Summary by Date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d84c605-81e7-4fcb-a526-db0940747efe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4bcf6f5-e553-4683-a762-2e620af6b81b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2837b39-4938-4459-bf95-754371ff5c02</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1-Agustus-2022'</defaultValue>
+      <description></description>
+      <id>c4bcf6f5-e553-4683-a762-2e620af6b81b</id>
+      <masked>false</masked>
+      <name>date1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Agustus'</defaultValue>
+      <description></description>
+      <id>f2837b39-4938-4459-bf95-754371ff5c02</id>
+      <masked>false</masked>
+      <name>Month</name>
+   </variable>
+</TestCaseEntity>

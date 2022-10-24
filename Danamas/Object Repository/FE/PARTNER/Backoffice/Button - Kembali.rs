@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - Kembali</name>
+   <tag></tag>
+   <elementGuidId>17a4f32e-88e8-4067-8d3a-5c417b6f998e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-1']/app-success-resubmission-dialog/div/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div > div > button.btn.btn-primary.btn-md</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>97629e1f-4a9f-459c-9d83-e326c17d8c74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-md</value>
+      <webElementGuid>05fed21d-53ba-4afd-9519-ee2d238f4522</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Kembali </value>
+      <webElementGuid>cf464166-0dbb-4406-af37-e274ddbf1d7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-1&quot;)/app-success-resubmission-dialog[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/button[@class=&quot;btn btn-primary btn-md&quot;]</value>
+      <webElementGuid>1d827f77-3dc5-4735-ae22-ef79f44fea2e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-1']/app-success-resubmission-dialog/div/div/button</value>
+      <webElementGuid>0ac41e3d-85b4-4db3-8c54-12c1bd8fbf4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permintaan pengiriman ulang dokumen berhasil terkirim ke email calon peminjam.'])[1]/following::button[1]</value>
+      <webElementGuid>0071073a-55e3-446b-9a24-289e255435a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Whoosh! Permintaan Anda terkirim'])[1]/following::button[1]</value>
+      <webElementGuid>494f04a5-274d-47a4-80c1-78a8b95732bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kembali']/parent::*</value>
+      <webElementGuid>618372bd-966d-46e9-9355-fff974abad9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-success-resubmission-dialog/div/div/button</value>
+      <webElementGuid>ab813760-d5aa-4a56-8f36-42ca9fb957c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Kembali ' or . = ' Kembali ')]</value>
+      <webElementGuid>5382c90a-c539-4351-8d1a-fe505122bf17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

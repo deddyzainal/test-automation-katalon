@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>unggah_Foto KTP Pasangan</name>
+   <tag></tag>
+   <elementGuidId>6d0e3082-962f-4739-ade2-e9c76b82e789</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Foto KTP Pasangan ' or . = ' Foto KTP Pasangan ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/ng-component/form/app-form-group[12]/div/div/app-upload-document/div/ul/app-upload-document-item/li/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7775a9b8-59d4-475a-94f1-7d5681f49758</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>upload-document-item-content</value>
+      <webElementGuid>c80b98a1-e97c-443a-8bf7-30bdc3919915</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Foto KTP Pasangan </value>
+      <webElementGuid>d35eec58-2ced-42b8-bf96-cc92fcca93d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-invalid ng-star-inserted ng-dirty ng-touched&quot;]/app-form-group[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-upload-document[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;upload-document&quot;]/ul[@class=&quot;upload-document-list&quot;]/app-upload-document-item[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/li[@class=&quot;upload-document-item ng-star-inserted&quot;]/div[@class=&quot;upload-document-item-content&quot;]</value>
+      <webElementGuid>9883e666-ac5e-4ce4-a979-d6bd0ab8c69d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/form/app-form-group[12]/div/div/app-upload-document/div/ul/app-upload-document-item/li/div</value>
+      <webElementGuid>d0f7570c-8d59-44b2-8275-02e3db659932</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unggah Foto KTP Pasangan'])[1]/following::div[3]</value>
+      <webElementGuid>90f9af3d-33cd-4fa0-bae2-fba3b1a054f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status Perkawinan'])[1]/following::div[5]</value>
+      <webElementGuid>1e95c0b2-ca33-4c25-9e43-286b39ee1fb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NIK Pasangan'])[1]/preceding::div[2]</value>
+      <webElementGuid>c2cc86e6-a185-4931-ba57-5ac4823868d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[12]/div/div/app-upload-document/div/ul/app-upload-document-item/li/div</value>
+      <webElementGuid>0ea64074-09b0-48ef-a649-21f8bdb80d39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Foto KTP Pasangan ' or . = ' Foto KTP Pasangan ')]</value>
+      <webElementGuid>487687da-d611-474d-bba6-24274063397c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

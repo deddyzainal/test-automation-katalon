@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button - PBB Resubmission</name>
+   <tag></tag>
+   <elementGuidId>c902a481-ffdf-458e-9b46-1cfc1c625b7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-accordion-child-0']/div/app-documents/ul/li/app-doc/div/section[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bd9b32a9-e9d7-4fb4-ae2b-8aa545a6af79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>3e04f4a8-c06d-4218-9c4a-1e7c13f2c9c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Resubmission </value>
+      <webElementGuid>d6a36af3-f08d-4ce1-9fa0-995f522dac94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[text()=&quot;PBB&quot;]/ancestor::app-doc//button[1]</value>
+      <webElementGuid>78ec5975-c011-49a2-a2c7-b93ef470da21</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-0']/div/app-documents/ul/li/app-doc/div/section[2]/button</value>
+      <webElementGuid>3f1ed78f-f2fc-4dc4-953d-ede1a2a9e939</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PBB'])[1]/following::button[1]</value>
+      <webElementGuid>0dddacd3-6bea-48e8-830b-39ffb1d50b4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/ Dokumen Agunan'])[1]/following::button[1]</value>
+      <webElementGuid>3df2d452-d7db-4557-8614-1f91f61dddbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unduh'])[1]/preceding::button[1]</value>
+      <webElementGuid>784093b9-8354-493f-9e36-f1c198bd913a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IMB (Izin Mendirikan Bangunan)'])[1]/preceding::button[2]</value>
+      <webElementGuid>6c15febe-0aaf-4a09-85dd-037cf4c60919</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Resubmission']/parent::*</value>
+      <webElementGuid>9d6955e5-9073-4ed5-8fd1-8359d3b8b42d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>3800d585-6435-4efe-b270-339207d89fbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Resubmission ' or . = ' Resubmission ')]</value>
+      <webElementGuid>daf394f2-6df7-492d-8879-a083249fdc4a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

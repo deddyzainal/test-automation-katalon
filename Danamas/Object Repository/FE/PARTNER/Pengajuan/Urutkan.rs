@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Urutkan</name>
+   <tag></tag>
+   <elementGuidId>7bf1de99-f8e4-44d9-9224-b573654b054e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex-1.text-center.cursor-pointer.border-start.ng-tns-c94-10.w-50 > span.ng-tns-c94-10</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/ng-component/div[2]/app-tab/div/div[2]/app-tab-item/div/app-list-loan/div/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Urutkan' or . = 'Urutkan')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e595b04c-d67d-403f-911d-10e2f6f13141</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c94-10</value>
+      <webElementGuid>6894373a-c352-4c4a-9a63-311e8f1bf8c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Urutkan</value>
+      <webElementGuid>1557a1ca-2753-48ae-8f59-fa9775563249</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mb-5&quot;]/app-tab[1]/div[@class=&quot;tab&quot;]/div[@class=&quot;tab-body&quot;]/app-tab-item[@class=&quot;ng-tns-c88-5 ng-star-inserted&quot;]/div[@class=&quot;tab-item ng-tns-c88-5 ng-trigger ng-trigger-slider ng-star-inserted&quot;]/app-list-loan[@class=&quot;ng-tns-c94-10 ng-tns-c88-5 ng-star-inserted&quot;]/div[@class=&quot;floating-wrapper ng-tns-c94-10&quot;]/div[@class=&quot;filter-content d-flex justify-content-between bg-white border p-2 mt-2 ng-tns-c94-10&quot;]/div[@class=&quot;flex-1 text-center cursor-pointer border-start ng-tns-c94-10 w-50&quot;]/span[@class=&quot;ng-tns-c94-10&quot;]</value>
+      <webElementGuid>78767090-0a15-4b35-99d5-e7f66f4a376d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/ng-component/div[2]/app-tab/div/div[2]/app-tab-item/div/app-list-loan/div/div/div[2]/span</value>
+      <webElementGuid>54c8e8b4-623b-444c-8b80-84848ab92cb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[1]</value>
+      <webElementGuid>53a36f41-81ff-4bc0-8960-819938440935</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pinjaman Beragunan Properti'])[2]/following::span[3]</value>
+      <webElementGuid>3a6d3ae4-bf2c-4c5c-a805-221440e73506</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beranda'])[1]/preceding::span[1]</value>
+      <webElementGuid>f112e86e-558f-4dd3-a692-715b5d116931</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan'])[1]/preceding::span[2]</value>
+      <webElementGuid>c25808c4-03ea-4d3c-bbe3-a6f76d98eaab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Urutkan']/parent::*</value>
+      <webElementGuid>2d6518ef-a645-4398-9db1-11225952fb0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-list-loan/div/div/div[2]/span</value>
+      <webElementGuid>0d3887ea-3862-40a6-a219-79c0dd5688be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Urutkan' or . = 'Urutkan')]</value>
+      <webElementGuid>c902efe9-6fb5-407c-93cc-50fde42ae07c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

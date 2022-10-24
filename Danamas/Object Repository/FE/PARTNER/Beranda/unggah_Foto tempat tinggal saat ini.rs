@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>unggah_Foto tempat tinggal saat ini</name>
+   <tag></tag>
+   <elementGuidId>5fe66d27-2afe-4775-a14d-08eadd3182e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.upload-document-item.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/ng-component/form/app-form-group[3]/div/div/app-upload-document/div/ul/app-upload-document-item/li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>76918f07-e215-4a12-a959-38d23030f3d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>upload-document-item ng-star-inserted</value>
+      <webElementGuid>7b5076d9-64bd-4147-bd42-58d0033ebb13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>resedential</value>
+      <webElementGuid>3c51c4ac-fbb8-4ee6-837b-e4d94de23893</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Foto tempat tinggal saat ini </value>
+      <webElementGuid>911de68c-535a-4560-9d57-0684dd30aeca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/app-form-group[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;form-group row mb-4&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-upload-document[1]/div[@class=&quot;upload-document&quot;]/ul[@class=&quot;upload-document-list&quot;]/app-upload-document-item[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/li[@class=&quot;upload-document-item ng-star-inserted&quot;]</value>
+      <webElementGuid>19007ed8-996d-4bf2-8ace-b1856b333a3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/form/app-form-group[3]/div/div/app-upload-document/div/ul/app-upload-document-item/li</value>
+      <webElementGuid>19c57b50-64c4-4fdc-a65e-1249cb63ea81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unggah Foto Tempat Tinggal'])[1]/following::li[1]</value>
+      <webElementGuid>061b78d8-ac72-45e6-8ec9-5feabd1cf4b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Pos'])[1]/following::li[1]</value>
+      <webElementGuid>a21290da-9841-4340-af75-a262739e9c81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat domisili tidak sama dengan KTP'])[1]/preceding::li[1]</value>
+      <webElementGuid>96766d9d-3b7d-47a8-a7cc-3537e2b17dfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li</value>
+      <webElementGuid>7a579819-411e-4f0f-bc4f-c78fccee2b52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = ' Foto tempat tinggal saat ini ' or . = ' Foto tempat tinggal saat ini ')]</value>
+      <webElementGuid>b8443618-707e-4f28-8552-1efc1ad93510</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

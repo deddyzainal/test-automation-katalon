@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register User AS Internal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>53442fff-41d9-4db9-be48-98187a2df985</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9a35aa6f-c46c-42cb-9d68-a9d9e5104387</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>161cce7e-1faa-4eb1-aea8-b0af0bf52700</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2dbf0337-2f8a-40a6-84fb-e06f964f8031</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'partner'</defaultValue>
+      <description></description>
+      <id>9a35aa6f-c46c-42cb-9d68-a9d9e5104387</id>
+      <masked>false</masked>
+      <name>Agen</name>
+   </variable>
+   <variable>
+      <defaultValue>'internal'</defaultValue>
+      <description></description>
+      <id>161cce7e-1faa-4eb1-aea8-b0af0bf52700</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>'BSIM'</defaultValue>
+      <description></description>
+      <id>2dbf0337-2f8a-40a6-84fb-e06f964f8031</id>
+      <masked>false</masked>
+      <name>namapartner</name>
+   </variable>
+</TestCaseEntity>

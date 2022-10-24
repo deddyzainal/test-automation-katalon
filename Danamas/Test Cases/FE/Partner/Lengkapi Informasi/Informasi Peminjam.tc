@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Informasi Peminjam</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4072365-8824-43b0-b3d8-367286e9a330</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a0d8cd1-1323-4b63-b0fe-40d23a57ca29</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a16fb6e9-4ae6-4cd6-ae3b-e2a03895c030</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcbcdc06-ad46-431b-b6e7-5d594b2c4ae0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Islam'</defaultValue>
+      <description></description>
+      <id>0a0d8cd1-1323-4b63-b0fe-40d23a57ca29</id>
+      <masked>false</masked>
+      <name>Agama</name>
+   </variable>
+   <variable>
+      <defaultValue>'wni'</defaultValue>
+      <description></description>
+      <id>a16fb6e9-4ae6-4cd6-ae3b-e2a03895c030</id>
+      <masked>false</masked>
+      <name>Kewarganegaraan</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456789012345'</defaultValue>
+      <description></description>
+      <id>fcbcdc06-ad46-431b-b6e7-5d594b2c4ae0</id>
+      <masked>false</masked>
+      <name>npwp</name>
+   </variable>
+</TestCaseEntity>

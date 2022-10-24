@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Ubah Informasi Pribadi</name>
+   <tag></tag>
+   <elementGuidId>b83e7242-04c2-4b22-bf25-228886355c2d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/ng-component/app-card/div/div/div/form/app-list/ul/app-list-item[2]/li/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5ab6e4f9-f529-4d63-8dbf-1df139ba8a07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-group-item-content</value>
+      <webElementGuid>3194dc48-3860-4184-959c-31494d831634</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Ubah Informasi Pribadi </value>
+      <webElementGuid>8674c741-f852-4358-9cd0-912572991ec2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/app-card[@class=&quot;ng-tns-c79-28 ng-star-inserted&quot;]/div[@class=&quot;card app-card ng-tns-c79-28&quot;]/div[@class=&quot;ng-tns-c79-28 ng-trigger ng-trigger-expandCollapse&quot;]/div[@class=&quot;card-body ng-tns-c79-28&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid ng-tns-c79-28 ng-star-inserted&quot;]/app-list[1]/ul[@class=&quot;app-list list-group&quot;]/app-list-item[2]/li[@class=&quot;list-group-item border-0 px-3 font-weight-500 ng-star-inserted&quot;]/div[@class=&quot;list-group-item-content&quot;]</value>
+      <webElementGuid>2054e541-8f66-4e3b-baab-4259d8a60b2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/ng-component/app-card/div/div/div/form/app-list/ul/app-list-item[2]/li/div</value>
+      <webElementGuid>eb120d8b-9617-4ae7-aded-9ba61dcf1c18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ubah Informasi Rekening Bank'])[1]/following::div[1]</value>
+      <webElementGuid>ba5934f3-a914-41cc-9415-fd90f6f33ec7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='muhammad.yusuf.ext@danamas.co.id'])[1]/following::div[2]</value>
+      <webElementGuid>93103c59-3367-4007-a28d-85851fda032f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beranda'])[1]/preceding::div[2]</value>
+      <webElementGuid>01ddb655-2d35-4b74-97b0-35200d98cb5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan'])[1]/preceding::div[3]</value>
+      <webElementGuid>5427a228-a5d7-4fff-b4f0-a3f5e5d9d7a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-list-item[2]/li/div</value>
+      <webElementGuid>bf755e18-80ac-420a-bbba-ec7709c61302</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Ubah Informasi Pribadi ' or . = ' Ubah Informasi Pribadi ')]</value>
+      <webElementGuid>050b80c5-0fed-4520-b1f4-6c90e98ba9ae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

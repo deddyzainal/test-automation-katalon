@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_provinsi</name>
+   <tag></tag>
+   <elementGuidId>f5e29975-b68a-441d-94be-de9e1e6e5c83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-control.cursor-pointer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/ng-component/form/application-address/app-form-group/div/div/app-auto-complete/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Pilih provinsi ' or . = ' Pilih provinsi ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ca865bda-1596-4735-9996-37424f4e484e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control cursor-pointer</value>
+      <webElementGuid>322df7bd-61f4-4693-82a3-194cac5694b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Pilih provinsi </value>
+      <webElementGuid>d5b70250-4b64-4ed3-a46f-090dd38e71f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/application-address[@class=&quot;ng-pristine ng-invalid ng-star-inserted ng-touched&quot;]/app-form-group[1]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-auto-complete[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;auto-complete ng-star-inserted&quot;]/div[@class=&quot;form-control cursor-pointer&quot;]</value>
+      <webElementGuid>b079ef84-21f0-43df-bba0-2c474f1c6db2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/form/application-address/app-form-group/div/div/app-auto-complete/div/div</value>
+      <webElementGuid>4a373a12-5cf5-4bbb-a313-10cfc8d96548</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Provinsi'])[1]/following::div[3]</value>
+      <webElementGuid>79dd0ce7-805d-4c5d-b1fb-cf82bd13c4c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data tidak boleh kosong'])[2]/following::div[4]</value>
+      <webElementGuid>2c08708d-556e-42c9-9275-af09618d7b14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota/Kabupaten'])[1]/preceding::div[1]</value>
+      <webElementGuid>6d115da1-df33-4d4a-9904-963a4acd85a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih kota/kabupaten'])[1]/preceding::div[1]</value>
+      <webElementGuid>4d4ed126-73d3-433f-bb8a-34fc368fdfb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pilih provinsi']/parent::*</value>
+      <webElementGuid>054e4c96-2fa2-46da-bc9e-b4c943589dd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-auto-complete/div/div</value>
+      <webElementGuid>6723e2a1-9919-4e23-8edd-547f3f8922a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Pilih provinsi ' or . = ' Pilih provinsi ')]</value>
+      <webElementGuid>6ad0433c-f71b-439a-9897-eff7e768c56e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
