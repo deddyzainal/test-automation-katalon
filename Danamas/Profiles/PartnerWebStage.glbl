@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>partnerweb</name>
+   <name>PartnerWebStage</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
@@ -37,7 +37,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://stage-backoffice.lancar.id/'</initValue>
-      <name>url_backoffice</name>
+      <name>backofficeURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

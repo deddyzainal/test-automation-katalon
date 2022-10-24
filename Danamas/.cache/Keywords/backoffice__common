@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "keywordFileContentHash": "63520EA117D624F3A1CF5CBB843D2BC8",
-=======
-  "keywordFileContentHash": "2731253E625E8CEECA64760E3F926F39",
->>>>>>> master
+  "keywordFileContentHash": "A06E9A6EC316177A721DFD76FABBA852",
   "keywordClasses": [
     {
       "name": "backoffice.common",

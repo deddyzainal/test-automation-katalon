@@ -6,23 +6,28 @@
       "keywordMethods": [
         {
           "name": "closeCurrentApp",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "swipeLeft",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "swipeRight",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "swipeUp",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "swipeDown",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "pickDate",
@@ -66,10 +71,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
