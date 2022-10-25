@@ -117,11 +117,6 @@ WebUI.verifyElementNotPresent(findTestObject('FE/LancarWeb/Unggah Dokumen/Button
 WebUI.waitForElementVisible(findTestObject('FE/LancarWeb/Unggah Dokumen/Text - Pengajuan pinjaman telah diajukan'), 20)
 
 // Request document resubmission - PBB
-//WebUI.navigateToUrl(GlobalVariable.LancarBOMS)
-//CustomKeywords.'webHelper.WindowHandler.fullScreenMode'()
-//WebUI.callTestCase(findTestCase('FE/LancarWeb/Backoffice/Login BOMS'), [('emailBOMS') : GlobalVariable.CAemail, ('passwordBOMS') : GlobalVariable.CApwd], FailureHandling.STOP_ON_FAILURE)
-//WebUI.callTestCase(findTestCase('FE/LancarWeb/Kirim Ulang Dokumen/Trigger resubmit PBB document'), [:], FailureHandling.STOP_ON_FAILURE)
-//WebUI.click(findTestObject('FE/LancarWeb/BOMS/Button - Log Out'))
 WebUI.callTestCase(findTestCase('FE/LancarMobile/Backoffice/Trigger IMB Resubmission'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Borrower resubmit IMB document
@@ -139,17 +134,6 @@ WebUI.callTestCase(findTestCase('FE/LancarWeb/Unggah Dokumen/Upload IMB'), [('IM
 WebUI.click(findTestObject('FE/LancarWeb/Unggah Dokumen/Button - KIRIM (enabled)'))
 
 // Approve loan and send Offer Letter
-//WebUI.navigateToUrl(GlobalVariable.LancarBOMS)
-//
-//CustomKeywords.'webHelper.WindowHandler.fullScreenMode'()
-//
-//WebUI.callTestCase(findTestCase('FE/LancarWeb/Backoffice/Login BOMS'), [('emailBOMS') : GlobalVariable.backofficeEmail, ('passwordBOMS') : GlobalVariable.backofficePassword], 
-//    FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.callTestCase(findTestCase('FE/LancarWeb/Kirim Surat Penawaran/Send Offer Letter'), [('collateralAddr') : 'Jl. Sahabat Baru no. 16'
-//        , ('collateralCertNo') : '1234567890', ('provisionRate') : '5', ('provisionAmount') : '5000000', ('lifeInsuranceFee') : '3000000'
-//        , ('fireInsuranceFee') : '1250000', ('notaryFee') : '1000000', ('advancePenalty') : '5', ('latePenalty') : '2'], 
-//    FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/LancarMobile/Backoffice/Approve loan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Accept Offer Letter
