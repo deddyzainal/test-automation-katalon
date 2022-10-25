@@ -56,10 +56,11 @@ WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Complete KTP data'), [(
 WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Upload Selfie dengan KTP'), [('pictureFilepath') : '/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/Foto_selfie_ktp.jpeg'], 
     FailureHandling.STOP_ON_FAILURE)
 
+// Upload KTP Pasangan
 WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Upload KTP Pasangan'), [('KTPpasanganFilepath') : '/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/DEBBY_ANGGRAINI.png'
         , ('namaPasangan') : 'Debby Anggraini', ('NIKpasangan') : '3114050501850036', ('dobYearPasangan') : '1985', ('dobMonthPasangan') : 'Januari'
         , ('dobDatePasangan') : '5'], FailureHandling.STOP_ON_FAILURE)
-
+// Upload KK
 WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Upload Kartu Keluarga'), [('KKfilepath') : '/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/kk.jpeg'], 
     FailureHandling.STOP_ON_FAILURE)
 

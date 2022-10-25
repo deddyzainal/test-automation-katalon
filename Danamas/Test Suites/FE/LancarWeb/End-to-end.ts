@@ -57,7 +57,7 @@
       <guid>248f181c-35a0-428b-b326-5ae2f85382ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/LancarWeb/E2E/Profil Bisnis with PBB resubmission</testCaseId>
+      <testCaseId>Test Cases/FE/LancarWeb/E2E/Profil Bisnis with IMB resubmission</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
