@@ -12,20 +12,14 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>a2555374-7dbc-4a8e-b72a-de8db6f22c88</testSuiteGuid>
    <testCaseLink>
-      <guid>4c05af87-af55-458b-b92d-314c21b1f05e</guid>
+      <guid>9daf2c09-d566-419b-8863-1e880218565d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Loan Origination</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>998b825c-ec5c-4f6f-a476-ecb93a54cb8a</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b45c3d6b-f7ce-4552-aba6-a6a926f0ae19</guid>
+      <guid>a100d900-704e-4fb6-bd22-700187330656</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Telesales - New Request</testCaseId>
@@ -38,14 +32,14 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>13731061-b0b3-4e96-bda8-2e4a84faa028</guid>
+      <guid>8084a29e-d94e-445a-80ab-55ecd618d70d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Loan Assessment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5efc3cd4-7c1c-471c-9e52-7f86726acdef</guid>
+      <guid>b573e017-d8c9-48d6-9267-3164fc1fe08d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Offer Letter</testCaseId>
@@ -59,11 +53,30 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>5d8a0009-4f6c-44eb-b86a-e66faa419c7f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Reaktivasi</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6845a9b1-f82b-4362-bbe2-ac92acc8960d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>c029114d-6a31-4d73-9fa3-c0049cda455c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4a85d544-64ca-453f-a2c9-dbfb227ceb92</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>79a608db-d083-4690-8028-029c6fff3937</guid>
@@ -108,36 +121,23 @@
    <testCaseLink>
       <guid>d4d9c141-d756-4d7a-9093-37782c138709</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Customer Management</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0c8d2efc-2c3d-4353-8a9c-887422975a0e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Data Export</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5d8a0009-4f6c-44eb-b86a-e66faa419c7f</guid>
+      <guid>dafaf920-e422-491c-9a95-ed66fb5db8ae</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/User Management</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c6403010-0b89-4785-8d9b-909be69aa858</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Reaktivasi</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6845a9b1-f82b-4362-bbe2-ac92acc8960d</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d3c0d0f7-7aff-4af7-812f-77f536085ebc</guid>
@@ -149,8 +149,21 @@
    <testCaseLink>
       <guid>7bb2c377-5e50-4768-b2c8-bc45c694d4f7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Audience List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cabc186b-5d49-4f01-af47-dc73102fadcf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Telesales - Additional Document</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>61b1ebcb-8859-4949-93e3-a6d62dab2204</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

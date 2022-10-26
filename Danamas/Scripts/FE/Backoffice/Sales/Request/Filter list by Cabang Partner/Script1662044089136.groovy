@@ -27,4 +27,4 @@ WebUI.click(findTestObject('FE/Backoffice/Sales/Request/List/Select - Cabang Par
 //Select option
 WebUI.click(findTestObject('FE/Backoffice/Sales/Request/List/Option - Cabang Partner', [('cabang_partner') : cabang_partner]))
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(2)

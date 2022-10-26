@@ -17,19 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+
+if (GlobalVariable.loanNumber == '') {
+	//Create loan
+	CustomKeywords.'backoffice.createLoan.loanPassed'()
+}
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Origination'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by ID Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Nama'), [('nama_peminjam') : 'Katalon ' + 
+        GlobalVariable.datetime], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Nama'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.refresh()
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by No Telepon'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by No Telepon'), [('no_telepon') : GlobalVariable.datetime], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.refresh()
 
@@ -57,7 +59,14 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Assign Telesales'), [('no_pinjaman') : no_pinjaman], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by ID Pinjaman'), [('no_pinjaman') : GlobalVariable.loanNumber],
+	FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Assign Telesales'), [('no_pinjaman') : GlobalVariable.loanNumber
+        , ('nama_telesales') : 'Meitri Delfiza'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by ID Pinjaman'), [('no_pinjaman') : GlobalVariable.loanNumber],
+	FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Open loan detail'), null, FailureHandling.STOP_ON_FAILURE)
 
@@ -81,8 +90,11 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab 
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Asuransi'), null, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Edit Asuransi'), null, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Riwayat Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Dokumen'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Riwayat Status Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
+

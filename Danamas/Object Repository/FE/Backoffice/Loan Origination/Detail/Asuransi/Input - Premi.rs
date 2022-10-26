@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button - Export</name>
+   <name>Input - Premi</name>
    <tag></tag>
-   <elementGuidId>e4ef2b97-d01e-4eeb-819a-41aee06c6b9d</elementGuidId>
+   <elementGuidId>3e14fb2b-6ac6-47a3-a29c-821ec969d7c3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[(text() = 'Export' or . = 'Export')]</value>
+         <value>//input[@formcontrolname = 'premi_fee_amount']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,15 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>d4ad0b0f-12d7-4e48-9b4c-87993dc5f299</webElementGuid>
+      <value>input</value>
+      <webElementGuid>ef1f09f8-3db3-49ad-8d47-0e2404873eca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>formcontrolname</name>
       <type>Main</type>
-      <value>Export</value>
-      <webElementGuid>76b9c947-7b02-4465-8842-a4e4d574bbc7</webElementGuid>
+      <value>premi_fee_amount</value>
+      <webElementGuid>5274eb86-ffd1-48bd-862a-c71a39da687f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

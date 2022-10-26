@@ -19,7 +19,7 @@ WebUI.selectOptionByLabel(findTestObject('FE/Backoffice/Data Export/Select - Yea
 WebUI.click(findTestObject('FE/Backoffice/Data Export/Date - To', [('tanggal') : to_date]))
 
 //Click button Export
-WebUI.click(findTestObject('FE/Backoffice/Data Export/Button - Export'))
+WebUI.click(findTestObject('FE/Backoffice/Data Export/Button - Ekspor Data'))
 
 WebUI.delay(5)
 

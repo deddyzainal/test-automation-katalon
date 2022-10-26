@@ -69,6 +69,7 @@ WebUI.setText(findTestObject('FE/Backoffice/Loan Assessment/Detail/Persetujuan A
 
 //Click button Save
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Persetujuan Akhir/Button - Save'), 3)
+WebUI.delay(2)
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Persetujuan Akhir/Button - Save'))
 
 //Verify success snackbar is shown
