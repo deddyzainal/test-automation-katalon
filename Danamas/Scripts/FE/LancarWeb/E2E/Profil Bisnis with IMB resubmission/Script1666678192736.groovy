@@ -1,19 +1,10 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
+
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
 // Register new borrower using API
 WebUI.callTestCase(findTestCase('BE/Register account'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -60,6 +51,7 @@ WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Upload Selfie dengan KT
 WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Upload KTP Pasangan'), [('KTPpasanganFilepath') : '/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/DEBBY_ANGGRAINI.png'
         , ('namaPasangan') : 'Debby Anggraini', ('NIKpasangan') : '3114050501850036', ('dobYearPasangan') : '1985', ('dobMonthPasangan') : 'Januari'
         , ('dobDatePasangan') : '5'], FailureHandling.STOP_ON_FAILURE)
+
 // Upload KK
 WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Upload Kartu Keluarga'), [('KKfilepath') : '/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/kk.jpeg'], 
     FailureHandling.STOP_ON_FAILURE)
