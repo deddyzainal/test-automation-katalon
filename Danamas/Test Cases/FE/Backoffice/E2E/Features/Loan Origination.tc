@@ -5,17 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a54de7d8-83c0-47d1-8614-bc1dce970469</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>998b825c-ec5c-4f6f-a476-ecb93a54cb8a</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>'KC-KFN-0922-23-0006'</defaultValue>
-      <description></description>
-      <id>998b825c-ec5c-4f6f-a476-ecb93a54cb8a</id>
-      <masked>false</masked>
-      <name>no_pinjaman</name>
-   </variable>
 </TestCaseEntity>

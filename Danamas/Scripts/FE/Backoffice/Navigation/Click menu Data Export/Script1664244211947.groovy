@@ -22,6 +22,6 @@ WebUI.click(findTestObject('FE/Backoffice/Navigation/Menu - Data Export'))
 
 WebUI.waitForPageLoad(5)
 
-//Verify button Data Export is visible
-WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Data Export/Button - Export'), FailureHandling.STOP_ON_FAILURE)
+//Verify button Expor Data is visible
+WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Data Export/Button - Ekspor Data'), FailureHandling.STOP_ON_FAILURE)
 

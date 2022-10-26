@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "30F9D9B95EE86AC2E15FFFA942ACE72A",
+  "keywordClasses": [
+    {
+      "name": "backoffice.createLoan",
+      "keywordMethods": [
+        {
+          "name": "loanPassed",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "loanSubmitted",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

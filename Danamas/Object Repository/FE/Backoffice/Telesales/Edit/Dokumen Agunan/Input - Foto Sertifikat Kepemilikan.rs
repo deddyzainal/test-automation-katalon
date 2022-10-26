@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Foto sertifikat kepemilikan (SHM/SHGB/SHMSRS)']/following-sibling::app-drag-input-file/div[contains(@class, 'container-upload')]</value>
+         <value>//label[text()='Foto sertifikat kepemilikan (SHM/SHGB/SHMSRS)']/following-sibling::app-drag-input-file/div[contains(@class, 'container-upload') and not(@hidden)]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [('email') : GlobalVariable.emailCA, ('password') : GlobalVariable.passwordCA], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Credit Analyst'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Credit Analyst/Filter by ID Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)

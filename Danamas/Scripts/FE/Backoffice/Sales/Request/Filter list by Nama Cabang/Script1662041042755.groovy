@@ -27,7 +27,7 @@ WebUI.click(findTestObject('FE/Backoffice/Sales/Request/List/Select - Nama Caban
 //Select option
 WebUI.click(findTestObject('FE/Backoffice/Sales/Request/List/Option - Nama Cabang', [('nama_cabang') : nama_cabang]))
 
-WebUI.waitForPageLoad(3)
+WebUI.delay(3)
 
 //Verify Nama Cabang/Mitra value on the list match with selected option
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Sales/Request/List/TextValue - Nama Cabang Mitra'), nama_cabang, FailureHandling.STOP_ON_FAILURE)

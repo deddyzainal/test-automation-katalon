@@ -17,39 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-if(GlobalVariable.loanNumber == '') {
-	//Register account
-	WebUI.callTestCase(findTestCase('BE/Register account'), null, FailureHandling.STOP_ON_FAILURE)
-	
-	//Login
-	WebUI.callTestCase(findTestCase('BE/Borrower/Login'), null, FailureHandling.STOP_ON_FAILURE)
-	
-	//Update user
-	WebUI.callTestCase(findTestCase('BE/Borrower/Update user'), null, FailureHandling.STOP_ON_FAILURE)
-	
-	//Submit loan
-	WebUI.callTestCase(findTestCase('BE/Borrower/Submit loan'), null, FailureHandling.STOP_ON_FAILURE)
-	
-	WebUI.delay(30)
-	
-	WebUI.callTestCase(findTestCase('BE/Borrower/Verification schedule'), null, FailureHandling.STOP_ON_FAILURE)
+if (GlobalVariable.loanNumber == '') {
+	//Create loans
+	CustomKeywords.'backoffice.createLoan.loanSubmitted'()
 }
-
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Assessment'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by Nama Peminjam'), [('nama_peminjam') : 'Katalon ' + 
-        GlobalVariable.datetime], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by Nama Peminjam'), [('nama_peminjam') : 'Katalon ' +
+		GlobalVariable.datetime], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Pinjaman'), [('no_pinjaman') : GlobalVariable.loanNumber], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.refresh()
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Telepon'), [('no_telepon') : GlobalVariable.datetime], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Telepon'), [('no_telepon') : GlobalVariable.datetime],
+	FailureHandling.STOP_ON_FAILURE)
 
 WebUI.refresh()
 
@@ -57,11 +38,12 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by St
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Pinjaman'), [('no_pinjaman') : GlobalVariable.loanNumber], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Pinjaman'), [('no_pinjaman') : GlobalVariable.loanNumber],
+	FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Assign Credit Analyst'), [('no_pinjaman') : GlobalVariable.loanNumber
-        , ('nama_credit_analyst') : 'Meitri Delfiza'], FailureHandling.STOP_ON_FAILURE)
+		, ('nama_credit_analyst') : 'Meitri Delfiza'], FailureHandling.STOP_ON_FAILURE)
+
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Open assessment detail'), null, FailureHandling.STOP_ON_FAILURE)
 
@@ -82,4 +64,3 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Edit Pasca
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Edit Persetujuan Akhir'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Approve loan'), null, FailureHandling.STOP_ON_FAILURE)
-
