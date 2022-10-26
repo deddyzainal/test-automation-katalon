@@ -43,7 +43,7 @@
       <guid>3bef35fc-1893-4b0b-a075-450f54710ee9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Beranda/Tentang Produk</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Beranda/Daftar Produk</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -57,5 +57,12 @@
          <value></value>
          <variableId>1f339aaa-9855-4986-b78f-399ef66fc0f8</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a9b33838-03c0-451e-ac72-d0570c4cf8c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Beranda/Detail Performa</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

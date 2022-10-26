@@ -36,7 +36,8 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Document resubmission'), [('n
 
 WebUI.callTestCase(findTestCase('FE/Partner/Send Document/Resubmission Document'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Request additional document'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Request additional document'), [('nama_peminjam') : 'Joko Santoso2'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Send Document/Requested Additional Document'), [:], FailureHandling.STOP_ON_FAILURE)
 

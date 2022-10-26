@@ -4,8 +4,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.PartnerWeb)
 
+//WebUI.setViewPortSize(414, 896)
 CustomKeywords.'webHelper.WindowHandler.fullScreenMode'()
-
 // Open Login page
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Login/Selamat datang di Partner App'), 5)
 
@@ -29,6 +29,4 @@ WebUI.setEncryptedText(findTestObject('FE/PARTNER/Login/input_Kata Sandi'), kata
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Login/button_MasukLogin'), 5)
 
 WebUI.click(findTestObject('FE/PARTNER/Login/button_MasukLogin'))
-
-//WebUI.verifyElementPresent(findTestObject('FE/PARTNER/Login/Hi, nama'), 2)
 
