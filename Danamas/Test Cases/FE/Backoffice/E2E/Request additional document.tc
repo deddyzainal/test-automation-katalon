@@ -12,10 +12,10 @@
       <variableId>40cdf3a0-e206-4d9a-bc7c-bb54f49fc0ae</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'KC-KFN-0922-26-0002'</defaultValue>
+      <defaultValue>'Joko Santoso2'</defaultValue>
       <description></description>
       <id>40cdf3a0-e206-4d9a-bc7c-bb54f49fc0ae</id>
       <masked>false</masked>
-      <name>no_pinjaman</name>
+      <name>nama_peminjam</name>
    </variable>
 </TestCaseEntity>

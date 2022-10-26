@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Tentang Produk</name>
+   <name>Daftar Produk</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>62407f71-c04e-46f4-b503-51624f6e1f09</testCaseGuid>
@@ -18,7 +18,7 @@
       <variableId>1f339aaa-9855-4986-b78f-399ef66fc0f8</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'pinjaman beragunan properti'</defaultValue>
+      <defaultValue>'dana express'</defaultValue>
       <description></description>
       <id>a1f6830b-fe19-4893-85c9-1b13feda4591</id>
       <masked>false</masked>

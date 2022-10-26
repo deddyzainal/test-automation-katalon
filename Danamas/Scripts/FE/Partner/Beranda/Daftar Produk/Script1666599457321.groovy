@@ -86,7 +86,7 @@ WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Input Data - Informasi Peker
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Input Data - Informasi Pinjaman'), [('nilai_Agunan') : '1000000000', ('jumlah_pinjaman') : '100000000'
-        , ('tipepeminjam') : 'individual', ('tujuanpinjaman') : 'pribadi', ('tenor') : '120', ('badge') : GlobalVariable.badge], 
+        , ('tipepeminjam') : 'individual', ('tujuanpinjaman') : 'pribadi', ('tenor') : '10', ('badge') : GlobalVariable.badge], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent('Pengajuan pinjaman telah berhasil di kirim untuk pre-screening!', false)

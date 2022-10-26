@@ -26,17 +26,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'stg_ca@danamas.co.id'</initValue>
+      <initValue>'regy.ginting@danamas.co.id'</initValue>
       <name>BackofficeEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'NKAHewjCsCvdggNkUy5Ovw=='</initValue>
+      <initValue>'kfdCZcbjYhMC6Na7fNdtvg=='</initValue>
       <name>BackofficePassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://stage-backoffice.lancar.id/'</initValue>
+      <initValue>'https://alpha-backoffice.lancar.id/'</initValue>
       <name>backofficeURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
