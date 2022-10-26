@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Click data on the list
-WebUI.click(findTestObject('Object Repository/FE/Backoffice/Sales/Branch/List/DataTable - Row 1'))
+WebUI.click(findTestObject('FE/Backoffice/Sales/Branch/List/DataTable - Row 1'))
 
 WebUI.waitForPageLoad(3)
 

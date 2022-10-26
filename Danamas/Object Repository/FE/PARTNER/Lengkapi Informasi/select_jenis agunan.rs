@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_jenis agunan</name>
+   <tag></tag>
+   <elementGuidId>b40b8127-7a12-4969-b546-d02031022cbb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@auto_name=&quot;collateral_type&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Pilih status perkawinan  Belum kawin  Kawin  Cerai Hidup  Cerai Mati ' or . = ' Pilih status perkawinan  Belum kawin  Kawin  Cerai Hidup  Cerai Mati ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-select.app-drop-down-select.ng-untouched.ng-pristine.ng-invalid.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>3ccfcb98-61f1-429b-8e3b-57debdf35c8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select app-drop-down-select ng-untouched ng-pristine ng-invalid ng-star-inserted</value>
+      <webElementGuid>e47ab5ef-d76d-4e92-8d28-8d211335a7ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>marital_status</value>
+      <webElementGuid>face9b6d-0cad-41c0-a5b6-b1b0b8f11a69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Pilih status perkawinan  Belum kawin  Kawin  Cerai Hidup  Cerai Mati </value>
+      <webElementGuid>6631de20-35b0-43bc-958b-0a220a83bd91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-star-inserted ng-touched&quot;]/app-form-group[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-select[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/select[@class=&quot;form-select app-drop-down-select ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]</value>
+      <webElementGuid>05b6d313-a701-4760-b287-5ac0f6587aa1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/form/app-form-group[11]/div/div/app-select/select</value>
+      <webElementGuid>a567f6b4-30fb-4046-957e-9a236b676788</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status Perkawinan'])[1]/following::select[1]</value>
+      <webElementGuid>f7ecc1a4-c139-4161-98ff-92ff1ece2643</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data tidak boleh kosong'])[7]/following::select[1]</value>
+      <webElementGuid>2dad7841-9387-46fa-900c-d2716c7c194c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan'])[1]/preceding::select[1]</value>
+      <webElementGuid>b247f4f9-4a7d-4c3f-910b-ed86fbc8556c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[11]/div/div/app-select/select</value>
+      <webElementGuid>81cebf6e-4139-4bc2-aba2-e6bd152821e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = ' Pilih status perkawinan  Belum kawin  Kawin  Cerai Hidup  Cerai Mati ' or . = ' Pilih status perkawinan  Belum kawin  Kawin  Cerai Hidup  Cerai Mati ')]</value>
+      <webElementGuid>ce4501f5-694e-43ee-9206-8bd7b48d9bd9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

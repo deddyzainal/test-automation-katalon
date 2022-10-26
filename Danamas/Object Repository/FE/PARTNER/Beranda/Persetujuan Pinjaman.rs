@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Persetujuan Pinjaman</name>
+   <tag></tag>
+   <elementGuidId>870b221e-f085-4d10-bdc9-fe6045300f52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox' and @id = 'rDyL']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'checkbox' and @auto_name=&quot;agreement&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#rDyL</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>bbd9fb20-384c-45e8-a372-0cef87a923f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>e6a175f8-5664-45af-b23f-2d115625e174</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-input ng-untouched ng-dirty ng-valid</value>
+      <webElementGuid>fb546e66-130c-4e80-ae1c-61993fafd946</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>rDyL</value>
+      <webElementGuid>d0fb5c8d-b032-494f-9ae4-2ebbe38ec75a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>agreement</value>
+      <webElementGuid>9f2824e3-8dd6-4d25-ba5b-8fe263e8cbe0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rDyL&quot;)</value>
+      <webElementGuid>76022881-9417-44b2-a7ed-f72dafa710d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='rDyL']</value>
+      <webElementGuid>3e5b1475-4b32-455c-934c-e23f89e59bbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/form/app-form-group[7]/div/div/app-checkbox/div/input</value>
+      <webElementGuid>04076cc2-2c83-45a2-8c6f-2afe317be2d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Formulir Persetujuan Pinjaman'])[1]/following::input[1]</value>
+      <webElementGuid>03a404ca-4392-423c-9f41-ed43c4529c76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unggah Foto Formulir Persetujuan Pinjaman'])[1]/following::input[1]</value>
+      <webElementGuid>5dc1c242-9d8e-4252-ace0-de0e6470e608</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim'])[1]/preceding::input[1]</value>
+      <webElementGuid>1ad9546f-a0d3-48aa-9229-ea7740c72652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-checkbox/div/input</value>
+      <webElementGuid>1a08e033-6c69-4adb-9946-3c3d85843cb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//*[@type = 'checkbox' and @auto_name=&quot;agreement&quot;]</value>
+      <webElementGuid>09f8b924-a5e2-4c15-a35d-1ed41230d09f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

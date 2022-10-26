@@ -17,6 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+if(WebUI.verifyElementNotPresent(findTestObject('FE/Backoffice/Navigation/Menu - Credit Analyst'), 3, FailureHandling.OPTIONAL)) {
+	//Click menu Task List
+	WebUI.click(findTestObject('FE/Backoffice/Navigation/Menu - Task List'))
+	WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Navigation/Menu - Credit Analyst'), 3, FailureHandling.STOP_ON_FAILURE)
+}
+
 //Click menu Telesales
 WebUI.click(findTestObject('FE/Backoffice/Navigation/Menu - Credit Analyst'))
 

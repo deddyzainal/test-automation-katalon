@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img buat pengajuan</name>
+   <tag></tag>
+   <elementGuidId>d8ac15bd-3e74-4248-a776-4b3c5211791b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;createLoan&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@alt = 'createLoan']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/ng-component/div/div[2]/ul/li/a/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>1702c99d-bacb-48fe-bb6e-915bd4b789b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://cdn.lancar.id/public/fassets/Production-V1/Icons/Ic_New_Application.png</value>
+      <webElementGuid>71ac0d19-7df2-4c69-bee2-33c45d2d5e97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>createLoan</value>
+      <webElementGuid>98518c13-5bed-4541-ac45-4e2044084cd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;home&quot;]/div[@class=&quot;body&quot;]/ul[@class=&quot;menu-list&quot;]/li[@class=&quot;menu-item ng-star-inserted&quot;]/a[@class=&quot;menu-link&quot;]/div[@class=&quot;icon-wrap&quot;]/img[1]</value>
+      <webElementGuid>ac8b2a59-21b5-4e43-8659-6db59f9779f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/ng-component/div/div[2]/ul/li/a/div/img</value>
+      <webElementGuid>7f885243-40a0-4bcd-9636-1b4057d64c93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Detail'])[1]/following::img[1]</value>
+      <webElementGuid>3f7f4069-45a2-4752-8612-6192b3061704</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buat Pengajuan'])[1]/preceding::img[1]</value>
+      <webElementGuid>4c56c97e-3281-4935-8e69-203226dfef3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Panduan'])[1]/preceding::img[2]</value>
+      <webElementGuid>04d154a6-3270-4e08-a8bd-d3c22ffbda1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='createLoan']</value>
+      <webElementGuid>564d64e5-01db-43d6-8b51-1a081744a330</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>ad56f82f-73c8-47df-844f-de803401d1df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://cdn.lancar.id/public/fassets/Production-V1/Icons/Ic_New_Application.png' and @alt = 'createLoan']</value>
+      <webElementGuid>e11e87a8-11a2-496e-8534-94ec7d0b950f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

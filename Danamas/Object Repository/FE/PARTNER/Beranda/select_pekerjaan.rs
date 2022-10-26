@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_pekerjaan</name>
+   <tag></tag>
+   <elementGuidId>88f5a87f-fd4d-481f-8276-52ae4a8e1dfd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-select.app-drop-down-select.ng-untouched.ng-pristine.ng-invalid.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/ng-component/form/app-form-group/div/div/app-select/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>91ae58e8-4653-49ee-8e0e-f2c3d098c98e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select app-drop-down-select ng-untouched ng-pristine ng-invalid ng-star-inserted</value>
+      <webElementGuid>acdceba5-1732-4de0-824a-201814b5958f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>job</value>
+      <webElementGuid>e3230685-3aed-4027-9303-24529ebbb583</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Pilih pekerjaan  Saya memiliki bisnis  Saya pekerja profesional  Saya pegawai tetap </value>
+      <webElementGuid>08414f19-edd4-4a88-bc64-545b39049493</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/app-form-group[1]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-select[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/select[@class=&quot;form-select app-drop-down-select ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]</value>
+      <webElementGuid>974f10b7-366f-4f11-ac86-96b42ff25411</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/form/app-form-group/div/div/app-select/select</value>
+      <webElementGuid>fc3cada5-ff6c-47b6-b08c-a0705b82e2c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pekerjaan Peminjam'])[1]/following::select[1]</value>
+      <webElementGuid>e16aba1b-70f9-4b39-9938-9524bebc1723</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Pekerjaan'])[1]/following::select[1]</value>
+      <webElementGuid>5657a4de-133d-44f9-9425-3fbd30443ef5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail Pekerjaan'])[1]/preceding::select[1]</value>
+      <webElementGuid>bc8b1a33-cdb0-4690-84d4-9044a289f5f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lama Bekerja/Usaha'])[1]/preceding::select[2]</value>
+      <webElementGuid>1032e8f0-e0cd-4781-ad46-e2ca5408b55f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>d10baf83-f193-41f3-b39d-698922193b54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = ' Pilih pekerjaan  Saya memiliki bisnis  Saya pekerja profesional  Saya pegawai tetap ' or . = ' Pilih pekerjaan  Saya memiliki bisnis  Saya pekerja profesional  Saya pegawai tetap ')]</value>
+      <webElementGuid>ae835f36-7483-454f-91b7-152c556f5151</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

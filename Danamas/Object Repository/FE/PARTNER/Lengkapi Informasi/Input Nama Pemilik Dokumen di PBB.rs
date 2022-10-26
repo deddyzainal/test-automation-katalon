@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input Nama Pemilik Dokumen di PBB</name>
+   <tag></tag>
+   <elementGuidId>4b5613ef-a9d8-487b-a0a6-176e1111c184</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='tel'])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@auto_name = 'owner_name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>app-input.ng-untouched.ng-pristine.ng-invalid > div.input-group.app-input-group.ng-star-inserted > input.form-control</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>aba528ca-d622-484d-bff7-6dd500af6d86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>a4d3c3cc-f1b9-47de-baee-43d2795cfbf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukkan luas bangunan</value>
+      <webElementGuid>d27bff30-ab3a-478d-8406-86bc6e9e6978</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>023374c7-6218-4626-bbfb-c7e5d6a07d08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>owner_name</value>
+      <webElementGuid>25250d61-0dcd-4b49-9a40-ecccf638a3ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-star-inserted ng-touched&quot;]/app-form-group[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-input[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;input-group app-input-group ng-star-inserted&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>f709ed06-4c65-4e59-ab8b-38792ce386cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='tel'])[2]</value>
+      <webElementGuid>3f4e5304-0b25-4789-8bf9-13d8df1c2d8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/form/app-form-group[6]/div/div/app-input/div/input</value>
+      <webElementGuid>27b22a92-3dcf-46de-80e8-5d80d6e326f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[6]/div/div/app-input/div/input</value>
+      <webElementGuid>47bd9fc6-e2f7-47d5-813c-5cc2e917921b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Masukkan NIK' and @type = 'tel']</value>
+      <webElementGuid>74c35383-75b2-4baa-a7f2-3dee7123f870</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

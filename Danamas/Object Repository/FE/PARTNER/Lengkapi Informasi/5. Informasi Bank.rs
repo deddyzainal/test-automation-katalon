@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>5. Informasi Bank</name>
+   <tag></tag>
+   <elementGuidId>5eb29796-30bc-4f3f-9d0e-2e0bb3086f8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/ng-component/app-list/ul/app-list-item[5]/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>8fdd9783-d0f1-49bb-aae3-7cd05207e69e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-group-item border-0 mb-3 px-3 rounded ng-star-inserted</value>
+      <webElementGuid>e44dbb7c-a01b-41c0-b1a1-84d70046c350</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 5  Informasi Bank </value>
+      <webElementGuid>162ca6e6-2069-490a-a240-4aa593e696b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/app-list[1]/ul[@class=&quot;app-list list-group&quot;]/app-list-item[@class=&quot;ng-star-inserted&quot;]/li[@class=&quot;list-group-item border-0 mb-3 px-3 rounded ng-star-inserted&quot;]</value>
+      <webElementGuid>32c20866-2e12-4ed9-b592-d32bfe2b8723</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/app-list/ul/app-list-item[5]/li</value>
+      <webElementGuid>15825f7e-e14f-4815-92f8-d4436bc8bc47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Agunan'])[1]/following::li[1]</value>
+      <webElementGuid>88c2b234-0c44-4b26-a96c-12ed099fc116</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak Darurat'])[1]/following::li[2]</value>
+      <webElementGuid>571c336a-934b-4239-be1f-8e83c99afa24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bukti Keuangan'])[1]/preceding::li[1]</value>
+      <webElementGuid>b6eae7e0-5d52-4784-944e-539477d54250</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-list-item[5]/li</value>
+      <webElementGuid>28007758-c842-4214-9882-9344a0a5f094</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = ' 5  Informasi Bank ' or . = ' 5  Informasi Bank ')]</value>
+      <webElementGuid>4a638572-3f40-4c94-85b4-d0c861e4c0e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

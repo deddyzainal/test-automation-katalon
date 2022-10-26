@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Notification Settings'), null, FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Audience List'), null, FailureHandling.STOP_ON_FAILURE)
 
@@ -48,6 +46,3 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Audience List/Detail/Edit audienc
 WebUI.callTestCase(findTestCase('FE/Backoffice/Audience List/List/Filter by Nama Audien'), [('nama_audien') : 'Audience3 ' + datetime], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Audience List/List/Delete audience'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
-

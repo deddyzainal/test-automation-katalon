@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register User AS Branch - Relationship Manager</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f430385f-2056-4b94-971e-eded49082f69</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>069a7c83-24b1-4aeb-9e2b-869c2fefd865</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'branch'</defaultValue>
+      <description></description>
+      <id>069a7c83-24b1-4aeb-9e2b-869c2fefd865</id>
+      <masked>false</masked>
+      <name>Agen</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_sumber pendapatan</name>
+   <tag></tag>
+   <elementGuidId>dc2d60c8-69ad-4055-8224-699b037fe1e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-select.app-drop-down-select.ng-untouched.ng-pristine.ng-invalid.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/ng-component/form/app-form-group[4]/div/div/app-select/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>25d7313b-bc44-4a1b-a1f1-4a2346220896</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select app-drop-down-select ng-untouched ng-pristine ng-invalid ng-star-inserted</value>
+      <webElementGuid>1ec0437b-c052-4411-93bc-4111b542903e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>source_of_income</value>
+      <webElementGuid>1f934333-1ba3-465b-b1d8-9ad255fcf584</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Pilih sumber pendapatan  Gaji  Hasil Bisnis  Hasil Investasi  Dana Hibah  Lain-lain </value>
+      <webElementGuid>b2572abe-8fc6-4a54-ae79-92acefdac293</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/app-form-group[4]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-select[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/select[@class=&quot;form-select app-drop-down-select ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]</value>
+      <webElementGuid>f8091c95-85c4-4237-a7f9-6bd22277df9c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/form/app-form-group[4]/div/div/app-select/select</value>
+      <webElementGuid>aef8dd5e-a584-4479-af0b-f6f80d853c14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sumber Pendapatan'])[1]/following::select[1]</value>
+      <webElementGuid>eec2d80e-aa23-448b-8f93-c5edc39c2e81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data tidak boleh kosong'])[3]/following::select[1]</value>
+      <webElementGuid>e012181e-824c-442c-b1f3-6088a0af224b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pendapatan Bulanan'])[1]/preceding::select[1]</value>
+      <webElementGuid>fda74a84-2316-4a32-8ddd-9fe9a93c4186</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[1]/preceding::select[1]</value>
+      <webElementGuid>1bfeaa78-f11d-459c-8bd2-eec4f1ba7da7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[4]/div/div/app-select/select</value>
+      <webElementGuid>7c0d73eb-5226-4756-9b8e-15f31c9fe665</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = ' Pilih sumber pendapatan  Gaji  Hasil Bisnis  Hasil Investasi  Dana Hibah  Lain-lain ' or . = ' Pilih sumber pendapatan  Gaji  Hasil Bisnis  Hasil Investasi  Dana Hibah  Lain-lain ')]</value>
+      <webElementGuid>886640cd-66dc-4eab-9913-32eaceff41e4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

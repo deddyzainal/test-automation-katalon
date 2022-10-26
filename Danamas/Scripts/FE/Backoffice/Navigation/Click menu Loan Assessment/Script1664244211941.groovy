@@ -17,8 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+if(WebUI.verifyElementNotPresent(findTestObject('FE/Backoffice/Navigation/Menu - Loan Assessment'), 3, FailureHandling.OPTIONAL)) {
+	//Click menu Data & Prospect
+	WebUI.click(findTestObject('FE/Backoffice/Navigation/Menu - Data and Prospect'))
+	WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Navigation/Menu - Loan Assessment'), 3, FailureHandling.STOP_ON_FAILURE)
+}
+
 //Click Loan Assessment menu
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Navigation/Menu - Loan Assessment'), 3)
 WebUI.click(findTestObject('FE/Backoffice/Navigation/Menu - Loan Assessment'))
 
 WebUI.waitForPageLoad(5)

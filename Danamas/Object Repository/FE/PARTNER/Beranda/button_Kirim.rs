@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Kirim</name>
+   <tag></tag>
+   <elementGuidId>863f65e0-f7b7-4da2-a07c-24195481a0c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Kirim ' or . = ' Kirim ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//footer[@id='footer']/div/app-button/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.btn-md</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e82cc389-86e5-4955-b714-cc476369eb41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-md</value>
+      <webElementGuid>c6af6bca-772f-4cde-91c0-7638bdc67e0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Kirim </value>
+      <webElementGuid>997759c7-592d-4110-9147-af49b578efb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;footer&quot;)/div[@class=&quot;d-grid p-3&quot;]/app-button[1]/button[@class=&quot;btn btn-primary btn-md&quot;]</value>
+      <webElementGuid>14e87599-8dc2-4b3f-ac77-6f96d53f52e5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//footer[@id='footer']/div/app-button/button</value>
+      <webElementGuid>aeed384c-8c45-457b-b37f-3bec3637c349</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Formulir Persetujuan Pinjaman'])[1]/following::button[1]</value>
+      <webElementGuid>ddb9ebc3-38a8-443a-8836-05543e980690</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>2e2f11e4-dbfe-4503-9a38-73fe41fe854a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Kirim ' or . = ' Kirim ')]</value>
+      <webElementGuid>32c633bf-450f-447c-acab-f6c422560bdb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

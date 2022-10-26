@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Make New Loan using existing NIK</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>967d1250-ab9b-4009-8fe0-3ac08b58cef6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7445d74c-fb70-4c2e-99ae-d1f5515c9395</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'3114050501850036'</defaultValue>
+      <description></description>
+      <id>7445d74c-fb70-4c2e-99ae-d1f5515c9395</id>
+      <masked>false</masked>
+      <name>nik</name>
+   </variable>
+</TestCaseEntity>

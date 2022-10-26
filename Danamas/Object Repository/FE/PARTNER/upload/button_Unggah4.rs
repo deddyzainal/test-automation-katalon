@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Unggah4</name>
+   <tag></tag>
+   <elementGuidId>d9ba1ed7-d38b-4576-9986-52e55fbbd7f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button [contains (text(), 'Unggah File')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(//input[contains(@accept,&quot;.jpg,.png,.jpeg&quot;)])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-light.btn-md</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//input[contains(@accept,&quot;.jpg,.png,.jpeg&quot;)])[2]</value>
+      <webElementGuid>3a5dd352-a0cf-4794-9d58-f76e335ac10a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>6381ef4f-558b-40b3-8757-9f0f6d8a6712</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto selfie dengan KTP'])[2]/following::button[1]</value>
+      <webElementGuid>99cf610b-1995-4b0f-9260-a45b7921ec8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan'])[1]/following::button[1]</value>
+      <webElementGuid>35eeaa6f-731a-4880-9ad7-8dbb984bf73a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Unggah File']/parent::*</value>
+      <webElementGuid>a1f298f2-0717-4593-b6e6-63d794525c2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/app-button/button</value>
+      <webElementGuid>9ba94731-c134-479a-accc-8136151425a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Unggah File ' or . = ' Unggah File ')]</value>
+      <webElementGuid>e869a360-cf1b-4dac-bdee-ba3acbe917ad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

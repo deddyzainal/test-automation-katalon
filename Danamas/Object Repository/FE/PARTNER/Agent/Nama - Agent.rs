@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Nama - Agent</name>
+   <tag></tag>
+   <elementGuidId>747b9a14-5a81-471f-b431-4a754c8dd2a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/ng-component/ul/li/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.item-header</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6449cdf5-aeac-4332-b006-30e792445ab5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-header</value>
+      <webElementGuid>3e230fa8-4184-4358-b21b-1dc65e8b56ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>bambang</value>
+      <webElementGuid>9aede6cc-3088-47ec-92b1-144f7797eda6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/ul[@class=&quot;freelancer-list&quot;]/li[@class=&quot;freelancer-list-item ng-star-inserted&quot;]/div[@class=&quot;item-header&quot;]</value>
+      <webElementGuid>3d3c733c-49f9-4a12-90b1-9d72aab3e9cf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/ng-component/ul/li/div</value>
+      <webElementGuid>42e91696-ba7b-4321-a75c-eae5c6996388</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Agen'])[1]/following::div[5]</value>
+      <webElementGuid>6f69da1c-7087-4f98-8c24-5803bbfeb364</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Bergabung'])[1]/preceding::div[1]</value>
+      <webElementGuid>daf4aedb-2744-4ee7-9f05-442f540813f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div</value>
+      <webElementGuid>9c357c08-392b-4831-badf-0fb6d88bbfc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'bambang' or . = 'bambang')]</value>
+      <webElementGuid>2d6cb8aa-de41-4cc8-99e1-30fd28343a18</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

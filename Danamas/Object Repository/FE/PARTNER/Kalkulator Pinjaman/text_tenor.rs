@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_tenor</name>
+   <tag></tag>
+   <elementGuidId>8db35f18-6ad0-4b89-9837-da108f5e6f54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>app-select.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/app-card/div/div/div/form/app-form-group[3]/div/div/app-select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>app-select</value>
+      <webElementGuid>0d8bac96-0ea3-4877-aa2b-2fb90e6fe68d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>tenure</value>
+      <webElementGuid>b2559185-5372-40d5-a53b-e25fe5fa4fc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>7e6fbf31-6405-4b41-a144-5a57205ae363</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 3
+</value>
+      <webElementGuid>ac6de3ae-3445-440b-8e59-742bb0b1edf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/app-card[@class=&quot;ng-tns-c79-6 ng-star-inserted&quot;]/div[@class=&quot;card app-card ng-tns-c79-6&quot;]/div[@class=&quot;ng-tns-c79-6 ng-trigger ng-trigger-expandCollapse&quot;]/div[@class=&quot;card-body ng-tns-c79-6&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid ng-tns-c79-6 ng-star-inserted&quot;]/app-form-group[3]/div[@class=&quot;form-group row mb-4&quot;]/div[@class=&quot;font-weight-500 col-12&quot;]/app-select[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>17e7fa48-3384-4130-9e8a-3e029808da4b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div/div/form/app-form-group[3]/div/div/app-select</value>
+      <webElementGuid>7ece83b7-da58-4a4a-8ee1-18d87e06cb68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor (Tahun)'])[1]/following::app-select[1]</value>
+      <webElementGuid>c549b0a2-b66f-465f-b2ba-eae8f1d00f0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 75,000,000'])[1]/following::app-select[1]</value>
+      <webElementGuid>8359f7c0-e633-42f5-b5ba-8c7e911533b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suku Bunga'])[1]/preceding::app-select[1]</value>
+      <webElementGuid>edb038e5-a7dc-4742-829c-d86e26da8009</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pembayaran Bulanan'])[1]/preceding::app-select[1]</value>
+      <webElementGuid>7e40f1a4-54da-4ae5-af5c-06414817fea9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-select</value>
+      <webElementGuid>b6cf3b3a-69ba-41f8-8cee-307f428060f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//app-select[(text() = ' 3
+' or . = ' 3
+')]</value>
+      <webElementGuid>3b1c2181-0720-4117-b89b-4325484bd7b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

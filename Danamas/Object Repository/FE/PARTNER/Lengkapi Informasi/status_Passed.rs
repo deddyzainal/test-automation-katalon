@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>status_Passed</name>
+   <tag></tag>
+   <elementGuidId>852eb20c-70b5-4514-883c-93efa9af77be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/ng-component/div[2]/app-tab/div/div[2]/app-tab-item/div/app-list-loan/app-list-loan-item/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.application-card</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'application-card']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6a07beb9-ecce-4059-a6f7-e0c02805188f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>application-card</value>
+      <webElementGuid>953a6f6c-cd30-43a1-b672-d5d827d95f0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Passed 12-09-2022 gdghJumlah PinjamanRp213,131,111ID PinjamanKC-KFO-0922-12-0003Produk Pinjaman Beragunan Properti  Lolos pre-screening </value>
+      <webElementGuid>7687fff9-fc52-4249-a54a-162e016f7950</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mb-5&quot;]/app-tab[1]/div[@class=&quot;tab&quot;]/div[@class=&quot;tab-body&quot;]/app-tab-item[@class=&quot;ng-tns-c90-5 ng-star-inserted&quot;]/div[@class=&quot;tab-item ng-tns-c90-5 ng-trigger ng-trigger-slider ng-star-inserted&quot;]/app-list-loan[@class=&quot;ng-tns-c96-7 ng-tns-c90-5 ng-star-inserted&quot;]/app-list-loan-item[@class=&quot;ng-tns-c96-7 ng-star-inserted&quot;]/div[@class=&quot;application-card&quot;]</value>
+      <webElementGuid>b7626da1-f6fa-4ee5-a2ea-4752a433ee68</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/ng-component/div[2]/app-tab/div/div[2]/app-tab-item/div/app-list-loan/app-list-loan-item/div</value>
+      <webElementGuid>b04a18c6-cb98-481c-b701-7a17aa093615</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tersimpan'])[1]/following::div[3]</value>
+      <webElementGuid>8f8061b2-b5f8-4166-867e-85650a37ff77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terkirim'])[1]/following::div[3]</value>
+      <webElementGuid>921ff3f1-c43a-4f03-b2c6-ca63458fd2d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-list-loan-item/div</value>
+      <webElementGuid>92d305ca-82f8-429f-a10c-e22df75b4fb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Passed 12-09-2022 gdghJumlah PinjamanRp213,131,111ID PinjamanKC-KFO-0922-12-0003Produk Pinjaman Beragunan Properti  Lolos pre-screening ' or . = 'Passed 12-09-2022 gdghJumlah PinjamanRp213,131,111ID PinjamanKC-KFO-0922-12-0003Produk Pinjaman Beragunan Properti  Lolos pre-screening ')]</value>
+      <webElementGuid>e5d3078d-1c71-46cd-b452-c4527a941ac9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

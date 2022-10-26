@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>1. Informasi Peminjam</name>
+   <tag></tag>
+   <elementGuidId>4ffa8acc-f0d0-4ffb-a423-a61510fc9a25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>strong</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/ng-component/app-list/ul/app-list-item/li/div/strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>e85eb9ee-8a20-4f0d-a588-8ba459961deb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Informasi Peminjam </value>
+      <webElementGuid>218ff1b4-af81-4eb6-889b-de816188fa85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/app-list[1]/ul[@class=&quot;app-list list-group&quot;]/app-list-item[@class=&quot;ng-star-inserted&quot;]/li[@class=&quot;list-group-item border-0 mb-3 px-3 rounded ng-star-inserted&quot;]/div[@class=&quot;list-group-item-content&quot;]/strong[1]</value>
+      <webElementGuid>592b2a09-494a-4ed1-a4ed-5211106733dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/ng-component/app-list/ul/app-list-item/li/div/strong</value>
+      <webElementGuid>5da00ebb-58db-4fb6-872c-6caedd46b178</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Pengajuan'])[1]/following::strong[1]</value>
+      <webElementGuid>566647e6-5a96-431f-9526-3a89347fbaba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/preceding::strong[1]</value>
+      <webElementGuid>06841a27-aa71-4027-8d6e-78269f91f1f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Pekerjaan'])[1]/preceding::strong[2]</value>
+      <webElementGuid>e1e70940-8757-4955-9b57-a7437d87b816</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Informasi Peminjam']/parent::*</value>
+      <webElementGuid>03d0bfbf-be38-47e9-93e7-fb7c0dda18c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//strong</value>
+      <webElementGuid>7064ddca-6345-454d-bc33-28ff71b72a5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = ' Informasi Peminjam ' or . = ' Informasi Peminjam ')]</value>
+      <webElementGuid>3efc8b5e-01aa-462e-a07c-b78b4efe3c6a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

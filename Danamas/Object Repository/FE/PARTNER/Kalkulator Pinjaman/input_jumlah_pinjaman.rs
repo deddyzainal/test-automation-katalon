@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_jumlah_pinjaman</name>
+   <tag></tag>
+   <elementGuidId>6f5bc6c4-7d5c-474c-a9b2-ec77578b88af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>app-input.ng-untouched.ng-pristine.ng-valid > div.input-group.app-input-group.has-left-content.ng-star-inserted > input.form-control</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='currency'])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'currency']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f0f3093b-f05d-4940-bf38-18fcbc03f82b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>5bdfed81-c135-4b00-8719-444aa558e148</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>currency</value>
+      <webElementGuid>7753094a-6c77-4ed1-822b-d40dcf01c3e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auto_name</name>
+      <type>Main</type>
+      <value>max_loan</value>
+      <webElementGuid>d2449671-9a6d-4a08-ba24-9e5519879834</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/app-card[@class=&quot;ng-tns-c79-16 ng-star-inserted&quot;]/div[@class=&quot;card app-card ng-tns-c79-16&quot;]/div[@class=&quot;ng-tns-c79-16 ng-trigger ng-trigger-expandCollapse&quot;]/div[@class=&quot;card-body ng-tns-c79-16&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid ng-tns-c79-16 ng-star-inserted&quot;]/app-form-group[2]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;input-group app-input-group has-left-content ng-star-inserted&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>ca63e9cd-aad1-4280-b7d8-abbce01fd72c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='currency'])[2]</value>
+      <webElementGuid>bba6cf91-71da-4c99-a418-4d2553428df4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div/div/form/app-form-group[2]/div/div/app-input/div/input</value>
+      <webElementGuid>bb3a1c97-3d54-4b48-bb45-f9bc1dc700c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[2]/following::input[1]</value>
+      <webElementGuid>4b3fa795-8d25-4ead-81e2-97a016df3cfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jumlah Pinjaman'])[1]/following::input[1]</value>
+      <webElementGuid>879abf7b-d575-4a01-8311-d2929e55ac2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tenor Pinjaman (Tahun)'])[1]/preceding::input[1]</value>
+      <webElementGuid>d4f97916-7ad9-46ae-8015-385c2fa34f8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hitung Simulasi'])[1]/preceding::input[1]</value>
+      <webElementGuid>4909f374-80b2-452e-a403-9adff55330c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-form-group[2]/div/div/app-input/div/input</value>
+      <webElementGuid>d9c42452-49a0-46a8-b80c-12bb79b1e488</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'currency']</value>
+      <webElementGuid>1fdb4553-3289-4a67-80fc-797b23849d3e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

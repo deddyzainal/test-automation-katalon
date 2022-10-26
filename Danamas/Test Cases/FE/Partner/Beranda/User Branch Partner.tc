@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User Branch Partner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9a92227-b8e1-422f-97c5-0eb15889ecae</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d72aa9fd-e986-4f62-9718-3f09a96edf40</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.badge</defaultValue>
+      <description></description>
+      <id>d72aa9fd-e986-4f62-9718-3f09a96edf40</id>
+      <masked>false</masked>
+      <name>badge</name>
+   </variable>
+</TestCaseEntity>

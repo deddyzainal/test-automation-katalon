@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>NoHP - Agent</name>
+   <tag></tag>
+   <elementGuidId>80ab3976-8ad0-464e-a715-a0494f927689</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/ng-component/ul/li/div[2]/div[2]/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.content-right > h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>235cc951-7b10-4cd5-b3f5-dae54ec1ae21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20221005111854</value>
+      <webElementGuid>3bf18f5a-0ca9-4898-8df4-88471faa6dca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/ul[@class=&quot;freelancer-list&quot;]/li[@class=&quot;freelancer-list-item ng-star-inserted&quot;]/div[@class=&quot;item-body text-secondary&quot;]/div[@class=&quot;content-right&quot;]/h6[1]</value>
+      <webElementGuid>9565d96f-1895-44fc-8ef3-9c9d8c48a8ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/ng-component/ul/li/div[2]/div[2]/h6</value>
+      <webElementGuid>949faf25-3917-4b43-8886-fb5d812103f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP'])[1]/following::h6[1]</value>
+      <webElementGuid>c39877e9-a905-456e-a760-cb88fd089541</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Bergabung'])[1]/following::h6[2]</value>
+      <webElementGuid>10b4a908-1a8a-4674-9942-8f36dd3b76e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bambang'])[2]/preceding::h6[1]</value>
+      <webElementGuid>39c7d61d-0b00-4541-a01a-52682d32785b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Bergabung'])[2]/preceding::h6[1]</value>
+      <webElementGuid>45b69aef-685e-4a4b-8315-b9f13ae83cdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='20221005111854']/parent::*</value>
+      <webElementGuid>6c767940-68af-4b61-b2cd-211e59aae25b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h6</value>
+      <webElementGuid>1b110518-a77c-463c-aa9d-70e1841a93e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = '20221005111854' or . = '20221005111854')]</value>
+      <webElementGuid>af784ee7-3729-4b9f-85db-4fc39922a021</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

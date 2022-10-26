@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Mingguan</name>
+   <tag></tag>
+   <elementGuidId>57a465f8-86f1-4b75-92b1-c1acf31ff2e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.font-weight-700</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@for = 'periode1' and (text() = ' Mingguan ' or . = ' Mingguan ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Periode'])[1]/following::label[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>894d95e9-6983-48fa-bd3d-1a3f015f5be2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-weight-700</value>
+      <webElementGuid>c4a33d18-1859-462c-b9cb-9af2c0946037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>periode1</value>
+      <webElementGuid>fe0afbf4-5175-4b97-bc0b-82c3e321d60b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Mingguan </value>
+      <webElementGuid>eb6a2feb-3547-4821-99db-36fcd18e35b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;bottom-dialog-outer&quot;]/app-bottom-dialog[@class=&quot;ng-tns-c61-8&quot;]/div[@class=&quot;bottom-dialog ng-tns-c61-8 ng-trigger ng-trigger-openClosed&quot;]/div[@class=&quot;bottom-dialog-body ng-tns-c61-8&quot;]/form[@class=&quot;mb-4 ng-tns-c61-8 ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;periode-option ng-star-inserted&quot;]/label[@class=&quot;font-weight-700&quot;]</value>
+      <webElementGuid>07b8395f-0d3c-45c5-ba78-35bced9d34dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Periode'])[1]/following::label[1]</value>
+      <webElementGuid>a457c460-314d-4e93-948b-91b63994c33e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::label[1]</value>
+      <webElementGuid>be8ac111-459e-4495-a293-bf5797483966</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulanan'])[1]/preceding::label[1]</value>
+      <webElementGuid>1005c74b-5cc7-4306-a75f-ae5f462d32aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personalisasi Tanggal'])[1]/preceding::label[2]</value>
+      <webElementGuid>70f1c3a5-f489-48d5-a75d-7a587cf40970</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>c22449c9-9e10-46bd-96c8-0e50360c3d09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Mingguan ' or . = ' Mingguan ')]</value>
+      <webElementGuid>b7b1d9a7-6f31-4095-8e7d-609a1282d99f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Selamat datang di Partner App</name>
+   <tag></tag>
+   <elementGuidId>130975f5-6ed6-4c25-ace1-363e5012893d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.my-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/app-card/div/div/div/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>72c8fc78-8aaa-4473-b8af-e3d13467b2bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-3</value>
+      <webElementGuid>2c56bf09-24bd-46ab-a491-2fd9746eb684</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Selamat datang, di Partner App</value>
+      <webElementGuid>ba2585da-0acc-48b7-b9f1-c18ebc843afa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/app-card[@class=&quot;ng-tns-c79-1 ng-star-inserted&quot;]/div[@class=&quot;card app-card ng-tns-c79-1&quot;]/div[@class=&quot;ng-tns-c79-1 ng-trigger ng-trigger-expandCollapse&quot;]/div[@class=&quot;card-body ng-tns-c79-1&quot;]/div[@class=&quot;text-center ng-tns-c79-1 ng-star-inserted&quot;]/h2[@class=&quot;my-3&quot;]</value>
+      <webElementGuid>6524f3f6-7919-499f-843d-b69ee8438bfe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/app-card/div/div/div/div/h2</value>
+      <webElementGuid>580606b7-12cd-467d-a402-5479599989ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tempat dimana agen dan peminjam bertemu'])[1]/preceding::h2[1]</value>
+      <webElementGuid>f6e1f5e6-f2da-453f-935b-2695671c0392</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::h2[1]</value>
+      <webElementGuid>43637037-802e-4efa-99e4-ceb0d3162c63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>d46b4154-7273-43ae-9090-450c816b2a89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Selamat datang, di Partner App' or . = 'Selamat datang, di Partner App')]</value>
+      <webElementGuid>ee1c8a47-8933-430e-a051-99482ba7d253</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

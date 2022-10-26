@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Forgot Pin or ResetPIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3a44b9e-3e80-4c04-8864-a341af98ad5e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84202a7d-59f0-4060-a6fa-f4cdbb3fcb74</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'gomez'</defaultValue>
+      <description></description>
+      <id>84202a7d-59f0-4060-a6fa-f4cdbb3fcb74</id>
+      <masked>false</masked>
+      <name>ibu</name>
+   </variable>
+</TestCaseEntity>

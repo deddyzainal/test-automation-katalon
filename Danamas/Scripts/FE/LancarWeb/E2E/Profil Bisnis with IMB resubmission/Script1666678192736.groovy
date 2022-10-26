@@ -110,7 +110,11 @@ WebUI.verifyElementNotPresent(findTestObject('FE/LancarWeb/Unggah Dokumen/Button
 WebUI.waitForElementVisible(findTestObject('FE/LancarWeb/Unggah Dokumen/Text - Pengajuan pinjaman telah diajukan'), 20)
 
 // Request document resubmission - PBB
-WebUI.callTestCase(findTestCase('FE/LancarMobile/Backoffice/Trigger IMB Resubmission'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl(GlobalVariable.LancarBOMS)
+CustomKeywords.'webHelper.WindowHandler.fullScreenMode'()
+WebUI.callTestCase(findTestCase('FE/LancarWeb/Backoffice/Login BOMS'), [('emailBOMS') : GlobalVariable.emailCA, ('passwordBOMS') : GlobalVariable.CApwd], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/LancarWeb/Kirim Ulang Dokumen/Trigger resubmit PBB document'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FE/LancarWeb/BOMS/Button - Log Out'))
 
 // Borrower resubmit IMB document
 WebUI.navigateToUrl(GlobalVariable.LancarWeb)

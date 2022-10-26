@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select - Assign Credit Analyst</name>
+   <tag></tag>
+   <elementGuidId>52b9302f-4924-4026-8a2e-1ff29b92a75b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/app-credit-analyst-dialog/div/form/mat-form-field/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c62-5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>90e58668-2840-43ab-a704-8cdcb385a1fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c62-5</value>
+      <webElementGuid>f1309b95-5f57-4e01-a32a-e323301f8e84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose OneChoose One</value>
+      <webElementGuid>ad73de84-48a7-4427-b732-63ea13c32162</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//mat-select[@formcontrolname=&quot;ca_user_id&quot;]</value>
+      <webElementGuid>aba447c7-4401-40a9-8ba9-b4b3ceb3d4ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-credit-analyst-dialog/div/form/mat-form-field/div/div/div</value>
+      <webElementGuid>6414cba7-07a1-4ef9-a171-dac12fd6c620</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Credit Analyst'])[2]/following::div[3]</value>
+      <webElementGuid>0ef2ae9c-417b-4c32-bc8c-0c17a4f20ea5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penugasan Credit Analyst'])[1]/following::div[4]</value>
+      <webElementGuid>52da539d-169a-478e-ba46-e9835dd9cfb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/mat-form-field/div/div/div</value>
+      <webElementGuid>d4dba1c5-d88f-41d2-b415-9d549dd83780</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Choose OneChoose One' or . = 'Choose OneChoose One')]</value>
+      <webElementGuid>ee33d7be-3a5a-4f25-91da-db1002c3431b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
