@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Agent / RM'])[1]/following::div[1]</value>
+         <value>//ul/li/div/h1[text()='Telesales']</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -17,7 +17,7 @@
          <key>CSS</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d4e4e97a-ff8f-466e-a64d-aeef68f53b9f</webElementGuid>
+      <webElementGuid>e034df7d-0133-486c-9967-826b906cb398</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menu ng-tns-c82-0 ng-star-inserted</value>
-      <webElementGuid>4686823f-4da8-4e56-9c91-81d2584911c4</webElementGuid>
+      <webElementGuid>bbc78d91-f203-4eb8-90af-dc326ba9ef4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Telesales</value>
-      <webElementGuid>e3bb55a5-92ba-4212-98e1-36bd7a31ff54</webElementGuid>
+      <webElementGuid>c50dd4ce-a027-47db-8082-4c5434c66ce9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-tns-c82-0 ng-star-inserted&quot;]/div[@class=&quot;nav ng-tns-c82-0 open-nav&quot;]/nav[@class=&quot;ng-tns-c82-0&quot;]/ul[@class=&quot;ng-tns-c82-0&quot;]/li[@class=&quot;ng-tns-c82-0 ng-star-inserted&quot;]/ul[@class=&quot;ng-tns-c82-0 ng-trigger ng-trigger-expandCollapse ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c82-0 ng-star-inserted&quot;]/div[@class=&quot;menu ng-tns-c82-0 ng-star-inserted&quot;]</value>
-      <webElementGuid>20a53b4d-5e25-46a2-bb33-49ced375e8da</webElementGuid>
+      <webElementGuid>fb9672c6-94be-4c21-9eed-802abef4a39a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agent / RM'])[1]/following::div[1]</value>
-      <webElementGuid>9d234d1a-de9a-458b-ab74-894d85ecffc0</webElementGuid>
+      <webElementGuid>c7524f26-459e-42d7-9d22-75e6b0863e2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Request'])[1]/following::div[4]</value>
-      <webElementGuid>09c83195-8e39-4f94-9c91-8c178b714991</webElementGuid>
+      <webElementGuid>8c49d079-ba8c-4180-a5a7-86802387e0f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grading Master'])[1]/preceding::div[5]</value>
-      <webElementGuid>b2c0b5ba-6b2b-4dbe-9619-02c5c5bbae3b</webElementGuid>
+      <webElementGuid>bd0a292b-88bb-4ed7-87df-8182295c736a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/ul/li[3]/div</value>
-      <webElementGuid>2c78b5e3-ccf7-409a-ba4a-c5acc05e3025</webElementGuid>
+      <webElementGuid>ba4ca44e-99f6-4b10-ada7-47c580f683ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Branch / Partner Master' or . = 'Branch / Partner Master')]</value>
-      <webElementGuid>b48872c3-1703-4bc2-a50f-76d8000c2970</webElementGuid>
+      <webElementGuid>d0590da6-fb76-4192-ba03-ddcabebb2519</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

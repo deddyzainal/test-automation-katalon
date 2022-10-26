@@ -17,15 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Sales Team'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Sales Team/List/Filter list by Nama'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.refresh()
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Sales Team/List/Filter list by No HP'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.refresh()
 

@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 String datetime = new Date().format('yyMMddHHmmss')
 
-//WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Grading Master'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Grading/Search by grade name'), null, FailureHandling.STOP_ON_FAILURE)

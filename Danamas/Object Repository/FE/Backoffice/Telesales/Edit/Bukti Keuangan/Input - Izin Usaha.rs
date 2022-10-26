@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Izin usaha (SIUP/TDP/SKDP/NIB/SITU/SKU)']/following-sibling::app-drag-input-file/div[contains(@class, 'container-upload')]</value>
+         <value>//label[text()='Izin usaha (SIUP/TDP/SKDP/NIB/SITU/SKU)']/following-sibling::app-drag-input-file/div[contains(@class, 'container-upload') and not(@hidden)]</value>
       </entry>
       <entry>
          <key>BASIC</key>

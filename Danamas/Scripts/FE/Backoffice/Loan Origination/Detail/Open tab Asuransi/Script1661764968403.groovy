@@ -18,12 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Click tab Asuransi
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/Detail/Tab - Asuransi'), 3)
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Origination/Detail/Tab - Asuransi'), 3, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/Detail/Tab - Asuransi'))
 
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Origination/Detail/Tab - Asuransi'), 3)
-
-//Verify element in Asuransi tab is present
-//WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Loan Origination/Detail/Pembayaran/Label - Informasi Pembayaran'))
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/Detail/Asuransi/Button - Edit Data'), 3, FailureHandling.STOP_ON_FAILURE)
 
 

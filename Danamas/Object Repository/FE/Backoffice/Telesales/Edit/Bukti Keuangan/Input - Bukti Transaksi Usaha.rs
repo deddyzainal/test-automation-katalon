@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Bukti transaksi usaha 3 bulan terakhir']/following-sibling::app-drag-input-file/div[contains(@class, 'container-upload')]</value>
+         <value>//label[text()='Bukti transaksi usaha 3 bulan terakhir']/following-sibling::app-drag-input-file/div[contains(@class, 'container-upload') and not(@hidden)]</value>
       </entry>
       <entry>
          <key>BASIC</key>

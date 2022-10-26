@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter by Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7a3371c-72c5-4519-99ff-b3be3e1b71f3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>365e06d2-d645-4ce7-bbe4-8b3861a3f5c3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'CANCELLED'</defaultValue>
+      <description></description>
+      <id>365e06d2-d645-4ce7-bbe4-8b3861a3f5c3</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

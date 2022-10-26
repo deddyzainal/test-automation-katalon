@@ -18,7 +18,36 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 if(GlobalVariable.loanNumber == '') {
-	WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Features/Loan Assessment'), null, FailureHandling.STOP_ON_FAILURE)
+	//Create loan
+	CustomKeywords.'backoffice.createLoan.loanSubmitted'()
+	
+	//Approve loan in Loan Assessment
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Assessment'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Pinjaman'), [('no_pinjaman') : GlobalVariable.loanNumber], FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Assign Credit Analyst'), [('no_pinjaman') : GlobalVariable.loanNumber
+		, ('nama_credit_analyst') : 'Meitri Delfiza'], FailureHandling.STOP_ON_FAILURE)
+
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Open assessment detail'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Edit Biro Modul'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Add SMMA Blacklist'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Edit SMMA Blacklist'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Edit Modul Penghasilan'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Edit Detail Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Edit Assessment Tempat Usaha'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Edit Pasca dan Hasil CUE Quant'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Edit Persetujuan Akhir'), null, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Approve loan'), null, FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Offer Letter'), null, FailureHandling.STOP_ON_FAILURE)
@@ -28,8 +57,6 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Offer Letter/Open offer letter de
 WebUI.callTestCase(findTestCase('FE/Backoffice/Offer Letter/Edit offer letter'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Offer Letter/Send document'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('null'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Assessment'), null, FailureHandling.STOP_ON_FAILURE)
 

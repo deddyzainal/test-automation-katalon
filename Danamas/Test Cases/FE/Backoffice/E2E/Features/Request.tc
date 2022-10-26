@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2fd2d7c5-201e-4960-9cb7-730bf648f360</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a85d544-64ca-453f-a2c9-dbfb227ceb92</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'20221024142237'</defaultValue>
+      <description></description>
+      <id>4a85d544-64ca-453f-a2c9-dbfb227ceb92</id>
+      <masked>false</masked>
+      <name>nomor_hp</name>
+   </variable>
 </TestCaseEntity>
