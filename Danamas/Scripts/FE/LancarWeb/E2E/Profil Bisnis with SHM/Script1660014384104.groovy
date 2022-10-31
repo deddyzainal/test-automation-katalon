@@ -36,8 +36,8 @@ WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Upload populated KTP'),
     FailureHandling.STOP_ON_FAILURE)
 
 // Complete KTP data
-WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Complete KTP data'), [('namaKTP') : 'Debby Anggraini', ('NIK') : '3174096112900001'
-        , ('namaIbu') : 'Ibunya Debby', ('gender') : 'Perempuan', ('dobYear') : '1990', ('dobMonth') : 'Juni', ('dobDate') : '15'
+WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Complete KTP data'), [('namaKTP') : 'Debby Anggraini', ('NIK') : '3114050501850036'
+        , ('namaIbu') : 'Ibunya Debby', ('gender') : 'Perempuan', ('dobYear') : '1985', ('dobMonth') : 'Januari', ('dobDate') : '5'
         , ('tempatLahir') : 'Jakarta Barat', ('statusPerkawinan') : 'Kawin', ('pendidikan') : 'Sarjana', ('alamat') : 'Jl. Pasar Kembang no. 7'
         , ('rt') : '11', ('rw') : '22', ('provinsi') : 'DKI Jakarta', ('kota') : 'Jakarta Barat', ('kecamatan') : 'Grogol Petamburan'
         , ('kelurahan') : 'TANJUNG DUREN SELATAN'], FailureHandling.STOP_ON_FAILURE)
@@ -46,7 +46,15 @@ WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Complete KTP data'), [(
 WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Upload Selfie dengan KTP'), [('pictureFilepath') : '/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/Foto_selfie_ktp.jpeg'], 
     FailureHandling.STOP_ON_FAILURE)
 
-// Submit KTP and selfie
+// Upload KTP Pasangan
+WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Upload KTP Pasangan'), [('KTPpasanganFilepath') : '/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/DEBBY_ANGGRAINI.png'
+		, ('namaPasangan') : 'Debby Anggraini', ('NIKpasangan') : '3114050501850036', ('dobYearPasangan') : '1985', ('dobMonthPasangan') : 'Januari'
+		, ('dobDatePasangan') : '5'], FailureHandling.STOP_ON_FAILURE)
+// Upload KK
+WebUI.callTestCase(findTestCase('FE/LancarWeb/Upload KTP/Upload Kartu Keluarga'), [('KKfilepath') : '/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/kk.jpeg'],
+	FailureHandling.STOP_ON_FAILURE)
+
+// Submit all KTP and selfie
 WebUI.click(findTestObject('FE/LancarWeb/Upload KTP/Button - KIRIM (enabled)'))
 
 // Accept gimmick offer
@@ -91,18 +99,12 @@ WebUI.verifyElementNotPresent(findTestObject('FE/LancarWeb/Unggah Dokumen/Button
 WebUI.waitForElementVisible(findTestObject('FE/LancarWeb/Unggah Dokumen/Text - Pengajuan pinjaman telah diajukan'), 20)
 
 // Approve loan and send Offer Letter
-WebUI.navigateToUrl(GlobalVariable.LancarBOMS)
-CustomKeywords.'webHelper.WindowHandler.fullScreenMode'()
-WebUI.callTestCase(findTestCase('FE/LancarWeb/Backoffice/Login BOMS'), [('emailBOMS') : GlobalVariable.backofficeEmail, ('passwordBOMS') : GlobalVariable.backofficePassword])
-WebUI.callTestCase(findTestCase('FE/LancarWeb/Kirim Surat Penawaran/Send Offer Letter'), [('collateralAddr') : 'Jl. Sahabat Baru no. 16'
-        , ('collateralCertNo') : '1234567890', ('provisionRate') : '5', ('provisionAmount') : '5000000', ('lifeInsuranceFee') : '3000000'
-        , ('fireInsuranceFee') : '1250000', ('notaryFee') : '1000000', ('advancePenalty') : '5', ('latePenalty') : '2'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/LancarMobile/Backoffice/Approve loan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Accept Offer Letter
 WebUI.callTestCase(findTestCase('FE/LancarWeb/Pencairan/Terima Penawaran'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Loan disbursement
-WebUI.callTestCase(findTestCase('FE/LancarWeb/Pencairan/Pencairan Pinjaman'), [('noRekening') : '0046673832', ('pemegangAkung') : 'RISA AJENG CHRISANTY'], 
+WebUI.callTestCase(findTestCase('FE/LancarWeb/Pencairan/Pencairan Pinjaman'), [('noRekening') : '0046673832', ('pemegangAkun') : 'RISA AJENG CHRISANTY'], 
     FailureHandling.STOP_ON_FAILURE)
 

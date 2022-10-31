@@ -25,9 +25,11 @@ WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Kalkulator Properti/Use
         , ('luasBangunan') : '85', ('lokasi') : 'Tanjung Duren Selatan', ('kelurahan') : 'Tanjung Duren Selatan', ('kecamatan') : 'Grogol petamburan'
         , ('kota') : 'Jakarta Barat', ('provinsi') : 'Daerah Khusus Ibukota Jakarta', ('kodePos') : '11470'], FailureHandling.STOP_ON_FAILURE)
 
+// 
 WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Simulasi Pinjaman/Set property and loan value and tenure'), [('nilaiProperti') : '1500'
         , ('nilaiPinjaman') : '550', ('tenor') : '10'], FailureHandling.STOP_ON_FAILURE)
 
+// Set Profil Kustomer with only BPKB as Agunan
 WebUI.callTestCase(findTestCase('FE/LancarMobile/Android/Profil Kustomer/Any Profil with BPKB as Agunan'), [('tujuan') : 'Bisnis'
         , ('agunan') : 'Ya'], FailureHandling.STOP_ON_FAILURE)
 
