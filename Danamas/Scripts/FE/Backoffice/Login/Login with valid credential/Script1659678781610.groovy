@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Navigate to boms, fill login form and submit
-CustomKeywords.'backoffice.common.fillLoginForm'(GlobalVariable.BackofficeEmail, GlobalVariable.BackofficePassword)
+CustomKeywords.'backoffice.common.fillLoginForm'(email, password)
 
 //Verify label Homepage is visible after successfull login
 //WebUI.verifyElementVisible(findTestObject('FE/Backoffice/Homepage/Label - Homepage'), FailureHandling.STOP_ON_FAILURE)

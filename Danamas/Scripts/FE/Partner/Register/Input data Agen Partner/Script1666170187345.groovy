@@ -39,11 +39,11 @@ WebUI.click(findTestObject('FE/PARTNER/Register/select_nama_Partner'))
 
 WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Register/Option - Nama Partner'), namapartner, false)
 
-
 if (WebUI.verifyElementPresent(findTestObject('FE/PARTNER/Register/Option - Cabang Partner'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Register/Option - Cabang Partner'), cabangpartner, false) //}
-} else if (WebUI.verifyElementPresent(findTestObject('FE/PARTNER/Register/input_Kode Referral'), 3, FailureHandling.OPTIONAL)){
-    WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_Kode Referral'), kodereferral)
+    WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Register/Option - Cabang Partner'), cabangpartner, false //}
+        )
+} else if (WebUI.verifyElementPresent(findTestObject('FE/PARTNER/Register/input_Kode Referral'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_Kode Referral'), GlobalVariable.kodereferral)
 }
 
 WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut (1)'))

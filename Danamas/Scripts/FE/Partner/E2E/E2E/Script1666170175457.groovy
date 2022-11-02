@@ -32,11 +32,11 @@ WebUI.callTestCase(findTestCase('FE/Partner/Beranda/User Branch Partner'), [('ba
 WebUI.callTestCase(findTestCase('FE/Partner/New Loan/Make New Loan and Submit Document with Different Option (Jenis Pekerjaan, Status Kawin)'), 
     [('pengajuan') : 'dana express', ('badge') : GlobalVariable.badge], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Document resubmission'), [('nama_peminjam') : 'Joko Santoso2'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Document resubmission'), [('nama_peminjam') : 'Debby Anggraini'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Send Document/Resubmission Document'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Request additional document'), [('nama_peminjam') : 'Joko Santoso2'], 
+WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Request additional document'), [('nama_peminjam') : 'Debby Anggraini'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Send Document/Requested Additional Document'), [:], FailureHandling.STOP_ON_FAILURE)
