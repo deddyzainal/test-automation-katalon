@@ -17,10 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data KTP'), [('gender') : 'laki-laki', ('Agama') : 'islam', ('nama') : 'bambang'
-        , ('tempatlahir') : 'Jakarta', ('namaibu') : 'ana', ('statusPerkawinan') : 'kawin', ('alamat') : 'JL Sungai sambas'
-        , ('rt') : '10/', ('kodepos') : '12334', ('rw') : '05', ('date1') : '10-Agustus', ('eYear') : '1999', ('timestamp1') : GlobalVariable.timestamp], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data KTP'), [('gender') : 'Laki-laki', ('Agama') : 'Islam', ('nama') : 'bambang'
+        , ('tempatlahir') : 'Jakarta', ('namaibu') : 'ana', ('statusPerkawinan') : 'Kawin', ('alamat') : 'JL Sungai sambas'
+        , ('rt') : '10/', ('kodepos') : '12334', ('rw') : '05', ('date1') : '10-Agustus', ('eYear') : '1999', ('timestamp1') : GlobalVariable.timestamp
+        , ('fax') : '13123'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Profil/check_alamatdomisili'), 2)
 

@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Option - Pendidikan</name>
+   <name>Option - Gender</name>
    <tag></tag>
-   <elementGuidId>8e6d7c8a-d37a-4ef3-8fc0-0d21e93810d2</elementGuidId>
+   <elementGuidId>0a34fa70-08fe-4f7d-87b6-1e12297307d2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@formcontrolname=&quot;latest_education&quot;]/select</value>
+         <value>//app-select[@formcontrolname=&quot;gender&quot;]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = ' Pilih kecamatan ' or . = ' Pilih kecamatan ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fd4b994f-c25a-4528-ae18-e3ba81aaf340</webElementGuid>
+      <webElementGuid>f1a6b6e4-5e8f-4abb-a4ae-f2ae084f8a0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control cursor-pointer</value>
-      <webElementGuid>b6b2831f-f028-4ca4-9c62-d4af9c4889e9</webElementGuid>
+      <webElementGuid>07e9e4ff-f0d2-4173-8c73-b0420724141a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Pilih kecamatan </value>
-      <webElementGuid>88dec6a7-e7f7-4068-bf8c-87184fa2e8d2</webElementGuid>
+      <webElementGuid>66ea6574-f912-4ca8-ab27-7ef7debe6069</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +45,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/application-address[@class=&quot;ng-pristine ng-invalid ng-star-inserted ng-touched&quot;]/app-form-group[3]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-auto-complete[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;auto-complete ng-star-inserted&quot;]/div[@class=&quot;form-control cursor-pointer&quot;]</value>
-      <webElementGuid>234286ac-68ea-4d99-ae5d-b55f63375f8c</webElementGuid>
+      <webElementGuid>86171a36-83ef-4b86-a1b2-74e1871ab513</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

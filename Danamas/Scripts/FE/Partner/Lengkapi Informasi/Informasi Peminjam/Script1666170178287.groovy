@@ -22,38 +22,40 @@ WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Upload KK'), [:], Failur
 WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Upload NPWP (Opsional)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //if (WebUI.verifyElementPresent(findTestObject('FE/Partner/Upload File/Unggah Foto Buku Nikah'), 5, FailureHandling.OPTIONAL
-  //)) {
-    //WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Unggah Foto Buku Nikah'), [:], FailureHandling.STOP_ON_FAILURE)
+//)) {
+//WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Unggah Foto Buku Nikah'), [:], FailureHandling.STOP_ON_FAILURE)
 //}
 if (WebUI.verifyElementPresent(findTestObject('FE/PARTNER/upload/unggah_Foto Buku Nikah'), 3, FailureHandling.OPTIONAL)) {
-	WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Unggah Foto Buku Nikah'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Unggah Foto Buku Nikah'), [:], FailureHandling.STOP_ON_FAILURE)
 }
-    WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Register/input_NPWP'), 3)
 
-    WebUI.clearText(findTestObject('FE/PARTNER/Register/input_NPWP'))
+WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Register/input_NPWP'), 3)
 
-    WebUI.click(findTestObject('FE/PARTNER/Register/input_NPWP'))
+WebUI.clearText(findTestObject('FE/PARTNER/Register/input_NPWP'))
 
-    WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_NPWP'), npwp)
+WebUI.click(findTestObject('FE/PARTNER/Register/input_NPWP'))
 
-    WebUI.scrollToElement(findTestObject('FE/PARTNER/Register/select_Agama'), 3)
+WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_NPWP'), npwp)
 
-    // Select agama
-    WebUI.click(findTestObject('FE/PARTNER/Register/select_Agama'))
+WebUI.scrollToElement(findTestObject('FE/PARTNER/Register/select_Agama'), 3)
 
-    WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Beranda/Option - Agama'), 3)
+// Select agama
+WebUI.click(findTestObject('FE/PARTNER/Register/select_Agama'))
 
-    WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Beranda/Option - Agama', [('Agama') : Agama]), Agama, false)
+WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Beranda/Option - Agama'), 3)
 
-    // Select Kewarganegaraan
-    WebUI.click(findTestObject('FE/PARTNER/Register/select_Kewarganegaraan'))
+WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Beranda/Option - Agama', [('Agama') : Agama]), Agama, false)
 
-    if (Kewarganegaraan.toLowerCase() == 'wna') {
-        WebUI.click(findTestObject('/FE/PARTNER/Register/Option - WNA'))
-    } else if (Kewarganegaraan.toLowerCase() == 'wni') {
-        WebUI.click(findTestObject('/FE/PARTNER/Register/Option - WNI'))
-    }
-    
-    WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Profil/button_Simpan'), 3)
+// Select Kewarganegaraan
+WebUI.click(findTestObject('FE/PARTNER/Register/select_Kewarganegaraan'))
 
-    WebUI.click(findTestObject('FE/PARTNER/Profil/button_Simpan')) 
+if (Kewarganegaraan.toLowerCase() == 'wna') {
+    WebUI.click(findTestObject('/FE/PARTNER/Register/Option - WNA'))
+} else if (Kewarganegaraan.toLowerCase() == 'wni') {
+    WebUI.click(findTestObject('/FE/PARTNER/Register/Option - WNI'))
+}
+
+WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Profil/button_Simpan'), 3)
+
+WebUI.click(findTestObject('FE/PARTNER/Profil/button_Simpan'))
+

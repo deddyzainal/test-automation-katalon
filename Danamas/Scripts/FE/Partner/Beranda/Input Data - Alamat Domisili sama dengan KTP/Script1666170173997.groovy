@@ -25,9 +25,14 @@ WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Beranda/2. Alamat'), 2)
 
 WebUI.click(findTestObject('FE/PARTNER/Beranda/2. Alamat'))
 
-WebUI.clearText(findTestObject('FE/PARTNER/Beranda/textarea_Alamat sesuai KTP'))
+String valuealamat = WebUI.getAttribute(findTestObject('FE/PARTNER/Beranda/textarea_Alamat sesuai KTP'), 'value')
+
+println(valuealamat)
+
+if (valuealamat == '') {
 
 WebUI.sendKeys(findTestObject('FE/PARTNER/Beranda/textarea_Alamat sesuai KTP'), alamat)
+}
 
 WebUI.click(findTestObject('FE/PARTNER/Beranda/input_RTRW'))
 

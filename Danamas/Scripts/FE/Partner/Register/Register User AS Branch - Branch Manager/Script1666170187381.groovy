@@ -23,7 +23,7 @@ System.print(timestamp + '****')
 
 GlobalVariable.timestamp = timestamp
 
-WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data KTP'), [('gender') : 'laki-laki', ('Agama') : 'Islam', ('nama') : 'bambang'
+WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data KTP'), [('gender') : 'Laki-laki', ('Agama') : 'Islam', ('nama') : 'bambang'
         , ('tempatlahir') : 'Jakarta', ('namaibu') : 'ana', ('statusPerkawinan') : 'Kawin', ('alamat') : 'JL Sungai sambas'
         , ('rt') : '10/', ('kodepos') : '12334', ('rw') : '05', ('date1') : '10-Agustus', ('eYear') : '1999', ('timestamp1') : GlobalVariable.timestamp
         , ('fax') : '13123'], FailureHandling.STOP_ON_FAILURE)
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('FE/PARTNER/Register/select_Agen'))
 if (Agen.toLowerCase() == 'branch') {
     WebUI.click(findTestObject('/FE/PARTNER/Beranda/Option - Branch'))
 
-    WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Branch'), [('kota') : 'Bandung', ('cabang') : 'Danamas Bandung'
+    WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Branch'), [('kota') : 'Bogor', ('cabang') : 'Danamas Bogor'
             , ('posisi') : 'Branch Manager'], FailureHandling.STOP_ON_FAILURE)
 } else if (Agen.toLowerCase() == 'partner') {
     WebUI.click(findTestObject('FE/PARTNER/Beranda/Option - Partner'))

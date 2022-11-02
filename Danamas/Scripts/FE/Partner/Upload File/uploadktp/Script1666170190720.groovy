@@ -23,7 +23,8 @@ WebUI.click(findTestObject('FE/PARTNER/upload/unggah_Foto KTP'))
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/upload/unggah_Foto KTP'), 3)
 
-File file1 = new File('Data Files/PartnerWeb/ktp.jpg')
+//File file1 = new File('Data Files/PartnerWeb/ktp.jpg')
+File file1 = new File('Data Files/PartnerWeb/ktp_debby.png')
 
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah2'), file1.getAbsolutePath())
 
@@ -31,7 +32,9 @@ WebUI.waitForElementVisible(findTestObject('FE/PARTNER/upload/close'), 2)
 
 WebUI.click(findTestObject('FE/PARTNER/upload/close'))
 
+if (WebUI.verifyElementPresent(findTestObject('FE/PARTNER/Profil/button_OK'), 3, FailureHandling.OPTIONAL)) {
 WebUI.click(findTestObject('FE/PARTNER/Profil/button_OK'))
+}
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/upload/unggah_Foto KTP'), 5)
 

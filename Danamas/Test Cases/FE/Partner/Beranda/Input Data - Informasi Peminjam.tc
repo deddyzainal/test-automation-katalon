@@ -47,8 +47,26 @@
       <value></value>
       <variableId>e17433a6-724d-4f8e-a8c4-bc9ab83673e4</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2615ae64-3a0d-41c3-b0ea-66926424666a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>342d48c6-b721-49a2-841b-c347519e82e5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38aa04ba-890f-4247-8850-9a032280b3e2</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'laki-laki'</defaultValue>
+      <defaultValue>'Laki-laki'</defaultValue>
       <description></description>
       <id>cf21fff0-7f7b-4d75-a2cc-83723a86219f</id>
       <masked>false</masked>
@@ -95,5 +113,26 @@
       <id>e17433a6-724d-4f8e-a8c4-bc9ab83673e4</id>
       <masked>false</masked>
       <name>eYear</name>
+   </variable>
+   <variable>
+      <defaultValue>'1312213121111123'</defaultValue>
+      <description></description>
+      <id>2615ae64-3a0d-41c3-b0ea-66926424666a</id>
+      <masked>false</masked>
+      <name>nikpasangan</name>
+   </variable>
+   <variable>
+      <defaultValue>'15-Agustus'</defaultValue>
+      <description></description>
+      <id>342d48c6-b721-49a2-841b-c347519e82e5</id>
+      <masked>false</masked>
+      <name>date2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Joko'</defaultValue>
+      <description></description>
+      <id>38aa04ba-890f-4247-8850-9a032280b3e2</id>
+      <masked>false</masked>
+      <name>namapasangan</name>
    </variable>
 </TestCaseEntity>
