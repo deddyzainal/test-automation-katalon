@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register with phone number less than 8 digits</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f31c7ff5-12cb-4494-8c55-7ed1b44c5c18</testCaseGuid>
+</TestCaseEntity>
