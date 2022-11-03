@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Choose years</name>
+   <name>Choose month2</name>
    <tag></tag>
-   <elementGuidId>8cf6bf7f-5139-4d65-aa09-89ff09860b21</elementGuidId>
+   <elementGuidId>0683cfe4-7b65-4fdd-a890-eba2c0a44738</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;pick-year&quot;]</value>
+         <value>//div[@class=&quot;pick-month&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='yli-content']</value>
+         <value>(//div[@class=&quot;pick-month&quot;])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c3295aab-e295-4f1e-bf5f-b8514b0a83ea</webElementGuid>
+      <webElementGuid>bc1f086f-d122-4864-a60c-0e1cfa0113ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>e6f31555-9ff5-46f8-8fd0-3d72df8fe2ae</webElementGuid>
+      <webElementGuid>0ea80c10-112b-4a28-93df-5ec9a7fef53c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,15 +42,15 @@
       <name>text</name>
       <type>Main</type>
       <value> September </value>
-      <webElementGuid>1e031d60-ebe4-4eb7-afb8-27fb596732ad</webElementGuid>
+      <webElementGuid>7558cde4-0f2d-4127-b4c6-c7014bceb2f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='yli-content']</value>
-      <webElementGuid>cf1e555a-5186-432e-b9b0-fb0d890a45eb</webElementGuid>
+      <value>(//div[@class=&quot;pick-month&quot;])[2]</value>
+      <webElementGuid>51edf734-e9fd-41af-b7c4-c8df8ad0ff26</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih'])[1]/following::span[1]</value>
-      <webElementGuid>62644962-ab5e-4ec5-aba6-7ee604d4c413</webElementGuid>
+      <webElementGuid>40b27c2b-27d3-45a2-bfc7-237f2e398dce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Tanggal'])[1]/following::span[2]</value>
-      <webElementGuid>8fb1703a-3b5c-4c02-815b-76c7dab84132</webElementGuid>
+      <webElementGuid>1c1d4760-8454-469a-b8f2-72313e65971a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Min'])[1]/preceding::span[4]</value>
-      <webElementGuid>13960b84-053f-4a63-9313-acb1b1da4a96</webElementGuid>
+      <webElementGuid>105f43b0-480c-4c56-a97c-3a9f79f73c51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sen'])[1]/preceding::span[4]</value>
-      <webElementGuid>1f5a3c34-ca2d-439e-af10-6b39148e5875</webElementGuid>
+      <webElementGuid>7109d62b-3bf8-4a97-b111-5ebf416a5614</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/span</value>
-      <webElementGuid>b86e0f87-c816-44ee-a88c-a42c12f87238</webElementGuid>
+      <webElementGuid>890d0d2f-5407-4121-873e-a91d25fffce2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' September ' or . = ' September ')]</value>
-      <webElementGuid>7515dc93-eea8-4665-9d7b-872a5b168f13</webElementGuid>
+      <webElementGuid>a707db4a-4597-447a-9157-38f2f5e6705a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

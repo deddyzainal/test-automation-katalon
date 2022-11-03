@@ -69,9 +69,10 @@ WebUI.callTestCase(findTestCase('FE/Partner/Upload File/uploadktp'), [:], Failur
 
 WebUI.callTestCase(findTestCase('FE/Partner/Upload File/uploadfotoselfie'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Input Data - Informasi Peminjam'), [('gender') : 'laki-laki', ('tempatlahir') : 'jakarta'
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Input Data - Informasi Peminjam'), [('gender') : 'Laki-laki', ('tempatlahir') : 'jakarta'
         , ('nama') : 'test11', ('pendidikan') : 'Sarjana', ('statusPerkawinan') : 'Belum kawin', ('date1') : '10-Agustus'
-        , ('eYear') : '1999'], FailureHandling.STOP_ON_FAILURE)
+        , ('eYear') : '1999', ('nikpasangan') : '1312213121111123', ('date2') : '15-Agustus', ('namapasangan') : 'Joko'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Input Data - Alamat Domisili sama dengan KTP'), [('alamat') : 'jl sungai sambas'
         , ('rt') : '10/', ('rw') : '05', ('Provinsi') : 'DKI Jakarta', ('Kota') : 'Jakarta Selatan', ('Kecamatan') : 'Kebayoran Baru'

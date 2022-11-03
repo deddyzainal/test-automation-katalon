@@ -100,11 +100,10 @@ WebUI.clearText(findTestObject('FE/PARTNER/Register/input_Email'), FailureHandli
 WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_Email'), timestamp1 + '@mailinator.com')
 
 //WebUI.click(findTestObject('FE/PARTNER/Beranda/select_jenis kelamin'))
-if (gender.toLowerCase() == 'laki-laki') {
-    WebUI.click(findTestObject('FE/PARTNER/Beranda/option-laki laki'))
-} else if (gender.toLowerCase() == 'perempuan') {
-    WebUI.click(findTestObject('FE/PARTNER/Beranda/option-perempuan'))
-}
+WebUI.click(findTestObject('FE/PARTNER/Beranda/select_gender'))
+
+    WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Beranda/Option - Gender'), gender, false)
+
 
 WebUI.click(findTestObject('FE/PARTNER/Register/input_Masukkan tempat lahir'))
 

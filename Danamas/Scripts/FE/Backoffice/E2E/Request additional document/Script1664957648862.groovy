@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [('email') : GlobalVariable.BackofficeEmail
-        , ('password') : GlobalVariable.backofficePassword], FailureHandling.STOP_ON_FAILURE)
+        , ('password') : GlobalVariable.BackofficePassword], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Assessment'), [:], FailureHandling.STOP_ON_FAILURE)
 

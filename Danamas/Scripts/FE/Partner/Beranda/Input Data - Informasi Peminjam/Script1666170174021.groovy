@@ -25,11 +25,15 @@ String timestamp = new Date().format('yyyyMMddHHmmss')
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Beranda/input_Nama Sesuai KTP'), 2)
 
-WebUI.click(findTestObject('FE/PARTNER/Beranda/input_Nama Sesuai KTP'))
+String valuenamaKTP = WebUI.getAttribute(findTestObject('FE/PARTNER/Beranda/input_Nama Sesuai KTP'), 'value')
 
-WebUI.clearText(findTestObject('FE/PARTNER/Beranda/input_Nama Sesuai KTP'))
+println(valuenamaKTP)
 
-WebUI.sendKeys(findTestObject('FE/PARTNER/Beranda/input_Nama Sesuai KTP'), nama)
+if (valuenamaKTP == '') {
+    WebUI.click(findTestObject('FE/PARTNER/Beranda/input_Nama Sesuai KTP'))
+
+    WebUI.sendKeys(findTestObject('FE/PARTNER/Beranda/input_Nama Sesuai KTP'), nama)
+}
 
 WebUI.click(findTestObject('FE/PARTNER/Beranda/input_Nomor HP'))
 
@@ -45,79 +49,101 @@ WebUI.clearText(findTestObject('FE/PARTNER/Beranda/input_Alamat Email'), Failure
 
 WebUI.sendKeys(findTestObject('FE/PARTNER/Beranda/input_Alamat Email'), timestamp + '@mailinator.com')
 
-WebUI.click(findTestObject('FE/PARTNER/Beranda/input_NIK'))
+String valueNIK = WebUI.getAttribute(findTestObject('FE/PARTNER/Beranda/input_NIK'), 'value')
 
-WebUI.clearText(findTestObject('FE/PARTNER/Beranda/input_NIK'), FailureHandling.STOP_ON_FAILURE)
+println(valueNIK)
 
-WebUI.sendKeys(findTestObject('FE/PARTNER/Beranda/input_NIK'), timestamp + 12)
+if (valueNIK == '') {
+    WebUI.click(findTestObject('FE/PARTNER/Beranda/input_NIK'))
 
-if (gender.toLowerCase() == 'laki-laki') {
-    WebUI.click(findTestObject('FE/PARTNER/Beranda/option-laki laki'))
-} else if (gender.toLowerCase() == 'perempuan') {
-    WebUI.click(findTestObject('FE/PARTNER/Beranda/option-perempuan'))
+    WebUI.clearText(findTestObject('FE/PARTNER/Beranda/input_NIK'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.sendKeys(findTestObject('FE/PARTNER/Beranda/input_NIK'), timestamp + 12)
 }
 
-WebUI.click(findTestObject('FE/PARTNER/Beranda/input_Tempat Lahir'))
+String valuegender = WebUI.getAttribute(findTestObject('FE/PARTNER/Beranda/select_gender'), 'value')
 
-WebUI.clearText(findTestObject('FE/PARTNER/Beranda/input_Tempat Lahir'), FailureHandling.STOP_ON_FAILURE)
+println(valuegender)
 
-WebUI.sendKeys(findTestObject('FE/PARTNER/Beranda/input_Tempat Lahir'), tempatlahir)
+if (WebUI.verifyOptionSelectedByValue(findTestObject('FE/PARTNER/Beranda/select_gender'), 'null', false, 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('FE/PARTNER/Beranda/select_gender'))
+
+    WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Beranda/Option - Gender'), gender, false)
+}
+
+String valuettl = WebUI.getAttribute(findTestObject('FE/PARTNER/Beranda/input_Tempat Lahir'), 'value')
+
+println(valuettl)
+
+if (valuettl == '') {
+    WebUI.click(findTestObject('FE/PARTNER/Beranda/input_Tempat Lahir'))
+
+    WebUI.clearText(findTestObject('FE/PARTNER/Beranda/input_Tempat Lahir'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.sendKeys(findTestObject('FE/PARTNER/Beranda/input_Tempat Lahir'), tempatlahir)
+}
 
 // Input Tanggal lahir
 // Open datepicker
-WebUI.click(findTestObject('FE/PARTNER/Pengajuan/Button - Open Calendar'))
+String date = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/tanggal'))
 
-WebUI.click(findTestObject('FE/PARTNER/Pengajuan/Choose year'))
+println(date)
 
-String cYear = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose year'))
+if (date == 'Pilih tanggal lahir') {
+    WebUI.click(findTestObject('FE/PARTNER/Pengajuan/Button - Open Calendar'))
 
-String cMonth = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose month'))
+    WebUI.click(findTestObject('FE/PARTNER/Pengajuan/Choose year'))
 
-System.print('****' + cYear)
+    String cYear = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose year'))
 
-//String eYear = 1999
-WebUI.click(findTestObject('FE/PARTNER/Pengajuan/button - back'))
+    String cMonth = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose month'))
 
-WebDriver driver2 = DriverFactory.getWebDriver()
+    System.print('****' + cYear)
 
-List<WebElement> el = driver2.findElements(By.xpath('//div[@class=\'yli-content\']'))
-
-for (WebElement e : el) {
-    System.print(e.getText() + '***')
-
-    if (e.getText().equals(eYear)) {
-        e.click()
-
-        break
-    }
-}
-
-WebUI.delay(3)
-
-System.print((cMonth + '****') + cYear)
-
-//month and date
-//String date1 = "1-Januari";
-String eDate = date1.split('-')[0]
-
-String eMonth = date1.split('-')[1]
-
-while (!(cMonth.equals(eMonth))) {
+    //String eYear = 1999
     WebUI.click(findTestObject('FE/PARTNER/Pengajuan/button - back'))
 
-    cMonth = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose month'))
-}
+    WebDriver driver2 = DriverFactory.getWebDriver()
 
-WebDriver driver = DriverFactory.getWebDriver()
+    List<WebElement> el = driver2.findElements(By.xpath('//div[@class=\'yli-content\']'))
 
-List<WebElement> ele = driver.findElements(By.xpath('//div[@class=\'dli-content\']'))
+    for (WebElement e : el) {
+        System.print(e.getText() + '***')
 
-for (WebElement e : ele) {
-    //  System.print(e.getText() + '***')
-    if (e.getText().equals(eDate)) {
-        e.click()
+        if (e.getText().equals(eYear)) {
+            e.click()
 
-        break
+            break
+        }
+    }
+    
+    WebUI.delay(3)
+
+    System.print((cMonth + '****') + cYear)
+
+    //month and date
+    //String date1 = "1-Januari";
+    String eDate = date1.split('-')[0]
+
+    String eMonth = date1.split('-')[1]
+
+    while (!(cMonth.equals(eMonth))) {
+        WebUI.click(findTestObject('FE/PARTNER/Pengajuan/button - back'))
+
+        cMonth = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose month'))
+    }
+    
+    WebDriver driver = DriverFactory.getWebDriver()
+
+    List<WebElement> ele = driver.findElements(By.xpath('//div[@class=\'dli-content\']'))
+
+    for (WebElement e : ele) {
+        //  System.print(e.getText() + '***')
+        if (e.getText().equals(eDate)) {
+            e.click()
+
+            break
+        }
     }
 }
 
@@ -131,18 +157,106 @@ WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Register/Option - Pendidika
 WebUI.scrollToElement(findTestObject('FE/PARTNER/Beranda/select_status perkawinan'), 2)
 
 // Select Status Perkawinan
-WebUI.click(findTestObject('FE/PARTNER/Beranda/select_status perkawinan'))
+String statusPerkawinan2 = WebUI.getAttribute(findTestObject('FE/PARTNER/Beranda/select_status perkawinan'), 'value')
 
-WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Beranda/Option - Perkawinan'), statusPerkawinan, false)
+println(statusPerkawinan2)
 
-if (statusPerkawinan == 'Kawin'){
-	
+if (WebUI.verifyOptionSelectedByValue(findTestObject('FE/PARTNER/Beranda/select_status perkawinan'), 'null', false, 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('FE/PARTNER/Beranda/select_status perkawinan'))
+
+    WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Beranda/Option - Perkawinan'), statusPerkawinan, false)
+}
+
+if (WebUI.verifyOptionSelectedByLabel(findTestObject('FE/PARTNER/Beranda/select_status perkawinan'), 'Kawin', false, 3, 
+    FailureHandling.OPTIONAL)) {
     WebUI.callTestCase(findTestCase('FE/Partner/Upload File/uploadktppasangan'), [:], FailureHandling.STOP_ON_FAILURE)
-	WebUI.delay(1)
-	WebUI.click(findTestObject('FE/PARTNER/Beranda/button_Simpan'))
-	
-	}else {
-		WebUI.delay(1)	
-		WebUI.click(findTestObject('FE/PARTNER/Beranda/button_Simpan'))
-	}
-	
+
+    WebUI.delay(1)
+
+    String valuenikpsg = WebUI.getAttribute(findTestObject('FE/PARTNER/Beranda/input_NIK Pasangan'), 'value')
+
+    println(valuenikpsg)
+
+    if (valuenikpsg == '') {
+        WebUI.click(findTestObject('FE/PARTNER/Beranda/input_NIK Pasangan'))
+
+        WebUI.sendKeys(findTestObject('FE/PARTNER/Beranda/input_NIK Pasangan'), nikpasangan)
+    }
+    
+    String valuenamapsg = WebUI.getAttribute(findTestObject('FE/PARTNER/Beranda/input_Nama Lengkap Pasangan'), 'value')
+
+    println(valuenamapsg)
+
+    if (valuenamapsg == '') {
+        WebUI.click(findTestObject('FE/PARTNER/Beranda/input_Nama Lengkap Pasangan'))
+
+        WebUI.sendKeys(findTestObject('FE/PARTNER/Beranda/input_Nama Lengkap Pasangan'), namapasangan)
+    }
+    
+    // Input Tanggal lahir
+    // Open datepicker
+    String date2a = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/tanggal2'))
+
+    println(date2a)
+
+    if (date2a == 'Masukkan tanggal lahir pasangan') {
+        WebUI.click(findTestObject('FE/PARTNER/Pengajuan/Button - Open Calendar2'))
+
+        WebUI.click(findTestObject('FE/PARTNER/Pengajuan/Choose year2'))
+
+        String cYear = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose year2'))
+
+        String cMonth = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose month2'))
+
+        System.print('****' + cYear)
+
+        //String eYear = 1999
+        WebUI.click(findTestObject('FE/PARTNER/Pengajuan/button - back2'))
+
+        WebDriver driver2 = DriverFactory.getWebDriver()
+
+        List<WebElement> el = driver2.findElements(By.xpath('//div[@class=\'yli-content\']'))
+
+        for (WebElement e : el) {
+            System.print(e.getText() + '***')
+
+            if (e.getText().equals(eYear)) {
+                e.click()
+
+                break
+            }
+        }
+        
+        WebUI.delay(3)
+
+        System.print((cMonth + '****') + cYear)
+
+        //month and date
+        //String date1 = "1-Januari";
+        String eDate = date2.split('-')[0]
+
+        String eMonth = date2.split('-')[1]
+
+        while (!(cMonth.equals(eMonth))) {
+            WebUI.click(findTestObject('FE/PARTNER/Pengajuan/button - back2'))
+
+            cMonth = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose month2'))
+        }
+        
+        WebDriver driver = DriverFactory.getWebDriver()
+
+        List<WebElement> ele = driver.findElements(By.xpath('//div[@class=\'dli-content\']'))
+
+        for (WebElement e : ele) {
+            //  System.print(e.getText() + '***')
+            if (e.getText().equals(eDate)) {
+                e.click()
+
+                break
+            }
+        }
+    }
+}
+
+WebUI.click(findTestObject('FE/PARTNER/Beranda/button_Simpan'))
+

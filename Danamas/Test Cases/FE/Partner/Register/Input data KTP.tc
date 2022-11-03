@@ -90,7 +90,7 @@
       <variableId>ad64bb35-8f26-4823-b96c-d6be966dddf3</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'laki-laki'</defaultValue>
+      <defaultValue>'Laki-laki'</defaultValue>
       <description></description>
       <id>e6377810-d683-4d22-a60a-79e887ad1570</id>
       <masked>false</masked>
