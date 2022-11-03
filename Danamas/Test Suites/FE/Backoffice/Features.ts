@@ -46,6 +46,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>5da913fb-17bf-4e4b-a6b7-140daa678296</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Loan Type</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>c44be11a-7857-4bd8-8783-36142d478cd6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -68,7 +75,7 @@
    <testCaseLink>
       <guid>c029114d-6a31-4d73-9fa3-c0049cda455c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -121,7 +128,7 @@
    <testCaseLink>
       <guid>d4d9c141-d756-4d7a-9093-37782c138709</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Customer Management</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Click tab Informasi Bank
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Customer Management/Detail/Tab - Informasi Bank'), 2)
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Customer Management/Detail/Tab - Informasi Bank'), 4)
 WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Tab - Informasi Bank'))
 
 //Verify element in tab Informasi Bank is visible

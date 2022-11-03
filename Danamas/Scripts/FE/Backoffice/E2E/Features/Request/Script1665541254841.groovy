@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Request'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by Nama'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by Nama'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by Nama Cabang'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by Nama Cabang'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by Posisi'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by Posisi'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by Cabang Partner'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by Cabang Partner'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 

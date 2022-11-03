@@ -1,19 +1,46 @@
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import org.openqa.selenium.By
-import org.openqa.selenium.WebDriver as WebDriver
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebDriver
+
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+//Click button Edit Data
+WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Button - Edit Data'))
 
 //Click button Tambah Data Keluarga
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Button - Tambah Data Keluarga'), 2)
 WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Button - Tambah Data Keluarga'))
 
 WebDriver driver = DriverFactory.getWebDriver()
-int count_data = driver.findElements(By.xpath('//app-quick-access/div/div')).size()
+int count_data = driver.findElements(By.xpath('//app-quick-access/div/div')).size() - 1
 
+//Input Nama
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Input - Nama', [('no') : count_data]), 2)
+WebUI.setText(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Input - Nama', [('no') : count_data]), nama)
 
+//Input NIK
+WebUI.setText(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Input - NIK', [('no') : count_data]), nik)
 
+//Select Status Pernikahan
+WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Select - Status Pernikahan', [('no') : count_data]))
+WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Option - Status Pernikahan', [('no') : count_data, ('status_pernikahan'):status_pernikahan]))
 
+//Select Hubungan
+WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Select - Hubungan', [('no') : count_data]))
+WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Option - Hubungan', [('no') : count_data, ('hubungan'):hubungan]))
 
+//Input Tanggal Lahir
+WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Input - Tanggal Lahir', [('no') : count_data]))
+WebUI.selectOptionByLabel(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Select - Month', [('no') : count_data]), dob_month, false)
+WebUI.selectOptionByLabel(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Select - Year', [('no') : count_data]), dob_year, false)
+WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Option - Date', [('no') : count_data, ('date') : dob_date]))
+
+//Click button Simpan
+WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Button - Simpan'))
+
+//Verify success snackbar is shown
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 5)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 'Sukses Mengubah Informasi Keluarga', FailureHandling.STOP_ON_FAILURE)
