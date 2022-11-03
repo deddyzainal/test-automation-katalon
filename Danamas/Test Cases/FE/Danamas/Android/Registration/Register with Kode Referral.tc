@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register with Kode Referral</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0fa8abd-9ae6-4bf1-bc9c-53f427957be2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94091c54-bb64-473e-bc17-ecab5aaa9215</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'QPTS02402675'</defaultValue>
+      <description></description>
+      <id>94091c54-bb64-473e-bc17-ecab5aaa9215</id>
+      <masked>false</masked>
+      <name>kodeReferral</name>
+   </variable>
+</TestCaseEntity>
