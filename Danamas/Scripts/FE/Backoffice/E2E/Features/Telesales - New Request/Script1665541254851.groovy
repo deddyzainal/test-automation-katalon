@@ -34,15 +34,15 @@ if (GlobalVariable.loanNumber == '') {
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Telesales'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by Nama Peminjam'), [('nama_peminjam') : 'Katalon ' + 
-        GlobalVariable.datetime], FailureHandling.STOP_ON_FAILURE)
+        GlobalVariable.datetime], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by Kategori'), [('kategori') : 'NEW REQUEST'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by Kategori'), [('kategori') : 'NEW REQUEST'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by Tipe Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by Tipe Pinjaman'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 

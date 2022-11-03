@@ -6,12 +6,11 @@
    <elementGuidId>e1845bdb-eca8-46d1-9f9f-91b75c221c89</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//lancar-tabs/ul/li[text()=' Informasi Bank ']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Keluarga'])[1]/following::li[1]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>d3a5f166-f441-4342-a688-e8295c3df0fa</webElementGuid>
+      <webElementGuid>34a5ef11-711d-42fe-810d-0071d67eb423</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-star-inserted</value>
-      <webElementGuid>0c71c637-8c23-4cc3-bf7b-501893439d80</webElementGuid>
+      <webElementGuid>2b31b1c4-3d16-44f8-bbcd-7c9dba541f02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Informasi Bank </value>
-      <webElementGuid>2d5d21ac-c049-41cc-b853-7d493e14d32d</webElementGuid>
+      <webElementGuid>c399086b-4f7f-44a8-9380-64ad09150e0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-tns-c80-0 ng-star-inserted&quot;]/div[@class=&quot;main-container ng-tns-c80-0&quot;]/div[@class=&quot;padding-32-32-32-32 ng-tns-c80-0 padding-left&quot;]/app-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mb-32 ng-star-inserted&quot;]/lancar-tabs[1]/ul[1]/li[@class=&quot;ng-star-inserted&quot;]</value>
-      <webElementGuid>461858cb-cb8e-45a7-ab62-72c2201d0b40</webElementGuid>
+      <webElementGuid>3b658f85-5448-4619-bb7c-abdb8fddb9a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Keluarga'])[1]/following::li[1]</value>
-      <webElementGuid>90427537-5a0d-4647-836c-2bc9d2c41e77</webElementGuid>
+      <webElementGuid>96cb4f17-902d-4d8a-8838-275077f0734d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak Darurat'])[1]/following::li[2]</value>
-      <webElementGuid>e4549e67-a501-4a01-b599-d1aa79610043</webElementGuid>
+      <webElementGuid>48ba0386-e708-42ac-84ed-dadd2cbfdb05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kredensial'])[1]/preceding::li[1]</value>
-      <webElementGuid>e95afca5-3ab4-44e2-bdf9-44160e17fcba</webElementGuid>
+      <webElementGuid>5d23542c-1471-4b08-811e-14f6b5fc309b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Sistem'])[1]/preceding::li[2]</value>
-      <webElementGuid>44ffea3e-0fac-4ec7-a9a0-589c92304f3c</webElementGuid>
+      <webElementGuid>02824c45-7684-479f-809e-210ff0e42184</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Informasi Bank']/parent::*</value>
-      <webElementGuid>6bcfa226-8e82-4730-9683-b5ea616f4953</webElementGuid>
+      <webElementGuid>3c9dd614-f7f8-4322-9561-1058083c3c1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//lancar-tabs/ul/li[7]</value>
-      <webElementGuid>752115da-afb7-4fcc-ad20-e862c0567676</webElementGuid>
+      <webElementGuid>d5f9908a-3587-4514-8e92-5eb6057453fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = ' Informasi Bank ' or . = ' Informasi Bank ')]</value>
-      <webElementGuid>1de8821d-ae6b-4eb3-b7d4-a21da897fd96</webElementGuid>
+      <webElementGuid>68415f32-14e3-48d8-97fc-f2dceb353c4f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

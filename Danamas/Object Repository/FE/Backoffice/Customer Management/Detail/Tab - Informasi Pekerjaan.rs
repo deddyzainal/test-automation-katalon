@@ -6,12 +6,11 @@
    <elementGuidId>f0d1a1c4-d059-4ea1-9b0b-d4f67ca82eba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//lancar-tabs/ul/li[text()=' Informasi Pekerjaan ']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/following::li[1]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>2f85967c-e5e2-4be4-b844-4fec09c89c19</webElementGuid>
+      <webElementGuid>f72b70ba-614e-4736-b69f-02c366df0629</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-star-inserted</value>
-      <webElementGuid>7cf20483-34ea-4e6f-ac67-66cd1d845211</webElementGuid>
+      <webElementGuid>c11badc8-ec38-4db3-add4-dc2a943d4919</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Informasi Pekerjaan </value>
-      <webElementGuid>d23bd637-5d0e-4dd2-9199-84c481f47132</webElementGuid>
+      <webElementGuid>f1abf107-497a-4824-b297-9079dd7a334a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-dashboard[@class=&quot;ng-tns-c80-0 ng-star-inserted&quot;]/div[@class=&quot;main-container ng-tns-c80-0&quot;]/div[@class=&quot;padding-32-32-32-32 ng-tns-c80-0 padding-left&quot;]/app-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mb-32 ng-star-inserted&quot;]/lancar-tabs[1]/ul[1]/li[@class=&quot;ng-star-inserted&quot;]</value>
-      <webElementGuid>84c1ae6a-5985-4ad6-a599-7f5801218943</webElementGuid>
+      <webElementGuid>ebce989e-3b9a-4ba3-a980-56ffefe87958</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/following::li[1]</value>
-      <webElementGuid>d5050a7e-d7de-45ef-8667-45dc3c5a745a</webElementGuid>
+      <webElementGuid>553899fb-f25e-4a95-a0cf-b73cbbc68f1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Peminjam'])[1]/following::li[2]</value>
-      <webElementGuid>b9f75b23-2cba-46ac-8ce1-38ee8da6f43c</webElementGuid>
+      <webElementGuid>6506897c-b70b-405c-9ccb-dbb34cd00b35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Penjamin'])[1]/preceding::li[1]</value>
-      <webElementGuid>2b5c131b-fcdc-4cb6-a3a3-dd0fd4e6e73c</webElementGuid>
+      <webElementGuid>8adb9038-225b-48f7-a2aa-29a2c6972b0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Informasi Kontak Darurat'])[1]/preceding::li[2]</value>
-      <webElementGuid>a7b07eb1-1973-418b-9e53-e964a6f5d414</webElementGuid>
+      <webElementGuid>1a7f5789-6093-4b9b-9708-b12d67b4c467</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Informasi Pekerjaan']/parent::*</value>
-      <webElementGuid>ef433d02-4f3c-481d-9ea9-8954469a1f55</webElementGuid>
+      <webElementGuid>4a5fe9ab-8c46-4765-ae91-fc210dcdfa5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//lancar-tabs/ul/li[3]</value>
-      <webElementGuid>7e66cd10-34a6-4965-94aa-bf3d4a335a6f</webElementGuid>
+      <webElementGuid>ac4ed205-0b31-40cb-ba48-74990d5d4909</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = ' Informasi Pekerjaan ' or . = ' Informasi Pekerjaan ')]</value>
-      <webElementGuid>7faaaac5-6934-417d-9afd-d609d40788cf</webElementGuid>
+      <webElementGuid>8594a91e-3595-4666-bb62-6b92f28a2d7f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
