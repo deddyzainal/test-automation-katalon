@@ -6,23 +6,26 @@
    <elementGuidId>8f4c8521-9d44-4595-b4a3-36578bf5158d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@auto_name=&quot;spouse_nik&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='tel'])[3]</value>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@placeholder = 'Masukkan NIK pasangan']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>59a4dab8-1bef-4c99-8710-dd199e0f780a</webElementGuid>
+      <webElementGuid>b6622392-1e39-4998-acb1-fcb2a1b65074</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>62bf0fc1-290d-4673-9d3c-aede7b3c82d7</webElementGuid>
+      <webElementGuid>ae633f12-3e1d-44e8-a658-733f65871069</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan NIK pasangan</value>
-      <webElementGuid>b157e470-339e-4ebe-83ff-dbd6526ead86</webElementGuid>
+      <webElementGuid>54304405-00fb-4f5c-9b8a-907d460665ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +49,15 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>16</value>
-      <webElementGuid>f426b3e8-8cb3-48dc-a1fa-3b24ea71e8cc</webElementGuid>
+      <webElementGuid>aa891b0b-c22b-4eaf-aa55-026fd1cc2219</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>cb3e2ded-a45f-4256-8fc6-078877752be7</webElementGuid>
+      <webElementGuid>cc4d4752-7dba-47ff-88f9-d0854381660a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>auto_name</name>
       <type>Main</type>
       <value>spouse_nik</value>
-      <webElementGuid>9b70f8f3-afec-4a62-98bb-bb6974d9ac22</webElementGuid>
+      <webElementGuid>753a3a14-d37f-4ea3-b482-03d44a6f7570</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/ng-component[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-invalid ng-star-inserted ng-dirty ng-touched&quot;]/app-form-group[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;form-group row mb-4 required&quot;]/div[@class=&quot;font-weight-400 col-12&quot;]/app-input[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;input-group app-input-group ng-star-inserted&quot;]/input[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>e365909a-4fba-4ef1-afcb-701ccfcda440</webElementGuid>
+      <webElementGuid>20957483-4675-43b7-a480-e3a0bbd6e0d7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@type='tel'])[3]</value>
-      <webElementGuid>0be51373-f5f2-468c-99c9-81edf5f39f31</webElementGuid>
+      <webElementGuid>58e2e692-caac-48b0-ae83-2c5599379aa2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main']/ng-component/form/app-form-group[13]/div/div/app-input/div/input</value>
-      <webElementGuid>7527fd8b-feab-45cb-818c-79d0c9baa03b</webElementGuid>
+      <webElementGuid>f5bf782e-a3fe-4164-a3df-21ab1f42f306</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-form-group[13]/div/div/app-input/div/input</value>
-      <webElementGuid>dcae8878-626d-4d41-97a2-4bd7faf1a605</webElementGuid>
+      <webElementGuid>c7c94f3a-f93b-4fb8-b237-f0e8c82a2930</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Masukkan NIK pasangan' and @type = 'tel']</value>
-      <webElementGuid>269e3aa0-40db-4ba0-84cd-a36937faee28</webElementGuid>
+      <webElementGuid>ece43171-5bfb-45cd-8230-b910ccb6da38</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

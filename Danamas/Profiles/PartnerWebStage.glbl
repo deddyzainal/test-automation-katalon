@@ -54,4 +54,9 @@
       <initValue>''</initValue>
       <name>badge</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'B063011190'</initValue>
+      <name>kodereferral</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

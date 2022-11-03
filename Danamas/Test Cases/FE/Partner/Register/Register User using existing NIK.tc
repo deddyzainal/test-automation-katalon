@@ -98,7 +98,7 @@
       <name>nik</name>
    </variable>
    <variable>
-      <defaultValue>'laki-laki'</defaultValue>
+      <defaultValue>'Laki-laki'</defaultValue>
       <description></description>
       <id>af210669-24e1-4f9d-90ac-9231442dcc98</id>
       <masked>false</masked>
