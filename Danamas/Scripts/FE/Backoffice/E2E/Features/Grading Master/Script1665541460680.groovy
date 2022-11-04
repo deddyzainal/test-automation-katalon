@@ -21,7 +21,7 @@ String datetime = new Date().format('yyMMddHHmmss')
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Grading Master'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Grading/Search by grade name'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Grading/Search by grade name'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Grading/Add grade'), [('grade') : 'Grade ' + datetime], FailureHandling.STOP_ON_FAILURE)
 

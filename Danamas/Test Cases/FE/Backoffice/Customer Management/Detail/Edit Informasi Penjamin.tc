@@ -27,6 +27,18 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>7ae26cfd-f7c3-483d-9459-18e191235ca7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d675bd3c-141f-4645-bd09-50ec8018779a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>25efb5ca-ceef-4220-ba97-29f9de9719f7</variableId>
    </variableLinks>
    <variableLinks>
@@ -69,11 +81,25 @@
       <name>kota</name>
    </variable>
    <variable>
-      <defaultValue>'08/12/2000'</defaultValue>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>7ae26cfd-f7c3-483d-9459-18e191235ca7</id>
+      <masked>false</masked>
+      <name>dob_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Juli'</defaultValue>
+      <description></description>
+      <id>d675bd3c-141f-4645-bd09-50ec8018779a</id>
+      <masked>false</masked>
+      <name>dob_month</name>
+   </variable>
+   <variable>
+      <defaultValue>'1988'</defaultValue>
       <description></description>
       <id>25efb5ca-ceef-4220-ba97-29f9de9719f7</id>
       <masked>false</masked>
-      <name>tanggal_lahir</name>
+      <name>dob_year</name>
    </variable>
    <variable>
       <defaultValue>'Jl Anggrek Neli Murni'</defaultValue>

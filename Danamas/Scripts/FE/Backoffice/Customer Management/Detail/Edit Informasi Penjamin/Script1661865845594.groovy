@@ -34,7 +34,10 @@ WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi P
 WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Penjamin/Option - Kota', [('kota'):kota]))
 
 //Input Tanggal Lahir
-//WebUI.setText(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Penjamin/Input - Tanggal Lahir'), tanggal_lahir)
+WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Penjamin/Input - Tanggal Lahir'))
+WebUI.selectOptionByLabel(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Penjamin/Select - Month'), dob_month, false)
+WebUI.selectOptionByLabel(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Penjamin/Select - Year'), dob_year, false)
+WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Penjamin/Option - Date', [('date') : dob_date]))
 
 //Input Alamat
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Penjamin/Input - Alamat'), 2)

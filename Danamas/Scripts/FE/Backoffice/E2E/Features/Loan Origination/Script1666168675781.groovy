@@ -26,36 +26,36 @@ if (GlobalVariable.loanNumber == '') {
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Origination'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Nama'), [('nama_peminjam') : 'Katalon ' + 
-        GlobalVariable.datetime], FailureHandling.STOP_ON_FAILURE)
+        GlobalVariable.datetime], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by No Telepon'), [('no_telepon') : GlobalVariable.datetime], 
-    FailureHandling.STOP_ON_FAILURE)
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Nama Telesales'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Nama Telesales'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Tipe Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Tipe Pinjaman'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Status Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Status Pinjaman'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Sumber Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Sumber Pinjaman'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Branch Name'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Branch Name'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Nama Partner'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Nama Partner'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
@@ -70,31 +70,31 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Open loan detail'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open Customer detail'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open Customer detail'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.back()
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Rincian Biaya Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Edit Rincian Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Edit Rincian Pinjaman'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Detail Agunan'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Edit Informasi Agunan'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Detail RM Agen'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Detail RM Agen'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Pencairan'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Pencairan'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Pembayaran'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Pembayaran'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Asuransi'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Edit Asuransi'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Edit Asuransi'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Riwayat Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Riwayat Pinjaman'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Dokumen'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Dokumen'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Riwayat Status Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/Detail/Open tab Riwayat Status Pinjaman'), null, FailureHandling.CONTINUE_ON_FAILURE)
 

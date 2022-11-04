@@ -25,16 +25,16 @@ if (GlobalVariable.loanNumber == '') {
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Assessment'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by Nama Peminjam'), [('nama_peminjam') : 'Katalon ' +
-		GlobalVariable.datetime], FailureHandling.STOP_ON_FAILURE)
+		GlobalVariable.datetime], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No Telepon'), [('no_telepon') : GlobalVariable.datetime],
-	FailureHandling.STOP_ON_FAILURE)
+	FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by Status'), [('status') : 'PASSED'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by Status'), [('status') : 'PASSED'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 

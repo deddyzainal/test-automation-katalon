@@ -19,21 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Reaktivasi'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by Nama Peminjam'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by Nama Peminjam'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by KTP Peminjam'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by KTP Peminjam'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Reset filter'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Reset filter'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 //Filter by status CANCELLED
-WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by Status'), [('status') : 'CANCELLED'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by Status'), [('status') : 'CANCELLED'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
 //Filter by status REJECTED
-WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by Status'), [('status') : 'REJECTED'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by Status'), [('status') : 'REJECTED'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 

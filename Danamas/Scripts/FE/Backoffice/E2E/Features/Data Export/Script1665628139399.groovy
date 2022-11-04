@@ -19,16 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Data Export'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export User Management report'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export User Management report'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export Loan Origination report'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export Loan Origination report'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export Loan Assessment report'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export Loan Assessment report'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export Sales report'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export Sales report'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export DanaExpress report'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export DanaExpress report'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export Telesales report'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export Telesales report'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export Loan Origination (Submitted) report'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Data Export/Export Loan Origination (Submitted) report'), null, FailureHandling.CONTINUE_ON_FAILURE)
