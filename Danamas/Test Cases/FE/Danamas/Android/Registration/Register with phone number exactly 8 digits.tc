@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Register with phone number exactly 8 digits</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>7ee2b1d0-7670-412f-ba7b-96e3cd42a02b</testCaseGuid>
-</TestCaseEntity>
