@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Register with incorrect email address format</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c5af5035-c508-465a-8c38-c80038e9eca4</testCaseGuid>
-</TestCaseEntity>

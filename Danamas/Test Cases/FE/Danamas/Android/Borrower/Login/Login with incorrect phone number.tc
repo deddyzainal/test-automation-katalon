@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with incorrect phone number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b54c359-1ec3-4b24-b240-93325881072a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>28ba4968-942c-41a9-81e4-ce6f99f94783</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'20221103133323'</defaultValue>
+      <description></description>
+      <id>28ba4968-942c-41a9-81e4-ce6f99f94783</id>
+      <masked>false</masked>
+      <name>unregisteredtPhone</name>
+   </variable>
+</TestCaseEntity>

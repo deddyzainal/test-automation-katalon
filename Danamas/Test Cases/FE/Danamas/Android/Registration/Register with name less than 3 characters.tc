@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Register with name less than 3 characters</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>46595c87-dc1e-495a-9041-5173e50f562d</testCaseGuid>
-</TestCaseEntity>
