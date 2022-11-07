@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input - Jaminan Properti</name>
+   <name>Input - Luas Awal</name>
    <tag></tag>
-   <elementGuidId>61177501-bfe9-4bc1-9e4f-e193dac51bb0</elementGuidId>
+   <elementGuidId>9a4f792b-feaf-4830-906f-30b25eca3753</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@formcontrolname = 'type']</value>
+         <value>//input[@formcontrolname = 'init_area_in_metre_cubic']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3b68e9de-b993-42ab-a7b4-ab647e742502</webElementGuid>
+      <webElementGuid>50843b04-8e02-4814-8b11-44dac6d24cf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
-      <value>type</value>
-      <webElementGuid>7ae1ed56-68fa-42f0-822c-ccb2e1bc63fd</webElementGuid>
+      <value>init_area_in_metre_cubic</value>
+      <webElementGuid>37dce157-5c3e-422b-945f-d43b8ea9aba5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

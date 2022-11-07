@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Option - Provinsi</name>
+   <name>TextValue - Provinsi</name>
    <tag></tag>
-   <elementGuidId>c9504aa1-d530-4ab1-981d-1d4429bfe4c8</elementGuidId>
+   <elementGuidId>b8c37d91-e196-413d-9dd9-1c608493738f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@formcontrolname = 'province_id']/ancestor::lancar-input/following-sibling::lancar-search-list//lancar-dropdown-list/ul/li[text()=' ${provinsi} ']</value>
+         <value>//kjpp-location-tab//tbody/tr[1]/td[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

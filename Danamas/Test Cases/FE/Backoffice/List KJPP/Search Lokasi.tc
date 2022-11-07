@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Request</name>
+   <name>Search Lokasi</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2fd2d7c5-201e-4960-9cb7-730bf648f360</testCaseGuid>
+   <testCaseGuid>59bcd1c9-a833-44c7-9f1f-4a2ac0df9a42</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4a85d544-64ca-453f-a2c9-dbfb227ceb92</variableId>
+      <variableId>21d84b92-789d-4747-ab33-0e5150e35151</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'20221102140838'</defaultValue>
+      <defaultValue>'Bali'</defaultValue>
       <description></description>
-      <id>4a85d544-64ca-453f-a2c9-dbfb227ceb92</id>
+      <id>21d84b92-789d-4747-ab33-0e5150e35151</id>
       <masked>false</masked>
-      <name>nomor_hp</name>
+      <name>lokasi</name>
    </variable>
 </TestCaseEntity>

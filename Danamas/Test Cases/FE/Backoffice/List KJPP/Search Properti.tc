@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Request</name>
+   <name>Search Properti</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2fd2d7c5-201e-4960-9cb7-730bf648f360</testCaseGuid>
+   <testCaseGuid>554e3fd6-ed3a-4a42-9839-4ab7077a85d0</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4a85d544-64ca-453f-a2c9-dbfb227ceb92</variableId>
+      <variableId>769025b4-120e-4fc4-8ae8-b15eed04fec3</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'20221102140838'</defaultValue>
+      <defaultValue>'Properti 1'</defaultValue>
       <description></description>
-      <id>4a85d544-64ca-453f-a2c9-dbfb227ceb92</id>
+      <id>769025b4-120e-4fc4-8ae8-b15eed04fec3</id>
       <masked>false</masked>
-      <name>nomor_hp</name>
+      <name>properti</name>
    </variable>
 </TestCaseEntity>
