@@ -3,7 +3,7 @@
    <description></description>
    <name>Radio - Status KJPP</name>
    <tag></tag>
-   <elementGuidId>8458fa6e-48de-405c-ac94-aed95c96672d</elementGuidId>
+   <elementGuidId>9ecc8d43-6508-41ef-a7d6-0fa52f9f4a4b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>810e6f44-3121-4abc-af24-5a539fb0abfa</webElementGuid>
+      <webElementGuid>c81e1fce-c6f1-496b-bef0-a268302e5a3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>028cc3db-596b-4938-a470-98af2a9cf213</webElementGuid>
+      <webElementGuid>04cae55a-7736-4c43-a2c2-c51751754adc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,6 +38,6 @@
       <name>value</name>
       <type>Main</type>
       <value>${status}</value>
-      <webElementGuid>eb22b2bb-eccb-4fb7-90b8-017f5d91d1a6</webElementGuid>
+      <webElementGuid>9e0f57fa-8590-4e42-9338-8d0259f1667c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

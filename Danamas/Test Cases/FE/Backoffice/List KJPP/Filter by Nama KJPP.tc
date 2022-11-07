@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Request</name>
+   <name>Filter by Nama KJPP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2fd2d7c5-201e-4960-9cb7-730bf648f360</testCaseGuid>
+   <testCaseGuid>9bd9cce6-1d3b-426b-9dfc-0816580947c6</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4a85d544-64ca-453f-a2c9-dbfb227ceb92</variableId>
+      <variableId>c88602b0-9383-4bb8-84d0-7e468547e46d</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'20221102140838'</defaultValue>
+      <defaultValue>'KJPP Tono'</defaultValue>
       <description></description>
-      <id>4a85d544-64ca-453f-a2c9-dbfb227ceb92</id>
+      <id>c88602b0-9383-4bb8-84d0-7e468547e46d</id>
       <masked>false</masked>
-      <name>nomor_hp</name>
+      <name>nama_kjpp</name>
    </variable>
 </TestCaseEntity>
