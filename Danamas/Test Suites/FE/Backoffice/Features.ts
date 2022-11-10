@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>9daf2c09-d566-419b-8863-1e880218565d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Loan Origination</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -75,7 +75,7 @@
    <testCaseLink>
       <guid>c029114d-6a31-4d73-9fa3-c0049cda455c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -135,7 +135,7 @@
    <testCaseLink>
       <guid>0c8d2efc-2c3d-4353-8a9c-887422975a0e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Data Export</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

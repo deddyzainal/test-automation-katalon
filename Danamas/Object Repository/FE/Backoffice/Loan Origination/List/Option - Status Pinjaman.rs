@@ -6,15 +6,15 @@
    <elementGuidId>d308e1a1-a530-4e65-b029-5a5bb7bf1bf2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//lancar-input//input[@formcontrolname='loanStatusTemp']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${status_pinjaman} ']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-option-4 > span.mat-option-text</value>
       </entry>
       <entry>
          <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(), 'Status Pinjaman')]/ancestor::lancar-btn/following-sibling::lancar-check-box-list//p[text()='${status_pinjaman}']/preceding-sibling::img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>cd93e6fd-97f4-4d2c-831a-d6ed1feb7c41</webElementGuid>
+      <webElementGuid>c695c929-2f80-4bde-9144-20753eb3d1e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>3bf11f73-6624-4d12-88ad-f89e3a8c4549</webElementGuid>
+      <webElementGuid>2eb13d4e-f5c4-45e2-a5e0-6b7d6a60f4b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Passed </value>
-      <webElementGuid>66aa115c-0da3-4433-bb8d-3bf2d09bdd10</webElementGuid>
+      <webElementGuid>e90a3c7c-db51-4efe-9fb3-6d2a9ecd260c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-4&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>d49d2cf0-e361-4d5b-8ed2-a7b381cf62a3</webElementGuid>
+      <webElementGuid>fd54ee5f-585d-4b1c-ab9a-e87fc72038cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-4']/span</value>
-      <webElementGuid>5725f36c-f6a3-45d2-8122-77aa5df1393c</webElementGuid>
+      <webElementGuid>4cbf4dae-25ae-4a55-9c8e-b797089a4072</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::span[1]</value>
-      <webElementGuid>c220050b-6512-4b0d-b0c1-b83a588e3c6f</webElementGuid>
+      <webElementGuid>eb2ea71f-ea5e-4666-a25f-ef17bc8b5405</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::span[2]</value>
-      <webElementGuid>0320b086-5bf8-4baf-843a-db9cceb870c7</webElementGuid>
+      <webElementGuid>35b09a15-b562-48fd-a74e-c8af17e2258f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submitted'])[1]/preceding::span[1]</value>
-      <webElementGuid>97b1dfc2-c08e-4a2d-9a5c-99cf30617845</webElementGuid>
+      <webElementGuid>4fd90f01-429e-45e6-843a-4c5d686289e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved'])[1]/preceding::span[2]</value>
-      <webElementGuid>c8c16e79-282b-4ae5-b020-7939d7d5a3df</webElementGuid>
+      <webElementGuid>dcff5ad8-7449-4b52-8894-934aea0ed80a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Passed']/parent::*</value>
-      <webElementGuid>6f27d11b-ed73-4c19-9135-b9e6b5c33aef</webElementGuid>
+      <webElementGuid>a847795c-6668-402f-a6b2-95f156cee972</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[3]/span</value>
-      <webElementGuid>19733eee-9656-480d-b944-7e2eb0ecb5ad</webElementGuid>
+      <webElementGuid>f08b170d-6bdb-4f9e-ae00-74ef91e87bff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Passed ' or . = ' Passed ')]</value>
-      <webElementGuid>e37dad6e-f0ab-4739-97cb-9778c5b8d5d0</webElementGuid>
+      <webElementGuid>a38699ef-bcd8-41ba-a290-d15bee359317</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

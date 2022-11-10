@@ -22,9 +22,10 @@ WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/List/
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Status Pinjaman'))
 
 //Select status pinjaman option
-//WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Origination/List/Option - Status Pinjaman', [('status_pinjaman'):status_pinjaman]), 3)
-WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Status Pinjaman', [('status_pinjaman'):status_pinjaman]))
+for(int i = 0; i < status_pinjaman.size; i++) {
+	WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Status Pinjaman', [('status_pinjaman') : status_pinjaman[i]]))
+}
 
-//Verify Status Pinjaman in the list match with selected option
+WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Status Pinjaman'))
 WebUI.delay(3)
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Origination/List/TextValue - Status'), status_pinjaman.toUpperCase())
+//WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Origination/List/TextValue - Status'), status_pinjaman.toUpperCase())

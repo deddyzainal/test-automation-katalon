@@ -12,7 +12,7 @@
       <variableId>6dee7895-0448-46a0-a050-bccb5266ac63</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Lancar Aplikasi'</defaultValue>
+      <defaultValue>['Lancar Aplikasi', 'Kantor Cabang']</defaultValue>
       <description></description>
       <id>6dee7895-0448-46a0-a050-bccb5266ac63</id>
       <masked>false</masked>

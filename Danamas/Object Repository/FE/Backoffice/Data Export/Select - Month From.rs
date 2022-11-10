@@ -6,12 +6,11 @@
    <elementGuidId>173c078a-474d-4a50-a821-3b17c7e54a9e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h3[text()='From Date:']/following-sibling::lancar-date-picker/div/div/div[1]/div[2]/select[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//h3[text()=' Tanggal Mulai ']/following-sibling::lancar-date-picker/div/div/div[1]/div[2]/select[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>c05008fa-a70b-4c1a-b758-4dbb999c69cf</webElementGuid>
+      <webElementGuid>d1ac6182-cb18-40d5-9053-aa28c83bd056</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

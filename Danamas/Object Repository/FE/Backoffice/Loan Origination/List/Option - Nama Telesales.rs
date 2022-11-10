@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select - Perusahaan Penjamin</name>
+   <name>Option - Nama Telesales</name>
    <tag></tag>
-   <elementGuidId>a82b6af5-a1e3-4523-974c-e27a7dd5c453</elementGuidId>
+   <elementGuidId>02f3db26-5233-488d-9820-b6c72e49723c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(text(), 'Perusahaan Penjamin')]/ancestor::lancar-btn</value>
+         <value>//div[contains(text(), 'Nama Telesales')]/ancestor::lancar-btn/following-sibling::lancar-search-checkbox-list//p[text()='${nama_telesales}']/preceding-sibling::img</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//input[@formcontrolname = 'anchorIdTemp']</value>
+         <value>//input[@formcontrolname = 'telesalesName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,14 +22,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ff55bd27-b088-4197-b13b-d6c87f22434f</webElementGuid>
+      <webElementGuid>e4e815ee-b8e2-44fb-9318-532ac6749fa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
-      <value>anchorIdTemp</value>
-      <webElementGuid>f4a59210-c5d6-4513-8cce-71b5e4bd3e0f</webElementGuid>
+      <value>telesalesName</value>
+      <webElementGuid>ad3678bd-0fbf-41a5-b3d0-3c051e344a0e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
