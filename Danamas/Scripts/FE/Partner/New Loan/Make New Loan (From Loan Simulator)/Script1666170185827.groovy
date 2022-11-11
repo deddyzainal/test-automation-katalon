@@ -57,7 +57,7 @@ WebUI.callTestCase(findTestCase('FE/Partner/Upload File/uploadktp'), [:], Failur
 WebUI.callTestCase(findTestCase('FE/Partner/Upload File/uploadfotoselfie'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Input Data - Informasi Peminjam'), [('gender') : 'Laki-laki', ('tempatlahir') : 'jakarta'
-        , ('nama') : 'test11', ('pendidikan') : 'Sarjana', ('statusPerkawinan') : 'Belum kawin', ('date1') : '10-Agustus'
+        , ('nama') : 'test11', ('pendidikan') : 'Sarjana', ('statusPerkawinan') : 'Belum Kawin', ('date1') : '10-Agustus'
         , ('eYear') : '1999', ('nikpasangan') : '1312213121111123', ('date2') : '15-Agustus', ('namapasangan') : 'Joko'], 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -75,9 +75,10 @@ WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Input Data - Informasi Pinja
         , ('tipepeminjam') : 'individual', ('tujuanpinjaman') : 'pribadi', ('tenor') : '120', ('badge') : GlobalVariable.badge], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Pengajuan pinjaman telah berhasil di kirim untuk pre-screening!', false)
-
-WebUI.click(findTestObject('FE/PARTNER/Beranda/button_OK'))
+//WebUI.verifyTextPresent('Pengajuan pinjaman telah berhasil di kirim untuk pre-screening!', false)
+//
+//WebUI.click(findTestObject('FE/PARTNER/Beranda/button_OK'))
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Get Point'), [('poin') : 'tutup'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

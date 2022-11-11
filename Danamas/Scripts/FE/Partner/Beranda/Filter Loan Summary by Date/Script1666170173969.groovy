@@ -35,25 +35,27 @@ WebUI.verifyTextPresent('Bulanan', false)
 // Open datepicker
 WebUI.click(findTestObject('FE/PARTNER/Pengajuan/Button - Open Calendar'))
 
-String cMonth = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose month'))
+String cMonth = WebUI.getText(findTestObject('FE/PARTNER/Pengajuan/Choose month'))
 
-String cYear = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose year'))
+String cYear = WebUI.getText(findTestObject('FE/PARTNER/Pengajuan/Choose year2'))
 
 System.print((cMonth + '****') + cYear)
 
 //String date1 = "01-Agustus-2022";
 String eDate = date1.split('-')[0]
 
-String eMonth = date1.split('-')[1]
+String e2Date = date1.split('-')[1]
 
-String eYear = date1.split('-')[2]
+String eMonth = date1.split('-')[2]
+
+String eYear = date1.split('-')[3]
 
 while (!(cMonth.equals(eMonth)) || !(cYear.equals(eYear))) {
     WebUI.click(findTestObject('FE/PARTNER/Pengajuan/button - back2'))
 
-    cMonth = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose month'))
+    cMonth = WebUI.getText(findTestObject('FE/PARTNER/Pengajuan/Choose month'))
 
-    cYear = WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Pengajuan/Choose year'))
+    cYear = WebUI.getText(findTestObject('FE/PARTNER/Pengajuan/Choose year2'))
 }
 
 WebDriver driver = DriverFactory.getWebDriver()
@@ -65,7 +67,7 @@ for (WebElement e : el) {
 
     if (e.getText().equals(eDate)) {
         e.click()
-
+    } else if (e.getText().equals(e2Date)) {
         e.click()
 
         break
