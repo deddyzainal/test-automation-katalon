@@ -12,10 +12,10 @@
       <variableId>84202a7d-59f0-4060-a6fa-f4cdbb3fcb74</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'gomez'</defaultValue>
+      <defaultValue>'1234567890122346'</defaultValue>
       <description></description>
       <id>84202a7d-59f0-4060-a6fa-f4cdbb3fcb74</id>
       <masked>false</masked>
-      <name>ibu</name>
+      <name>nik</name>
    </variable>
 </TestCaseEntity>

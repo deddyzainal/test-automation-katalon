@@ -52,7 +52,7 @@ WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut'))
 
-WebUI.verifyElementVisible(findTestObject('FE/PARTNER/Register/Foto KTP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FE/PARTNER/Register/Foto KTP'), 0)
 
 WebUI.click(findTestObject('FE/PARTNER/Register/Foto KTP'))
 
@@ -102,8 +102,7 @@ WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_Email'), timestamp1 + '
 //WebUI.click(findTestObject('FE/PARTNER/Beranda/select_jenis kelamin'))
 WebUI.click(findTestObject('FE/PARTNER/Beranda/select_gender'))
 
-    WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Beranda/Option - Gender'), gender, false)
-
+WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Beranda/Option - Gender'), gender, false)
 
 WebUI.click(findTestObject('FE/PARTNER/Register/input_Masukkan tempat lahir'))
 
@@ -172,12 +171,11 @@ for (WebElement e : ele) {
 
 WebUI.scrollToElement(findTestObject('FE/PARTNER/Pengajuan/Button - Open Calendar'), 2)
 
-WebUI.click(findTestObject('FE/PARTNER/Register/input_Nama Ibu Kandung'))
-
-WebUI.clearText(findTestObject('FE/PARTNER/Register/input_Nama Ibu Kandung'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_Nama Ibu Kandung'), namaibu)
-
+//WebUI.click(findTestObject('FE/PARTNER/Register/input_Nama Ibu Kandung'))
+//
+//WebUI.clearText(findTestObject('FE/PARTNER/Register/input_Nama Ibu Kandung'), FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_Nama Ibu Kandung'), namaibu)
 // Select Status Perkawinan
 WebUI.click(findTestObject('FE/PARTNER/Beranda/select_status perkawinan'))
 

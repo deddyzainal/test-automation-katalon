@@ -24,7 +24,7 @@ WebUI.click(findTestObject('FE/PARTNER/Beranda/Detail Performa'))
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Beranda/List Performa'), 3)
 
-WebUI.verifyElementVisible(findTestObject('FE/PARTNER/Beranda/List Performa'))
+WebUI.verifyElementPresent(findTestObject('FE/PARTNER/Beranda/List Performa'), 0)
 
 WebUI.verifyElementVisible(findTestObject('FE/PARTNER/Beranda/List Pre Screening'))
 

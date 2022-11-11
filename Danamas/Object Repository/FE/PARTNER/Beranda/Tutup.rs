@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tutup</name>
+   <tag></tag>
+   <elementGuidId>142b0c5e-5f76-49b8-924a-35903738e0e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[contains(text(),&quot;Tutup&quot;)])</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[contains(text(),&quot;Tutup&quot;)])</value>
+      <webElementGuid>2c20eeb6-7a17-4ea8-a483-1614381d49d6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

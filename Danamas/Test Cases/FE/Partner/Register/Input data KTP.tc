@@ -33,12 +33,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b84607b6-48cd-4d85-b9c5-ca86becfd6ee</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>20861412-445f-49b2-a9a6-2485eee1abd7</variableId>
    </variableLinks>
    <variableLinks>
@@ -116,13 +110,6 @@
       <id>eaabdfd2-1674-485c-a3fe-87854c53b185</id>
       <masked>false</masked>
       <name>tempatlahir</name>
-   </variable>
-   <variable>
-      <defaultValue>'ana'</defaultValue>
-      <description></description>
-      <id>b84607b6-48cd-4d85-b9c5-ca86becfd6ee</id>
-      <masked>false</masked>
-      <name>namaibu</name>
    </variable>
    <variable>
       <defaultValue>'Kawin'</defaultValue>

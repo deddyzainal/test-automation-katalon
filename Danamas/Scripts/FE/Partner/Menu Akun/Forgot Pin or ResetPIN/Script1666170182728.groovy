@@ -38,11 +38,11 @@ WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Profil/button_Yakin'), 2)
 
 WebUI.click(findTestObject('FE/PARTNER/Profil/button_Yakin'))
 
-WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Profil/input_Nama Ibu Kandung'), 2)
+WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Profil/input_NIK'), 2)
 
-WebUI.click(findTestObject('FE/PARTNER/Profil/input_Nama Ibu Kandung'))
+WebUI.click(findTestObject('FE/PARTNER/Profil/input_NIK'))
 
-WebUI.sendKeys(findTestObject('FE/PARTNER/Profil/input_Nama Ibu Kandung'), ibu)
+WebUI.sendKeys(findTestObject('FE/PARTNER/Profil/input_NIK'), nik)
 
 WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut2'))
 
