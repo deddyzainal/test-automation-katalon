@@ -94,7 +94,7 @@
       <name>pendidikan</name>
    </variable>
    <variable>
-      <defaultValue>'Belum kawin'</defaultValue>
+      <defaultValue>'Belum Kawin'</defaultValue>
       <description></description>
       <id>cb415027-8f7e-4578-8e73-ba7d67bfb485</id>
       <masked>false</masked>

@@ -171,12 +171,6 @@ for (WebElement e : ele) {
 
 WebUI.scrollToElement(findTestObject('FE/PARTNER/Pengajuan/Button - Open Calendar'), 2)
 
-WebUI.click(findTestObject('FE/PARTNER/Register/input_Nama Ibu Kandung'))
-
-WebUI.clearText(findTestObject('FE/PARTNER/Register/input_Nama Ibu Kandung'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_Nama Ibu Kandung'), namaibu)
-
 // Select Status Perkawinan
 WebUI.click(findTestObject('FE/PARTNER/Beranda/select_status perkawinan'))
 
