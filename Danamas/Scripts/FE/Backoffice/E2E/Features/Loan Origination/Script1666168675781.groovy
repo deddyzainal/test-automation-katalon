@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
 
 if (GlobalVariable.loanNumber == '') {
 	//Create loan
@@ -25,8 +26,7 @@ if (GlobalVariable.loanNumber == '') {
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Origination'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Nama'), [('nama_peminjam') : 'Katalon ' + 
-        GlobalVariable.datetime], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Nama'), [('nama_peminjam') : 'Katalon ' + GlobalVariable.datetime], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
@@ -35,7 +35,7 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Nama Telesales'), null, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Perusahaan Penjamin'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 
@@ -47,15 +47,11 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list
 
 WebUI.refresh()
 
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Nama Telesales'), null, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.refresh()
+
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Sumber Pinjaman'), null, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.refresh()
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Branch Name'), null, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.refresh()
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Nama Partner'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()
 

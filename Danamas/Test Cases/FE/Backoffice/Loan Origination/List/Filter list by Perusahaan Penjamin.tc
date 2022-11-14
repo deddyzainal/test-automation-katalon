@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filter list by Tipe Pinjaman</name>
+   <name>Filter list by Perusahaan Penjamin</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0ddbf953-f15f-4ef6-ab54-2905f6c17a5e</testCaseGuid>
+   <testCaseGuid>4f60c98a-2f32-4589-9454-2409bc366628</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>89344a64-8346-47af-b514-d3beb8dcb39e</variableId>
+      <variableId>2deb50d6-a697-4373-9e73-530cad37c171</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>['Loan Type Floating ', 'DanaExpress']</defaultValue>
+      <defaultValue>['Lancar', 'Maju Sehat Berasrama']</defaultValue>
       <description></description>
-      <id>89344a64-8346-47af-b514-d3beb8dcb39e</id>
+      <id>2deb50d6-a697-4373-9e73-530cad37c171</id>
       <masked>false</masked>
-      <name>tipe_pinjaman</name>
+      <name>perusahaan_penjamin</name>
    </variable>
 </TestCaseEntity>

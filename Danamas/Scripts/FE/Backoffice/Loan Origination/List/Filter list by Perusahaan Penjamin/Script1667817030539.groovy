@@ -18,17 +18,18 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-//Click dropdown Tipe Pinjaman
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/List/Select - Tipe Pinjaman'), 3)
-WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Tipe Pinjaman'))
+//Click dropdown Perusahaan Penjamin
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/List/Select - Perusahaan Penjamin'), 3)
+WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Perusahaan Penjamin'))
 
-//Select Tipe Pinjaman option
-for(int i = 0; i < tipe_pinjaman.size; i++) {
-	WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Tipe Pinjaman', [('tipe_pinjaman') : tipe_pinjaman[i]]))
+//Select Perusahaan Penjamin option
+for(int i = 0; i < perusahaan_penjamin.size; i++) {
+	WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Perusahaan Penjamin', [('perusahaan_penjamin') : perusahaan_penjamin[i]]))
 }
 
-WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Tipe Pinjaman'))
-
+WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Perusahaan Penjamin'))
 WebUI.delay(3)
 
-//WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Origination/List/TextValue - Tipe Pinjaman'), tipe_pinjaman)
+//Verify Perusahaan Penjamin in the list match with selected option
+//WebUI.waitForPageLoad(5)
+//WebUI.verifyElementText(findTestObject('null'), perusahaan_penjamin)
