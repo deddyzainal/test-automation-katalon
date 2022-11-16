@@ -17,14 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click dropdown Tipe Pinjaman
-WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Select - Tipe Pinjaman'))
-
-//Select Tipe Pinjaman option
-for(int i = 0; i < tipe_pinjaman.size; i++) {
-	WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Option - Tipe Pinjaman', [('tipe_pinjaman') : tipe_pinjaman[i]]))
-}
-
-WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Select - Tipe Pinjaman'))
+//Click Folder Dokumen Tambahan
+WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Folder - Dokumen Tambahan'))
 
 WebUI.delay(3)
+
+//Verify leaving assessment detail
+WebUI.verifyElementNotPresent(findTestObject('FE/Backoffice/Loan Assessment/Detail/Folder - Dokumen Tambahan'), 3, FailureHandling.STOP_ON_FAILURE)

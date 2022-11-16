@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Option - Kategori</name>
+   <name>TextValue - Tanggal Pengajuan</name>
    <tag></tag>
-   <elementGuidId>d351bccc-7700-4b46-a5d2-867c364dceed</elementGuidId>
+   <elementGuidId>18f5f3d5-eb13-40b5-bd29-403b733c57a5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(text(), 'Kategori')]/ancestor::lancar-btn/following-sibling::lancar-check-box-list//p[text()='${kategori}']/preceding-sibling::img</value>
+         <value>//table//tr[2]/td[5]</value>
       </entry>
       <entry>
          <key>BASIC</key>

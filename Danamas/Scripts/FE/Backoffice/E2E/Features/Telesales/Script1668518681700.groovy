@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+
 if (GlobalVariable.loanNumber == '') {
 	//Create loan
 	CustomKeywords.'backoffice.createLoan.loanPassed'()
@@ -38,7 +40,17 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by Nama Pem
 
 WebUI.refresh()
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by Kategori'), [('kategori') : 'NEW REQUEST'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by Kategori'), null, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.refresh()
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by Tanggal Pengajuan - Today'), null, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by Tanggal Pengajuan - Last 7 Days'), null, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by Tanggal Pengajuan - Last 30 Days'), null, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by Tanggal Pengajuan - Custom Date'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.refresh()
 

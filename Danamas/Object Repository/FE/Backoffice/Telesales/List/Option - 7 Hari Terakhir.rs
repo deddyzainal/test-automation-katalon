@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Option - Kategori</name>
+   <name>Option - 7 Hari Terakhir</name>
    <tag></tag>
-   <elementGuidId>d351bccc-7700-4b46-a5d2-867c364dceed</elementGuidId>
+   <elementGuidId>0eb1f7f8-316a-4104-a459-e10dcc7e11a2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(), 'Kategori')]/ancestor::lancar-btn/following-sibling::lancar-check-box-list//p[text()='${kategori}']/preceding-sibling::img</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//rentang-waktu/ul/li/div/div[text()='7 hari terakhir']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

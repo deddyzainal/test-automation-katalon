@@ -20,10 +20,14 @@ import org.openqa.selenium.Keys as Keys
 //Click dropdown Kategori
 WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Select - Kategori'))
 
-//Select option
-WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Option - Kategori', [('kategori') : kategori]))
+//Select kategori option
+for(int i = 0; i < kategori.size; i++) {
+	WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Option - Kategori', [('kategori') : kategori[i]]))
+}
+
+WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Select - Kategori'))
 
 WebUI.delay(3)
 
 //Verify Kategory value on the list match with selected option
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Telesales/List/TextValue - Kategori'), kategori, FailureHandling.STOP_ON_FAILURE)
+//WebUI.verifyElementText(findTestObject('FE/Backoffice/Telesales/List/TextValue - Kategori'), kategori, FailureHandling.STOP_ON_FAILURE)

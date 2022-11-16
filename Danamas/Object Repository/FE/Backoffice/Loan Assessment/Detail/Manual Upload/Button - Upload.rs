@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select - Kategori</name>
+   <name>Button - Upload</name>
    <tag></tag>
-   <elementGuidId>7eec0a78-b039-4bb0-8aba-76e1912725d5</elementGuidId>
+   <elementGuidId>708ef897-3649-47c1-a629-49e21b4d0c70</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@formcontrolname = 'categoryTemp']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(), 'Kategori')]/ancestor::lancar-btn</value>
+         <value>//button[(text() = ' Upload ' or . = ' Upload ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>c8ac8e62-0b86-4294-a56f-e843ac724e26</webElementGuid>
+      <value>button</value>
+      <webElementGuid>171509eb-7d87-48b4-9f75-727345fa73aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>formcontrolname</name>
+      <name>text</name>
       <type>Main</type>
-      <value>categoryTemp</value>
-      <webElementGuid>a7f1d910-cd75-4f02-8f8f-c68a894d84b2</webElementGuid>
+      <value> Upload </value>
+      <webElementGuid>3d8c6a7a-050c-4d57-b99b-f83723ee0ee2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

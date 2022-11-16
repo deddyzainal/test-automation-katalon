@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filter list by Kategori</name>
+   <name>Manual upload document</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9494673d-e0c5-4b5a-a2ee-dbe8d907fa4b</testCaseGuid>
+   <testCaseGuid>9179e821-962c-4ddc-bce1-2ff0473aae09</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>44a63332-a6e2-461c-8723-8ae496a44211</variableId>
+      <variableId>8bd0fd02-40e8-4ce3-9051-76f0dec12188</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>['New Request', 'Resubmission']</defaultValue>
+      <defaultValue>'dok_tambahan_laporan_laba.jpeg'</defaultValue>
       <description></description>
-      <id>44a63332-a6e2-461c-8723-8ae496a44211</id>
+      <id>8bd0fd02-40e8-4ce3-9051-76f0dec12188</id>
       <masked>false</masked>
-      <name>kategori</name>
+      <name>doc_name</name>
    </variable>
 </TestCaseEntity>

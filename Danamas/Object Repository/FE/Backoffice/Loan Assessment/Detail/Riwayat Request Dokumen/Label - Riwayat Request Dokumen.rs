@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Option - Kategori</name>
+   <name>Label - Riwayat Request Dokumen</name>
    <tag></tag>
-   <elementGuidId>d351bccc-7700-4b46-a5d2-867c364dceed</elementGuidId>
+   <elementGuidId>4c6e7348-3870-4bfa-8eaf-00dc9755f9a4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(), 'Kategori')]/ancestor::lancar-btn/following-sibling::lancar-check-box-list//p[text()='${kategori}']/preceding-sibling::img</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//app-modal-request-history/div/div[text()='Riwayat Request Dokumen']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

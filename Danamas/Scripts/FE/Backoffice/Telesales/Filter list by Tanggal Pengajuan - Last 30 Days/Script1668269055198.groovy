@@ -18,16 +18,16 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-//Click dropdown Tipe Pinjaman
-WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Tipe Pinjaman'))
+//Click button Tanggal Pengajuan
+WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Button - Tanggal Pengajuan'))
 
-//Select Tipe Pinjaman option
-for(int i = 0; i < tipe_pinjaman.size; i++) {
-	WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Tipe Pinjaman', [('tipe_pinjaman') : tipe_pinjaman[i]]))
-}
+//Select option 30 Hari Terakhir
+WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Option - 30 Hari Terakhir'))
 
-WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Tipe Pinjaman'))
+//Click button Apply
+WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Button - Apply'))
 
 WebUI.delay(3)
 
-//WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Origination/List/TextValue - Tipe Pinjaman'), tipe_pinjaman)
+//String datetime = new Date().format('dd MMMM yyyy')
+//WebUI.verifyElementText(findTestObject('FE/Backoffice/Telesales/List/TextValue - Tanggal Pengajuan'), datetime)

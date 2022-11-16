@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Option - Kategori</name>
+   <name>Folder - Dokumen Tambahan</name>
    <tag></tag>
-   <elementGuidId>d351bccc-7700-4b46-a5d2-867c364dceed</elementGuidId>
+   <elementGuidId>61369461-afc9-41c1-9e93-6e11fb0929e4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(text(), 'Kategori')]/ancestor::lancar-btn/following-sibling::lancar-check-box-list//p[text()='${kategori}']/preceding-sibling::img</value>
+         <value>//li//section/div[.=' Dokumen Tambahan ']</value>
       </entry>
       <entry>
          <key>BASIC</key>

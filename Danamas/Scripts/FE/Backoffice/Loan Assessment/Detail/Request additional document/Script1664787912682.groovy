@@ -17,8 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click Request Dokumen
-WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Button - Request Dokumen'))
+//Click button Menu Lainnya
+WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Button - Menu Lainnya'))
+
+//Click menu Request Tambahan Dokumen
+WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Menu - Request Tambahan Dokumen'))
 
 //Input Nama Dokumen 1
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Tambahan/Input - Nama Dokumen'), 2, FailureHandling.STOP_ON_FAILURE)

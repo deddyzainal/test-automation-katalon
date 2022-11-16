@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//input[@formcontrolname = 'loanTypeIdTemp']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(), 'Tipe Pinjaman') or child::span[text()='Tipe Pinjaman']]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5f54297f-114d-437a-b7c8-268164b75cca</webElementGuid>
+      <webElementGuid>5b9f14fb-411b-4c42-8103-5db70d4f8b30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +30,6 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>loanTypeIdTemp</value>
-      <webElementGuid>2dec102d-cadb-4acf-bacc-fda62aa8b200</webElementGuid>
+      <webElementGuid>87b22ce4-b88d-4356-a3f8-56cabe1729d8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

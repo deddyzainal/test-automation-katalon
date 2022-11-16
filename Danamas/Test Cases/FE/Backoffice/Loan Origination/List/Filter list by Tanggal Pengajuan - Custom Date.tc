@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Telesales - Additional Document</name>
+   <name>Filter list by Tanggal Pengajuan - Custom Date</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ce8bb943-9e48-4299-b3f0-10f56cfecabe</testCaseGuid>
+   <testCaseGuid>74564fda-b0a1-4693-b517-0e4c1bc83e69</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>61b1ebcb-8859-4949-93e3-a6d62dab2204</variableId>
+      <variableId>30fdea82-8a2d-4695-b50f-0b6cb04cc646</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'KC-KFN-0922-26-0002'</defaultValue>
+      <defaultValue>['Loan Type Floating ', 'DanaExpress']</defaultValue>
       <description></description>
-      <id>61b1ebcb-8859-4949-93e3-a6d62dab2204</id>
+      <id>30fdea82-8a2d-4695-b50f-0b6cb04cc646</id>
       <masked>false</masked>
-      <name>no_pinjaman</name>
+      <name>tipe_pinjaman</name>
    </variable>
 </TestCaseEntity>
