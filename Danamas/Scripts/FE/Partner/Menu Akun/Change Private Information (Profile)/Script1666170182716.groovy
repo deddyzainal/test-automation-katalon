@@ -23,12 +23,9 @@ WebUI.click(findTestObject('FE/PARTNER/Profil/button_Ubah Informasi Pribadi'))
 
 WebUI.verifyElementVisible(findTestObject('FE/PARTNER/Profil/text_Ubah Informasi Pribadi'))
 
-//gender
-if (gender.toLowerCase() == 'laki-laki') {
-    WebUI.click(findTestObject('FE/PARTNER/Beranda/option-laki laki'))
-} else if (gender.toLowerCase() == 'perempuan') {
-    WebUI.click(findTestObject('FE/PARTNER/Beranda/option-perempuan'))
-}
+WebUI.click(findTestObject('FE/PARTNER/Beranda/select_gender'))
+
+WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Beranda/Option - Gender'), gender, false)
 
 WebUI.click(findTestObject('FE/PARTNER/Register/input_Masukkan tempat lahir'))
 
@@ -37,12 +34,6 @@ WebUI.clearText(findTestObject('FE/PARTNER/Register/input_Masukkan tempat lahir'
 WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_Masukkan tempat lahir'), tempatlahir)
 
 WebUI.scrollToElement(findTestObject('FE/PARTNER/Pengajuan/Button - Open Calendar'), 2)
-
-WebUI.click(findTestObject('FE/PARTNER/Register/input_Nama Ibu Kandung'))
-
-WebUI.clearText(findTestObject('FE/PARTNER/Register/input_Nama Ibu Kandung'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_Nama Ibu Kandung'), namaibu)
 
 // Select Status Perkawinan
 WebUI.click(findTestObject('FE/PARTNER/Beranda/select_status perkawinan'))

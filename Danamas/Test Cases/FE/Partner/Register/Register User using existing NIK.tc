@@ -126,7 +126,7 @@
       <name>namaibu</name>
    </variable>
    <variable>
-      <defaultValue>'Belum kawin'</defaultValue>
+      <defaultValue>'Belum Kawin'</defaultValue>
       <description></description>
       <id>862f09b6-a723-4fa6-942a-d47aa5f035b9</id>
       <masked>false</masked>

@@ -88,9 +88,11 @@ WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Input Data - Informasi Pinja
         , ('tipepeminjam') : 'individual', ('tujuanpinjaman') : 'pribadi', ('tenor') : '120', ('badge') : GlobalVariable.badge], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Pengajuan pinjaman telah berhasil di kirim untuk pre-screening!', false)
 
-WebUI.click(findTestObject('FE/PARTNER/Beranda/button_OK'))
+//WebUI.verifyTextPresent('Pengajuan pinjaman telah berhasil di kirim untuk pre-screening!', false)
+//
+//WebUI.click(findTestObject('FE/PARTNER/Beranda/button_OK'))
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Get Point'), [('poin') : 'tutup'], FailureHandling.STOP_ON_FAILURE)
+	
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Point</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bffee3d2-cc76-4a28-8df6-1bee85c79923</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6bcd5434-7844-41d7-b735-10e9d25b5fdd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'tutup'</defaultValue>
+      <description></description>
+      <id>6bcd5434-7844-41d7-b735-10e9d25b5fdd</id>
+      <masked>false</masked>
+      <name>poin</name>
+   </variable>
+</TestCaseEntity>

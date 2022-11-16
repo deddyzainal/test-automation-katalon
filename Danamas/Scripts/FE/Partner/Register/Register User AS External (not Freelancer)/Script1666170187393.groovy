@@ -24,9 +24,9 @@ System.print(timestamp + '****')
 GlobalVariable.timestamp = timestamp
 
 WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data KTP'), [('gender') : 'Laki-laki', ('Agama') : 'Islam', ('nama') : 'bambang'
-        , ('tempatlahir') : 'Jakarta', ('namaibu') : 'ana', ('statusPerkawinan') : 'Kawin', ('alamat') : 'JL Sungai sambas'
-        , ('rt') : '10/', ('kodepos') : '12334', ('rw') : '05', ('date1') : '10-Agustus', ('eYear') : '1999', ('timestamp1') : GlobalVariable.timestamp
-        , ('fax') : '13123'], FailureHandling.STOP_ON_FAILURE)
+        , ('tempatlahir') : 'Jakarta', ('statusPerkawinan') : 'Kawin', ('alamat') : 'JL Sungai sambas', ('rt') : '10/', ('kodepos') : '12334'
+        , ('rw') : '05', ('date1') : '10-Agustus', ('eYear') : '1999', ('timestamp1') : GlobalVariable.timestamp, ('fax') : '13123'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut (1)'))
 

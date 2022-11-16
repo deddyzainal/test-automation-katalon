@@ -20,6 +20,6 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('nomorhp') : '20220921163134', ('katasandi') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Filter Loan Summary by Date'), [('date1') : '1-Agustus-2022', ('Month') : 'Agustus'], 
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Filter Loan Summary by Date'), [('date1') : '19-23-September-2022', ('Month') : 'September'], 
     FailureHandling.STOP_ON_FAILURE)
 

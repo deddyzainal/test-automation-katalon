@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Level</name>
+   <tag></tag>
+   <elementGuidId>bf0234a6-c20f-46e5-93b0-f185d7cb8bb7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//app-layout/theme-content/div/div/div/div[1]/div/div[2]/div/div/div[2]/h6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//app-layout/theme-content/div/div/div/div[1]/div/div[2]/div/div/div[2]/h6</value>
+      <webElementGuid>3c3189e0-4a99-4941-a321-fd6b34317acd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -24,9 +24,9 @@ System.print(timestamp + '****')
 GlobalVariable.timestamp = timestamp
 
 WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data KTP'), [('gender') : 'Laki-laki', ('Agama') : 'Islam', ('nama') : 'bambang'
-        , ('tempatlahir') : 'Jakarta', ('namaibu') : 'ana', ('statusPerkawinan') : 'Kawin', ('alamat') : 'JL Sungai sambas'
-        , ('rt') : '10/', ('kodepos') : '12334', ('rw') : '05', ('date1') : '10-Agustus', ('eYear') : '1999', ('timestamp1') : GlobalVariable.timestamp
-        , ('fax') : '13123'], FailureHandling.STOP_ON_FAILURE)
+        , ('tempatlahir') : 'Jakarta', ('statusPerkawinan') : 'Kawin', ('alamat') : 'JL Sungai sambas', ('rt') : '10/', ('kodepos') : '12334'
+        , ('rw') : '05', ('date1') : '10-Agustus', ('eYear') : '1999', ('timestamp1') : GlobalVariable.timestamp, ('fax') : '13123'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut (1)'))
 
@@ -48,7 +48,7 @@ if (Agen.toLowerCase() == 'branch') {
 } else if (Agen.toLowerCase() == 'partner') {
     WebUI.click(findTestObject('FE/PARTNER/Beranda/Option - Partner'))
 
-    WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Partner'), [('type') : 'external', ('namapartner') : 'Freelance HO'
+    WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Partner'), [('type') : 'external', ('namapartner') : 'Freelance'
             , ('kodereferral') : GlobalVariable.kodereferral], FailureHandling.STOP_ON_FAILURE)
 }
 
