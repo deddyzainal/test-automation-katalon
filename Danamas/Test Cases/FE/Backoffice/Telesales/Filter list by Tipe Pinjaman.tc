@@ -12,7 +12,7 @@
       <variableId>69b32300-2871-4508-8e90-01632683847c</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'LancarDana 70%'</defaultValue>
+      <defaultValue>['LancarDana Aspirasi 14%', 'LancarDana 70%']</defaultValue>
       <description></description>
       <id>69b32300-2871-4508-8e90-01632683847c</id>
       <masked>false</masked>

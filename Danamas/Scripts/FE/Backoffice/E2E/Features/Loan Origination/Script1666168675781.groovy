@@ -35,6 +35,16 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list
 
 WebUI.refresh()
 
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Tanggal Pengajuan - Today'), null, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Tanggal Pengajuan - Last 7 Days'), null, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Tanggal Pengajuan - Last 30 Days'), null, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Tanggal Pengajuan - Custom Date'), null, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.refresh()
+
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Origination/List/Filter list by Perusahaan Penjamin'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.refresh()

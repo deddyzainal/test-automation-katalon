@@ -22,7 +22,7 @@
       <guid>a100d900-704e-4fb6-bd22-700187330656</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Telesales - New Request</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Telesales</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -135,7 +135,7 @@
    <testCaseLink>
       <guid>0c8d2efc-2c3d-4353-8a9c-887422975a0e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Data Export</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -171,7 +171,7 @@
       <guid>cabc186b-5d49-4f01-af47-dc73102fadcf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Telesales - Additional Document</testCaseId>
+      <testCaseId>Test Cases/FE/Backoffice/E2E/Features/Loan Assessment - Additional Document</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

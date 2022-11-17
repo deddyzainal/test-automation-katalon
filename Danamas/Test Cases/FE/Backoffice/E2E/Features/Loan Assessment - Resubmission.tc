@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Filter list by Kategori</name>
+   <name>Loan Assessment - Resubmission</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9494673d-e0c5-4b5a-a2ee-dbe8d907fa4b</testCaseGuid>
+   <testCaseGuid>68792112-826f-44f9-af4a-c9873abce2ea</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>44a63332-a6e2-461c-8723-8ae496a44211</variableId>
+      <variableId>ae9d4034-0af3-4e40-bbb8-89d83a1b12f1</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>['New Request', 'Resubmission']</defaultValue>
+      <defaultValue>'KC-KFN-1122-10-0001'</defaultValue>
       <description></description>
-      <id>44a63332-a6e2-461c-8723-8ae496a44211</id>
+      <id>ae9d4034-0af3-4e40-bbb8-89d83a1b12f1</id>
       <masked>false</masked>
-      <name>kategori</name>
+      <name>no_pinjaman</name>
    </variable>
 </TestCaseEntity>

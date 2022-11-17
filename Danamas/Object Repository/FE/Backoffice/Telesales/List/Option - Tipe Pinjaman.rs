@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//lancar-input//input[@formcontrolname='loanTypeIdTemp']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${tipe_pinjaman} ']</value>
+         <value>//div[contains(text(), 'Tipe Pinjaman') or child::span[text()='Tipe Pinjaman']]/ancestor::lancar-btn/following-sibling::lancar-check-box-list//p[text()='${tipe_pinjaman}']/preceding-sibling::img</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
