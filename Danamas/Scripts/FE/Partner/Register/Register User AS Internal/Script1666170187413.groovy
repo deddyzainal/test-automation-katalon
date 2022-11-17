@@ -50,8 +50,8 @@ if (Agen.toLowerCase() == 'branch') {
 } else if (Agen.toLowerCase() == 'partner') {
     WebUI.click(findTestObject('FE/PARTNER/Beranda/Option - Partner'))
 
-    WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Partner'), [('type') : type, ('namapartner') : namapartner], 
-        FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Partner'), [('type') : 'type', ('namapartner') : 'namapartner'
+            , ('kodereferral') : referral], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('FE/Partner/Register/Input Password'), [('passbaru') : 'partner12345'], FailureHandling.STOP_ON_FAILURE)

@@ -17,18 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('nomorhp') : '20220921163134', ('katasandi') : GlobalVariable.password], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('FE/PARTNER/Beranda/Beranda - Detail Point'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Badge Level'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FE/PARTNER/Beranda/Beranda - Detail Point'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Level and Benefit'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Current Point'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Mission'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/History'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
 

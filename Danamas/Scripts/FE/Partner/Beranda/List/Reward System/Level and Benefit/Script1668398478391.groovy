@@ -17,18 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('nomorhp') : '20220921163134', ('katasandi') : GlobalVariable.password], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Beranda/Page Point'), 3)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Badge Level'), [:], FailureHandling.STOP_ON_FAILURE)
+String clevel = 'Reward ' + WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Beranda/Level'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Level and Benefit'), [:], FailureHandling.STOP_ON_FAILURE)
+println(clevel)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Current Point'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FE/PARTNER/Beranda/Detail Level'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Mission'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('FE/PARTNER/Beranda/Reward Level'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/History'), [:], FailureHandling.STOP_ON_FAILURE)
+String elevel = WebUI.getText(findTestObject('FE/PARTNER/Beranda/Level Name'))
 
-WebUI.closeBrowser()
+println(elevel)
+
+int i = 2
+
+while (!(clevel == elevel)) {
+    WebUI.click(findTestObject('FE/PARTNER/Beranda/button - next level', [('index') : i]))
+
+    WebUI.delay(2)
+
+    i = (i + 1)
+
+    elevel = WebUI.getText(findTestObject('FE/PARTNER/Beranda/Level Name'))
+
+    println(elevel)
+}
+
+WebUI.verifyMatch(clevel, elevel, false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FE/PARTNER/Beranda/button_back2'))
 
