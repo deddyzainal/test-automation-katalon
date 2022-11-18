@@ -103,8 +103,7 @@ WebUI.sendKeys(findTestObject('FE/PARTNER/Register/input_Email'), timestamp + '@
 //WebUI.click(findTestObject('FE/PARTNER/Beranda/select_jenis kelamin'))
 WebUI.click(findTestObject('FE/PARTNER/Beranda/select_gender'))
 
-    WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Beranda/Option - Gender'), gender, false)
-
+WebUI.selectOptionByLabel(findTestObject('FE/PARTNER/Beranda/Option - Gender'), gender, false)
 
 WebUI.click(findTestObject('FE/PARTNER/Register/input_Masukkan tempat lahir'))
 

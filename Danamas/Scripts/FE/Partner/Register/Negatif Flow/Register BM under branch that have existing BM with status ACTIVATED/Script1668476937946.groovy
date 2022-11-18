@@ -17,6 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [('email') : GlobalVariable.BackofficeEmail
+        , ('password') : GlobalVariable.BackofficePassword], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Sales Team'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Sales Team/List/Filter list by No HP'), [('nomor_hp') : nohp], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Sales Team/List/Open agent detail'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Sales Team/Detail/Activate agent'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Sales Team/List/Filter list by No HP'), [('nomor_hp') : nohp], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Sales Team/List/Open agent detail'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Sales/Sales Team/Detail/Label - Detail Informasi Agen'), 2)
+
+WebUI.verifyTextPresent('Activated', false, FailureHandling.STOP_ON_FAILURE)
+
 String timestamp = new Date().format('yyyyMMddHHmmss')
 
 System.print(timestamp + '****')
@@ -41,22 +60,11 @@ WebUI.click(findTestObject('FE/PARTNER/Register/select_Agen'))
 if (Agen.toLowerCase() == 'branch') {
     WebUI.click(findTestObject('/FE/PARTNER/Beranda/Option - Branch'))
 
-    WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Branch'), [('kota') : 'Bangli', ('cabang') : 'test'
+    WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Branch'), [('kota') : 'Surabaya', ('cabang') : 'Danamas Surabaya'
             , ('posisi') : 'Branch Manager'], FailureHandling.STOP_ON_FAILURE)
-} else if (Agen.toLowerCase() == 'partner') {
-    WebUI.click(findTestObject('FE/PARTNER/Beranda/Option - Partner'))
 
-    WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Partner'), [('type') : 'external', ('namapartner') : 'Freelance HO'
-            , ('kodereferral') : GlobalVariable.kodereferral], FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyTextPresent('Akun Branch Manager Telah Terdaftar', false)
 }
-
-WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut (1)'))
-
-WebUI.callTestCase(findTestCase('FE/Partner/Register/Input Password'), [('passbaru') : 'partner12345'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('FE/PARTNER/Register/pendaftaran Anda selesai'))
-
-WebUI.verifyTextPresent('pendaftaran Anda selesai', false)
 
 WebUI.closeBrowser()
 

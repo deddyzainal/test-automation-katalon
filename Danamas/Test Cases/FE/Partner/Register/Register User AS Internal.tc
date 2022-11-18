@@ -23,6 +23,12 @@
       <value></value>
       <variableId>2dbf0337-2f8a-40a6-84fb-e06f964f8031</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>742d1470-3177-48f3-b319-4f29356d677d</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'partner'</defaultValue>
       <description></description>
@@ -31,7 +37,7 @@
       <name>Agen</name>
    </variable>
    <variable>
-      <defaultValue>'internal'</defaultValue>
+      <defaultValue>'Internal'</defaultValue>
       <description></description>
       <id>161cce7e-1faa-4eb1-aea8-b0af0bf52700</id>
       <masked>false</masked>
@@ -43,5 +49,12 @@
       <id>2dbf0337-2f8a-40a6-84fb-e06f964f8031</id>
       <masked>false</masked>
       <name>namapartner</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.kodereferral</defaultValue>
+      <description></description>
+      <id>742d1470-3177-48f3-b319-4f29356d677d</id>
+      <masked>false</masked>
+      <name>referral</name>
    </variable>
 </TestCaseEntity>

@@ -16,6 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.By as By
 
 String timestamp = new Date().format('yyyyMMddHHmmss')
 
@@ -30,33 +34,14 @@ WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data KTP'), [('gender
 
 WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut (1)'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Rekening Bank'), [('nama') : 'saya\t', ('norekening') : '1235167871'
-        , ('Bank') : 'BNI'], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('FE/PARTNER/Register/select_Bank'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut (1)'))
+'select bank'
+WebUI.click(findTestObject('FE/PARTNER/Register/select_Bank'))
 
-'select agen'
-WebUI.click(findTestObject('FE/PARTNER/Register/select_Agen'))
+WebUI.setText(findTestObject('FE/PARTNER/Register/Cari Bank'), Bank)
 
-if (Agen.toLowerCase() == 'branch') {
-    WebUI.click(findTestObject('/FE/PARTNER/Beranda/Option - Branch'))
-
-    WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Branch'), [('kota') : 'Bangli', ('cabang') : 'test'
-            , ('posisi') : 'Branch Manager'], FailureHandling.STOP_ON_FAILURE)
-} else if (Agen.toLowerCase() == 'partner') {
-    WebUI.click(findTestObject('FE/PARTNER/Beranda/Option - Partner'))
-
-    WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Partner'), [('type') : 'external', ('namapartner') : 'Freelance HO'
-            , ('kodereferral') : GlobalVariable.kodereferral], FailureHandling.STOP_ON_FAILURE)
-}
-
-WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut (1)'))
-
-WebUI.callTestCase(findTestCase('FE/Partner/Register/Input Password'), [('passbaru') : 'partner12345'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('FE/PARTNER/Register/pendaftaran Anda selesai'))
-
-WebUI.verifyTextPresent('pendaftaran Anda selesai', false)
+WebUI.verifyTextPresent('Data yang kamu cari tidak tersedia', false)
 
 WebUI.closeBrowser()
 

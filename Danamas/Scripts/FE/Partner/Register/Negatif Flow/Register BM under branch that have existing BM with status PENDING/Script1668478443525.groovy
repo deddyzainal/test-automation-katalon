@@ -17,18 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('nomorhp') : '20220921163134', ('katasandi') : GlobalVariable.password], 
+WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [('email') : GlobalVariable.BackofficeEmail
+        , ('password') : GlobalVariable.BackofficePassword], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Request'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by No HP'), [('nomor_hp') : nohp], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Sales/Request/List/TextValue - Status'), 'Pending', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Partner/Register/Register User AS Branch - Branch Manager'), [('Agen') : 'branch', ('timestamp1') : GlobalVariable.timestamp], 
     FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Badge Level'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Level and Benefit'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Current Point'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Mission'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/History'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
 
