@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Rekening Koran Payroll 3 bulan terakhir']/following-sibling::app-drag-input-file/div[contains(@class, 'container-upload') and not(@hidden)]</value>
+         <value>//label[text()='Rekening Koran Payroll 3 bulan terakhir']/following-sibling::app-drag-input-file/div[contains(@class, 'upload-container') and not (following-sibling::div[contains(@class, 'file-container')])]</value>
       </entry>
       <entry>
          <key>BASIC</key>

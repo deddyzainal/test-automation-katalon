@@ -85,12 +85,12 @@ public class createLoan {
 		def responseAksesAgunan = WS.sendRequest(findTestObject('BE/Borrower/Save document', [('docType') : 68, ('displayName') : 'Foto Akses Jalan Masuk ke Agunan', ('docName') : 'Foto Akses Jalan Masuk ke Agunan', ('docUrl') : 'http://sandbox-lancar.oss-ap-southeast-5.aliyuncs.com/doc_document-1666358147154.pngg']))
 		WS.verifyResponseStatusCode(responseAksesAgunan, 200)
 	}
-	
+
 	@Keyword
 	def loanSubmitted() {
-		
+
 		loanPassed()
-		
+
 		//Send request (API verification-schedule) and verify response
 		def response = WS.sendRequest(findTestObject('BE/Borrower/Verification-schedule'))
 		WS.verifyResponseStatusCode(response, 200)
