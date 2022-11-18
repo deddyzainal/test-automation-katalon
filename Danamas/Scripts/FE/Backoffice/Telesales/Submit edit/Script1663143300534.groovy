@@ -21,6 +21,10 @@ import org.openqa.selenium.Keys as Keys
 WebUI.scrollToElement(findTestObject('FE/Backoffice/Telesales/Edit/Button - Submit'), 2)
 WebUI.click(findTestObject('FE/Backoffice/Telesales/Edit/Button - Submit'))
 
+//Click button Confirm on confirmation dialog
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Telesales/Edit/Button - Confirm'), 3, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FE/Backoffice/Telesales/Edit/Button - Confirm'))
+
 //Verify success dialog is shown
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Telesales/Edit/Snackbar - Heading'), 5, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Telesales/Edit/Snackbar - Heading'), 'Sukses', FailureHandling.STOP_ON_FAILURE)
