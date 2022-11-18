@@ -15,21 +15,21 @@
       <guid>d6da7089-44c1-4ef0-aa93-7a5b9764ec48</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Beranda/detail/Filter Loan Summary by Date</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Beranda/Detail/Filter Loan Summary by Date</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>29b9142e-f1ce-4329-824e-5578851c5b3e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Beranda/detail/Filter Loan Summary by Month</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Beranda/Detail/Filter Loan Summary by Month</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>59b1c019-c0ec-4a83-968b-898eae7cd45f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Beranda/detail/Filter Loan Summary by Week</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Beranda/Detail/Filter Loan Summary by Week</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -17,18 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(GlobalVariable.PartnerWeb)
+
 WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('nomorhp') : '20220921163134', ('katasandi') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Badge Level'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FE/PARTNER/Logout/icon_akun'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Level and Benefit'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Logout/agent_profil'), 3)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Current Point'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Profil/Atur PIN'), 2)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/Mission'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FE/PARTNER/Profil/Atur PIN'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Reward System/History'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Profil/Lupa PIN'), 2)
+
+WebUI.click(findTestObject('FE/PARTNER/Profil/Lupa PIN'))
+
+WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Profil/button_Yakin'), 2)
+
+WebUI.click(findTestObject('FE/PARTNER/Profil/button_Yakin'))
+
+WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Profil/input_NIK'), 2)
+
+WebUI.click(findTestObject('FE/PARTNER/Profil/input_NIK'))
+
+WebUI.sendKeys(findTestObject('FE/PARTNER/Profil/input_NIK'), nik)
+
+WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut2'))
+
+WebUI.verifyTextPresent('NIK tidak sesuai', false)
 
 WebUI.closeBrowser()
 

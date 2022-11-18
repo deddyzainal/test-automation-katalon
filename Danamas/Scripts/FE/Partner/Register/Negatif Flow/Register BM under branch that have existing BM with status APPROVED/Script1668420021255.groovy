@@ -17,6 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), [('email') : GlobalVariable.BackofficeEmail
+        , ('password') : GlobalVariable.BackofficePassword], FailureHandling.STOP_ON_FAILURE)
+
+//Click menu Request
+WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Request'), [:], FailureHandling.STOP_ON_FAILURE)
+
+//Filter list by No HP
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by No HP'), [('nomor_hp') : nohp], FailureHandling.STOP_ON_FAILURE)
+
+//Approve request
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Approve request'), [:], FailureHandling.STOP_ON_FAILURE)
+
+//Verify status is Approved
+WebUI.refresh()
+
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Request/Filter list by No HP'), [('nomor_hp') : nohp], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Sales/Request/List/TextValue - Status'), 'Approved', FailureHandling.STOP_ON_FAILURE)
+
 String timestamp = new Date().format('yyyyMMddHHmmss')
 
 System.print(timestamp + '****')
@@ -43,20 +62,9 @@ if (Agen.toLowerCase() == 'branch') {
 
     WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Branch'), [('kota') : 'Bangli', ('cabang') : 'test'
             , ('posisi') : 'Branch Manager'], FailureHandling.STOP_ON_FAILURE)
-} else if (Agen.toLowerCase() == 'partner') {
-    WebUI.click(findTestObject('FE/PARTNER/Beranda/Option - Partner'))
 
-    WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Partner'), [('type') : 'external', ('namapartner') : 'Freelance HO'
-            , ('kodereferral') : GlobalVariable.kodereferral], FailureHandling.STOP_ON_FAILURE)
+    WebUI.verifyTextPresent('Akun Branch Manager Telah Terdaftar', false)
 }
-
-WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut (1)'))
-
-WebUI.callTestCase(findTestCase('FE/Partner/Register/Input Password'), [('passbaru') : 'partner12345'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('FE/PARTNER/Register/pendaftaran Anda selesai'))
-
-WebUI.verifyTextPresent('pendaftaran Anda selesai', false)
 
 WebUI.closeBrowser()
 

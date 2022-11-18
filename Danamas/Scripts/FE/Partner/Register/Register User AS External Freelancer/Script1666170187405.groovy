@@ -49,7 +49,7 @@ if (Agen.toLowerCase() == 'branch') {
     WebUI.click(findTestObject('FE/PARTNER/Beranda/Option - Partner'))
 
     WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Agen Partner'), [('type') : 'external', ('namapartner') : 'Freelance'
-            , ('kodereferral') : GlobalVariable.kodereferral], FailureHandling.STOP_ON_FAILURE)
+            , ('kodereferral') : referral], FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.callTestCase(findTestCase('FE/Partner/Register/Input Password'), [('passbaru') : 'partner12345'], FailureHandling.STOP_ON_FAILURE)

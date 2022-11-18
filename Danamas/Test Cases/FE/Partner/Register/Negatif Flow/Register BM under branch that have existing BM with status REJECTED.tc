@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Input data Agen Partner</name>
+   <name>Register BM under branch that have existing BM with status REJECTED</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2fc2a385-dd46-4023-8b07-12208375821e</testCaseGuid>
+   <testCaseGuid>79adcaea-dc7f-4d04-9910-51e9081e3316</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6bfef13a-a1a5-420d-811f-00c4852d78e0</variableId>
+      <variableId>7e369cd2-bdf8-40b2-9319-131bf99ac724</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>561e1359-8a42-48f1-a9d0-9217d97e7ea9</variableId>
+      <variableId>d86a018d-efee-4d79-9522-d17aff062bb9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8838385b-b0ae-43af-b0a4-b14b684b653b</variableId>
+      <variableId>30b6c37c-32a5-439c-831e-ec9da6be5583</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'external'</defaultValue>
+      <defaultValue>'branch'</defaultValue>
       <description></description>
-      <id>6bfef13a-a1a5-420d-811f-00c4852d78e0</id>
+      <id>7e369cd2-bdf8-40b2-9319-131bf99ac724</id>
       <masked>false</masked>
-      <name>type</name>
+      <name>Agen</name>
    </variable>
    <variable>
-      <defaultValue>'Freelance HO'</defaultValue>
+      <defaultValue>GlobalVariable.timestamp</defaultValue>
       <description></description>
-      <id>561e1359-8a42-48f1-a9d0-9217d97e7ea9</id>
+      <id>d86a018d-efee-4d79-9522-d17aff062bb9</id>
       <masked>false</masked>
-      <name>namapartner</name>
+      <name>timestamp1</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.kodereferral</defaultValue>
+      <defaultValue>'20221115155021'</defaultValue>
       <description></description>
-      <id>8838385b-b0ae-43af-b0a4-b14b684b653b</id>
+      <id>30b6c37c-32a5-439c-831e-ec9da6be5583</id>
       <masked>false</masked>
-      <name>kodereferral</name>
+      <name>nohp</name>
    </variable>
 </TestCaseEntity>
