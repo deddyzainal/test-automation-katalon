@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//lancar-input//input[@formcontrolname='categoryTemp']/ancestor::lancar-input/following-sibling::lancar-dropdown-list/ul/li[text()=' ${kategori} ']</value>
+         <value>//div[contains(text(), 'Kategori')]/ancestor::lancar-btn/following-sibling::lancar-check-box-list//p[text()='${kategori}']/preceding-sibling::img</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

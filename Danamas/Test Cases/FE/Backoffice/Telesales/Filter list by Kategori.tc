@@ -12,7 +12,7 @@
       <variableId>44a63332-a6e2-461c-8723-8ae496a44211</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'RESUBMISSION'</defaultValue>
+      <defaultValue>['New Request', 'Resubmission']</defaultValue>
       <description></description>
       <id>44a63332-a6e2-461c-8723-8ae496a44211</id>
       <masked>false</masked>

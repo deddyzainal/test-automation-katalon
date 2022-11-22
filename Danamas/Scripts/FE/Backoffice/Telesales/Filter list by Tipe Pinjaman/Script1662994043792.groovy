@@ -20,10 +20,11 @@ import org.openqa.selenium.Keys as Keys
 //Click dropdown Tipe Pinjaman
 WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Select - Tipe Pinjaman'))
 
-//Select option
-WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Option - Tipe Pinjaman', [('tipe_pinjaman') : tipe_pinjaman]))
+//Select Tipe Pinjaman option
+for(int i = 0; i < tipe_pinjaman.size; i++) {
+	WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Option - Tipe Pinjaman', [('tipe_pinjaman') : tipe_pinjaman[i]]))
+}
+
+WebUI.click(findTestObject('FE/Backoffice/Telesales/List/Select - Tipe Pinjaman'))
 
 WebUI.delay(3)
-
-//Verify Tipe Pinjaman value on the list match with selected option
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Telesales/List/TextValue - Tipe Pinjaman'), tipe_pinjaman, FailureHandling.STOP_ON_FAILURE)

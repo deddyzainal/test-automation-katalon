@@ -29,6 +29,24 @@
       <value></value>
       <variableId>9b08b746-1a94-4fa7-b248-42747a6bf405</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8bc7f20-e3a7-4e30-9eae-537b517740e9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25bcec96-f07e-47b8-9731-9fd9fede7e40</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e3c5d940-146c-4222-87a7-917ca6964cbd</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Namananamo'</defaultValue>
       <description></description>
@@ -56,5 +74,26 @@
       <id>9b08b746-1a94-4fa7-b248-42747a6bf405</id>
       <masked>false</masked>
       <name>hubungan</name>
+   </variable>
+   <variable>
+      <defaultValue>'Juni'</defaultValue>
+      <description></description>
+      <id>f8bc7f20-e3a7-4e30-9eae-537b517740e9</id>
+      <masked>false</masked>
+      <name>dob_month</name>
+   </variable>
+   <variable>
+      <defaultValue>'1990'</defaultValue>
+      <description></description>
+      <id>25bcec96-f07e-47b8-9731-9fd9fede7e40</id>
+      <masked>false</masked>
+      <name>dob_year</name>
+   </variable>
+   <variable>
+      <defaultValue>'25'</defaultValue>
+      <description></description>
+      <id>e3c5d940-146c-4222-87a7-917ca6964cbd</id>
+      <masked>false</masked>
+      <name>dob_date</name>
    </variable>
 </TestCaseEntity>

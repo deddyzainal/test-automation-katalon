@@ -1,9 +1,10 @@
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import org.openqa.selenium.By
-import org.openqa.selenium.WebDriver as WebDriver
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebDriver
+
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 //Click button Edit Data
@@ -31,17 +32,15 @@ if (count_data > 0) {
 	WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Option - Hubungan', [('no') : count_data, ('hubungan'):hubungan]))
 	
 	//Input Tanggal Lahir
-	//WebUI.setText(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Input - Tanggal Lahir', [('no') : count_data]), tanggal_lahir)
+	WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Input - Tanggal Lahir', [('no') : count_data]))
+	WebUI.selectOptionByLabel(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Select - Month', [('no') : count_data]), dob_month, false)
+	WebUI.selectOptionByLabel(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Select - Year', [('no') : count_data]), dob_year, false)
+	WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Option - Date', [('no') : count_data, ('date') : dob_date]))
 	
 	//Click button Simpan
 	WebUI.click(findTestObject('FE/Backoffice/Customer Management/Detail/Informasi Keluarga/Button - Simpan'))
 	
 	//Verify success snackbar is shown
 	WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 5)
-	//WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 'Sukses Mengubah Informasi Keluarga', FailureHandling.STOP_ON_FAILURE)
-	
+	WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Heading'), 'Sukses Mengubah Informasi Keluarga', FailureHandling.STOP_ON_FAILURE)	
 }
-
-
-
-

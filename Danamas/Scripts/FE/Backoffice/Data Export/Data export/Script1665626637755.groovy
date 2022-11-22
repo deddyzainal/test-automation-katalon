@@ -1,5 +1,6 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 //Select Tipe Dokumen
@@ -19,7 +20,11 @@ WebUI.selectOptionByLabel(findTestObject('FE/Backoffice/Data Export/Select - Yea
 WebUI.click(findTestObject('FE/Backoffice/Data Export/Date - To', [('tanggal') : to_date]))
 
 //Click button Export
-WebUI.click(findTestObject('FE/Backoffice/Data Export/Button - Export'))
+WebUI.click(findTestObject('FE/Backoffice/Data Export/Button - Ekspor Data'))
+
+//Verify success snackbar is shown
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Common/Snackbar - Subheading'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('FE/Backoffice/Common/Snackbar - Subheading'), 'Data Berhasil diekspor', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@formcontrolname = 'borrowerName']</value>
+         <value>//input[@formcontrolname = 'borrower_name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,8 +17,8 @@
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
-      <value>borrowerName</value>
-      <webElementGuid>04f4d440-a32b-43a2-9fbb-2f8f7edfa8b8</webElementGuid>
+      <value>borrower_name</value>
+      <webElementGuid>3637a415-45fa-49f2-b06f-1f128cf865cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>data-placeholder</name>
       <type>Main</type>
       <value>Nama</value>
-      <webElementGuid>95c92ac3-66a4-4253-a803-04023dc9657a</webElementGuid>
+      <webElementGuid>13d1ffc3-52a3-4c3d-88df-c2c57026aebd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +34,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0bf16a71-9b20-455e-a179-9546325c66e4</webElementGuid>
+      <webElementGuid>7141319d-c450-4f2f-832c-cf707adda591</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

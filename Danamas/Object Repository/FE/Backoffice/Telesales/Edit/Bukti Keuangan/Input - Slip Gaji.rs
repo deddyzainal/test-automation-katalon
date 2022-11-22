@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Slip gaji / SPT']/following-sibling::app-drag-input-file/div[contains(@class, 'container-upload')]</value>
+         <value>//label[text()='Slip gaji / SPT']/following-sibling::app-drag-input-file/div[contains(@class, 'upload-container') and not (following-sibling::div[contains(@class, 'file-container')])]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

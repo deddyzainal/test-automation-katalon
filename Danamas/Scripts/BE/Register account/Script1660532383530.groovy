@@ -14,13 +14,13 @@ KeywordUtil.logInfo(datetime)
 String time = datetime.drop(8)
 
 //Set request body
-String requestBody = '{"firstname": "Katalon '+datetime+'", "mobile": "+62'+datetime+'", "email": "'+datetime+'@gmail.com", "userType": 1, "adId": null, "password": "Password1", "otpToken": "'+time+'", "referralCode":""}'
+String requestBody = '{"firstname": "Katalon '+datetime+'", "mobile": "+62'+datetime+'", "email": "'+datetime+'@mailinator.com", "userType": 1, "adId": null, "password": "Password1", "otpToken": "'+time+'", "referralCode":""}'
 
 //Generate hmac
 String hmac = CustomKeywords.'generateHmac.hmac_sha256'('ksdafkjdsahfuaehfsuhuuuauhfakshdkapqwoe', requestBody)
 
 //Send request
-def response = WS.sendRequest(findTestObject('BE/Register', [('hmac'):hmac, ('datetime'):datetime, ('requestBody'):requestBody]))
+def response = WS.sendRequest(findTestObject('BE/Borrower/Register', [('hmac'):hmac, ('datetime'):datetime, ('requestBody'):requestBody]))
 
 //Verify status code 200
 WS.verifyResponseStatusCode(response, 200)

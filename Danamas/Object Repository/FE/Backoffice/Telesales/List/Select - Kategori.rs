@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//input[@formcontrolname = 'categoryTemp']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(), 'Kategori')]/ancestor::lancar-btn</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>87c18274-1ba6-4309-be66-65a787f2d367</webElementGuid>
+      <webElementGuid>c8ac8e62-0b86-4294-a56f-e843ac724e26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +30,6 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>categoryTemp</value>
-      <webElementGuid>f3ac5e18-e3de-4b96-b04c-f5d3a4aa27b0</webElementGuid>
+      <webElementGuid>a7f1d910-cd75-4f02-8f8f-c68a894d84b2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

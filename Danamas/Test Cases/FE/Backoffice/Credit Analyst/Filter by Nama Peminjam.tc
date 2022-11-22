@@ -12,7 +12,7 @@
       <variableId>947c7e85-4b5c-43ce-87cc-3ea32dcff110</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Mika'</defaultValue>
+      <defaultValue>'Waffle'</defaultValue>
       <description></description>
       <id>947c7e85-4b5c-43ce-87cc-3ea32dcff110</id>
       <masked>false</masked>

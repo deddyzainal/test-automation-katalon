@@ -12,7 +12,7 @@
       <variableId>89344a64-8346-47af-b514-d3beb8dcb39e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'LancarDana Bisnis'</defaultValue>
+      <defaultValue>['Loan Type Floating ', 'DanaExpress']</defaultValue>
       <description></description>
       <id>89344a64-8346-47af-b514-d3beb8dcb39e</id>
       <masked>false</masked>

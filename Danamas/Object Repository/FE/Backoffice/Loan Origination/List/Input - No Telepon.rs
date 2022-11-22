@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@formcontrolname = 'phoneNumber']</value>
+         <value>//input[@formcontrolname = 'phone_number']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,8 +17,8 @@
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
-      <value>phoneNumber</value>
-      <webElementGuid>9874b1e5-4f7e-4fbd-be17-4e18b831fdc9</webElementGuid>
+      <value>phone_number</value>
+      <webElementGuid>a9b63ebc-5e6d-4a4d-96d3-94a43d34a525</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>data-placeholder</name>
       <type>Main</type>
       <value>No Telepon</value>
-      <webElementGuid>7806eed9-e75f-402d-995b-a9b3a3f2e873</webElementGuid>
+      <webElementGuid>2452ae8b-4d22-42f7-8567-2898097fa504</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +34,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>070a3212-0feb-40d6-af67-76f271ac1b09</webElementGuid>
+      <webElementGuid>6d0cdf80-024c-42e2-9319-3dd92c76ffe3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

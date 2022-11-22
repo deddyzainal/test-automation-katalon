@@ -12,7 +12,7 @@
       <variableId>adabef1c-1370-4d88-b586-8838e732f7f6</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Susi Susanti'</defaultValue>
+      <defaultValue>['Meitri Delfiza', 'Hosea Natalius']</defaultValue>
       <description></description>
       <id>adabef1c-1370-4d88-b586-8838e732f7f6</id>
       <masked>false</masked>

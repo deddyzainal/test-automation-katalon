@@ -19,12 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 String datetime = new Date().format('yyMMddHHmmss')
 
-//WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Branch Partner Master'), null, FailureHandling.STOP_ON_FAILURE)
 
 //Branch
-WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Branch/Search by branch name'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Branch/Search by branch name'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Branch/Add branch'), [('nama_branch') : 'Branch ' + datetime], FailureHandling.STOP_ON_FAILURE)
 
@@ -39,7 +37,7 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Branch Part
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Partner/Open tab Partner'), null, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Partner/Search by partner name'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Partner/Search by partner name'), null, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Sales/Partner/Add partner'), [('nama_partner') : 'Partner ' + datetime], FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Asuransi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4fb77537-3059-469d-a0fe-2d3be2dec0ce</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1f6999af-763a-4ede-a1b3-23bfd3cce79b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff1c67ad-b834-4347-8d39-303b4b18b4b9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e7b9494-79c2-4516-8053-49982ff5793c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'200000'</defaultValue>
+      <description></description>
+      <id>1f6999af-763a-4ede-a1b3-23bfd3cce79b</id>
+      <masked>false</masked>
+      <name>asuransi_jiwa</name>
+   </variable>
+   <variable>
+      <defaultValue>'220000'</defaultValue>
+      <description></description>
+      <id>ff1c67ad-b834-4347-8d39-303b4b18b4b9</id>
+      <masked>false</masked>
+      <name>asuransi_kebakaran</name>
+   </variable>
+   <variable>
+      <defaultValue>'250000'</defaultValue>
+      <description></description>
+      <id>2e7b9494-79c2-4516-8053-49982ff5793c</id>
+      <masked>false</masked>
+      <name>premi</name>
+   </variable>
+</TestCaseEntity>

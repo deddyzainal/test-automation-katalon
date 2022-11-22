@@ -23,9 +23,11 @@ WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/List/
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Sumber Pinjaman'))
 
 //Select sumber pinjaman option
-//WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Origination/List/Option - Sumber Pinjaman', [('sumber_pinjaman'):sumber_pinjaman]), 3)
-WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Sumber Pinjaman', [('sumber_pinjaman'):sumber_pinjaman]))
+for(int i = 0; i < sumber_pinjaman.size; i++) {
+	WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Sumber Pinjaman', [('sumber_pinjaman') : sumber_pinjaman[i]]))
+}
 
+WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Sumber Pinjaman'))
 WebUI.delay(3)
 
 //Verify Sumber Pinjaman in the list match with selected option

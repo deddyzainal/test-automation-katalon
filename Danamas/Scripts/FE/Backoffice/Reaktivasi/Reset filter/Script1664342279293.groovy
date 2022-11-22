@@ -17,15 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Filter by No Pinjaman, Nama Peminjam, KTP
-WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by No Pinjaman'), [('no_pinjaman') : 'KC-KFO-0922-28-0001'], 
-    FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by Nama Peminjam'), [('nama_peminjam') : 'test10'], 
-    FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by KTP Peminjam'), [('ktp') : '2022092811371312'], FailureHandling.STOP_ON_FAILURE)
+////Filter by No Pinjaman, Nama Peminjam, KTP
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by No Pinjaman'), [('no_pinjaman') : 'KC-KFO-0922-28-0001'], 
+//    FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by Nama Peminjam'), [('nama_peminjam') : 'test10'], 
+//    FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Reaktivasi/Filter by KTP Peminjam'), [('ktp') : '2022092811371312'], FailureHandling.STOP_ON_FAILURE)
 
 //Click button Reset Filter
 WebUI.click(findTestObject('FE/Backoffice/Reaktivasi/Button - Reset Filter'))
+
+WebUI.delay(3)
 
 //Verify No Pinjaman, Nama Peminjam, KTP fields are empty
 WebUI.verifyElementText(findTestObject('FE/Backoffice/Reaktivasi/Input - No Pinjaman'), '', FailureHandling.STOP_ON_FAILURE)

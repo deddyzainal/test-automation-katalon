@@ -6,11 +6,15 @@
    <elementGuidId>7cf23a22-25d8-4f3b-b11d-91799d596619</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(), 'Tipe Pinjaman')]/ancestor::lancar-btn</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//input[@formcontrolname = 'loanTypeIdTemp']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,7 +22,7 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>loanTypeIdTemp</value>
-      <webElementGuid>5bb1947b-3aa7-4d4d-96f9-a006ae526553</webElementGuid>
+      <webElementGuid>2b31f015-b94f-4f77-9691-0db6cb6177a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +30,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0fcb839e-f24b-449c-b11e-7017099be515</webElementGuid>
+      <webElementGuid>35810da6-2a4f-4ec7-93e3-dfee32c77781</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

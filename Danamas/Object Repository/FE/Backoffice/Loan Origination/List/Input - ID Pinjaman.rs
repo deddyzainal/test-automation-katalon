@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@formcontrolname = 'loanNumber']</value>
+         <value>//input[@formcontrolname = 'loan_number']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,8 +17,8 @@
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
-      <value>loanNumber</value>
-      <webElementGuid>189ceb9d-e168-40dc-a5ab-31fd931408d8</webElementGuid>
+      <value>loan_number</value>
+      <webElementGuid>97da33a3-d39c-456d-9f70-7c5b747d0937</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>data-placeholder</name>
       <type>Main</type>
       <value>No Pinjaman</value>
-      <webElementGuid>b0017e5b-cc5a-4b32-8648-9a818617ecaa</webElementGuid>
+      <webElementGuid>2fc31265-27bf-4ee5-a231-95d57631d7cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +34,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>cb1d52db-b8ea-4598-9c45-68b5153abb6e</webElementGuid>
+      <webElementGuid>5af4900a-e071-4871-afa2-41df118bbff6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -19,12 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 
 //Click dropdown Tipe Pinjaman
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Origination/List/Select - Tipe Pinjaman'), 3)
 WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Tipe Pinjaman'))
 
-//Select sumber pinjaman option
-WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Tipe Pinjaman', [('tipe_pinjaman'):tipe_pinjaman]))
+//Select Tipe Pinjaman option
+for(int i = 0; i < tipe_pinjaman.size; i++) {
+	WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Option - Tipe Pinjaman', [('tipe_pinjaman') : tipe_pinjaman[i]]))
+}
+
+WebUI.click(findTestObject('FE/Backoffice/Loan Origination/List/Select - Tipe Pinjaman'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Origination/List/TextValue - Tipe Pinjaman'), tipe_pinjaman)
+//WebUI.verifyElementText(findTestObject('FE/Backoffice/Loan Origination/List/TextValue - Tipe Pinjaman'), tipe_pinjaman)
