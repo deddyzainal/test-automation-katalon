@@ -21,7 +21,7 @@ WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Menu Pengajuan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Filter by Status'), [('status') : 'passed'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Filter/Filter by Status'), [('status') : 'passed'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Cari Aplikasi by No Pinjaman'), [('nama_peminjam') : 'Debby Anggraini'], 
     FailureHandling.STOP_ON_FAILURE)
@@ -70,7 +70,7 @@ WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Lengkapi Informasi/5. Inf
 '5'
 WebUI.click(findTestObject('FE/PARTNER/Lengkapi Informasi/5. Informasi Bank'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Rekening Bank'), [('nama') : 'saya\t', ('norekening') : '1235167871'
+WebUI.callTestCase(findTestCase('FE/Partner/Register/List/Input Data/Input data Rekening Bank'), [('nama') : 'saya\t', ('norekening') : '1235167871'
         , ('Bank') : 'BNI'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FE/PARTNER/Profil/button_Simpan'))

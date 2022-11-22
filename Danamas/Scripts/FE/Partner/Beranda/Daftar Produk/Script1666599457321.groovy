@@ -71,21 +71,21 @@ WebUI.callTestCase(findTestCase('FE/Partner/Upload File/uploadktp'), [:], Failur
 
 WebUI.callTestCase(findTestCase('FE/Partner/Upload File/uploadfotoselfie'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Input Data - Informasi Peminjam'), [('gender') : 'laki-laki', ('tempatlahir') : 'jakarta'
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Input Data/Input Data - Informasi Peminjam'), [('gender') : 'laki-laki', ('tempatlahir') : 'jakarta'
         , ('nama') : 'test11', ('pendidikan') : 'Sarjana', ('statusPerkawinan') : 'Belum kawin', ('date1') : '10-Agustus'
         , ('eYear') : '1999'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Input Data - Alamat Domisili sama dengan KTP'), [('alamat') : 'jl sungai sambas'
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Input Data/Input Data - Alamat Domisili sama dengan KTP'), [('alamat') : 'jl sungai sambas'
         , ('rt') : '10/', ('rw') : '05', ('Provinsi') : 'DKI Jakarta', ('Kota') : 'Jakarta Selatan', ('Kecamatan') : 'Kebayoran Baru'
         , ('Kelurahan') : 'SENAYAN', ('kodepos') : '10293'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FE/PARTNER/Beranda/button_Simpan'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Input Data - Informasi Pekerjaan'), [('pekerjaan') : 'Saya pegawai tetap'
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Input Data/Input Data - Informasi Pekerjaan'), [('pekerjaan') : 'Saya pegawai tetap'
         , ('detailpekerjaan') : 'Pegawai Swasta', ('lamabekerja') : '8', ('sumberpendapatan') : 'Gaji', ('pendapatanbulanan') : '100000000'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Input Data - Informasi Pinjaman'), [('nilai_Agunan') : '1000000000', ('jumlah_pinjaman') : '100000000'
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Input Data/Input Data - Informasi Pinjaman'), [('nilai_Agunan') : '1000000000', ('jumlah_pinjaman') : '100000000'
         , ('tipepeminjam') : 'individual', ('tujuanpinjaman') : 'pribadi', ('tenor') : '10', ('badge') : GlobalVariable.badge], 
     FailureHandling.STOP_ON_FAILURE)
 

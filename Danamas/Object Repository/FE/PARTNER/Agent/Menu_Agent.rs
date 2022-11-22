@@ -6,16 +6,15 @@
    <elementGuidId>e1e71b23-f7f4-4788-955e-e28fad959680</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//footer[@id='footer']/nav/ul/li[3]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Agent' or . = 'Agent')]</value>
+         <value>//app-root/div/ng-component/ng-component/theme-footer/div/footer/nav/ul/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//footer[@id='footer']/nav/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e2b03767-8287-4b4b-912c-0840c6122520</webElementGuid>
+      <webElementGuid>275a3046-fa15-41b6-b6a6-4ebdc55216b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,23 +33,23 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-tns-c60-4</value>
-      <webElementGuid>c0ee9613-3875-43cd-a6d3-51d177e9a44f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Agent</value>
-      <webElementGuid>90b662f9-fa58-46d3-909e-d0f127767334</webElementGuid>
+      <webElementGuid>2cf52939-1596-4034-8e8e-1b696ff1baeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Agent</value>
+      <webElementGuid>e47127de-9179-4581-b623-3ecabccab553</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;footer&quot;)/nav[@class=&quot;user-navigation&quot;]/ul[@class=&quot;menu-list ng-tns-c60-4&quot;]/li[@class=&quot;menu-item ng-tns-c60-4 ng-star-inserted&quot;]/a[@class=&quot;ng-tns-c60-4&quot;]</value>
-      <webElementGuid>3657fcbb-9e91-4862-a242-58e654cc8f0a</webElementGuid>
+      <value>//app-root/div/ng-component/ng-component/theme-footer/div/footer/nav/ul/li[3]/a</value>
+      <webElementGuid>fbc48fe8-d3ae-45e9-8d5c-133baba17443</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//footer[@id='footer']/nav/ul/li[3]/a</value>
-      <webElementGuid>57899a9c-4962-45c8-b7a0-cc34f6c4e0b7</webElementGuid>
+      <webElementGuid>d083f5ff-64ff-44bc-92c4-a1f2d6fe9452</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan'])[1]/following::a[1]</value>
-      <webElementGuid>4177fde9-a5cd-4f40-9764-dc9df64a8692</webElementGuid>
+      <webElementGuid>1c971912-2e72-4c06-b46a-a22886a6ed5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Beranda'])[1]/following::a[2]</value>
-      <webElementGuid>d0dedf72-b95f-451c-8dec-61dca8d6f5dd</webElementGuid>
+      <webElementGuid>c9f8c964-c389-4e19-bb25-7e1c9c5f2532</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Akun'])[1]/preceding::a[1]</value>
-      <webElementGuid>f91b1c54-6721-4b98-83fa-d178998ecc27</webElementGuid>
+      <webElementGuid>cfcbcf9a-6f6a-47e7-a1d7-c80636d8c4d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li[3]/a</value>
-      <webElementGuid>addb78c8-558d-49b7-93e6-2691fa06cff3</webElementGuid>
+      <webElementGuid>3855f361-79bf-456e-b5a1-ae9ac0c9e584</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'Agent' or . = 'Agent')]</value>
-      <webElementGuid>6d975c2e-e6d9-429f-a4ab-158056c636eb</webElementGuid>
+      <webElementGuid>5d03d856-cddd-4473-a094-0f301d5a69b4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

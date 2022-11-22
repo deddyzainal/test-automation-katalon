@@ -26,7 +26,7 @@ WebUI.click(findTestObject('FE/PARTNER/Agent/Agent_Pengajuan'))
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Agent/Agent_Pengajuan'), 2)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Sort by Name'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Sort/Sort by Name'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('FE/Partner/Register/Register User AS External Freelancer'), [('Agen') : 'partner'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Register/Detail/Register/Register User AS External Freelancer'), [('Agen') : 'partner'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Approve sales request'), [('no_hp') : GlobalVariable.timestamp], FailureHandling.STOP_ON_FAILURE)
 
@@ -34,10 +35,12 @@ WebUI.callTestCase(findTestCase('FE/Partner/New Loan/Make New Loan and Submit Do
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Document resubmission'), [('nama_peminjam') : 'Debby Anggraini'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Send Document/Resubmission Document'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Send Document/Resubmission Document'), [('nama_peminjam') : 'Debby Anggraini'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Request additional document'), [('nama_peminjam') : 'Debby Anggraini'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Send Document/Requested Additional Document'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Send Document/Requested Additional Document'), [('nama_peminjam') : 'Debby Anggraini'], 
+    FailureHandling.STOP_ON_FAILURE)
 

@@ -30,6 +30,6 @@ WebUI.click(findTestObject('FE/PARTNER/Agent/Agent_Pengajuan'))
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Agent/Agent_Pengajuan'), 2)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Filter Loan Summary by Date'), [('date1') : '19-23-September-2022', ('Month') : 'September'], 
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Filter/Filter Loan Summary by Date'), [('date1') : '19-23-September-2022', ('Month') : 'September'], 
     FailureHandling.STOP_ON_FAILURE)
 

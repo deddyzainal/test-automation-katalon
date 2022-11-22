@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Assessment'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Filter list by No Pinjaman
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by Nama Peminjam'), [('nama_peminjam') : nama_peminjam], 
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by Nama Peminjam'), [('nama_peminjam') : 'Matcha'], 
     FailureHandling.STOP_ON_FAILURE)
 
 //Open assessment detail

@@ -35,7 +35,7 @@
       <guid>7d5e5655-2a14-4a2b-b96e-bb910eddf0de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Login/Wrong password</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Login/Negatif Flow/Wrong password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -48,7 +48,7 @@
       <guid>3dababf0-d005-4bf1-9c3c-4a6e8767a6f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Login/Invalid phone number</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Login/Negatif Flow/Invalid phone number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

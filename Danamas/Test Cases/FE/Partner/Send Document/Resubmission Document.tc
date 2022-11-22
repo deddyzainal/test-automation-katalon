@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9528236e-95b8-48bd-beb4-b4bf7b5e45cc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>658a537a-20bb-4e67-8407-4a705fda617a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'KC-KFP-1122-11-0006'</defaultValue>
+      <description></description>
+      <id>658a537a-20bb-4e67-8407-4a705fda617a</id>
+      <masked>false</masked>
+      <name>nama_peminjam</name>
+   </variable>
 </TestCaseEntity>

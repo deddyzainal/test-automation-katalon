@@ -24,6 +24,6 @@ WebUI.callTestCase(findTestCase('FE/Partner/Menu Agent/Menu Agent'), [:], Failur
 
 WebUI.click(findTestObject('FE/PARTNER/Agent/Agent_Pengajuan'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Filter by product name'), [('productname') : 'pinjaman beragunan properti'], 
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Filter/Filter by product name'), [('productname') : 'pinjaman beragunan properti'], 
     FailureHandling.STOP_ON_FAILURE)
 

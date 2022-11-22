@@ -22,5 +22,5 @@ WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('no
 
 WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Menu Pengajuan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Sort by Loan Number'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Sort/Sort by Loan Number'), [:], FailureHandling.STOP_ON_FAILURE)
 
