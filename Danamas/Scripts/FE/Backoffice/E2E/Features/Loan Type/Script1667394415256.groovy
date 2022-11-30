@@ -4,6 +4,8 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Type'), null, FailureHandling.STOP_ON_FAILURE)
 
 String datetime = new Date().format('yyMMddHHmmss')

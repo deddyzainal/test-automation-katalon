@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Open detail</name>
+   <name>Upload Dokumen User</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7e84967b-b2ce-4a27-a9d4-a7b9aa3066a7</testCaseGuid>
+   <testCaseGuid>6b55bba9-597f-416c-a5d9-66e3c7c28439</testCaseGuid>
 </TestCaseEntity>

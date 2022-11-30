@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete loan type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>593af699-09f8-4161-a3cc-ba5128bf3994</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>491f8779-759d-448e-aea1-02c91bb41d7d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'LoanType 221129'</defaultValue>
+      <description></description>
+      <id>491f8779-759d-448e-aea1-02c91bb41d7d</id>
+      <masked>false</masked>
+      <name>nama_pinjaman</name>
+   </variable>
+</TestCaseEntity>

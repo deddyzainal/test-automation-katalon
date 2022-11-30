@@ -27,20 +27,20 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Open assessment detail'), null, FailureHandling.STOP_ON_FAILURE)
 
 //Request additional document
-WebUI.callTestCase(findTestCase('Test Cases/FE/Backoffice/Loan Assessment/Detail/Request additional document'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Request additional document'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Telesales'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by ID Pinjaman'), [('id_pinjaman') : no_pinjaman], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Open Detail'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Click Edit Data'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Upload Dokumen Tambahan'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Submit edit'), null, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by ID Pinjaman - Not found'), [('id_pinjaman') : no_pinjaman],
-	FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Telesales'), null, FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by ID Pinjaman'), [('id_pinjaman') : no_pinjaman], 
+//    FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Open Detail'), null, FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Click Edit Data'), null, FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Upload Dokumen Tambahan'), null, FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Submit edit'), null, FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('FE/Backoffice/Telesales/Filter list by ID Pinjaman - Not found'), [('id_pinjaman') : no_pinjaman],
+//	FailureHandling.STOP_ON_FAILURE)
