@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cancel loan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa66fbd8-b9ae-4aab-896c-55292e645bef</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>952ec325-7520-4a41-81e4-1048e5ab7c76</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Test cancel loan'</defaultValue>
+      <description></description>
+      <id>952ec325-7520-4a41-81e4-1048e5ab7c76</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+</TestCaseEntity>
