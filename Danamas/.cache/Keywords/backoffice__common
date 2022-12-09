@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "ECFD1D6C36C82639D269A2CED68B0E54",
+  "keywordFileContentHash": "D2120E7703C9D4E734B20F946249D5AD",
   "keywordClasses": [
     {
       "name": "backoffice.common",
@@ -33,8 +33,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "setTextWithDelay",
@@ -65,8 +64,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "isFileDownloaded",
@@ -84,8 +82,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "replaceMonth",
@@ -103,11 +100,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

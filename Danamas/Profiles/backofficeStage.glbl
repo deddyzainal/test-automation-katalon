@@ -36,12 +36,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'KC-KFN-1122-22-0002'</initValue>
+      <initValue>''</initValue>
       <name>loanNumber</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ZhSoN3psum3lmALXatAgAwDNc1hU4ljE'</initValue>
+      <initValue>''</initValue>
       <name>token</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'20221122144459'</initValue>
+      <initValue>''</initValue>
       <name>datetime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

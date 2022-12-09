@@ -3,8 +3,10 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-//Login and navigate to menu Loan Type
-WebUI.callTestCase(findTestCase('FE/Backoffice V2/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+//Login
+//WebUI.callTestCase(findTestCase('FE/Backoffice V2/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+
+//Click menu Loan Type
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/Side Menu/Click menu Loan Type'), null, FailureHandling.STOP_ON_FAILURE)
 
 //Generate random string for Loan Type Code and set loan name

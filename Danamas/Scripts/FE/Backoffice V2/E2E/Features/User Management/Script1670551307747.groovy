@@ -17,8 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Login and navigate to menu User Management
-WebUI.callTestCase(findTestCase('FE/Backoffice V2/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+//Login
+//WebUI.callTestCase(findTestCase('FE/Backoffice V2/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+
+//Click menu User Management
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/Side Menu/Click menu User Management'), null, FailureHandling.STOP_ON_FAILURE)
 
 //Filter list by Nama
@@ -51,10 +53,13 @@ WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Filter list by
 //Filter list by KTP Status
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Filter list by KTP Status'), null, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Side Menu/Click menu User Management'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
+
 //Add new user BORROWER INDIVIDUAL
 String phone_no = '8' + new Date().format('yyMMddHHmmss')
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Add new user'), [('phone_no') : phone_no, ('name') : 'Borrower Ind', ('user_type') : 'Borrower', ('borrower_lender_type') : 'Individual'], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit User Information'), [('phone_number') : phone_no, ('name') : 'Borrower Ind', ('user') : 'Borrower', ('type') : 'Individual'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit User Information'), [('phone_number') : '+62' + phone_no, ('name') : 'Borrower Ind', ('user') : 'Borrower', ('type') : 'Individual'], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit Informasi Credential'), [('type') : 'Individual'], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit Informasi Tambahan'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Save data completion'), null, FailureHandling.STOP_ON_FAILURE)
@@ -63,7 +68,7 @@ WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Save data comp
 phone_no = '8' + new Date().format('yyMMddHHmmss')
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/Side Menu/Click menu User Management'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Add new user'), [('phone_no') : phone_no, ('name') : 'Borrower Ins', ('user_type') : 'Borrower', ('borrower_lender_type') : 'Institutional'], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit User Information'), [('phone_number') : phone_no, ('name') : 'Borrower Ins', ('nama_perusahaan') : 'PT Borrower Ins', ('user') : 'Borrower', ('type') : 'Institutional'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit User Information'), [('phone_number') : '+62' + phone_no, ('name') : 'Borrower Ins', ('nama_perusahaan') : 'PT Borrower Ins', ('user') : 'Borrower', ('type') : 'Institutional'], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit Informasi Credential'), [('type') : 'Institutional'], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit Informasi Tambahan'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Save data completion'), null, FailureHandling.STOP_ON_FAILURE)
@@ -72,7 +77,7 @@ WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Save data comp
 phone_no = '8' + new Date().format('yyMMddHHmmss')
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/Side Menu/Click menu User Management'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Add new user'), [('phone_no') : phone_no, ('name') : 'Lender Ind', ('user_type') : 'Lender', ('borrower_lender_type') : 'Individual'], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit User Information'), [('phone_number') : phone_no, ('name') : 'Lender Ind', ('user') : 'Lender', ('type') : 'Individual'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit User Information'), [('phone_number') : '+62' + phone_no, ('name') : 'Lender Ind', ('user') : 'Lender', ('type') : 'Individual'], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit Informasi Credential'), [('type') : 'Individual'], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit Informasi Tambahan'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Save data completion'), null, FailureHandling.STOP_ON_FAILURE)
@@ -81,7 +86,7 @@ WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Save data comp
 phone_no = '8' + new Date().format('yyMMddHHmmss')
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/Side Menu/Click menu User Management'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Add new user'), [('phone_no') : phone_no, ('name') : 'Lender Ins', ('user_type') : 'Lender', ('borrower_lender_type') : 'Institutional'], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit User Information'), [('phone_number') : phone_no, ('name') : 'Lender Ins', ('nama_perusahaan') : 'PT Lender Ins', ('user') : 'Lender', ('type') : 'Institutional'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit User Information'), [('phone_number') : '+62' + phone_no, ('name') : 'Lender Ins', ('nama_perusahaan') : 'PT Lender Ins', ('user') : 'Lender', ('type') : 'Institutional'], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit Informasi Credential'), [('type') : 'Institutional'], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Edit Informasi Tambahan'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/User Management/Save data completion'), null, FailureHandling.STOP_ON_FAILURE)

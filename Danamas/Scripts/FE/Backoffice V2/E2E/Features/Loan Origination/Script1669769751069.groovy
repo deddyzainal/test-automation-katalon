@@ -6,8 +6,10 @@ import org.openqa.selenium.Keys
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-//Login and navigate to menu Loan Origination
-WebUI.callTestCase(findTestCase('FE/Backoffice V2/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+//Login
+//WebUI.callTestCase(findTestCase('FE/Backoffice V2/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+
+//Click menu Loan Origination
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/Side Menu/Click menu Loan Origination'), null, FailureHandling.STOP_ON_FAILURE)
 
 //Filter list by Nama
