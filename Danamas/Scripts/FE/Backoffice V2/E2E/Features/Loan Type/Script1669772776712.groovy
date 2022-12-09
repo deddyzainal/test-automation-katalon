@@ -1,31 +1,31 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//Login and navigate to menu Loan Type
-WebUI.callTestCase(findTestCase('FE/Backoffice V2/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+//Login
+//WebUI.callTestCase(findTestCase('FE/Backoffice V2/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+
+//Click menu Loan Type
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/Side Menu/Click menu Loan Type'), null, FailureHandling.STOP_ON_FAILURE)
 
+//Generate random string for Loan Type Code and set loan name
+def generator = { String alphabet, int n ->
+	new Random().with {
+	  (1..n).collect { alphabet[ nextInt( alphabet.length() ) ] }.join()
+	}
+  }
+String code = generator( (('A'..'Z')).join(), 3 )
+String loan_name = 'LoanType ' + new Date().format('yyMMddHHmm')
+
 //Add new loan type
-WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Type/Add loan type'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Type/Add loan type'), [('kode_pinjaman') : code, ('nama_jenis_pinjaman') : loan_name], FailureHandling.STOP_ON_FAILURE)
 
 //Edit loan type
-WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Type/Edit loan type'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Type/Edit loan type'), [('nama_jenis_pinjaman') : loan_name], FailureHandling.STOP_ON_FAILURE)
 
 //Delete loan type
-//WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Type/Delete loan type'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Type/Delete loan type'), [('nama_pinjaman') : loan_name], FailureHandling.STOP_ON_FAILURE)
+
+
+ 

@@ -277,4 +277,4 @@ WebUI.click(findTestObject('FE/Backoffice V2/Loan Type/Form/Button - Kirim'), Fa
 
 //Verify success snackbar is shown
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice V2/Loan Type/Form/Snackbar'), 5, FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementText(findTestObject('FE/Backoffice V2/Loan Type/Form/Snackbar'), 'Successfully executed', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('FE/Backoffice V2/Loan Type/Form/Snackbar'), 'Success', FailureHandling.STOP_ON_FAILURE)

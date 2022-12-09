@@ -273,7 +273,7 @@ WebUI.setText(findTestObject('FE/Backoffice V2/Loan Type/Form/Input - Suffix'), 
 WebUI.click(findTestObject('FE/Backoffice V2/Loan Type/Form/Button - Tambah Informasi'), FailureHandling.STOP_ON_FAILURE)
 
 //Verify data Informasi Tambahan is added to the list
-WebUI.verifyElementText(findTestObject('FE/Backoffice V2/Loan Type/Form/TextValue - Nama'), nama, FailureHandling.STOP_ON_FAILURE)
+//WebUI.verifyElementText(findTestObject('FE/Backoffice V2/Loan Type/Form/TextValue - Nama'), nama, FailureHandling.STOP_ON_FAILURE)
 
 //Click button Kirim
 WebUI.click(findTestObject('FE/Backoffice V2/Loan Type/Form/Button - Kirim'), FailureHandling.STOP_ON_FAILURE)
@@ -281,3 +281,4 @@ WebUI.click(findTestObject('FE/Backoffice V2/Loan Type/Form/Button - Kirim'), Fa
 //Verify success snackbar is shown
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice V2/Loan Type/Form/Snackbar'), 5, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementText(findTestObject('FE/Backoffice V2/Loan Type/Form/Snackbar'), 'Success', FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementNotPresent(findTestObject('FE/Backoffice V2/Loan Type/Form/Snackbar'), 5, FailureHandling.STOP_ON_FAILURE)

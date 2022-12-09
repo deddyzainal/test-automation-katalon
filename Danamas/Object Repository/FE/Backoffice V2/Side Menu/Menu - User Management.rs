@@ -6,12 +6,11 @@
    <elementGuidId>57f25ba3-4cee-4317-b8ad-7cd6850a6e47</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//app-sidebar/div/div/button[. = ' User Management ']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//app-sidebar/div/div/button[. = ' User Management V2 ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

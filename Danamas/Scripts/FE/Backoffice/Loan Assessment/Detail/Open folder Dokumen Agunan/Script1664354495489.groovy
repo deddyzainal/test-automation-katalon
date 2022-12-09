@@ -22,3 +22,6 @@ WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Folder - Dokume
 
 //Verify leaving assessment detail
 WebUI.verifyElementNotPresent(findTestObject('FE/Backoffice/Loan Assessment/Detail/Folder - Dokumen Agunan'), 3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Folder - Agunan'))
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Button - Request Ulang PBB'), 5, FailureHandling.STOP_ON_FAILURE)

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Phone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be398e9c-e4b5-4c0f-834f-0b816689f78a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>031b5f2f-d23d-4bf0-aa38-7e46b18db6c2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'62834557635345'</defaultValue>
+      <description></description>
+      <id>031b5f2f-d23d-4bf0-aa38-7e46b18db6c2</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+</TestCaseEntity>

@@ -21,7 +21,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.click(findTestObject('FE/Backoffice V2/Loan Origination/List/Select - Tipe Pinjaman'), FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('FE/Backoffice V2/Loan Origination/List/Select - Option', [('option') : tipe_pinjaman]), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 //Verify Tipe Pinjaman on the list match with selected option
 WebUI.verifyElementText(findTestObject('FE/Backoffice V2/Loan Origination/List/TextValue - Tipe Pinjaman'), tipe_pinjaman, FailureHandling.STOP_ON_FAILURE)
