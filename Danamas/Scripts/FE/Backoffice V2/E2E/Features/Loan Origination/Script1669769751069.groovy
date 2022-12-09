@@ -27,7 +27,7 @@ WebUI.sendKeys(findTestObject('FE/Backoffice V2/Loan Origination/List/Input - No
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 //Filter list by Tipe Pinjaman
-//WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Origination/Filter list by Tipe Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Origination/Filter list by Tipe Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
 
 //Filter list by Status
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Origination/Filter list by Status Pinjaman'), null, FailureHandling.STOP_ON_FAILURE)
@@ -40,3 +40,17 @@ WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Origination/View loan det
 
 //Edit loan
 WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Origination/Edit loan'), null, FailureHandling.STOP_ON_FAILURE)
+
+//Approve and Publish loan
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Origination/Approve loan'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Origination/Publish loan'), null, FailureHandling.STOP_ON_FAILURE)
+
+//Cancel Loan
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Side Menu/Click menu Loan Origination'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Origination/Add new loan'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Origination/Cancel loan'), null, FailureHandling.STOP_ON_FAILURE)
+
+//Reject Loan
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Side Menu/Click menu Loan Origination'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Origination/Add new loan'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice V2/Loan Origination/Reject loan'), null, FailureHandling.STOP_ON_FAILURE)

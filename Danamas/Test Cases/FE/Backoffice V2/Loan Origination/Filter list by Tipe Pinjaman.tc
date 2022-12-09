@@ -12,7 +12,7 @@
       <variableId>3c33e60b-17b6-45af-8c0c-9c3b41ca9a28</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Secured Loan Testing'</defaultValue>
+      <defaultValue>'Invoice Financing'</defaultValue>
       <description></description>
       <id>3c33e60b-17b6-45af-8c0c-9c3b41ca9a28</id>
       <masked>false</masked>

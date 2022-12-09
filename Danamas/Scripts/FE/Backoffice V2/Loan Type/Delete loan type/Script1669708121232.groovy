@@ -20,6 +20,10 @@ import org.openqa.selenium.Keys as Keys
 //Click button Hapus
 WebUI.click(findTestObject('FE/Backoffice V2/Loan Type/List/Button - Hapus', [('loan_name') : nama_pinjaman]), FailureHandling.STOP_ON_FAILURE)
 
+//Click button Ya on confirmation dialog
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice V2/Loan Type/List/Button - Ya'), 2, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('FE/Backoffice V2/Loan Type/List/Button - Ya'), FailureHandling.STOP_ON_FAILURE)
+
 //Verify success snackbar is shown
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice V2/Loan Type/Form/Snackbar'), 5, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementText(findTestObject('FE/Backoffice V2/Loan Type/Form/Snackbar'), 'Success', FailureHandling.STOP_ON_FAILURE)

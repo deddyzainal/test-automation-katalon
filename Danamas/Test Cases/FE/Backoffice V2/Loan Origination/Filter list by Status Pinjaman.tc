@@ -12,7 +12,7 @@
       <variableId>4ded2912-58e0-4326-9656-24ef55a5ee3f</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Submitted'</defaultValue>
+      <defaultValue>'Published'</defaultValue>
       <description></description>
       <id>4ded2912-58e0-4326-9656-24ef55a5ee3f</id>
       <masked>false</masked>

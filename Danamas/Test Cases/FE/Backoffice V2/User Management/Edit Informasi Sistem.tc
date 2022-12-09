@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Informasi Sistem</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>219a83db-a3c9-4eb0-9e08-d39e1d347907</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef5f064f-3434-4c0c-91aa-00a900c503e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>675a6c91-6179-49e9-b595-e026eb4206f9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54279236-9509-440c-8dc9-fa5b73ef2949</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba16cb79-417e-4e16-a674-910fdbdfac4c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ed1a179-1e27-47f0-bdac-296b6d509658</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'4 Dec 2022 08:10'</defaultValue>
+      <description></description>
+      <id>ef5f064f-3434-4c0c-91aa-00a900c503e4</id>
+      <masked>false</masked>
+      <name>created_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>675a6c91-6179-49e9-b595-e026eb4206f9</id>
+      <masked>false</masked>
+      <name>created_by</name>
+   </variable>
+   <variable>
+      <defaultValue>'5 Dec 2022 10:54'</defaultValue>
+      <description></description>
+      <id>54279236-9509-440c-8dc9-fa5b73ef2949</id>
+      <masked>false</masked>
+      <name>last_update</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test 2'</defaultValue>
+      <description></description>
+      <id>ba16cb79-417e-4e16-a674-910fdbdfac4c</id>
+      <masked>false</masked>
+      <name>last_update_by</name>
+   </variable>
+   <variable>
+      <defaultValue>'6 Dec 2022 10:54'</defaultValue>
+      <description></description>
+      <id>6ed1a179-1e27-47f0-bdac-296b6d509658</id>
+      <masked>false</masked>
+      <name>digi_sign_verified_date</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Tipe User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45ecb772-aef2-4813-abf8-4ba709a23cc2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>288a4e60-d821-4127-ad2e-426e7626a1fc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Borrower'</defaultValue>
+      <description></description>
+      <id>288a4e60-d821-4127-ad2e-426e7626a1fc</id>
+      <masked>false</masked>
+      <name>tipe_user</name>
+   </variable>
+</TestCaseEntity>
