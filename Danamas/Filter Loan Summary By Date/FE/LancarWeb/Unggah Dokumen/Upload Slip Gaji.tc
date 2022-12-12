@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Slip Gaji</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af0a8dfd-c67c-4ebe-bb91-55460284c570</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d978d08b-084c-4e84-9a74-97ffeba2006a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/slip-gaji-2.pdf'</defaultValue>
+      <description></description>
+      <id>d978d08b-084c-4e84-9a74-97ffeba2006a</id>
+      <masked>false</masked>
+      <name>slipGajiFilepath</name>
+   </variable>
+</TestCaseEntity>

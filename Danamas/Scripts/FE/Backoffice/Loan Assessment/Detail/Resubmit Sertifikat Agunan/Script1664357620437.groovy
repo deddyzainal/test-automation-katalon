@@ -18,8 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Click button Resubmission PBB
-WebUI.waitForElementVisible(findTestObject('null'), 3, FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('null'))
+WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Button - Request Ulang PBB'), 
+    3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Button - Request Ulang PBB'))
 
 //Submit resubmission form
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Send resubmission request'), [('alasan') : alasan, ('deskripsi') : deskripsi], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Fill resubmission form'), [('alasan') : 'Foto blur'
+        , ('deskripsi') : 'Test Alasan Lainnya'], FailureHandling.STOP_ON_FAILURE)
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Data - Informasi Pekerjaan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b96af0ec-98fe-4ea7-b172-faffa2118a31</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc6ee21e-11d9-457a-9af1-945d0dab382e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>400ccc82-1187-4bd9-8cb7-06fa98dcf49d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe87e4c2-2f3d-46a4-a8a7-fde2d4314cde</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c2bfe6cc-dc60-4fc3-8b17-3aea497f9356</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad4da87f-4e3f-430d-a80a-773365de8339</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Saya pegawai tetap'</defaultValue>
+      <description></description>
+      <id>fc6ee21e-11d9-457a-9af1-945d0dab382e</id>
+      <masked>false</masked>
+      <name>pekerjaan</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pegawai BUMN/BUMD'</defaultValue>
+      <description></description>
+      <id>400ccc82-1187-4bd9-8cb7-06fa98dcf49d</id>
+      <masked>false</masked>
+      <name>detailpekerjaan</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>fe87e4c2-2f3d-46a4-a8a7-fde2d4314cde</id>
+      <masked>false</masked>
+      <name>lamabekerja</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dana Hibah'</defaultValue>
+      <description></description>
+      <id>c2bfe6cc-dc60-4fc3-8b17-3aea497f9356</id>
+      <masked>false</masked>
+      <name>sumberpendapatan</name>
+   </variable>
+   <variable>
+      <defaultValue>'100000000'</defaultValue>
+      <description></description>
+      <id>ad4da87f-4e3f-430d-a80a-773365de8339</id>
+      <masked>false</masked>
+      <name>pendapatanbulanan</name>
+   </variable>
+</TestCaseEntity>

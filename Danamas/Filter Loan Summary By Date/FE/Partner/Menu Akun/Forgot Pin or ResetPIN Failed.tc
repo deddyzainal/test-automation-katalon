@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Forgot Pin or ResetPIN Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43d7af14-40a8-4f32-8a8a-8057fa527416</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce07186c-6e76-4029-abf0-522fc48a8121</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1234567890122347'</defaultValue>
+      <description></description>
+      <id>ce07186c-6e76-4029-abf0-522fc48a8121</id>
+      <masked>false</masked>
+      <name>nik</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Tipe Pinjaman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>166b03d3-cf3e-4e19-b9cc-2df4ab13c6cd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>69b32300-2871-4508-8e90-01632683847c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['LancarDana Aspirasi 14%', 'LancarDana 70%']</defaultValue>
+      <description></description>
+      <id>69b32300-2871-4508-8e90-01632683847c</id>
+      <masked>false</masked>
+      <name>tipe_pinjaman</name>
+   </variable>
+</TestCaseEntity>

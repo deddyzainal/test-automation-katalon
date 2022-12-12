@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Status Pinjaman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3ffa2fd-6440-47ed-ba5e-ba1c16bdcdd1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d37a5696-a8f4-450f-91f5-9139e3016ac9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['PASSED', 'SUBMITTED']</defaultValue>
+      <description></description>
+      <id>d37a5696-a8f4-450f-91f5-9139e3016ac9</id>
+      <masked>false</masked>
+      <name>status_pinjaman</name>
+   </variable>
+</TestCaseEntity>

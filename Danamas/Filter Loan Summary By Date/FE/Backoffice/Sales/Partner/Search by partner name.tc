@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search by partner name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a929076-3b3d-431c-a0a1-bb3a66600f33</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>628c8e19-b1b5-4ed7-b6f8-cd85a260c951</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'BSIM'</defaultValue>
+      <description></description>
+      <id>628c8e19-b1b5-4ed7-b6f8-cd85a260c951</id>
+      <masked>false</masked>
+      <name>nama_partner</name>
+   </variable>
+</TestCaseEntity>

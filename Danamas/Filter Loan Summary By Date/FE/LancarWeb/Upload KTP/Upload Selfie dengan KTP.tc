@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Selfie dengan KTP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16476d97-5688-4154-b169-5f1cc51541b7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16ac953a-ec68-484c-9d79-7b84a8ca2931</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/Foto_selfie_ktp.jpeg'</defaultValue>
+      <description></description>
+      <id>16ac953a-ec68-484c-9d79-7b84a8ca2931</id>
+      <masked>false</masked>
+      <name>pictureFilepath</name>
+   </variable>
+</TestCaseEntity>

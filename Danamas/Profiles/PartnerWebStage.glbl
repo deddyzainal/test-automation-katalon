@@ -26,12 +26,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'stg_ca@danamas.co.id'</initValue>
+      <initValue>'meitri.delfiza@icehousecorp.com'</initValue>
       <name>BackofficeEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'NKAHewjCsCvdggNkUy5Ovw=='</initValue>
+      <initValue>'ELeIGSF4J+I='</initValue>
       <name>BackofficePassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -58,5 +58,45 @@
       <description></description>
       <initValue>'B063011190'</initValue>
       <name>kodereferral</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stage-apis.lancar.id:8443'</initValue>
+      <name>requestURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>UserID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'meitri.delfiza@icehousecorp.com'</initValue>
+      <name>backofficeEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'danamas'</initValue>
+      <name>backofficePassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>token</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>secure_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>nik</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>phone_number</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

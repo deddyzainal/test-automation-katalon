@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Nama</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d02c02d7-c823-47eb-a19a-7837660a5787</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a9585b7-cbca-4474-8d43-11c33456f286</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Eko Suprianto'</defaultValue>
+      <description></description>
+      <id>5a9585b7-cbca-4474-8d43-11c33456f286</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+</TestCaseEntity>

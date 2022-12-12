@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload file</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72a61d24-3292-4f38-b384-71669432069b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7322c66-d6b4-4198-858f-807ee350ed95</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>97d3c5f6-5999-4da9-bb7b-cd5df15c5c63</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d7322c66-d6b4-4198-858f-807ee350ed95</id>
+      <masked>false</masked>
+      <name>object</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>97d3c5f6-5999-4da9-bb7b-cd5df15c5c63</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

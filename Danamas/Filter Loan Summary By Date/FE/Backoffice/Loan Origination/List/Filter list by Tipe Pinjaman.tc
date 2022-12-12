@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Tipe Pinjaman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ddbf953-f15f-4ef6-ab54-2905f6c17a5e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>89344a64-8346-47af-b514-d3beb8dcb39e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Loan Type Floating ', 'DanaExpress']</defaultValue>
+      <description></description>
+      <id>89344a64-8346-47af-b514-d3beb8dcb39e</id>
+      <masked>false</masked>
+      <name>tipe_pinjaman</name>
+   </variable>
+</TestCaseEntity>

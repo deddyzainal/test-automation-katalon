@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 String timestamp = new Date().format('yyyyMMddHHmmss')
 
-WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('nomorhp') : '20220921163134', ('katasandi') : GlobalVariable.password], 
+WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('nomorhp') : '20221130140129', ('katasandi') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('FE/PARTNER/Profil/Profile_badge'))
@@ -69,9 +69,9 @@ WebUI.callTestCase(findTestCase('FE/Partner/Upload File/uploadktp'), [:], Failur
 
 WebUI.callTestCase(findTestCase('FE/Partner/Upload File/uploadfotoselfie'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Input Data/Input Data - Informasi Peminjam'), [('gender') : 'Laki-laki', ('tempatlahir') : 'jakarta'
-        , ('nama') : 'test11', ('pendidikan') : 'Sarjana', ('statusPerkawinan') : 'Belum Kawin', ('date1') : '10-Agustus'
-        , ('eYear') : '1999', ('nikpasangan') : '1312213121111123', ('date2') : '15-Agustus', ('namapasangan') : 'Joko'], 
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Input Data/Input Data - Informasi Peminjam'), [('gender') : 'Laki-laki'
+        , ('tempatlahir') : 'jakarta', ('nama') : 'test11', ('pendidikan') : 'Sarjana', ('statusPerkawinan') : 'Belum Kawin'
+        , ('date1') : '10-Agustus', ('eYear') : '1999', ('nikpasangan') : '1312213121111123', ('date2') : '15-Agustus', ('namapasangan') : 'Joko'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Input Data/Input Data - Alamat Domisili sama dengan KTP'), [('alamat') : 'jl sungai sambas'
@@ -84,14 +84,20 @@ WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Input Data/Input Data -
         , ('detailpekerjaan') : 'Pegawai BUMN/BUMD', ('lamabekerja') : '5', ('sumberpendapatan') : 'Dana Hibah', ('pendapatanbulanan') : '100000000'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Input Data/Input Data - Informasi Pinjaman'), [('nilai_Agunan') : '1000000000', ('jumlah_pinjaman') : '100000000'
-        , ('tipepeminjam') : 'individual', ('tujuanpinjaman') : 'pribadi', ('tenor') : '120', ('badge') : GlobalVariable.badge], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Input Data/Input Data - Informasi Pinjaman'), [('nilai_Agunan') : '1000000000'
+        , ('jumlah_pinjaman') : '100000000', ('tipepeminjam') : 'individual', ('tujuanpinjaman') : 'pribadi', ('tenor') : '120'
+        , ('badge') : GlobalVariable.badge], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Gamification/Popup'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.verifyTextPresent('Pengajuan pinjaman telah berhasil di kirim untuk pre-screening!', false)
 //
 //WebUI.click(findTestObject('FE/PARTNER/Beranda/button_OK'))
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Get Point'), [('poin') : 'tutup'], FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyElementText(findTestObject('FE/PARTNER/Beranda/Info - Gamification'), '+5 Point Didapatkan', FailureHandling.OPTIONAL)) {
+    WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Gamification/Get Point'), [('poin') : 'tutup'], FailureHandling.OPTIONAL)
+} else {
+    WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Gamification/Get Level'), [('poin') : 'tutup'], FailureHandling.OPTIONAL)
+}
 
 WebUI.closeBrowser()
 

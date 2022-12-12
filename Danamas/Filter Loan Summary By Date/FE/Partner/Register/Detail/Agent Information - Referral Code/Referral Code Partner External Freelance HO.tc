@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Referral Code Partner External Freelance HO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74419529-4f4d-4067-9784-f24dea0c0613</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd09baa7-154f-4f87-abd7-7d7bfdcf46b3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68b68820-d45a-4ce0-976a-fb77b218727b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'partner'</defaultValue>
+      <description></description>
+      <id>dd09baa7-154f-4f87-abd7-7d7bfdcf46b3</id>
+      <masked>false</masked>
+      <name>Agen</name>
+   </variable>
+   <variable>
+      <defaultValue>'B567701415'</defaultValue>
+      <description></description>
+      <id>68b68820-d45a-4ce0-976a-fb77b218727b</id>
+      <masked>false</masked>
+      <name>Referral_Free_HO</name>
+   </variable>
+</TestCaseEntity>

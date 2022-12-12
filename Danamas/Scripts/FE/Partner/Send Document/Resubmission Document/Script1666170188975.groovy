@@ -20,13 +20,13 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('nomorhp') : GlobalVariable.timestamp, ('katasandi') : GlobalVariable.password], 
    FailureHandling.STOP_ON_FAILURE)
 //WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('nomorhp') : '20220921163134', ('katasandi') : GlobalVariable.password], 
-  //  FailureHandling.STOP_ON_FAILURE)
+//    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Menu Pengajuan'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Menu Pengajuan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Filter/Filter by Status'), [('status') : 'passed'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Cari Aplikasi by No Pinjaman'), [('nama_peminjam') : nama_peminjam], 
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Cari Aplikasi by No Pinjaman'), [('nama_peminjam') : nama_peminjam], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)

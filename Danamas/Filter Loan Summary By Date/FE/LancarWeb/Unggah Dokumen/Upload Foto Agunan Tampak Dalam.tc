@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Foto Agunan Tampak Dalam</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb987517-7841-4fe4-bce1-f9a33bfe1fce</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4fe8accc-cb28-4ff3-94ba-cc78244ae2f5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/tampak_dalam.jpeg'</defaultValue>
+      <description></description>
+      <id>4fe8accc-cb28-4ff3-94ba-cc78244ae2f5</id>
+      <masked>false</masked>
+      <name>agunanDalamFilepath</name>
+   </variable>
+</TestCaseEntity>

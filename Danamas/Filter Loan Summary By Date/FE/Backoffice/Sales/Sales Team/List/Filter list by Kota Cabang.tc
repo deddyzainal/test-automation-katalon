@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Kota Cabang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c7d0997-ceb9-4be5-913a-aea581ad5714</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d251645-9b69-4675-a727-b8ad4c5a9bbb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Jakarta Barat'</defaultValue>
+      <description></description>
+      <id>1d251645-9b69-4675-a727-b8ad4c5a9bbb</id>
+      <masked>false</masked>
+      <name>kota_cabang</name>
+   </variable>
+</TestCaseEntity>

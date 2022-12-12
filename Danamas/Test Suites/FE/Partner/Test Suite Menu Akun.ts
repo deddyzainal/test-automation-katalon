@@ -187,7 +187,7 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>84202a7d-59f0-4060-a6fa-f4cdbb3fcb74</variableId>
+         <variableId>81d43822-7c63-4584-841e-3b795372edfd</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -203,5 +203,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/FE/Partner/Menu Akun/Personal Information</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8160f302-983f-4707-8462-4554d63aea90</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Menu Akun/Forgot Pin or ResetPIN Failed</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ce07186c-6e76-4029-abf0-522fc48a8121</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

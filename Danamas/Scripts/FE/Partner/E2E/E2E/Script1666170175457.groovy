@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('FE/Partner/Register/Detail/Register/Register User AS External Freelancer'), [('Agen') : 'partner'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Register/Detail/Register/Register User AS External Freelancer'), [('Agen') : 'partner'
+        , ('referral') : GlobalVariable.kodereferral], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/E2E/Approve sales request'), [('no_hp') : GlobalVariable.timestamp], FailureHandling.STOP_ON_FAILURE)
 
@@ -28,7 +28,7 @@ WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('no
 WebUI.callTestCase(findTestCase('FE/Partner/Menu Akun/AturPIN'), [('newpin') : '123456', ('text') : 'Yay, PIN baru Anda sudah dapat digunakan'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/User Branch Partner'), [('badge') : GlobalVariable.badge], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/User Branch Partner'), [('badge') : GlobalVariable.badge], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/New Loan/Make New Loan and Submit Document with Different Option (Jenis Pekerjaan, Status Kawin)'), 
     [('pengajuan') : 'dana express', ('badge') : GlobalVariable.badge], FailureHandling.STOP_ON_FAILURE)

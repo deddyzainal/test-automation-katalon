@@ -30,7 +30,7 @@
       <variableId>6b83714e-a0cf-40f6-bba6-3dab85f567a9</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Panin'</defaultValue>
+      <defaultValue>'BNI'</defaultValue>
       <description></description>
       <id>0af18af4-9bf6-41c5-a5ef-35026d7e93ec</id>
       <masked>false</masked>

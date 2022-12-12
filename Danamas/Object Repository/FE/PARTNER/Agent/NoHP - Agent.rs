@@ -6,39 +6,27 @@
    <elementGuidId>80ab3976-8ad0-464e-a715-a0494f927689</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main']/div/ng-component/ul/li/div[2]/div[2]/h6</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.content-right > h6</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//app-scroll/team-list/ul</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/ng-component/ul/li/div[2]/div[2]/h6</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>h6</value>
-      <webElementGuid>235cc951-7b10-4cd5-b3f5-dae54ec1ae21</webElementGuid>
-   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>20221005111854</value>
-      <webElementGuid>3bf18f5a-0ca9-4898-8df4-88471faa6dca</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;ng-trigger ng-trigger-routerAnimation&quot;]/ng-component[@class=&quot;ng-star-inserted&quot;]/ul[@class=&quot;freelancer-list&quot;]/li[@class=&quot;freelancer-list-item ng-star-inserted&quot;]/div[@class=&quot;item-body text-secondary&quot;]/div[@class=&quot;content-right&quot;]/h6[1]</value>
-      <webElementGuid>9565d96f-1895-44fc-8ef3-9c9d8c48a8ca</webElementGuid>
+      <value>//app-scroll/team-list/ul</value>
+      <webElementGuid>769e0fbe-a044-4963-aeeb-362709850d5f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +34,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main']/div/ng-component/ul/li/div[2]/div[2]/h6</value>
-      <webElementGuid>949faf25-3917-4b43-8886-fb5d812103f8</webElementGuid>
+      <webElementGuid>528eb0e9-8028-4151-b187-618ba9280d8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP'])[1]/following::h6[1]</value>
-      <webElementGuid>c39877e9-a905-456e-a760-cb88fd089541</webElementGuid>
+      <webElementGuid>577fea2d-1064-4685-804c-aa07bf06aaa0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Bergabung'])[1]/following::h6[2]</value>
-      <webElementGuid>10b4a908-1a8a-4674-9942-8f36dd3b76e1</webElementGuid>
+      <webElementGuid>5a8671ea-e15c-45b9-9e85-df994be252a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='bambang'])[2]/preceding::h6[1]</value>
-      <webElementGuid>39c7d61d-0b00-4541-a01a-52682d32785b</webElementGuid>
+      <webElementGuid>2578a7c6-5bbb-41e1-bf56-02c9c25bd1fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Bergabung'])[2]/preceding::h6[1]</value>
-      <webElementGuid>45b69aef-685e-4a4b-8315-b9f13ae83cdd</webElementGuid>
+      <webElementGuid>54aef9af-cc2a-439b-b356-8eebf02e59d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='20221005111854']/parent::*</value>
-      <webElementGuid>6c767940-68af-4b61-b2cd-211e59aae25b</webElementGuid>
+      <webElementGuid>6045be4c-ee83-4494-a03f-f02505ba7141</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/h6</value>
-      <webElementGuid>1b110518-a77c-463c-aa9d-70e1841a93e0</webElementGuid>
+      <webElementGuid>a685ab0b-3132-4e98-baee-ddf9f9b32439</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h6[(text() = '20221005111854' or . = '20221005111854')]</value>
-      <webElementGuid>af784ee7-3729-4b9f-85db-4fc39922a021</webElementGuid>
+      <webElementGuid>96be3218-cc75-45a0-afff-93e817181f3e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

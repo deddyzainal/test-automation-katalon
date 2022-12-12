@@ -12,17 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>89b6aef2-68d9-41f2-b1a9-5e84477755da</testSuiteGuid>
    <testCaseLink>
-      <guid>2fdd5241-f567-44b7-98a3-0bc39d059ea2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Beranda/Menu Panduan</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>9fdca0fe-fb5a-4c50-9401-1b9b0c487517</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Beranda/Daftar Produk</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Beranda/Detail/Daftar Produk</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -38,24 +31,31 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>80c0077f-f77d-481d-8150-de79899fc5b9</guid>
+      <guid>660f826c-71ec-49aa-8694-02d73fd34e63</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Beranda/Detail Performa</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Beranda/Detail/Detail Performa</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c4e1175-2dd9-455c-a4e6-060a61700f85</guid>
+      <guid>7a86d297-23aa-4ecc-9797-23855aae773c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Beranda/Sales Target</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Beranda/Detail/Menu Panduan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>170af4bc-fa66-42b0-a158-8f1a8cbd3cd9</guid>
+      <guid>ab5564db-2e87-47d6-99ce-eb06e7b83505</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Beranda/Point Reward</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Beranda/Detail/Point Reward</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1f310496-e867-428c-ae38-234fe9016f52</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Beranda/Detail/Sales Target</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

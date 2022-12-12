@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//app-scroll/team-list</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//app-scroll/team-list</value>
-      <webElementGuid>3ebc08d8-da71-4cb5-a687-f172d4c1c008</webElementGuid>
+      <webElementGuid>b9666952-82e2-420a-8415-89297df61443</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

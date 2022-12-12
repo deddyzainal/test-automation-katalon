@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter by Nama Peminjam</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>89c10623-0a9a-4e47-9bf6-af62f55ee92f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>947c7e85-4b5c-43ce-87cc-3ea32dcff110</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Waffle'</defaultValue>
+      <description></description>
+      <id>947c7e85-4b5c-43ce-87cc-3ea32dcff110</id>
+      <masked>false</masked>
+      <name>nama_peminjam</name>
+   </variable>
+</TestCaseEntity>

@@ -51,4 +51,23 @@
       <testCaseId>Test Cases/FE/Partner/Login/Negatif Flow/Invalid phone number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1bf6b432-e3aa-4a08-81e5-a2bc5795503d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FE/Partner/Login/Negatif Flow/Login with Agent Deactivated</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ec33136-f686-4c16-8384-5d96839958e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e24c4c9b-cf5e-4cf8-baa5-27a468c6ac96</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

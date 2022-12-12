@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter by Nama Peminjam</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d0e4008-5333-4700-850d-aa02dfdad441</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b90f9cc-8189-45b0-9d0a-8e7465190a84</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon 20221025174231'</defaultValue>
+      <description></description>
+      <id>1b90f9cc-8189-45b0-9d0a-8e7465190a84</id>
+      <masked>false</masked>
+      <name>nama_peminjam</name>
+   </variable>
+</TestCaseEntity>

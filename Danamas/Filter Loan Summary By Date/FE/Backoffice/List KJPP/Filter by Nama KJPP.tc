@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter by Nama KJPP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9bd9cce6-1d3b-426b-9dfc-0816580947c6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c88602b0-9383-4bb8-84d0-7e468547e46d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'KJPP Tono'</defaultValue>
+      <description></description>
+      <id>c88602b0-9383-4bb8-84d0-7e468547e46d</id>
+      <masked>false</masked>
+      <name>nama_kjpp</name>
+   </variable>
+</TestCaseEntity>

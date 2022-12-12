@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register without fax and check address according to domicile not yet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b13056a-15bc-4b27-8b0a-0d871baa07a7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aaceb934-2190-4386-9de5-27228ec7fe88</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51c1e7f8-6167-48e2-8b62-039845a4e457</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5409396a-1954-4adf-8684-99f3ce9a78fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>95d4a3b1-d6ba-476e-a984-e1baee51fc67</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'jl sungai sambas'</defaultValue>
+      <description></description>
+      <id>aaceb934-2190-4386-9de5-27228ec7fe88</id>
+      <masked>false</masked>
+      <name>alamat2</name>
+   </variable>
+   <variable>
+      <defaultValue>'10/'</defaultValue>
+      <description></description>
+      <id>51c1e7f8-6167-48e2-8b62-039845a4e457</id>
+      <masked>false</masked>
+      <name>rt</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>5409396a-1954-4adf-8684-99f3ce9a78fb</id>
+      <masked>false</masked>
+      <name>kodepos</name>
+   </variable>
+   <variable>
+      <defaultValue>'05'</defaultValue>
+      <description></description>
+      <id>95d4a3b1-d6ba-476e-a984-e1baee51fc67</id>
+      <masked>false</masked>
+      <name>rw</name>
+   </variable>
+</TestCaseEntity>

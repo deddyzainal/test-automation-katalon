@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open document request history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>798ebf9f-55f6-426b-ba89-db4de2bc5f53</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e1d068a6-7a7a-449a-b42d-4612827474b4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'dok_tambahan_laporan_laba.jpeg'</defaultValue>
+      <description></description>
+      <id>e1d068a6-7a7a-449a-b42d-4612827474b4</id>
+      <masked>false</masked>
+      <name>list_file_path</name>
+   </variable>
+</TestCaseEntity>

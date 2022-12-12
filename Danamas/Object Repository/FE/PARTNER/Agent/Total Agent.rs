@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//app-scroll/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//app-scroll/div</value>
-      <webElementGuid>09b1044c-6b64-45a5-87e9-d7b36bdbb6e8</webElementGuid>
+      <webElementGuid>ad90b58e-c4f4-439e-88c8-eb9a947cf8fc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -22,39 +22,70 @@ WebUI.waitForElementVisible(findTestObject('FE/PARTNER/upload/Unggah Slip Gaji o
 WebUI.click(findTestObject('FE/PARTNER/upload/Unggah Slip Gaji or SPT'))
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/upload/Unggah Slip Gaji or SPT'), 2)
-
+if(WebUI.verifyElementPresent(findTestObject('FE/PARTNER/upload/Cara Unggah'), 2, FailureHandling.OPTIONAL)) {
+WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Cara Unggah'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 File file1 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file2 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file3 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file4 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file5 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file6 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file7 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file8 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file9 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file10 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file11 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file12 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file13 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file14 = new File('Data Files/PartnerWeb/slipgaji.pdf')
+
 File file15 = new File('Data Files/PartnerWeb/slipgaji.pdf')
 
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file1.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file2.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file3.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file4.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file5.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file6.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file7.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file8.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file9.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file10.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file11.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file12.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file13.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file14.getAbsolutePath())
+
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah4'), file15.getAbsolutePath())
 
+WebUI.verifyTextPresent('Anda hanya diperbolehkan mengunggah 15 file', false, FailureHandling.OPTIONAL)
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/upload/close'), 2)
 

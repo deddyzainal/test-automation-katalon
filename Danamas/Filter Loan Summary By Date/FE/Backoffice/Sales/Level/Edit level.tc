@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit level</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91e33c12-99a2-40e0-a66b-6010797e9c6f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>afe62609-7f26-47e6-965b-608f10b0b9a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Level 123'</defaultValue>
+      <description></description>
+      <id>afe62609-7f26-47e6-965b-608f10b0b9a0</id>
+      <masked>false</masked>
+      <name>nama_level</name>
+   </variable>
+</TestCaseEntity>

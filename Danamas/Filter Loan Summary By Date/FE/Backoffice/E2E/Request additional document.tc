@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Request additional document</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7404cbe-5d68-430f-a063-9210445da1fb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40cdf3a0-e206-4d9a-bc7c-bb54f49fc0ae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Joko Santoso2'</defaultValue>
+      <description></description>
+      <id>40cdf3a0-e206-4d9a-bc7c-bb54f49fc0ae</id>
+      <masked>false</masked>
+      <name>nama_peminjam</name>
+   </variable>
+</TestCaseEntity>

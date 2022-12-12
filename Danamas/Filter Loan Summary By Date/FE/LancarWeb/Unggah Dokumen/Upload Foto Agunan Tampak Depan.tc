@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Foto Agunan Tampak Depan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44c892f9-d3c1-40e1-b311-0edbc50656b3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15315a51-8ded-43f5-9ced-c0ba81314a9f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/tampak_depan.jpeg'</defaultValue>
+      <description></description>
+      <id>15315a51-8ded-43f5-9ced-c0ba81314a9f</id>
+      <masked>false</masked>
+      <name>agunanDepanFilepath</name>
+   </variable>
+</TestCaseEntity>

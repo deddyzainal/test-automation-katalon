@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//button[(text() = 'Masuk ' or . = 'Masuk ')]</value>
+         <value>//app-scroll/ul/li[1]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,34 +23,10 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>e13fc2c5-686d-45cf-8003-2fc88eedf0fe</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary btn-md mx-auto</value>
-      <webElementGuid>daeb0314-595e-4406-9dc8-4aff08ffc4a0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Masuk </value>
-      <webElementGuid>1607583d-7e77-447c-89cc-59f4dedc517a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;dashboard-layout&quot;]/div[@class=&quot;d-flex justify-content-center align-items-center min-vh-100&quot;]/app-login-card[1]/div[@class=&quot;login-card&quot;]/div[@class=&quot;px-5 pt-3 pb-5&quot;]/div[@class=&quot;d-flex pt-5&quot;]/button[@class=&quot;btn btn-primary btn-md mx-auto&quot;]</value>
-      <webElementGuid>b0434315-04c4-4c7c-8f10-5f9fcccde6f0</webElementGuid>
+      <value>//app-scroll/ul/li[1]/a</value>
+      <webElementGuid>ee321cbb-0bda-4f71-a27e-7f6c6dcfc18c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +34,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>0c67906c-727d-410b-8f0d-a4b7b0603572</webElementGuid>
+      <webElementGuid>b4695c64-2ed7-4516-9bf7-fed7c7e6a880</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>55bb67b9-f7de-46a5-9b26-1191a80d0804</webElementGuid>
+      <webElementGuid>5c8c16e1-a0af-4eb4-a9b0-289770c16e99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>af5a79aa-6449-47b3-8a8f-a8e85c756d9a</webElementGuid>
+      <webElementGuid>6265cbde-e498-46a4-a85a-4e5e04b99af7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
-      <webElementGuid>31f51634-c55d-4541-9721-83cb70cb0552</webElementGuid>
+      <webElementGuid>aa98a89e-6261-4cfc-b9b7-3e2932ed994b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>65cf5925-d0a3-4225-90b4-b46e61ee3204</webElementGuid>
+      <webElementGuid>8e407597-256c-44e9-8443-08c6258eb574</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>ee02d9bd-3e64-49a3-9c94-75d24ab636fc</webElementGuid>
+      <webElementGuid>483f8391-1291-4714-a916-1a50151f2205</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Masuk ' or . = 'Masuk ')]</value>
-      <webElementGuid>423890a1-7433-4a21-b26c-d67ea0d65e92</webElementGuid>
+      <webElementGuid>871443ae-d41c-49ef-b167-2b0fcfc2e503</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

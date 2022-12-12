@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register with Referral Code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19571601-20e9-47c6-858c-db6ab2b8e68e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b2fb7c29-67bf-4b16-8197-bfba3ab16bcf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>878c456f-d8cc-4178-93d4-e3c4ee68cc54</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67f676bc-63a6-4479-9448-b0f9a7512855</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon Test'</defaultValue>
+      <description></description>
+      <id>b2fb7c29-67bf-4b16-8197-bfba3ab16bcf</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Danamas.123!'</defaultValue>
+      <description></description>
+      <id>878c456f-d8cc-4178-93d4-e3c4ee68cc54</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'QPTS02402675'</defaultValue>
+      <description></description>
+      <id>67f676bc-63a6-4479-9448-b0f9a7512855</id>
+      <masked>false</masked>
+      <name>referralCode</name>
+   </variable>
+</TestCaseEntity>

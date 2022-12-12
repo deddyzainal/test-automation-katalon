@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9d3119b-430c-4352-ac25-07c816955cee</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8319bb9-66eb-43c7-af1e-d6deb628f447</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Approved'</defaultValue>
+      <description></description>
+      <id>f8319bb9-66eb-43c7-af1e-d6deb628f447</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

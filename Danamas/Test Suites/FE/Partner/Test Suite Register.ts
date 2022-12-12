@@ -15,7 +15,7 @@
       <guid>757c6d9b-7089-4238-a39f-81bf67dfbee3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Register/Detail/Negatif Flow/Register User using existing NIK</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Register/Negatif Flow/Register User using existing NIK</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cari Aplikasi by No Pinjaman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6538fb24-ecd4-4cfb-944b-fbf2eb248d3f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46282ab4-5eee-4a7d-9222-b09a2a829e99</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Joko Tingkir'</defaultValue>
+      <description></description>
+      <id>46282ab4-5eee-4a7d-9222-b09a2a829e99</id>
+      <masked>false</masked>
+      <name>nama_peminjam</name>
+   </variable>
+</TestCaseEntity>
