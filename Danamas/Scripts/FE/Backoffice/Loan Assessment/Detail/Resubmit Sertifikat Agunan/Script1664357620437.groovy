@@ -21,6 +21,8 @@ import org.openqa.selenium.Keys as Keys
 WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Button - Request Ulang PBB'), 
     3, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Button - Request Ulang PBB'), 3)
+
 WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Button - Request Ulang PBB'))
 
 //Submit resubmission form
