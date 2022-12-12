@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by NPWP Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd411e4f-7e4b-4c78-8ed0-54bcee1787d4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a285ffc7-2170-40b4-a0d6-f9cd53376f04</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SUBMITTED'</defaultValue>
+      <description></description>
+      <id>a285ffc7-2170-40b4-a0d6-f9cd53376f04</id>
+      <masked>false</masked>
+      <name>npwp_status</name>
+   </variable>
+</TestCaseEntity>

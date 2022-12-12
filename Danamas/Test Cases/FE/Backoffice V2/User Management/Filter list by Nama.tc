@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Nama</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2eed1a4-5004-4c32-ae6c-aee44eff573a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce913a14-5ef0-4ba9-980c-187a94701ce4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Ritesa'</defaultValue>
+      <description></description>
+      <id>ce913a14-5ef0-4ba9-980c-187a94701ce4</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+</TestCaseEntity>

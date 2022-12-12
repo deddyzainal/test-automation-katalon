@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by No Pinjaman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf36d766-e16f-4f3f-9a4b-3f6c591e8933</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9616db85-6958-4c3c-b629-6f4880e3f5eb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'KC-DNS-1122-21-0001'</defaultValue>
+      <description></description>
+      <id>9616db85-6958-4c3c-b629-6f4880e3f5eb</id>
+      <masked>false</masked>
+      <name>no_pinjaman</name>
+   </variable>
+</TestCaseEntity>

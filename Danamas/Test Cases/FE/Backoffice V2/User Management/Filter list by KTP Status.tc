@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by KTP Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0cd68c76-59b3-4200-ba46-a6d8ee9d9b28</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d48a43a-59d8-4755-be59-71f056103c49</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'VERIFIED'</defaultValue>
+      <description></description>
+      <id>8d48a43a-59d8-4755-be59-71f056103c49</id>
+      <masked>false</masked>
+      <name>ktp_status</name>
+   </variable>
+</TestCaseEntity>

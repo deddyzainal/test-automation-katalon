@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d2fe012-f0fd-4b48-ae25-37d9c04ec0c2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e5c95d9-a76b-4463-b0e4-5f3de564f63e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'tess@gmail.com'</defaultValue>
+      <description></description>
+      <id>5e5c95d9-a76b-4463-b0e4-5f3de564f63e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

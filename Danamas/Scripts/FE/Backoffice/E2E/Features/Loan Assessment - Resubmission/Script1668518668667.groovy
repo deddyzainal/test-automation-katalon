@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Login/Login with valid credential'), null, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Assessment'), null, FailureHandling.STOP_ON_FAILURE)
 
@@ -25,23 +25,11 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by No
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Open assessment detail'), null, FailureHandling.STOP_ON_FAILURE)
 
-//Open folder Dokumen Pribadi
-
-//Resubmit KTP
-
-//Open folder Dokumen Finansial - Slip Gaji
-
-//Resubmit Slip Gaji
-
 //Open folder Dokumen Agunan
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Open folder Dokumen Agunan'), null, FailureHandling.STOP_ON_FAILURE)
 
 //Resubmit PBB
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Resubmit PBB'), null, FailureHandling.STOP_ON_FAILURE)
-
-//Open folder Dokumen Tambahan
-
-//Resubmit Dokumen Tambahan
 
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Send resubmission request'), null, FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Nama</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5328d244-5748-4ec7-9f24-6f622dc313cb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e68410fd-9e80-4299-821a-024ddcdc7d24</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Putri Triani'</defaultValue>
+      <description></description>
+      <id>e68410fd-9e80-4299-821a-024ddcdc7d24</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+</TestCaseEntity>
