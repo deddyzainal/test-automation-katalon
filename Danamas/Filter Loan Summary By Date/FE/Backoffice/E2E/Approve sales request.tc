@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Approve sales request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c27eb2bd-e19b-41ec-8cb1-a821a9eb4b5e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bbdd5522-78a0-4f88-bad0-a8c86ffcbac2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'20221004131320'</defaultValue>
+      <description></description>
+      <id>bbdd5522-78a0-4f88-bad0-a8c86ffcbac2</id>
+      <masked>false</masked>
+      <name>no_hp</name>
+   </variable>
+</TestCaseEntity>

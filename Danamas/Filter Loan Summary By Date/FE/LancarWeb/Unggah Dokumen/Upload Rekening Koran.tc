@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Rekening Koran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c59a74a0-674a-4870-9237-7284cdaabb14</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92d3b578-f6e3-405d-8fa7-951a633fda18</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/BNI-Bank Statement.pdf'</defaultValue>
+      <description></description>
+      <id>92d3b578-f6e3-405d-8fa7-951a633fda18</id>
+      <masked>false</masked>
+      <name>rekeningKoranFilepath</name>
+   </variable>
+</TestCaseEntity>

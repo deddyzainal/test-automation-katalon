@@ -38,11 +38,13 @@ WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Profil/button_Yakin'), 2)
 
 WebUI.click(findTestObject('FE/PARTNER/Profil/button_Yakin'))
 
+WebUI.callTestCase(findTestCase('FE/Partner/API/Get NIK'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Profil/input_NIK'), 2)
 
 WebUI.click(findTestObject('FE/PARTNER/Profil/input_NIK'))
 
-WebUI.sendKeys(findTestObject('FE/PARTNER/Profil/input_NIK'), nik)
+WebUI.sendKeys(findTestObject('FE/PARTNER/Profil/input_NIK'), GlobalVariable.nik)
 
 WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut2'))
 

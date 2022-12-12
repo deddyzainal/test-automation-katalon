@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register BM under branch that have existing BM with status APPROVED</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4b0f46d-275b-4156-8d8c-55c8548f38bb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea247436-b021-4960-a20d-bb3bf2646900</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>da9837f2-67a1-43d4-8e42-076b53c930ce</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c06102ca-1688-4f4e-82b9-866014dd918c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'branch'</defaultValue>
+      <description></description>
+      <id>ea247436-b021-4960-a20d-bb3bf2646900</id>
+      <masked>false</masked>
+      <name>Agen</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.timestamp</defaultValue>
+      <description></description>
+      <id>da9837f2-67a1-43d4-8e42-076b53c930ce</id>
+      <masked>false</masked>
+      <name>timestamp</name>
+   </variable>
+   <variable>
+      <defaultValue>'20221115155021'</defaultValue>
+      <description></description>
+      <id>c06102ca-1688-4f4e-82b9-866014dd918c</id>
+      <masked>false</masked>
+      <name>nohp</name>
+   </variable>
+</TestCaseEntity>

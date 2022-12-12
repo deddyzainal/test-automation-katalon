@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Nama Partner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b66c5470-b2b4-4f2e-a4b9-dea5b0751378</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3346ce56-34c6-4291-a535-3242207d5197</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e337b27-df14-4e1a-bd39-cb11dd5fb82b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Internal'</defaultValue>
+      <description></description>
+      <id>3346ce56-34c6-4291-a535-3242207d5197</id>
+      <masked>false</masked>
+      <name>tipe_partner</name>
+   </variable>
+   <variable>
+      <defaultValue>'SMMF'</defaultValue>
+      <description></description>
+      <id>2e337b27-df14-4e1a-bd39-cb11dd5fb82b</id>
+      <masked>false</masked>
+      <name>nama_partner</name>
+   </variable>
+</TestCaseEntity>

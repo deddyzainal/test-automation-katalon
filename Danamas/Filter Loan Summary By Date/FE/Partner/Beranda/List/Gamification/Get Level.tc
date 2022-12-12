@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Level</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b216534c-119d-48c4-9fde-b7e564c3fa2e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>650ce48f-467f-441e-8219-c219ba5ce8ff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'lihat'</defaultValue>
+      <description></description>
+      <id>650ce48f-467f-441e-8219-c219ba5ce8ff</id>
+      <masked>false</masked>
+      <name>level</name>
+   </variable>
+</TestCaseEntity>

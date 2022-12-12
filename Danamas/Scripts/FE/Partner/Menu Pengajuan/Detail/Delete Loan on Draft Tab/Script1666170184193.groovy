@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('nomorhp') : '20220921163134', ('katasandi') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Menu Pengajuan'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Menu Pengajuan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Delete Loan on Draft Tab'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Delete Loan on Draft Tab'), [:], FailureHandling.STOP_ON_FAILURE)
 

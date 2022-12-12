@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Beranda/Page Point'), 3)
 
-String clevel = 'Reward ' + WebUI.getText(findTestObject('Object Repository/FE/PARTNER/Beranda/Level'))
+String clevel = 'Reward ' + WebUI.getText(findTestObject('FE/PARTNER/Beranda/Level'))
 
 println(clevel)
 

@@ -22,7 +22,9 @@ WebUI.waitForElementVisible(findTestObject('FE/PARTNER/upload/unggah_Foto KK'), 
 WebUI.click(findTestObject('FE/PARTNER/upload/unggah_Foto KK'))
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/upload/unggah_Foto KK'), 2)
-
+if(WebUI.verifyElementPresent(findTestObject('FE/PARTNER/upload/Cara Unggah'), 2, FailureHandling.OPTIONAL)) {
+WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Cara Unggah'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 File file1 = new File('Data Files/PartnerWeb/kk.jpeg')
 
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah3'), file1.getAbsolutePath())

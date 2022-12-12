@@ -20,12 +20,12 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('nomorhp') : '20220921163134', ('katasandi') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Agent/Menu Agent'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Agent/List/Menu Agent'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FE/PARTNER/Agent/Agent_Pengajuan'))
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Agent/Agent_Pengajuan'), 2)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Beranda/Filter Loan Summary by Month'), [('Month') : 'Agustus', ('date1') : '31-Juli-2022'
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Filter/Filter Loan Summary by Month'), [('Month') : 'Agustus', ('date1') : '31-Juli-2022'
         , ('date2') : '31-Agustus-2022'], FailureHandling.STOP_ON_FAILURE)
 

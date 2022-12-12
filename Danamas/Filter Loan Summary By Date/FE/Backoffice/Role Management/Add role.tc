@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add role</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de018085-c40c-498c-8aef-ac903950a29e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a9f2ad90-2dc6-4c06-bb6b-30961ea6e6d3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4711652b-6a22-4baa-b95e-35ebd7ec5d99</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b4a3c0c9-11ac-4fbb-a8fc-8d6c4e913de5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bfa46cda-050a-40a0-82d8-531ae2c83ea3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81cbe603-8e62-4af5-b9d2-15b8581fd93d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test_yio'</defaultValue>
+      <description></description>
+      <id>a9f2ad90-2dc6-4c06-bb6b-30961ea6e6d3</id>
+      <masked>false</masked>
+      <name>nama_role</name>
+   </variable>
+   <variable>
+      <defaultValue>'lancar'</defaultValue>
+      <description></description>
+      <id>4711652b-6a22-4baa-b95e-35ebd7ec5d99</id>
+      <masked>false</masked>
+      <name>portal</name>
+   </variable>
+   <variable>
+      <defaultValue>'Data Export'</defaultValue>
+      <description></description>
+      <id>b4a3c0c9-11ac-4fbb-a8fc-8d6c4e913de5</id>
+      <masked>false</masked>
+      <name>akses_menu</name>
+   </variable>
+   <variable>
+      <defaultValue>['lancar:data_export:page:user_management', 'lancar:data_export:page:los']</defaultValue>
+      <description></description>
+      <id>bfa46cda-050a-40a0-82d8-531ae2c83ea3</id>
+      <masked>false</masked>
+      <name>akses_aksi</name>
+   </variable>
+   <variable>
+      <defaultValue>'Read'</defaultValue>
+      <description></description>
+      <id>81cbe603-8e62-4af5-b9d2-15b8581fd93d</id>
+      <masked>false</masked>
+      <name>akses_sub</name>
+   </variable>
+</TestCaseEntity>

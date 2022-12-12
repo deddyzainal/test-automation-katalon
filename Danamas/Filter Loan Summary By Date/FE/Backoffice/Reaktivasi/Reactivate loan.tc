@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reactivate loan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82a489ed-09e0-442b-850d-e26ff9585495</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c76f1f3-9ac6-4561-8493-ed59f30c7021</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'reactivate reason'</defaultValue>
+      <description></description>
+      <id>6c76f1f3-9ac6-4561-8493-ed59f30c7021</id>
+      <masked>false</masked>
+      <name>alasan_pengaktifan_kembali</name>
+   </variable>
+</TestCaseEntity>

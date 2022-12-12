@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Menu Pengajuan'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Menu Pengajuan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Filter by Status'), [('status') : 'passed'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Filter/Filter by Status'), [('status') : 'passed'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Cari Aplikasi by No Pinjaman'), [('nama_peminjam') : 'Debby Anggraini'], 
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Cari Aplikasi by No Pinjaman'), [('nama_peminjam') : 'Debby Anggraini'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
@@ -70,7 +70,7 @@ WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Lengkapi Informasi/5. Inf
 '5'
 WebUI.click(findTestObject('FE/PARTNER/Lengkapi Informasi/5. Informasi Bank'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Rekening Bank'), [('nama') : 'saya\t', ('norekening') : '1235167871'
+WebUI.callTestCase(findTestCase('FE/Partner/Register/List/Input Data/Input data Rekening Bank'), [('nama') : 'saya\t', ('norekening') : '1235167871'
         , ('Bank') : 'BNI'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FE/PARTNER/Profil/button_Simpan'))
@@ -88,9 +88,16 @@ WebUI.click(findTestObject('FE/PARTNER/Lengkapi Informasi/button_Kirim Kelengkap
 'klik submit'
 WebUI.click(findTestObject('FE/PARTNER/Lengkapi Informasi/button_Kirim'))
 
-WebUI.verifyTextPresent('Informasi pengajuan peminjam berhasil dikirim!', false)
+WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Gamification/Popup'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('FE/PARTNER/Beranda/button_OK'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.verifyTextPresent('Informasi pengajuan peminjam berhasil dikirim!', false)
+//
+//WebUI.click(findTestObject('FE/PARTNER/Beranda/button_OK'), FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyElementText(findTestObject('FE/PARTNER/Beranda/Info - Gamification'), '+5 Point Didapatkan', FailureHandling.OPTIONAL)) {
+    WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Gamification/Get Point'), [('poin') : 'tutup'], FailureHandling.OPTIONAL)
+} else {
+    WebUI.callTestCase(findTestCase('FE/Partner/Beranda/List/Gamification/Get Level'), [('poin') : 'lihat'], FailureHandling.OPTIONAL)
+}
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Leave name field empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e39a3946-22f7-4588-be7e-8943094dd089</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f290e647-55ec-4905-a82e-7261ba61f6aa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Password1'</defaultValue>
+      <description></description>
+      <id>f290e647-55ec-4905-a82e-7261ba61f6aa</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

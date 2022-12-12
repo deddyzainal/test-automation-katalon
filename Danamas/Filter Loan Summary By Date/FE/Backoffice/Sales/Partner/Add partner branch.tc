@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add partner branch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50771512-aa63-487e-b548-04ab41e12442</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f40981f1-8b87-45a2-8201-5ddcebd06519</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15c3dcb7-efa7-413e-99e0-b70107d079b7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84e045a5-3b7d-4c66-aed6-f48919b5522e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>efb8ec7c-3099-47bd-8a95-787ef5da2b68</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16398efb-6a0f-463f-912b-bd51d9672759</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon1'</defaultValue>
+      <description></description>
+      <id>f40981f1-8b87-45a2-8201-5ddcebd06519</id>
+      <masked>false</masked>
+      <name>nama_cabang</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jl Anggrek no 34'</defaultValue>
+      <description></description>
+      <id>15c3dcb7-efa7-413e-99e0-b70107d079b7</id>
+      <masked>false</masked>
+      <name>alamat</name>
+   </variable>
+   <variable>
+      <defaultValue>'test pic'</defaultValue>
+      <description></description>
+      <id>84e045a5-3b7d-4c66-aed6-f48919b5522e</id>
+      <masked>false</masked>
+      <name>principal</name>
+   </variable>
+   <variable>
+      <defaultValue>'6283453453454'</defaultValue>
+      <description></description>
+      <id>efb8ec7c-3099-47bd-8a95-787ef5da2b68</id>
+      <masked>false</masked>
+      <name>no_handphone</name>
+   </variable>
+   <variable>
+      <defaultValue>'email_partner_branch@gmail.com'</defaultValue>
+      <description></description>
+      <id>16398efb-6a0f-463f-912b-bd51d9672759</id>
+      <masked>false</masked>
+      <name>branch_email</name>
+   </variable>
+</TestCaseEntity>

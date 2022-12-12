@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reject sales request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9444069d-7291-43c3-b1d1-6904a0771ae0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>105fa914-6cc0-4ab6-9529-b3304c360e73</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'20221004131320'</defaultValue>
+      <description></description>
+      <id>105fa914-6cc0-4ab6-9529-b3304c360e73</id>
+      <masked>false</masked>
+      <name>no_hp</name>
+   </variable>
+</TestCaseEntity>

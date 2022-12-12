@@ -35,7 +35,8 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Open assessm
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Open folder Dokumen Agunan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Resubmit PBB
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Resubmit PBB'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Resubmit Sertifikat Agunan'), [('alasan') : 'Low quality'
+        , ('deskripsi') : 'Deskripsi Sertifikat Agunan'], FailureHandling.STOP_ON_FAILURE)
 
 //Send request
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Send resubmission request'), [:], FailureHandling.STOP_ON_FAILURE)

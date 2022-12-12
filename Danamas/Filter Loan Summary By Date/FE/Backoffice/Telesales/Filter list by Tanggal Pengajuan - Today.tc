@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Tanggal Pengajuan - Today</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5d8110a-c1df-43b5-9e2a-c39b34a832f6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9dbf5e34-a23b-4929-afb8-a83b1a0928a1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Loan Type Floating ', 'DanaExpress']</defaultValue>
+      <description></description>
+      <id>9dbf5e34-a23b-4929-afb8-a83b1a0928a1</id>
+      <masked>false</masked>
+      <name>tipe_pinjaman</name>
+   </variable>
+</TestCaseEntity>

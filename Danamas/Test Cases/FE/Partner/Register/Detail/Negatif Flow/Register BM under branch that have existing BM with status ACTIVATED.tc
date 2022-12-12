@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register BM under branch that have existing BM with status ACTIVATED</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b3b43c9-e736-4e24-ac40-ff3235ad3c7e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06423ca0-c3bb-4542-8879-74904651d9bb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ecc8100e-1b56-4686-94a1-5b140ed46ac0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e16f07d-a815-4d2d-9e96-f264e619382f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'branch'</defaultValue>
+      <description></description>
+      <id>06423ca0-c3bb-4542-8879-74904651d9bb</id>
+      <masked>false</masked>
+      <name>Agen</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.timestamp</defaultValue>
+      <description></description>
+      <id>ecc8100e-1b56-4686-94a1-5b140ed46ac0</id>
+      <masked>false</masked>
+      <name>timestamp</name>
+   </variable>
+   <variable>
+      <defaultValue>'20221115155021'</defaultValue>
+      <description></description>
+      <id>1e16f07d-a815-4d2d-9e96-f264e619382f</id>
+      <masked>false</masked>
+      <name>nohp</name>
+   </variable>
+</TestCaseEntity>

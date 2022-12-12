@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Sertifikat Kepemilikan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>521497a2-a44b-4df5-9f56-2e36a9b6bd47</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03698379-0387-406c-9217-12a656ea4949</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/sertifikat_kepemilikan.pdf'</defaultValue>
+      <description></description>
+      <id>03698379-0387-406c-9217-12a656ea4949</id>
+      <masked>false</masked>
+      <name>sertifikatKepemilikanFilepath</name>
+   </variable>
+</TestCaseEntity>

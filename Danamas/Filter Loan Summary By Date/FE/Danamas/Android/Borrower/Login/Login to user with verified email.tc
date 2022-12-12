@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login to user with verified email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8d4debc-42bf-43c4-8595-07e12029a5a3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>24d35e51-6826-48c2-abf5-14858684e480</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8bb5efca-7cc9-4f57-8bbb-3573b00ef6cd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'20221103133324'</defaultValue>
+      <description></description>
+      <id>24d35e51-6826-48c2-abf5-14858684e480</id>
+      <masked>false</masked>
+      <name>phoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1'</defaultValue>
+      <description></description>
+      <id>8bb5efca-7cc9-4f57-8bbb-3573b00ef6cd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

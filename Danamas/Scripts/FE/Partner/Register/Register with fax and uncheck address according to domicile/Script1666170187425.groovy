@@ -17,14 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data KTP'), [('gender') : 'Laki-laki', ('Agama') : 'Islam', ('nama') : 'bambang'
+WebUI.callTestCase(findTestCase('FE/Partner/Register/List/Input Data/Input data KTP'), [('gender') : 'Laki-laki', ('Agama') : 'Islam', ('nama') : 'bambang'
         , ('tempatlahir') : 'Jakarta', ('statusPerkawinan') : 'Kawin', ('alamat') : 'JL Sungai sambas', ('rt') : '10/', ('kodepos') : '12334'
         , ('rw') : '05', ('date1') : '10-Agustus', ('eYear') : '1999', ('timestamp1') : GlobalVariable.timestamp, ('fax') : '13123'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut (1)'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Register/Input data Rekening Bank'), [('nama') : 'saya\t', ('norekening') : '1235167871'
+WebUI.callTestCase(findTestCase('FE/Partner/Register/List/Input Data/Input data Rekening Bank'), [('nama') : 'saya\t', ('norekening') : '1235167871'
         , ('Bank') : 'bni'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FE/PARTNER/Register/button_Lanjut (1)'))

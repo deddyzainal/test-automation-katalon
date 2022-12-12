@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter list by Perusahaan Penjamin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f60c98a-2f32-4589-9454-2409bc366628</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2deb50d6-a697-4373-9e73-530cad37c171</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Lancar', 'Maju Sehat Berasrama']</defaultValue>
+      <description></description>
+      <id>2deb50d6-a697-4373-9e73-530cad37c171</id>
+      <masked>false</masked>
+      <name>perusahaan_penjamin</name>
+   </variable>
+</TestCaseEntity>

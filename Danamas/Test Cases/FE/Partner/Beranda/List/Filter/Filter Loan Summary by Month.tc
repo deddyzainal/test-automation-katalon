@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter Loan Summary by Month</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>246eb12e-63f2-4903-9a9c-72933388b2a6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a6c4654-4e05-4600-b469-81e73bad9a07</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>572d2d70-e014-4978-a6f8-49e3265c9992</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92246fba-08f0-4e77-ac5a-1dd79d03f8f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Agustus'</defaultValue>
+      <description></description>
+      <id>5a6c4654-4e05-4600-b469-81e73bad9a07</id>
+      <masked>false</masked>
+      <name>Month</name>
+   </variable>
+   <variable>
+      <defaultValue>'31-Juli-2022'</defaultValue>
+      <description></description>
+      <id>572d2d70-e014-4978-a6f8-49e3265c9992</id>
+      <masked>false</masked>
+      <name>date1</name>
+   </variable>
+   <variable>
+      <defaultValue>'31-Agustus-2022'</defaultValue>
+      <description></description>
+      <id>92246fba-08f0-4e77-ac5a-1dd79d03f8f6</id>
+      <masked>false</masked>
+      <name>date2</name>
+   </variable>
+</TestCaseEntity>

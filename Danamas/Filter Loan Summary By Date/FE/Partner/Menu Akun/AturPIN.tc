@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AturPIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5864772b-f0a5-4361-83ae-5be6b8f91724</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd703f11-b43c-4639-8e35-1678aaa0b080</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68b9c1ef-986d-486e-a219-20d3aa8c6473</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>dd703f11-b43c-4639-8e35-1678aaa0b080</id>
+      <masked>false</masked>
+      <name>newpin</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yay, PIN baru Anda sudah dapat digunakan'</defaultValue>
+      <description></description>
+      <id>68b9c1ef-986d-486e-a219-20d3aa8c6473</id>
+      <masked>false</masked>
+      <name>text</name>
+   </variable>
+</TestCaseEntity>

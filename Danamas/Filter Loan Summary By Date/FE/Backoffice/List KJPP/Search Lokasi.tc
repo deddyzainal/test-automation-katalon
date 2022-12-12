@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Lokasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59bcd1c9-a833-44c7-9f1f-4a2ac0df9a42</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21d84b92-789d-4747-ab33-0e5150e35151</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Bali'</defaultValue>
+      <description></description>
+      <id>21d84b92-789d-4747-ab33-0e5150e35151</id>
+      <masked>false</masked>
+      <name>lokasi</name>
+   </variable>
+</TestCaseEntity>

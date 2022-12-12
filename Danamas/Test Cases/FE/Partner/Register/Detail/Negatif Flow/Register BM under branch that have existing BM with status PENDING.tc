@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register BM under branch that have existing BM with status PENDING</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10dbf9b6-c968-4ba3-a5bd-1a7259302ce9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8db01fee-e347-4daa-b679-75448b3c2865</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9821d70b-a580-49e4-b378-3ccb56f3f07e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ae4dade-2b52-48e2-bab3-89d7daf67892</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'branch'</defaultValue>
+      <description></description>
+      <id>8db01fee-e347-4daa-b679-75448b3c2865</id>
+      <masked>false</masked>
+      <name>Agen</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.timestamp</defaultValue>
+      <description></description>
+      <id>9821d70b-a580-49e4-b378-3ccb56f3f07e</id>
+      <masked>false</masked>
+      <name>timestamp</name>
+   </variable>
+   <variable>
+      <defaultValue>'20221115155021'</defaultValue>
+      <description></description>
+      <id>0ae4dade-2b52-48e2-bab3-89d7daf67892</id>
+      <masked>false</masked>
+      <name>nohp</name>
+   </variable>
+</TestCaseEntity>

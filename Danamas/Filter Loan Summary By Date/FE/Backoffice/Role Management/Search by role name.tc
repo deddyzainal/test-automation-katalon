@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search by role name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e95fdec6-36bb-43a7-bd7e-13e4a8c03379</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>971d8ff4-124a-4397-b21b-ecb220653a90</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'credit_analyst'</defaultValue>
+      <description></description>
+      <id>971d8ff4-124a-4397-b21b-ecb220653a90</id>
+      <masked>false</masked>
+      <name>nama_role</name>
+   </variable>
+</TestCaseEntity>

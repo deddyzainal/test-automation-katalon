@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit audience</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f58bf9c0-5df6-450b-bce1-a533aa912a00</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>758d8287-6ef9-4ace-876c-3316179b8bf2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>099ae22c-dc38-4244-886a-4ca30b89285d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>493be887-d459-4b34-8e87-6b071627c97d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon 3'</defaultValue>
+      <description></description>
+      <id>758d8287-6ef9-4ace-876c-3316179b8bf2</id>
+      <masked>false</masked>
+      <name>nama_audience</name>
+   </variable>
+   <variable>
+      <defaultValue>'Edit Deskripsi 1'</defaultValue>
+      <description></description>
+      <id>099ae22c-dc38-4244-886a-4ca30b89285d</id>
+      <masked>false</masked>
+      <name>deskripsi</name>
+   </variable>
+   <variable>
+      <defaultValue>['katalon@danamas.com']</defaultValue>
+      <description></description>
+      <id>493be887-d459-4b34-8e87-6b071627c97d</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

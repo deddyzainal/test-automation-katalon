@@ -15,7 +15,7 @@
       <guid>757c6d9b-7089-4238-a39f-81bf67dfbee3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Register/Register User using existing NIK</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Register/Negatif Flow/Register User using existing NIK</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -100,7 +100,7 @@
       <guid>f9075f87-b3c7-46d5-9417-82aac878b1dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Register/Register User AS Internal</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Register/Detail/Register/Register User AS Internal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -131,7 +131,7 @@
       <guid>e7a47d57-a439-409f-beeb-002c8600099b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Register/Register User AS External Freelancer</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Register/Detail/Register/Register User AS External Freelancer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -150,7 +150,7 @@
       <guid>a0ba51b5-f51a-41d4-a700-0c56c123c6ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Register/Register User AS External Freelance Head Office</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Register/Detail/Register/Register User AS External Freelance Head Office</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -181,7 +181,7 @@
       <guid>93fd41d5-71ee-4d0c-bffd-e6bd01558007</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Register/Register User AS External (not Freelancer)</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Register/Detail/Register/Register User AS External (not Freelancer)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -206,7 +206,7 @@
       <guid>f46aeb75-5d18-41aa-b382-ad8c8e9718e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Register/Register User AS Branch - Relationship Manager</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Register/Detail/Register/Register User AS Branch - Relationship Manager</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -219,7 +219,7 @@
       <guid>77f7c610-8629-4e94-a7dd-999df151006d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FE/Partner/Register/Register User AS Branch - Branch Manager</testCaseId>
+      <testCaseId>Test Cases/FE/Partner/Register/Detail/Register/Register User AS Branch - Branch Manager</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

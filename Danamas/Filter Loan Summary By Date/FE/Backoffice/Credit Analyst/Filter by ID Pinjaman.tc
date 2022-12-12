@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter by ID Pinjaman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3f0b838-a1b3-468f-a897-e558d255797a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b84f3cf-9ae9-4117-aad4-d274758fe5b8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'KC-KFN-1022-21-0013'</defaultValue>
+      <description></description>
+      <id>1b84f3cf-9ae9-4117-aad4-d274758fe5b8</id>
+      <masked>false</masked>
+      <name>id_pinjaman</name>
+   </variable>
+</TestCaseEntity>

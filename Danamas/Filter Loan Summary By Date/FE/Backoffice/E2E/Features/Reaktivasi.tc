@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reaktivasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6bbeaff-6621-4bec-81cc-3cd737a9cbdc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6845a9b1-f82b-4362-bbe2-ac92acc8960d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'KC-KFN-1022-25-0024'</defaultValue>
+      <description></description>
+      <id>6845a9b1-f82b-4362-bbe2-ac92acc8960d</id>
+      <masked>false</masked>
+      <name>no_pinjaman</name>
+   </variable>
+</TestCaseEntity>

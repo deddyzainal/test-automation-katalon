@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('FE/Backoffice/Navigation/Click menu Loan Assess
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Filter by Nama Peminjam'), [('nama_peminjam') : nama_peminjam], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Open assessment detail'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/List/Open assessment detail'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Request additional document
 WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Request additional document'), [:], FailureHandling.STOP_ON_FAILURE)

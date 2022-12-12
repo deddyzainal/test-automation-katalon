@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open loan type detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>509c763b-29da-4bd7-b646-6997dbf755fc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b868057-82fd-404d-934b-9ae31603903d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3b868057-82fd-404d-934b-9ae31603903d</id>
+      <masked>false</masked>
+      <name>jenis_pinjaman</name>
+   </variable>
+</TestCaseEntity>

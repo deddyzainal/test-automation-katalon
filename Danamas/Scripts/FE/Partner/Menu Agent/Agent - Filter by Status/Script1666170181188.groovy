@@ -20,10 +20,10 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('FE/Partner/Login/Login with credential'), [('nomorhp') : '20220921163134', ('katasandi') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Agent/Menu Agent'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Agent/List/Menu Agent'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FE/PARTNER/Agent/Agent_Pengajuan'))
 
-WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/Filter by product name'), [('productname') : 'pinjaman beragunan properti'], 
+WebUI.callTestCase(findTestCase('FE/Partner/Menu Pengajuan/List/Filter/Filter by product name'), [('productname') : 'pinjaman beragunan properti'], 
     FailureHandling.STOP_ON_FAILURE)
 

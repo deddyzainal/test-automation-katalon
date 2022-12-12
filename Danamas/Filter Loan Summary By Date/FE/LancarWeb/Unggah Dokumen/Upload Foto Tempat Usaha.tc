@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Foto Tempat Usaha</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>544e1b89-d650-4029-bbed-84fcc81d423b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>867f08e4-f868-4751-bd15-620e56c3092f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'/Users/garahandhito/Danamas/qa-automation/Danamas/Data Files/LancarWeb/tempat-usaha.jpeg'</defaultValue>
+      <description></description>
+      <id>867f08e4-f868-4751-bd15-620e56c3092f</id>
+      <masked>false</masked>
+      <name>tempatUsahaFilepath</name>
+   </variable>
+</TestCaseEntity>

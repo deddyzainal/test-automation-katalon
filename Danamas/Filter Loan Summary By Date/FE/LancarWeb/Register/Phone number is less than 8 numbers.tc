@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Phone number is less than 8 numbers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f384a0e9-6aa2-4341-827a-dd59befa3b98</testCaseGuid>
+</TestCaseEntity>

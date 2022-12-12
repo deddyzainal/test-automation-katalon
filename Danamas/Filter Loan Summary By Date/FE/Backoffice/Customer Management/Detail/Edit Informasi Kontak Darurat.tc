@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Informasi Kontak Darurat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>624a5716-abb6-4617-854c-ba85acbb4142</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98a96ca0-ddb4-43ad-a942-a0fb0c1a61de</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>749a4c3e-0c9f-4027-bcb5-af118db38e58</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>751bc905-4e90-4fb1-9f5b-8968333627e5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Ritesa'</defaultValue>
+      <description></description>
+      <id>98a96ca0-ddb4-43ad-a942-a0fb0c1a61de</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+   <variable>
+      <defaultValue>'0824434343434'</defaultValue>
+      <description></description>
+      <id>749a4c3e-0c9f-4027-bcb5-af118db38e58</id>
+      <masked>false</masked>
+      <name>no_telepon</name>
+   </variable>
+   <variable>
+      <defaultValue>'Saudara'</defaultValue>
+      <description></description>
+      <id>751bc905-4e90-4fb1-9f5b-8968333627e5</id>
+      <masked>false</masked>
+      <name>relasi</name>
+   </variable>
+</TestCaseEntity>

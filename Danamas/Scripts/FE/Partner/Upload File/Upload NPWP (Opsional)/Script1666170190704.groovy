@@ -22,7 +22,9 @@ WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Register/Foto NPWP (Opsio
 WebUI.click(findTestObject('FE/PARTNER/Register/Foto NPWP (Opsional)'))
 
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Register/Foto NPWP (Opsional)'), 2)
-
+if(WebUI.verifyElementPresent(findTestObject('FE/PARTNER/upload/Cara Unggah'), 2, FailureHandling.OPTIONAL)) {
+WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Cara Unggah'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 File file1 = new File('Data Files/PartnerWeb/npwp.jpg')
 
 WebUI.uploadFile(findTestObject('FE/PARTNER/upload/button_Unggah3'), file1.getAbsolutePath())

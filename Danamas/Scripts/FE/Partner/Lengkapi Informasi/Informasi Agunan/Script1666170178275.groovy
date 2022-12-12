@@ -45,6 +45,8 @@ WebUI.clearText(findTestObject('FE/PARTNER/Lengkapi Informasi/input_bangunan'), 
 
 WebUI.sendKeys(findTestObject('FE/PARTNER/Lengkapi Informasi/input_bangunan'), bangunan)
 
+WebUI.scrollToElement(findTestObject('FE/PARTNER/Lengkapi Informasi/input_bangunan'), 2)
+
 'pilih lokasi'
 WebUI.click(findTestObject('FE/PARTNER/Lengkapi Informasi/Pilih_Lokasi'))
 
@@ -70,6 +72,8 @@ WebUI.sendKeys(findTestObject('FE/PARTNER/Beranda/textarea_Alamat sesuai KTP'), 
 
 WebUI.delay(2)
 
+WebUI.scrollToPosition(700, 800)
+
 // Select provinsi
 WebUI.click(findTestObject('FE/PARTNER/Beranda/div_provinsi'))
 
@@ -89,8 +93,6 @@ WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Register/Option - Kota'),
 
 WebUI.click(findTestObject('FE/PARTNER/Register/Option - Kota', [('Kota') : Kota]))
 
-WebUI.scrollToPosition(500, 600)
-
 // Select kecamatan
 WebUI.click(findTestObject('FE/PARTNER/Beranda/div_kecamatan'))
 
@@ -100,6 +102,8 @@ WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Register/Option - Kecamat
 
 WebUI.click(findTestObject('FE/PARTNER/Register/Option - Kecamatan', [('Kecamatan') : Kecamatan]))
 
+WebUI.scrollToPosition(850, 900)
+
 // Select kelurahan
 WebUI.click(findTestObject('FE/PARTNER/Beranda/div_kelurahan'))
 
@@ -108,8 +112,6 @@ WebUI.setText(findTestObject('FE/PARTNER/Register/Cari Kelurahan'), Kelurahan)
 WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Register/Option - Kelurahan'), 3)
 
 WebUI.click(findTestObject('FE/PARTNER/Register/Option - Kelurahan', [('Kelurahan') : Kelurahan]))
-
-WebUI.scrollToPosition(950, 1000)
 
 WebUI.click(findTestObject('FE/PARTNER/Beranda/input_Kode Pos'))
 
@@ -129,7 +131,7 @@ if (milik.toLowerCase() == 'milik sendiri') {
     WebUI.click(findTestObject('FE/PARTNER/Lengkapi Informasi/Option - Milik Keluarga'))
 }
 
-WebUI.scrollToPosition(1000, 1100)
+WebUI.scrollToPosition(900, 950)
 
 WebUI.click(findTestObject('FE/PARTNER/Lengkapi Informasi/Input Nama Pemilik Dokumen di PBB'))
 
@@ -137,13 +139,15 @@ WebUI.clearText(findTestObject('FE/PARTNER/Lengkapi Informasi/Input Nama Pemilik
 
 WebUI.sendKeys(findTestObject('FE/PARTNER/Lengkapi Informasi/Input Nama Pemilik Dokumen di PBB'), namapemilik)
 
+WebUI.scrollToPosition(1200, 1300)
+
 WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Unggah Foto PBB'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Unggah Foto Sertifikat Kepemilikan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Unggah Foto Sertifikat Kepemilikan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToPosition(2000, 2100)
+WebUI.scrollToPosition(2000, 2500)
 
 WebUI.callTestCase(findTestCase('FE/Partner/Upload File/Unggah Foto Izin Mendirikan Bangunan'), [:], FailureHandling.STOP_ON_FAILURE)
 

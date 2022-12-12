@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Get_Level</name>
+   <tag></tag>
+   <elementGuidId>5c4fe292-263d-4ae7-bc63-d935e691a472</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//app-popup/div/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//app-popup/div/div/div[2]/p</value>
+      <webElementGuid>86408838-e7ef-44d9-9546-57621c24ab3c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

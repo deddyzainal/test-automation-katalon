@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter by KTP Peminjam</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a6c9732-3f78-45ee-a3f7-83364731405e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7cfef90c-21e4-4083-aee1-3b97581ea499</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'20221025174231'</defaultValue>
+      <description></description>
+      <id>7cfef90c-21e4-4083-aee1-3b97581ea499</id>
+      <masked>false</masked>
+      <name>ktp</name>
+   </variable>
+</TestCaseEntity>
