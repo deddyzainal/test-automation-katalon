@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6e4103c1-c1af-49ef-bde7-4765bb6470fe</webElementGuid>
+      <webElementGuid>c58200aa-05cb-4e90-a3bb-8b9f39d342b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-md</value>
-      <webElementGuid>e4ceb72d-3589-4053-8adf-5b536efb7f87</webElementGuid>
+      <webElementGuid>ae356866-20fd-46d3-a65c-4a8494994358</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Lanjut </value>
-      <webElementGuid>4d75f5dc-37cd-4b7f-b33f-a0e9f2ed8693</webElementGuid>
+      <webElementGuid>feb5a2fb-abc9-461d-9215-216939aecdc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;footer&quot;)/div[@class=&quot;py-3 px-3&quot;]/div[@class=&quot;d-grid gap-2 ng-star-inserted&quot;]/app-button[1]/button[@class=&quot;btn btn-primary btn-md&quot;]</value>
-      <webElementGuid>a5d76860-0d20-4ded-a6f4-b030dec4baa8</webElementGuid>
+      <webElementGuid>ed181459-fff1-4d45-9fb5-521dca36b946</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//footer[@id='footer']/div/div/app-button/button</value>
-      <webElementGuid>e4fd8492-b27a-417e-bd87-bf77216336da</webElementGuid>
+      <webElementGuid>59406378-1cd4-4ef6-846c-b54216d12223</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP tidak boleh kurang dari 8 digit'])[1]/following::button[1]</value>
-      <webElementGuid>c594501d-aa93-4e20-9cc9-2d6c93f51197</webElementGuid>
+      <webElementGuid>4f97d4a1-162c-4d56-85c2-216cd64cff66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP'])[1]/following::button[1]</value>
-      <webElementGuid>a77a1bc3-f46f-4c44-8e0d-f7b81d39896b</webElementGuid>
+      <webElementGuid>30a197bb-60dc-4a30-ae89-2c4e3e43aa2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Lanjut']/parent::*</value>
-      <webElementGuid>e21624c9-ff45-4e8a-bc61-0d3ef2cc2be9</webElementGuid>
+      <webElementGuid>0a0a9868-4deb-4ba7-a9f8-93acd5e1129e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>e110315b-68f7-4cdf-bca0-aa5341d27972</webElementGuid>
+      <webElementGuid>b1648658-259e-46e3-93ba-f22f6f7b30b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Lanjut ' or . = ' Lanjut ')]</value>
-      <webElementGuid>aa442794-3087-4a1c-a73e-486ec78debcb</webElementGuid>
+      <webElementGuid>3a0f688a-4805-4e7e-bb75-ae29dc8845f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
