@@ -26,12 +26,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'meitri.delfiza@icehousecorp.com'</initValue>
+      <initValue>'stg_superadmin@danamas.co.id'</initValue>
       <name>BackofficeEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ELeIGSF4J+I='</initValue>
+      <initValue>'NKAHewjCsCvdggNkUy5Ovw=='</initValue>
       <name>BackofficePassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

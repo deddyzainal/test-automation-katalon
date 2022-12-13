@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Click button Resubmission PBB
-WebUI.waitForElementVisible(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Button - Request Ulang PBB'), 
-    3, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('FE/PARTNER/Pengajuan/History Riwayat Pinjaman'), 3)
 
-WebUI.scrollToElement(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Button - Request Ulang PBB'), 3)
-
-WebUI.click(findTestObject('FE/Backoffice/Loan Assessment/Detail/Dokumen Agunan/Button - Request Ulang PBB'))
-
-//Submit resubmission form
-WebUI.callTestCase(findTestCase('FE/Backoffice/Loan Assessment/Detail/Fill resubmission form'), [('alasan') : 'Foto blur'
-        , ('deskripsi') : 'Test Alasan Lainnya'], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('FE/PARTNER/Pengajuan/History Riwayat Pinjaman'), 3, FailureHandling.OPTIONAL)
 

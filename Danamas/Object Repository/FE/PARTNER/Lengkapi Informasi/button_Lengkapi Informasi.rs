@@ -6,6 +6,10 @@
    <elementGuidId>f256a731-1d2f-4a9f-b4f1-c57a04cffccb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Lengkapi Informasi ' or . = ' Lengkapi Informasi ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main']/div[15]/app-button/button</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>button.btn.btn-primary.btn-md</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0de80ab4-077b-44a6-9117-9b017e08455e</webElementGuid>
+      <webElementGuid>8c710799-7d3c-4f1b-9596-00fa62bf9a04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-md</value>
-      <webElementGuid>6b3e1f17-d56b-4b82-86fc-22892d912c2f</webElementGuid>
+      <webElementGuid>38a060ed-673e-4e8e-8bad-699f706c73a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Lengkapi Informasi </value>
-      <webElementGuid>d38d3083-fe62-4940-923c-e8797e94f9dd</webElementGuid>
+      <webElementGuid>961011fc-c1a3-4313-ba46-5fc5bbfee3c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;d-grid ng-star-inserted&quot;]/app-button[@class=&quot;margin-top-14 ng-star-inserted&quot;]/button[@class=&quot;btn btn-primary btn-md&quot;]</value>
-      <webElementGuid>3d8c3922-7b96-454a-a7b4-a2eb8821d02a</webElementGuid>
+      <webElementGuid>3ca25ac4-c89e-45fa-85f4-4d12c31161f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main']/div[15]/app-button/button</value>
-      <webElementGuid>a603cd82-57ad-43e5-8860-871237588a08</webElementGuid>
+      <webElementGuid>cebfc384-371e-4854-82b6-852fa2363040</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Published'])[1]/following::button[1]</value>
-      <webElementGuid>6417652c-51c3-4114-9e33-0e8243666147</webElementGuid>
+      <webElementGuid>4b39a74c-e51f-4f86-a8b7-0ef857bf721c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved'])[1]/following::button[1]</value>
-      <webElementGuid>18d2fec7-38d5-4496-89e5-06244b23424f</webElementGuid>
+      <webElementGuid>bef7367d-9375-494b-8eef-fb3f685b57fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>d5406c1c-d0d7-4f9a-95ee-5d0ff35a3366</webElementGuid>
+      <webElementGuid>6511cb8f-486f-4897-8fd3-36fdebcaa9ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
-      <webElementGuid>60096edd-1488-4d72-ac95-e1b01404decd</webElementGuid>
+      <webElementGuid>2244c556-fe1f-44ec-aa21-741db957c895</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Lengkapi Informasi']/parent::*</value>
-      <webElementGuid>2a14331a-7307-4647-9560-7a408acfacd1</webElementGuid>
+      <webElementGuid>df9157c2-eb53-48e3-a45a-4d139ac37ff9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>ec07fcd1-f267-4604-9a21-fe297ca05d57</webElementGuid>
+      <webElementGuid>321d88da-eaff-47be-a9ad-5ea7a4127c99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Lengkapi Informasi ' or . = ' Lengkapi Informasi ')]</value>
-      <webElementGuid>a9b012d4-459a-416c-b062-7da2ee4f2ea1</webElementGuid>
+      <webElementGuid>d1601629-206b-4a0c-978d-b8a0c931c980</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

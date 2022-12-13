@@ -17,6 +17,24 @@
       <value></value>
       <variableId>c35bbde7-53d5-4be3-ad24-f2b73d0f3e02</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8597492b-ef77-4412-9550-086353407ddf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d5955cc-fd33-4f71-902a-3967560c601e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1bcd885c-2a9b-408f-ab4b-6af80f94a510</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'3174096112900001'</defaultValue>
       <description></description>
@@ -30,5 +48,26 @@
       <id>c35bbde7-53d5-4be3-ad24-f2b73d0f3e02</id>
       <masked>false</masked>
       <name>nik2</name>
+   </variable>
+   <variable>
+      <defaultValue>'lihat riwayat pinjaman'</defaultValue>
+      <description></description>
+      <id>8597492b-ef77-4412-9550-086353407ddf</id>
+      <masked>false</masked>
+      <name>kondisi</name>
+   </variable>
+   <variable>
+      <defaultValue>'dana express'</defaultValue>
+      <description></description>
+      <id>0d5955cc-fd33-4f71-902a-3967560c601e</id>
+      <masked>false</masked>
+      <name>pengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>'lihat data'</defaultValue>
+      <description></description>
+      <id>1bcd885c-2a9b-408f-ab4b-6af80f94a510</id>
+      <masked>false</masked>
+      <name>kondisi2</name>
    </variable>
 </TestCaseEntity>

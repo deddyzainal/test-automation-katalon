@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//app-doc/div/section/div[. = ' Agunan  ']</value>
+         <value>//app-doc/div/section/div[. = ' Agunan Rumah ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
